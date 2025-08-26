@@ -1,0 +1,168 @@
+{
+  "ADMINISTRATION": {
+    "ADMINISTRATION": [
+      "Charitable Donations",
+      "Miscellaneous",
+      "Cash Over/Short",
+      "Violations",
+      "Staff Recruitment Fees",
+      "Federal Income Taxes",
+      "Penalty And Fine"
+    ]
+  },
+  "MARKETING": {
+    "MARKETING": [
+      "PR Fees",
+      "Event Commission",
+      "Guest Satisfaction"
+    ],
+    "TOTAL MARKETING COST": [
+      "TOTAL MARKETING"
+    ]
+  },
+  "OTHER EXPENSES": {
+    "Total Other Cost": [
+      "Total Other Cost"
+    ],
+    "OTHER EXPENSES": [
+      "Depreciation - Land & Building",
+      "Depreciation - Furniture & Fixt",
+      "Depreciation - Tools & Equipmen",
+      "Assets/Liabilities Written Off",
+      "Depreciation - Leasehold Improv",
+      "OTHER EXPENSES"
+    ]
+  },
+  "REVENUE": {
+    "Total Sales Revenue": [
+      "Beverage",
+      "Total Sales Revenue",
+      "Sales Revenue - Other",
+      "Wine",
+      "Others",
+      "Merchandise/Retail Income"
+    ],
+    "REVENUE": [
+      "REVENUE",
+      "Food"
+    ]
+  },
+  "Other Expenses": {
+    "Other Expenses": [
+      "Interest Expense"
+    ]
+  },
+  "EBITDA": {
+    "EBITDA": [
+      "EBITDA"
+    ]
+  },
+  "RESTAURANT UTILITIES": {
+    "Total Restaurant Essential": [
+      "Kitchen Accessories / Supply",
+      "Restaurant Accessories / Supply"
+    ]
+  },
+  "STAFF COST": {
+    "Total Payroll Taxes": [
+      "Staff Meal Purchases"
+    ],
+    "Total Wages": [
+      "Total Salaries & Wages"
+    ]
+  },
+  "FINANCIAL COST": {
+    "FINANCIAL COST": [
+      "Bad Debts"
+    ]
+  },
+  "COST OF GOODS SOLD": {
+    "Total Other Cost": [
+      "Other Purchases"
+    ],
+    "Total Cost of Sale - Food": [
+      "Food - Other"
+    ],
+    "Total Food Cost": [
+      "Stock Adjustment - Food"
+    ],
+    "Total Beverage Cost": [
+      "Beverage - Other",
+      "Beverage Purchases",
+      "Stock Adjustment - Beverage"
+    ],
+    "Total Wine Cost": [
+      "Wine - Other"
+    ]
+  },
+  "UTILITIES": {
+    "RESTAURANT UTILITIES": [
+      "TOTAL RESTAURANT UTILITIES"
+    ]
+  },
+  "OTHER INCOME": {
+    "OTHER INCOME": [
+      "Currency Gain Or Loss",
+      "OTHER INCOME"
+    ],
+    "Total Other Income": [
+      "Total Other Income"
+    ]
+  },
+  "TOTAL EMPLOYER TAXES": {
+    "Total Employer Taxes": [
+      "Total Payroll Taxes"
+    ]
+  },
+  "TOTAL SUPPLIES & MAINTENANCE": {
+    "TOTAL SUPPLIES & MAINTENANCE": [
+      "Total Restaurant Essential"
+    ]
+  },
+  "GENERAL AND ADMIN EXPENSES": {
+    "Total Third Party Fees": [
+      "Total Third Party Fees"
+    ]
+  },
+  "GENERAL & ADMINISTRATIVE": {
+    "ADMINISTRATION": [
+      "ADMINISTRATION"
+    ]
+  },
+  "OCCUPANCY COST": {
+    "OCCUPANCY COST": [
+      "OCCUPANCY COST"
+    ]
+  },
+  "TOTAL OPERATING EXPENSES": {
+    "TOTAL OPERATING EXPENSES": [
+      "TOTAL OPERATING EXPENSES"
+    ]
+  },
+  "PROFIT BEFORE TAX & DEPRECIATION": {
+    "PROFIT BEFORE TAX & DEPRECIATION": [
+      "PROFIT BEFORE TAX & DEPRECIATION"
+    ]
+  },
+  "PL Depreciation & Amortization": {
+    "PL Depreciation & Amortization": [
+      "P & L Depreciation",
+      "P & L Amortization"
+    ]
+  },
+  "NET PROFIT/(LOSS)": {
+    "NET PROFIT/(LOSS)": [
+      "NET PROFIT/(LOSS)"
+    ]
+  },
+  "TOTAL FOOD": {
+    "Total Food": [
+      "Total Food Cost"
+    ]
+  },
+  "TOTAL BEVERAGES": {
+    "Total Beverages": [
+      "Total Beverage Cost"
+    ]
+  }
+}

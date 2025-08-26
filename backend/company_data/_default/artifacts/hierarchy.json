@@ -1,0 +1,7503 @@
+{
+  "COST OF GOODS SOLD": {
+    "TOTAL COST OF GOODS SOLD": [
+      "TOTAL COST OF GOODS SOLD",
+      "TOTAL COST OF GOODS SOLD",
+      "TOTAL COST OF GOODS SOLD",
+      "Budgeted COGS",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Wines",
+      "Cost of Sales - Wines",
+      "Cost of Sales - Wines",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Retails",
+      "Food & Beverage Purchases - Other",
+      "Cost of Goods Sold",
+      "Food Inventory - Beginning",
+      "Food Inventory - Ending",
+      "Beverages",
+      "Cost of sales - Beverages",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Other Bev",
+      "Cost of Goods-Caviar Commission",
+      "Cost of Goods - Summer Long"
+    ],
+    "Total Cost of Sales - Food": [
+      "Total Cost of Sales - Food",
+      "Total Cost of Sales - Food",
+      "Total Cost of Sales - Food",
+      "Total Cost of Sales - Food",
+      "Total Cost of Sales - Food",
+      "Total Cost of Sales - Food",
+      "Total Cost of Sales - Food",
+      "Total Cost of Sales - Food",
+      "Total Cost of Sales - Food",
+      "Total Cost of Sales - Food",
+      "Total Cost of Sales - Food",
+      "Cost of Sales - Food - Other",
+      "Food Purchases",
+      "Food - Stock Adjustment",
+      "Total Cost of Sales - Food",
+      "Total Cost of Sales - Food"
+    ],
+    "Total Cost of Sales - NA Beverages": [
+      "Total Cost of Sales - NA Beverages",
+      "Total Cost of Sales - NA Beverages",
+      "Total Cost of Sales - NA Beverages",
+      "Total Cost of Sales - NA Beverages",
+      "Total Cost of Sales - NA Beverages",
+      "Total Cost of Sales - NA Beverages"
+    ],
+    "Total Cost of Sales - Other Beverages": [
+      "Total Cost of Sales - Other Beverages",
+      "Total Cost of Sales - Other Beverages",
+      "Total Cost of Sales - Other Beverages",
+      "Total Cost of Sales - Other Beverages",
+      "Total Cost of Sales - Other Beverages",
+      "Total Cost of Sales - Other Beverages",
+      "Cost of Sales - Other Bev - Other",
+      "Other Bev Purchases",
+      "Other Bev - Stock Adjustment",
+      "Total Cost of Sales - Other Beverages"
+    ],
+    "Total Cost of Sales - Wine": [
+      "Total Cost of Sales - Wine",
+      "Total Cost of Sales - Wine",
+      "Total Cost of Sales - Wine",
+      "Cost of Sales - Wine - Other",
+      "Wine Purchases",
+      "Wine - Stock Adjustment",
+      "Total Cost of Sales - Wine",
+      "Total Cost of Sales - Wine",
+      "Total Cost of Sales - Wine",
+      "Total Cost of Sales - Wine",
+      "Total Cost of Sales - Wine",
+      "Cost of Sales - Wine - Other",
+      "Wine Purchases",
+      "Wine - Stock Adjustment",
+      "Total Cost of Sales - Wine",
+      "Cost of Sales - Wine - Other",
+      "Wine Purchases",
+      "Wine - Stock Adjustment",
+      "Cost of Sales - Wine - Other",
+      "Wine Purchases",
+      "Wine - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Liquor": [
+      "Total Cost of Sales - Liquor",
+      "Total Cost of Sales - Liquor",
+      "Total Cost of Sales - Liquor",
+      "Total Cost of Sales - Liquor",
+      "Total Cost of Sales - Liquor",
+      "Total Cost of Sales - Liquor",
+      "Total Cost of Sales - Liquor",
+      "Total Cost of Sales - Liquor",
+      "Cost of Sales - Liquor - Other",
+      "Liquor Purchases",
+      "Liquor - Stock Adjustment",
+      "Total Cost of Sales - Liquor"
+    ],
+    "Total Cost of Sales - Beer": [
+      "Total Cost of Sales - Beer",
+      "Total Cost of Sales - Beer",
+      "Total Cost of Sales - Beer",
+      "Cost of Sales - Beer - Other",
+      "Beer Purchases",
+      "Beer - Stock Adjustment",
+      "Total Cost of Sales - Beer",
+      "Total Cost of Sales - Beer",
+      "Total Cost of Sales - Beer",
+      "Total Cost of Sales - Beer",
+      "Total Cost of Sales - Beer",
+      "Cost of Sales - Beer - Other",
+      "Beer Purchases",
+      "Beer - Stock Adjustment",
+      "Cost of Sales - Beer - Other",
+      "Beer Purchases",
+      "Beer - Stock Adjustment",
+      "Total Cost of Sales - Beer",
+      "Cost of Sales - Beer - Other",
+      "Beer Purchases",
+      "Beer - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Sake": [
+      "Total Cost of Sales - Sake",
+      "Total Cost of Sales - Sake",
+      "Total Cost of Sales - Sake",
+      "Total Cost of Sales - Sake",
+      "Total Cost of Sales - Sake",
+      "Total Cost of Sales - Sake"
+    ],
+    "Total Cost of Sales - Retails": [
+      "Total Cost of Sales - Retails",
+      "Total Cost of Sales - Retails",
+      "Total Cost of Sales - Retails",
+      "Total Cost of Sales - Retails",
+      "Total Cost of Sales - Retails",
+      "Total Cost of Sales - Retails",
+      "Total Cost of Sales - Retails",
+      "Cost of Sales - Retails - Other",
+      "Retail Purchases",
+      "Retail - Stock Adjustment",
+      "Cost of Sales - Retails - Other",
+      "Retail Purchases",
+      "Retail - Stock Adjustment",
+      "Cost of Sales - Retails - Other",
+      "Retail Purchases",
+      "Retail - Stock Adjustment"
+    ],
+    "COST OF GOODS SOLD": [
+      "COST OF GOODS SOLD",
+      "COST OF GOODS SOLD",
+      "COST OF GOODS SOLD",
+      "Budgeted COGS",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Tea/Coffee Purchases",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Retails",
+      "COST OF GOODS SOLD",
+      "Cost of Goods Sold",
+      "Cost Of sales - Beverages",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Tea/Coffee",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Retails",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Tea/Coffee",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Champagne",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Delivery Charges",
+      "Cost of Sales - Retails",
+      "Cost of Sales - Retails",
+      "Cost of Goods Sold",
+      "Cost of Sales - Food",
+      "Cost of Sales - Wine & Champagn",
+      "Cost of Sale- Liquor, Beer & NA",
+      "COST OF GOODS SOLD",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Food",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Other Bev",
+      "Total Cost of Sales - Alcoholic Beverages",
+      "COST OF GOODS SOLD"
+    ],
+    "Total Beverages": [
+      "Total Beverages",
+      "Total Beverages",
+      "Liquor-COGS",
+      "Beer Bottle-COGS",
+      "Beer DraAt- COGS",
+      "Wine-COGS",
+      "NA Beverages-COGS",
+      "Total Beverages",
+      "NA Beverages-COGS",
+      "Beer Bottle-COGS",
+      "Beer Draft- COGS",
+      "Wine-COGS",
+      "Wine Purchases",
+      "Wine - Stock Adjustment",
+      "Liquor Purchases",
+      "Beer Purchases",
+      "Other Bev Purchase",
+      "Total Beverages",
+      "Total Beverages"
+    ],
+    "COS Wines": [
+      "COS Wines"
+    ],
+    "COS Beer": [
+      "COS Beer"
+    ],
+    "COS Beverages": [
+      "COS Beverages"
+    ],
+    "COS Food": [
+      "COS Food",
+      "COS Food",
+      "COS Food",
+      "COS Food"
+    ],
+    "COS Tea/Coffee": [
+      "COS Tea/Coffee",
+      "COS Tea/Coffee"
+    ],
+    "COS  Restaurant Wine": [
+      "COS  Restaurant Wine",
+      "COS  Restaurant Wine"
+    ],
+    "COS  Market Wine": [
+      "COS  Market Wine",
+      "COS  Market Wine"
+    ],
+    "COS Liquor": [
+      "COS Liquor",
+      "COS Liquor"
+    ],
+    "COS  Restaurant Beer": [
+      "COS  Restaurant Beer",
+      "COS  Restaurant Beer"
+    ],
+    "COS  Market Beer": [
+      "COS  Market Beer",
+      "COS  Market Beer"
+    ],
+    "COS Other Bev": [
+      "COS Other Bev",
+      "COS Other Bev",
+      "COS Other Bev"
+    ],
+    "COS Retails": [
+      "COS Retails"
+    ],
+    "COS Others": [
+      "COS Others",
+      "COS Others"
+    ],
+    "COS Wood Expenses": [
+      "COS Wood Expenses"
+    ],
+    "Food-COGS": [
+      "Food-COGS",
+      "Food-COGS"
+    ],
+    "Total Food": [
+      "Cost of Sales - Food - Other",
+      "Food Purchases",
+      "Food - Stock Adjustment",
+      "Cost of Sales - Food",
+      "Food - Other",
+      "Food Purchases",
+      "Food - Stock Adjustment",
+      "Food - Other",
+      "Food Purchases",
+      "Food - Stock Adjustment"
+    ],
+    "Total Tea/Coffee": [
+      "Cost of Sales - Tea/Coffee"
+    ],
+    "Total Wine": [
+      "Cost of Sales - Wine"
+    ],
+    "Total Liquor": [
+      "Cost of Sales - Liquor"
+    ],
+    "Total Beer": [
+      "Cost of Sales - Beer"
+    ],
+    "Total Other Bev": [
+      "Cost of Sales - Other Bev"
+    ],
+    "Total Cost of Sales - Beverage": [
+      "Total Cost of Sales - Beverage",
+      "Total Cost of Sales - Beverage",
+      "Total Cost of Sales - Beverage",
+      "Total Cost of Sales - Beverage"
+    ],
+    "TOTAL COST OF GOODS SOLD - F&B": [
+      "TOTAL COST OF GOODS SOLD - F&B",
+      "TOTAL COST OF GOODS SOLD - F&B",
+      "TOTAL COST OF GOODS SOLD - F&B",
+      "TOTAL COST OF GOODS SOLD - F&B"
+    ],
+    "Total Cost of Sales - Bakery": [
+      "Bakery - Other",
+      "Bakery Purchases",
+      "Bakery - Stock Adjustment",
+      "Bakery - Other",
+      "Bakery Purchases",
+      "Bakery - Stock Adjustment",
+      "Bakery - Other",
+      "Bakery Purchases",
+      "Bakery - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Dairy": [
+      "Dairy - Other",
+      "Dairy Purchases",
+      "Dairy - Stock Adjustment",
+      "Dairy - Other",
+      "Dairy Purchases",
+      "Dairy - Stock Adjustment",
+      "Dairy - Other",
+      "Dairy Purchases",
+      "Dairy - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Meat": [
+      "Meat - Other",
+      "Meat Purchases",
+      "Meat - Stock Adjustment",
+      "Meat - Other",
+      "Meat Purchases",
+      "Meat - Stock Adjustment",
+      "Meat - Other",
+      "Meat Purchases",
+      "Meat - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Mozzarella": [
+      "Mozzarella - Other",
+      "Mozzarella Purchases",
+      "Mozzarella - Stock Adjustment",
+      "Mozzarella - Other",
+      "Mozzarella Purchases",
+      "Mozzarella - Stock Adjustment",
+      "Mozzarella - Other",
+      "Mozzarella Purchases",
+      "Mozzarella - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Produce": [
+      "Produce - Other",
+      "Produce Purchases",
+      "Produce - Stock Adjustment",
+      "Produce - Other",
+      "Produce Purchases",
+      "Produce - Stock Adjustment",
+      "Produce - Other",
+      "Produce Purchases",
+      "Produce - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Seafood": [
+      "Seafood - Other",
+      "Seafood Purchases",
+      "Seafood - Stock Adjustment",
+      "Seafood - Other",
+      "Seafood Purchases",
+      "Seafood - Stock Adjustment",
+      "Seafood - Other",
+      "Seafood Purchases",
+      "Seafood - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Oils": [
+      "Oils - Other",
+      "Oils Purchases",
+      "Oils - Stock Adjustment",
+      "Oils - Other",
+      "Oils Purchases",
+      "Oils - Stock Adjustment",
+      "Oils - Other",
+      "Oils Purchases",
+      "Oils - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Sauces": [
+      "Sauces - Other",
+      "Sauces Purchases",
+      "Sauces - Stock Adjustment",
+      "Sauces - Other",
+      "Sauces Purchases",
+      "Sauces - Stock Adjustment",
+      "Sauces - Other",
+      "Sauces Purchases",
+      "Sauces - Stock Adjustment"
+    ],
+    "Cost of Sales - Food - Other": [
+      "Cost of Sales - Food - Other",
+      "Cost of Sales - Food - Other",
+      "Cost of Sales - Food - Other",
+      "Cost of Sales - Food - Other"
+    ],
+    "Cost of Goods Sold - Beverage - Other": [
+      "Cost of Goods Sold - Beverage - Other",
+      "Cost of Goods Sold - Beverage - Other",
+      "Cost of Goods Sold - Beverage - Other",
+      "Cost of Goods Sold - Beverage - Other"
+    ],
+    "Total Cost of Sales - Ice Tea": [
+      "Cost of Sales - Ice Tea - Other",
+      "Ice Tea Purchases",
+      "Ice Tea - Stock Adjustment",
+      "Cost of Sales - Ice Tea - Other",
+      "Ice Tea Purchases",
+      "Ice Tea - Stock Adjustment",
+      "Cost of Sales - Ice Tea - Other",
+      "Ice Tea Purchases",
+      "Ice Tea - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Soda - BIB": [
+      "Cost of Sales - Soda - BIB - Other",
+      "Soda - BIB Purchases",
+      "Soda - BIB - Stock Adjustment",
+      "Cost of Sales - Soda - BIB - Other",
+      "Soda - BIB Purchases",
+      "Soda - BIB - Stock Adjustment",
+      "Cost of Sales - Soda - BIB - Other",
+      "Soda - BIB Purchases",
+      "Soda - BIB - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Soda - Cane": [
+      "Cost of Sales - Soda - Cans - Other",
+      "Soda - Cans Purchases",
+      "Soda - Cans - Stock Adjustment",
+      "Cost of Sales - Soda - Cans - Other",
+      "Soda - Cans Purchases",
+      "Soda - Cans - Stock Adjustment",
+      "Cost of Sales - Soda - Cans - Other",
+      "Soda - Cans Purchases",
+      "Soda - Cans - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Juice": [
+      "Cost of Sales - Juice - Other",
+      "Juice Purchases",
+      "Juice - Stock Adjustment",
+      "Cost of Sales - Juice - Other",
+      "Juice Purchases",
+      "Juice - Stock Adjustment",
+      "Cost of Sales - Juice - Other",
+      "Juice Purchases",
+      "Juice - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Water": [
+      "Cost of Sales - Water - Other",
+      "Water Purchases",
+      "Water - Stock Adjustment",
+      "Cost of Sales - Water - Other",
+      "Water Purchases",
+      "Water - Stock Adjustment",
+      "Cost of Sales - Water - Other",
+      "Water Purchases",
+      "Water - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Events": [
+      "Cost of Sales - Events - Other",
+      "Event Items purchase",
+      "Cost of Sales - Events - Other",
+      "Event Items purchase",
+      "Cost of Sales - Events - Other",
+      "Event Items purchase"
+    ],
+    "Cost of Sales - Retails - Other": [
+      "Cost of Sales - Retails - Other",
+      "Cost of Sales - Retails - Other"
+    ],
+    "Retail Purchases": [
+      "Retail Purchases",
+      "Retail Purchases"
+    ],
+    "Retail - Stock Adjustment": [
+      "Retail - Stock Adjustment",
+      "Retail - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Pizza Boxes": [
+      "Total Cost of Sales - Pizza Boxes",
+      "Total Cost of Sales - Pizza Boxes",
+      "Total Cost of Sales - Pizza Boxes",
+      "Total Cost of Sales - Pizza Boxes"
+    ],
+    "Total Cost of Sales - Paper Supplies": [
+      "Total Cost of Sales - Paper Supplies",
+      "Total Cost of Sales - Paper Supplies",
+      "Total Cost of Sales - Paper Supplies",
+      "Total Cost of Sales - Paper Supplies"
+    ],
+    "Total Cost of Sales - Tea/Coffee": [
+      "Total Cost of Sales - Tea/Coffee",
+      "Total Cost of Sales - Tea/Coffee",
+      "Total Cost of Sales - Tea/Coffee",
+      "Total Cost of Sales - Tea/Coffee",
+      "Cost of Sales - Tea/Coffee - Other",
+      "Tea/Coffee Purchases",
+      "Tea/Coffee - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Other Bev": [
+      "Total Cost of Sales - Other Bev",
+      "Total Cost of Sales - Other Bev"
+    ],
+    "Retails Purchases": [
+      "Retails Purchases"
+    ],
+    "TOTAL BEVERAGES": [
+      "TOTAL BEVERAGES"
+    ],
+    "Total Cost of Sales - Champagne": [
+      "Cost of Sales - Champagne - Other",
+      "Champagne Purchases",
+      "Champagne - Stock Adjustment",
+      "Total Cost of Sales - Champagne"
+    ],
+    "Total Food Cost": [
+      "Food - Other",
+      "Stock Adjustment - Food"
+    ],
+    "Total Beverage Cost": [
+      "Beverage - Other",
+      "Beverage Purchases",
+      "Stock Adjustment - Beverage"
+    ],
+    "Total Wine Cost": [
+      "Wine - Other",
+      "Wine Purchases",
+      "Stock Adjustment - Wine"
+    ],
+    "Total Other Cost": [
+      "Others - Other",
+      "Other Purchases",
+      "Stock Adjustment -Other"
+    ],
+    "Total Cost of Sales Food": [
+      "Food - Other",
+      "Food Purchases",
+      "Food - Stock Adjustment"
+    ],
+    "Total Cost of Sales Bakery": [
+      "Bakery - Other",
+      "Bakery Purchases",
+      "Bakery - Stock Adjustment"
+    ],
+    "Total Cost of Sales Dairy": [
+      "Dairy - Other",
+      "Dairy Purchases",
+      "Dairy - Stock Adjustment"
+    ],
+    "Total Cost of Sales Meat": [
+      "Meat - Other",
+      "Meat Purchases",
+      "Meat - Stock Adjustment"
+    ],
+    "Total Cost of Sales Mozzarella": [
+      "Mozzarella - Other",
+      "Mozzarella Purchases",
+      "Mozzarella - Stock Adjustment"
+    ],
+    "Total Cost of Sales Produce": [
+      "Produce - Other",
+      "Produce Purchases",
+      "Produce - Stock Adjustment"
+    ],
+    "Total Cost of Sales Seafood": [
+      "Seafood - Other",
+      "Seafood Purchases",
+      "Seafood - Stock Adjustment"
+    ],
+    "Total Cost of Sales Oils": [
+      "Oils - Other",
+      "Oils Purchases",
+      "Oils - Stock Adjustment"
+    ],
+    "Total Cost of Sales Sauces": [
+      "Sauces - Other",
+      "Sauces Purchases",
+      "Sauces - Stock Adjustment"
+    ],
+    "Total Cost of Sales Wine": [
+      "Cost of Sales - Wine - Other",
+      "Wine Purchases",
+      "Wine - Stock Adjustment"
+    ],
+    "Total Cost of Sales Beer": [
+      "Cost of Sales - Beer - Other",
+      "Beer Purchases"
+    ],
+    "Total Cost of Sales Tea": [
+      "Cost of Sales - Ice Tea - Other",
+      "Ice Tea Purchases",
+      "Ice Tea - Stock Adjustment"
+    ],
+    "Total Cost of Sales Soda BIB": [
+      "Cost of Sales - Soda - BIB - Other",
+      "Soda - BIB Purchases",
+      "Soda - BIB - Stock Adjustment"
+    ],
+    "Total Cost of Sales Soda Cans": [
+      "Cost of Sales - Soda - Cans - Other",
+      "Soda - Cans Purchases",
+      "Soda - Cans - Stock Adjustment"
+    ],
+    "Total Cost of Sales Juice": [
+      "Cost of Sales - Juice - Other",
+      "Juice Purchases",
+      "Juice - Stock Adjustment"
+    ],
+    "Total Cost of Sales Water": [
+      "Cost of Sales - Water - Other",
+      "Water Purchases",
+      "Water - Stock Adjustment"
+    ],
+    "Total Cost of Sales Events": [
+      "Cost of Sales - Events - Other",
+      "Event Items purchase"
+    ],
+    "COG Beverages": [
+      "COG Beverages"
+    ],
+    "COG Food": [
+      "Cost of Sales - Food",
+      "Food Purchases",
+      "Food - Stock Adjustment"
+    ],
+    "COG Tea/Coffee": [
+      "Tea/Coffee Purchases",
+      "Tea/Coffee - Stock Adjustment"
+    ],
+    "COG Wines": [
+      "COS Restaurant Wine",
+      "COS Market Wine",
+      "Wine - Stock Adjustment (Mkt.)"
+    ],
+    "COG Liquor": [
+      "Liquor Purchases",
+      "Liquor - Stock Adjustment"
+    ],
+    "COG Beer": [
+      "COS Restaurant Beer",
+      "COS Market Beer",
+      "Beer - Stock Adjustment (Mkt.)"
+    ],
+    "COG Other Beverages": [
+      "Other Bev Purchases",
+      "Other Bev - Stock Adjustment"
+    ],
+    "COG Retails": [
+      "COG Retails"
+    ],
+    "COG Others": [
+      "COG Others"
+    ],
+    "Transfer COGS to Centrolina": [
+      "Transfer COGS to Centrolina"
+    ],
+    "Total Cost of Sale - Food": [
+      "Food - Other",
+      "Food Purchases",
+      "Food - Stock Adjustment"
+    ],
+    "Cost of Sales - Beverages": [
+      "Cost of Sales - Beverages"
+    ],
+    "Cost of Sales - Food": [
+      "Cost of Sales - Food",
+      "Cost of Sales - Food"
+    ],
+    "Cost of Sales - Wine & Champagn": [
+      "Cost of Sales - Wine & Champagn",
+      "Cost of Sales - Wine & Champagn"
+    ],
+    "Cost of Sale- Liquor, Beer & NA": [
+      "Cost of Sale- Liquor, Beer & NA",
+      "Cost of Sale- Liquor, Beer & NA"
+    ]
+  },
+  "GROSS PROFIT": {
+    "GROSS PROFIT": [
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "TOTAL GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "Gross Profit - Retails",
+      "Gross Profit - Food",
+      "Gross Profit - Tea/Coffee",
+      "Gross Profit - Wine",
+      "Gross Profit - Liquor",
+      "Gross Profit - Beer",
+      "Gross Profit - Other Bev",
+      "TOTAL GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT",
+      "GROSS PROFIT"
+    ],
+    "Gross Profit - Food": [
+      "Gross Profit - Food"
+    ],
+    "Gross Profit - Wine": [
+      "Gross Profit - Wine"
+    ],
+    "Gross Profit - Catering": [
+      "Gross Profit - Catering"
+    ],
+    "Gross Profit - Liquor": [
+      "Gross Profit - Liquor"
+    ],
+    "Gross Profit - Beer": [
+      "Gross Profit - Beer"
+    ],
+    "Gross Profit Coffee": [
+      "Gross Profit Coffee"
+    ],
+    "Gross Profit - Other Bev": [
+      "Gross Profit - Other Bev"
+    ],
+    "Gross Profit - Retails": [
+      "Gross Profit - Retails"
+    ],
+    "Gross Profit - Others": [
+      "Gross Profit - Others"
+    ],
+    "TOTAL GROSS PROFIT": [
+      "GROSS PROFIT"
+    ]
+  },
+  "TOTAL STAFF COST": {
+    "TOTAL STAFF COST": [
+      "TOTAL STAFF COST",
+      "TOTAL STAFF COST",
+      "TOTAL STAFF COST",
+      "TOTAL STAFF COST",
+      "TOTAL STAFF COST",
+      "Wages - F.O.H. Line Labor",
+      "Wages - F.O.H. Line Labor",
+      "Wages - F.O.H. Line Labor",
+      "Wages - B.O.H.  Line Labor",
+      "Wages - B.O.H.  Line Labor",
+      "Wages - F.O.H Management",
+      "Chef Salaries",
+      "Chef Salaries",
+      "Wages-Bonus",
+      "Wages-SummerLong",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes"
+    ],
+    "Labor Cost - Other": [
+      "Labor Cost - Other",
+      "Labor Cost - Other"
+    ],
+    "Total Wages - B.O.H. Salaried": [
+      "Total Wages - B.O.H. Salaried",
+      "Total Wages - B.O.H. Salaried",
+      "Total Wages - B.O.H. Salaried",
+      "Total Wages - B.O.H. Salaried",
+      "Total Wages - B.O.H. Salaried",
+      "Total Wages - B.O.H. Salaried",
+      "Total Wages - B.O.H. Salaried",
+      "Total Wages - B.O.H. Salaried",
+      "Total Wages - B.O.H. Salaried",
+      "Total Wages - B.O.H. Salaried"
+    ],
+    "Total Wages - F.O.H. Salaried": [
+      "Total Wages - F.O.H. Salaried",
+      "Total Wages - F.O.H. Salaried",
+      "Total Wages - F.O.H. Salaried",
+      "Total Wages - F.O.H. Salaried",
+      "Total Wages - F.O.H. Salaried",
+      "Total Wages - F.O.H. Salaried",
+      "Total Wages - F.O.H. Salaried",
+      "Total Wages - F.O.H. Salaried",
+      "Total Wages - F.O.H. Salaried",
+      "Total Wages - F.O.H. Salaried"
+    ],
+    "Total Wages - F.O.H. Hourly": [
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly",
+      "Total Wages - F.O.H. Hourly"
+    ],
+    "Total Wages - F.O.H. Hourly - OT": [
+      "Total Wages - F.O.H. Hourly - OT",
+      "Total Wages - F.O.H. Hourly - OT",
+      "Total Wages - F.O.H. Hourly - OT",
+      "Total Wages - F.O.H. Hourly - OT",
+      "Total Wages - F.O.H. Hourly - OT",
+      "Total Wages - F.O.H. Hourly - OT",
+      "Total Wages - F.O.H. Hourly - OT",
+      "Total Wages - F.O.H. Hourly - OT",
+      "Total Wages - F.O.H. Hourly - OT",
+      "Total Wages - F.O.H. Hourly - OT",
+      "Total Wages - F.O.H. Hourly - OT",
+      "Total Wages - F.O.H. Hourly - OT",
+      "Total Wages - F.O.H. Hourly - OT",
+      "Total Wages - F.O.H. Hourly - OT"
+    ],
+    "BOH - Other": [
+      "BOH - Other",
+      "BOH - Other"
+    ],
+    "Total Wages - B.O.H. Hourly": [
+      "Total Wages - B.O.H. Hourly",
+      "Total Wages - B.O.H. Hourly",
+      "Total Wages - B.O.H. Hourly",
+      "Total Wages - B.O.H. Hourly",
+      "Total Wages - B.O.H. Hourly",
+      "Total Wages - B.O.H. Hourly",
+      "Total Wages - B.O.H. Hourly",
+      "Total Wages - B.O.H. Hourly",
+      "Total Wages - B.O.H. Hourly",
+      "Total Wages - B.O.H. Hourly"
+    ],
+    "Total Wages - B.O.H. Hourly - OT": [
+      "Total Wages - B.O.H. Hourly - OT",
+      "Total Wages - B.O.H. Hourly - OT",
+      "Total Wages - B.O.H. Hourly - OT",
+      "Total Wages - B.O.H. Hourly - OT",
+      "Total Wages - B.O.H. Hourly - OT",
+      "Total Wages - B.O.H. Hourly - OT",
+      "Total Wages - B.O.H. Hourly - OT",
+      "Total Wages - B.O.H. Hourly - OT"
+    ],
+    "TOTAL FOH SALARIES": [
+      "Budgeted FOH Cost",
+      "FOH",
+      "Management",
+      "Admin",
+      "Wages - Bonus FOH",
+      "Management - William Abadie",
+      "Waiter",
+      "Busboy",
+      "Runner",
+      "Bar",
+      "Hostess",
+      "Wages F.O.H. Overtime"
+    ],
+    "BOH SALARIES": [
+      "Budgeted BOH Cost",
+      "BOH",
+      "Wages - Bonus BOH",
+      "Kitchen",
+      "Porter",
+      "Polisher",
+      "Wages B.O.H. Overtime"
+    ],
+    "PPP Payroll Expense": [
+      "PPP Payroll Expense"
+    ],
+    "Employer Taxes": [
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes"
+    ],
+    "Wages - 1099": [
+      "Wages - 1099"
+    ]
+  },
+  "REVENUE": {
+    "REVENUE": [
+      "Revenue - Other",
+      "Revenue - Food",
+      "Revenue - NA Beverages",
+      "Revenue - Wines",
+      "Revenue - Liquor",
+      "Revenue - Beer",
+      "Revenue - Retails",
+      "Revenue - Sake",
+      "Revenue - Comps",
+      "Revenue - 3rd Party Diff",
+      "Fees Income",
+      "REVENUE",
+      "Revenue - Food",
+      "Revenue - Tea/Coffee",
+      "Revenue - Wines",
+      "Revenue - Liquor",
+      "Revenue - Other Beverages",
+      "Non-Revenue Service Charge",
+      "Revenue - Retails",
+      "REVENUE",
+      "Food Sales",
+      "NA Beverage Sales",
+      "Liquor Sales",
+      "Beer-Bottle Sales",
+      "Beer-Draft Sales",
+      "Wine Sales",
+      "Sales Online Adjustments",
+      "Event Catering Sales",
+      "Merchandise Sales",
+      "Revenue - Food",
+      "Revenue - Bakery",
+      "Revenue - Wines",
+      "Revenue - Liquor",
+      "Revenue - Beer",
+      "Revenue - Other Beverages",
+      "Revenue - Retails",
+      "Comps",
+      "Revenue - Other",
+      "Revenue - Food",
+      "Revenue - Tea/Coffee",
+      "Revenue - Wines",
+      "Revenue - Champagne",
+      "Revenue - Liquor",
+      "Revenue - Beer",
+      "Revenue - Other Beverages",
+      "Revenue - Retails",
+      "Revenue - No Sales Category",
+      "Budgeted Revenue",
+      "Revenue - Food",
+      "Revenue - Tea/Coffee",
+      "Revenue - Wines",
+      "Revenue - Liquor",
+      "Revenue - Beer",
+      "Revenue - Other Beverages",
+      "Revenue - Retails",
+      "Revenue Comps",
+      "Revenue - Others",
+      "Extra/Short Receipts",
+      "3rd Party Adjustments",
+      "Food",
+      "Tea/Coffee",
+      "Wines",
+      "Liquor",
+      "Beer",
+      "Other Beverages",
+      "Retails",
+      "Discounts",
+      "Sales Adjustment",
+      "Revenue - Other",
+      "Food",
+      "Tea/Coffee",
+      "Wines",
+      "Liquor",
+      "Beer",
+      "Other Beverages",
+      "Retails",
+      "Discounts",
+      "Event Income",
+      "3rd Party Differance",
+      "Non Grat Svc charge",
+      "Revenue - Other",
+      "Revenue - Food",
+      "Revenue - NA Beverages",
+      "Revenue - Wines",
+      "Revenue - Liquor",
+      "Revenue - Beer",
+      "Revenue - Retails",
+      "Revenue - Sake",
+      "Revenue - Comps",
+      "Revenue - 3rd Party Diff",
+      "Fees Income",
+      "Budgeted Revenue",
+      "Revenue - Food",
+      "Revenue - Wines",
+      "Revenue - Liquor",
+      "Revenue - Beer",
+      "Revenue - Other Beverages",
+      "Revenue - Retails",
+      "Revenue - Comps",
+      "Revenue - Others",
+      "Revenue - Food",
+      "Revenue - Tea/Coffee",
+      "Revenue - Wines",
+      "Revenue - Liquor",
+      "Revenue - Beer",
+      "Revenue - Other Beverages",
+      "Revenue - Retails",
+      "Revenue - Comps",
+      "Revenue - 3rd party Diff",
+      "Revenue - Food",
+      "Revenue - Wines",
+      "Revenue - Liquor",
+      "Revenue - Cocktail",
+      "Revenue - Beer",
+      "Revenue -  Other Beverages",
+      "Revenue -  Retail",
+      "Revenue -  Events",
+      "Revenue - Food",
+      "Revenue - Food",
+      "Revenue - Food",
+      "Revenue - Tea/Coffee",
+      "Revenue - Wines",
+      "Revenue - Wines",
+      "Revenue - Wines",
+      "Revenue - Wines",
+      "Revenue - Beer",
+      "Revenue - Beer",
+      "Revenue - Beer",
+      "Revenue - Other Beverages",
+      "Revenue - Other Beverages",
+      "Revenue - Other Beverages",
+      "Revenue - Retails",
+      "Revenue - Retails",
+      "Revenue - Retails",
+      "Revenue - Champagne",
+      "Digital Sales - Adjustments",
+      "Chargebacks",
+      "Extra/Short Receipts",
+      "Digital Sales - Adjustments",
+      "Sales Adjustments",
+      "Revenue - Beverages",
+      "Revenue - Food",
+      "Revenue - Tea/Coffee",
+      "Revenue - Wines",
+      "Revenue - Liquor",
+      "Revenue - Other Bev",
+      "Non-Revenue Service Charge",
+      "Revenue - Retails",
+      "Total Alcoholic Beverages",
+      "Food",
+      "Wines",
+      "Liquor",
+      "Beer",
+      "Other Beverages",
+      "Retails",
+      "Event Revenue - Other",
+      "Event-Food",
+      "Event-Other Beverages",
+      "Admin/ Room / Other",
+      "Discount Food",
+      "Discount Wines",
+      "Discount Liquor",
+      "Discount Beer",
+      "Discount Other Bveverages",
+      "Discount on Event-Food",
+      "Discount on Event-Other Beverages",
+      "Discount on Admin/ Room / Other",
+      "Sales Adjustments",
+      "Sales Adjustments"
+    ],
+    "Revenue - Food": [
+      "Revenue - Food",
+      "Revenue - Food",
+      "Revenue - Food",
+      "Revenue - Food",
+      "Revenue - Food",
+      "Revenue - Food",
+      "Revenue - Food",
+      "Restaurant Food",
+      "Market Food",
+      "Catering Food"
+    ],
+    "Revenue - Wines": [
+      "Revenue - Wines",
+      "Revenue - Wines",
+      "Revenue - Wines",
+      "Revenue - Wines",
+      "Revenue - Wines",
+      "Revenue - Wines",
+      "Revenue - Wines",
+      "Restaurant Wine",
+      "Market Wine",
+      "Catering  Wine"
+    ],
+    "Revenue - Catering": [
+      "Revenue - Catering",
+      "Revenue - Catering",
+      "Revenue - Catering",
+      "Catering Discounts",
+      "Catering Services"
+    ],
+    "Revenue - Tea/Coffee": [
+      "Revenue - Tea/Coffee",
+      "Revenue - Tea/Coffee",
+      "Revenue - Tea/Coffee",
+      "Revenue - Tea/Coffee",
+      "Revenue - Tea/Coffee",
+      "Revenue - Tea/Coffee",
+      "Restaurant Coffee",
+      "Market Coffee",
+      "Catering Coffee"
+    ],
+    "Revenue - Liquor": [
+      "Revenue - Liquor",
+      "Revenue - Liquor",
+      "Revenue - Liquor"
+    ],
+    "Revenue - Beer": [
+      "Revenue - Beer",
+      "Revenue - Beer",
+      "Revenue - Beer",
+      "Revenue - Beer",
+      "Revenue - Beer",
+      "Revenue - Beer",
+      "Revenue - Beer",
+      "Restaurant Beer",
+      "Market Beer",
+      "Catering Beer"
+    ],
+    "Revenue - Other Beverages": [
+      "Revenue - Other Beverages",
+      "Revenue - Other Beverages",
+      "Revenue - Other Beverages",
+      "Revenue - Other Beverages",
+      "Revenue - Other Beverages",
+      "Revenue - Other Beverages",
+      "Revenue Other Bev",
+      "Restaurant Beverages",
+      "Market Beverages",
+      "Catering Beverages"
+    ],
+    "Revenue - Fees": [
+      "Revenue - Fees",
+      "Revenue - Fees"
+    ],
+    "Revenue - Retails": [
+      "Revenue - Retails",
+      "Revenue - Retails",
+      "Revenue - Retails",
+      "Revenue Retail",
+      "Restaurant Retail",
+      "Market Retail"
+    ],
+    "Revenue - Others": [
+      "Revenue - Others",
+      "Revenue - Others"
+    ],
+    "Revenue - Admin Fees": [
+      "Revenue - Admin Fees"
+    ],
+    "Employee Wellness Fee": [
+      "Employee Wellness Fee",
+      "Employee Wellness Fee"
+    ],
+    "Italy trip Income": [
+      "Italy trip Income"
+    ],
+    "House Tips": [
+      "House Tips",
+      "House Tips"
+    ],
+    "5% Service Charges": [
+      "5% Service Charges",
+      "5% Service Charges"
+    ],
+    "Food Sales": [
+      "Food Sales"
+    ],
+    "NA Beverage Sales": [
+      "NA Beverage Sales"
+    ],
+    "Liquor Sales": [
+      "Liquor Sales"
+    ],
+    "Beer- Bottle Sales": [
+      "Beer- Bottle Sales"
+    ],
+    "Beer-Draft Sales": [
+      "Beer-DraAt Sales"
+    ],
+    "Wine Sales": [
+      "Wine Sales"
+    ],
+    "Sales Online Adjustment": [
+      "Sales Online Adjustment"
+    ],
+    "Event Catering Sales": [
+      "Event Catering Sales"
+    ],
+    "Merchandise Sales": [
+      "Merchandise Sales"
+    ],
+    "Revenue - Other Beverage": [
+      "Revenue - Other Beverage"
+    ],
+    "Revenue - Retail": [
+      "Revenue - Retail",
+      "Revenue - Retail",
+      "Revenue - Retail",
+      "Revenue - Retail",
+      "Revenue - Retail"
+    ],
+    "Revenue - Dinner": [
+      "Revenue - Dinner"
+    ],
+    "Revenue - Comp": [
+      "Revenue - Comp"
+    ],
+    "Revenue - 3rd Party": [
+      "Revenue - 3rd Party"
+    ],
+    "Total Revenue Food": [
+      "Food"
+    ],
+    "Total Revenue Tea/Coffee": [
+      "Tea/Coffee"
+    ],
+    "Total Revenue Wines": [
+      "Wines"
+    ],
+    "Total Revenue Liquor": [
+      "Liquor"
+    ],
+    "Total Revenue Beer": [
+      "Beer"
+    ],
+    "Total Revenue Other Beverage": [
+      "Other Beverages"
+    ],
+    "Total Revenue Retails": [
+      "Retails"
+    ],
+    "Total Revenue Admin Fees": [
+      "Admin Fees"
+    ],
+    "Total Discounts": [
+      "Discounts"
+    ],
+    "Total Revenue Other": [
+      "Other Revenue"
+    ],
+    "Total Revenue Labor Charges": [
+      "Other Revenue Labor charges"
+    ],
+    "Total Revenue In House": [
+      "Revenue In House - Other",
+      "Revenue In House Food",
+      "Revenue In House Soda BIB",
+      "Revenue in House Soda Can",
+      "Revenue In House Beer",
+      "Revenue In House Ice Tea",
+      "Revenue In House Wine",
+      "Revenue In House Water",
+      "Revenue in House Juice",
+      "Revenue In House - Other",
+      "Revenue In House Food",
+      "Revenue In House Soda BIB",
+      "Revenue in House Soda Can",
+      "Revenue In House Beer",
+      "Revenue In House Ice Tea",
+      "Revenue In House Wine",
+      "Revenue In House Water",
+      "Revenue in House Juice",
+      "Revenue In House - Other",
+      "Revenue In House Food",
+      "Revenue In House Soda BIB",
+      "Revenue in House Soda Can",
+      "Revenue In House Beer",
+      "Revenue In House Ice Tea",
+      "Revenue In House Wine",
+      "Revenue In House Water",
+      "Revenue in House Juice",
+      "Revenue In House - Other",
+      "Revenue In House Food",
+      "Revenue In House Soda BIB",
+      "Revenue in House Soda Can",
+      "Revenue In House Beer",
+      "Revenue In House Ice Tea",
+      "Revenue In House Wine",
+      "Revenue In House Water",
+      "Revenue in House Juice"
+    ],
+    "Total Revenue Delievery": [
+      "Revenue Delivery - Other",
+      "Revenue Delivery Food",
+      "Revenue Delivery Soda BIB",
+      "Revenue Delivery Soda Can",
+      "Revenue Delivery Beer",
+      "Revenue Delivery Ice Tea",
+      "Revenue Delivery Wine",
+      "Revenue Delivery Water",
+      "Revenue Delivery Juice",
+      "Revenue Delivery - Other",
+      "Revenue Delivery Food",
+      "Revenue Delivery Soda BIB",
+      "Revenue Delivery Soda Can",
+      "Revenue Delivery Beer",
+      "Revenue Delivery Ice Tea",
+      "Revenue Delivery Wine",
+      "Revenue Delivery Water",
+      "Revenue Delivery Juice",
+      "Revenue Delivery - Other",
+      "Revenue Delivery Food",
+      "Revenue Delivery Soda BIB",
+      "Revenue Delivery Soda Can",
+      "Revenue Delivery Beer",
+      "Revenue Delivery Ice Tea",
+      "Revenue Delivery Wine",
+      "Revenue Delivery Water",
+      "Revenue Delivery Juice"
+    ],
+    "Revenue - Delivery fee": [
+      "Revenue - Delivery fee",
+      "Revenue - Delivery fee",
+      "Revenue - Delivery fee",
+      "Revenue - Delivery fee"
+    ],
+    "Total Comps & Promos": [
+      "Comps & Promos - Other",
+      "Comps & Promos (In House)",
+      "Comps & Promos (Delivery)",
+      "Comps & Promos - Other",
+      "Comps & Promos (In House)",
+      "Comps & Promos (Delivery)",
+      "Comps & Promos - Other",
+      "Comps & Promos (In House)",
+      "Comps & Promos (Delivery)",
+      "Comps & Promos - Other",
+      "Comps & Promos (In House)",
+      "Comps & Promos (Delivery)"
+    ],
+    "Sales Adjustment": [
+      "Sales Adjustment",
+      "Sales Adjustment",
+      "Sales Adjustment"
+    ],
+    "Licensing fees received": [
+      "Licensing fees received",
+      "Licensing fees received"
+    ],
+    "Events": [
+      "Events",
+      "Events"
+    ],
+    "TOTAL REVENUE": [
+      "Revenue - Other",
+      "Food",
+      "Tea/Coffee",
+      "Wines",
+      "Champagne",
+      "Liquor",
+      "Beer",
+      "Other Beverages",
+      "Retails",
+      "Discount",
+      "Revenue - Bev",
+      "Revenue - Food",
+      "Revenue - Wines",
+      "Revenue - Liquor, Beer & NA",
+      "Revenue Retails",
+      "Discount",
+      "Sales - Tobacco",
+      "Revenue - Other",
+      "Comps and Promos",
+      "Other Revenue - Retail",
+      "Revenue - Food",
+      "Revenue - Summer Long",
+      "Revenue - Food",
+      "Revenue - Wines",
+      "Revenue - Liquor",
+      "Revenue - Beer",
+      "Revenue - Other Beverages",
+      "Revenue - Other",
+      "Revenue - Covid Surcharge",
+      "Other Revenue-Resy Fee"
+    ],
+    "Total Sales Revenue": [
+      "Sales Revenue - Other",
+      "Food",
+      "Beverage",
+      "Wine",
+      "Others",
+      "Merchandise/Retail Income"
+    ],
+    "Total Other Income": [
+      "Other Income - Other",
+      "Exceptional Item",
+      "Officers Salaries",
+      "Other Corporate Expenses",
+      "Group License Fees",
+      "Group Management Charges",
+      "Group Recharges",
+      "Corporate Overhead"
+    ],
+    "Total Revenue Delivery": [
+      "Revenue Delivery - Other",
+      "Revenue Delivery Food",
+      "Revenue Delivery Soda BIB",
+      "Revenue Delivery Soda Can",
+      "Revenue Delivery Beer",
+      "Revenue Delivery Ice Tea",
+      "Revenue Delivery Wine",
+      "Revenue Delivery Water",
+      "Revenue Delivery Juice"
+    ],
+    "TOTAL Sales Adjustment": [
+      "Sales Adjustment"
+    ],
+    "Revenue-Breads": [
+      "Revenue-Breads"
+    ],
+    "Admin Fees": [
+      "Admin Fees"
+    ],
+    "Transfer To Centrolina": [
+      "Transfer To Centrolina"
+    ]
+  },
+  "TOTAL OPERATING EXPENSES": {
+    "TOTAL OPERATING EXPENSES": [
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES",
+      "TOTAL OPERATING EXPENSES"
+    ]
+  },
+  "EBITDA": {
+    "EBITDA": [
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA",
+      "EBITDA"
+    ]
+  },
+  "PROFIT BEFORE TAX & DEPRECIATION": {
+    "PROFIT BEFORE TAX & DEPRECIATION": [
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION",
+      "PROFIT BEFORE TAX & DEPRECIATION"
+    ]
+  },
+  "P & L Depreciation & Amortization": {
+    "P & L Depreciation": [
+      "P & L Depreciation",
+      "P & L Depreciation",
+      "P & L Depreciation",
+      "P & L Depreciation",
+      "P & L Depreciation",
+      "P & L Depreciation",
+      "P & L Depreciation",
+      "P & L Depreciation"
+    ],
+    "P & L Amortization": [
+      "P & L Amortization",
+      "P & L Amortization",
+      "P & L Amortization",
+      "P & L Amortization",
+      "P & L Amortization",
+      "P & L Amortization",
+      "P & L Amortization",
+      "P & L Amortization",
+      "P & L Amortization"
+    ],
+    "Depreciation/Amortization": [
+      "P & L Depreciation",
+      "P & L Amortization"
+    ],
+    "P & L Depreciation & Amortization": [
+      "Depreciation Expense",
+      "Amortization Expense"
+    ]
+  },
+  "NET PROFIT/(LOSS)": {
+    "NET PROFIT/(LOSS)": [
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)"
+    ],
+    "Total NET PROFIT/(LOSS)": [
+      "NET PROFIT/(LOSS)",
+      "NET PROFIT/(LOSS)"
+    ]
+  },
+  "EMPLOYER TAXES": {
+    "EMPLOYER TAXES": [
+      "Wages - 1099",
+      "Employer Taxes - Other",
+      "Social Security",
+      "Medicare",
+      "Federal FUTA",
+      "NY MTA",
+      "State SUI",
+      "OASDI",
+      "Ny Re-employment",
+      "Employer Taxes",
+      "Social Security",
+      "Medicare",
+      "Federal FUTA",
+      "NY MTA",
+      "State SUI",
+      "Labor cost - Other?",
+      "Wages - 1099",
+      "Employer Taxes - Other",
+      "Social Security",
+      "Medicare",
+      "Fedral FUTA",
+      "Ny MTAI",
+      "State SUI",
+      "OASDI",
+      "Wages - 1099",
+      "Employer Taxes - Other",
+      "Social Security",
+      "Medicare",
+      "Federal FUTA",
+      "NY MTA",
+      "State SUI",
+      "OASDI",
+      "Ny Re-employment"
+    ],
+    "TOTAL EMPLOYER TAXES": [
+      "Social Security",
+      "Medicare",
+      "Federal FUTA",
+      "Ny MTAI",
+      "State SUI",
+      "Employer Taxes - Other",
+      "Social Security",
+      "Medicare",
+      "Federal FUTA",
+      "NY MTA",
+      "OASDI",
+      "Ny Re-employment",
+      "State SUI"
+    ]
+  },
+  "OTHER EMPLOYEE EXPENSES": {
+    "OTHER EMPLOYEE EXPENSES": [
+      "Other Staff Costs - Other",
+      "Other Employee Expenses - Other",
+      "Staff Recruitment",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Staff relations/morale",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "Employee Parking / Bus Passes",
+      "Safety & Training Programs",
+      "Other Staff Costs - Other",
+      "Other Employee Expenses - Other",
+      "Staff Recruitment",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Staff relations/morale",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "Employee Parking / Bus Passes",
+      "Safety & Training Programs"
+    ]
+  },
+  "OTHER STAFF COST": {
+    "OTHER STAFF COST": [
+      "Employee Benefits - Other",
+      "Staff Insurance - Other",
+      "Medical",
+      "Dental",
+      "Vision",
+      "NY Paid Family Leave",
+      "NY Disability Payable Leave",
+      "401K",
+      "Workers' Compensation Insurance",
+      "Mealbreak penalties",
+      "Vacation/PTO accruals",
+      "Bonus",
+      "Commission",
+      "Miscellaneous",
+      "Total Fringe Benefits",
+      "OTHER STAFF COST",
+      "Staff Workman's Comp",
+      "Staff Insurance",
+      "Staff Insurance",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Staff Welfare",
+      "Staff Accommodation",
+      "Staff First Aid",
+      "Steven's Personal Expense",
+      "Other Staff Cost - Other",
+      "Staff Workman's Comp",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniform",
+      "Staff Meals",
+      "Staff Welfare",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "Staff Reimbursement",
+      "Staff Insurance - Other",
+      "Medical",
+      "Dental",
+      "Vision",
+      "Employee Benefits - Other",
+      "Staff Insurance - Other",
+      "Medical",
+      "Dental",
+      "Vision",
+      "NY Paid Family Leave",
+      "NY Disability Payable Leave",
+      "401K",
+      "Workers' Compensation Insurance",
+      "Mealbreak penalties",
+      "Vacation/PTO accruals",
+      "Bonus",
+      "Commission",
+      "Miscellaneous",
+      "Total Fringe Benefits",
+      "Other Staff Costs - Other",
+      "Contract Labor",
+      "Employee Benefits - Other",
+      "Workers' Compensation Insurance",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Staff Welfare",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "PPP Employee Benefits",
+      "PPP Employee Benefits",
+      "Staff Insurance",
+      "Staff Insurance",
+      "Dental",
+      "Vision",
+      "Other Staff Costs",
+      "Employee Benefits",
+      "Employee Benefits",
+      "Employee Benefits",
+      "Employee Benefits",
+      "Employee Benefits",
+      "Staff Meals",
+      "Employee Benefits",
+      "Staff First Aid",
+      "Staff Insurance",
+      "Staff Insurance",
+      "Staff Workman's Comp",
+      "Staff Insurance",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Staff Welfare",
+      "Staff Accommodation",
+      "Staff First Aid",
+      "Steven's Personal Expense",
+      "Other Staff Costs - Other",
+      "Contract Labor - Other",
+      "Wages - Agency",
+      "Wages - 1099",
+      "Wages - Security - 1099",
+      "Employee Benefits - Other",
+      "Workers' Compensation Insurance",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Staff Welfare",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "Employee commuter benefit",
+      "401K",
+      "Staff Insurance"
+    ],
+    "Staff Insurance": [
+      "Staff Insurance",
+      "Staff Insurance",
+      "Staff Insurance",
+      "Staff Insurance",
+      "Staff Insurance",
+      "Staff Insurance",
+      "Staff Workman's Comp",
+      "Staff Insurance",
+      "Medical",
+      "Dental",
+      "Vision"
+    ],
+    "Staff Recruitment": [
+      "Staff Recruitment",
+      "Staff Recruitment"
+    ],
+    "Staff Training": [
+      "Staff Training",
+      "Staff Training"
+    ],
+    "Staff Uniforms": [
+      "Staff Uniforms",
+      "Staff Uniforms"
+    ],
+    "Staff Welfare": [
+      "Staff Welfare",
+      "Staff Welfare"
+    ],
+    "Employee Benefits": [
+      "Employee Benefits",
+      "Employee Benefits",
+      "Employee Benefits",
+      "Employee Benefits - Other",
+      "Staff Meals",
+      "Chef / Manager Meals"
+    ],
+    "Staff First Aid": [
+      "Staff First Aid",
+      "Staff First Aid"
+    ],
+    "NY MTA": [
+      "NY MTA"
+    ],
+    "Wages - 1099": [
+      "Wages - 1099"
+    ],
+    "Workers' Compensation Insurance": [
+      "Workers' Compensation Insurance"
+    ],
+    "Reimbursements": [
+      "Reimbursements"
+    ],
+    "NYPFL": [
+      "NYPFL"
+    ],
+    "Total Other Staff Cost": [
+      "Staff Workman's Comp",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Staff Welfare",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "Staff Insurance",
+      "Medical",
+      "Disability Insurance"
+    ],
+    "Total OTHER STAFF COST": [
+      "Other Staff Costs - Other",
+      "Contract Labor - Other",
+      "Wages - Agency",
+      "Wages - 1099",
+      "Wages - Security - 1099"
+    ],
+    "TOTAL OTHER STAFF COST": [
+      "Other Staff Costs",
+      "Contract Labor",
+      "Wages - Agency",
+      "Wages - 1099",
+      "Wages - Security - 1099",
+      "Employee Benefits",
+      "Workers' Compensation Insurance",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Staff Welfare",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "Worker's Compensation Insurance",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Staff Welfare",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "Staff Insurance",
+      "Staff Workman's Comp",
+      "Staff Insurance",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Staff Welfare",
+      "Staff Accomodation/Relocation",
+      "Staff First Aid"
+    ]
+  },
+  "CONTRACT LABOR": {
+    "CONTRACT LABOR": [
+      "Contract Labor - Other",
+      "Wages - Agency",
+      "Wages -Casual labor-1099",
+      "Wages - Security/Bouncer-1099",
+      "Contract Labor - Other",
+      "Wages - Agency",
+      "Wages -Casual labor-1099",
+      "Wages - Security/Bouncer-1099"
+    ]
+  },
+  "ADVERTISING AND PROMOTION": {
+    "ADVERTISING AND PROMOTION": [
+      "Advertising and Promotion - Other",
+      "Advertising",
+      "Public Relations",
+      "Branding & Design",
+      "R & D",
+      "Event Expenses",
+      "Commission Expenses",
+      "Complimentry Cost",
+      "Subscriptions",
+      "Photgraphy Expenses",
+      "Advertising",
+      "Branding & Design",
+      "Commission Expense",
+      "Subscriptions",
+      "Photography expense",
+      "Complimentary Cost",
+      "Advertising and Promotion - Other",
+      "Advertising",
+      "Public Relations",
+      "Branding & Design",
+      "R & D",
+      "Event Expenses",
+      "Commission Expense",
+      "Subscriptions",
+      "Photography expense",
+      "Complimentary Cost",
+      "Advertising and Promotion - Other",
+      "Advertising",
+      "Public Relations",
+      "Branding & Design",
+      "R & D",
+      "Event Expenses",
+      "Commission Expenses",
+      "Complimentry Cost",
+      "Subscriptions",
+      "Photgraphy Expenses"
+    ],
+    "TOTAL ADVERTISING AND PROMOTION": [
+      "Advertising",
+      "Advertising",
+      "Branding & Design",
+      "Event Expenses",
+      "Commission Expense",
+      "Subscriptions",
+      "Photography expense",
+      "Complimentary Cost",
+      "Advertising and Promotion - Other",
+      "Advertising",
+      "Public Relations",
+      "Branding & Design",
+      "R & D",
+      "Event Expenses",
+      "Commission Expense",
+      "Subscriptions",
+      "Photography expense",
+      "Complimentary Cost"
+    ]
+  },
+  "TRAVEL AND ENTERTAINMENT": {
+    "TRAVEL AND ENTERTAINMENT": [
+      "Travel and Entertainment - Other",
+      "Airfare",
+      "Meals & Entertainment",
+      "Lodging",
+      "Taxi Charges & Local Travel",
+      "Auto Expenses",
+      "Travel and Entertainment - Other",
+      "Airfare",
+      "Meals & Entertainment",
+      "Taxi Charges & Local Travel",
+      "Travel and Entertainment - Other",
+      "Airfare",
+      "Meals & Entertainment",
+      "Lodging",
+      "Taxi Charges & Local Travel",
+      "Auto Expenses",
+      "Airfare",
+      "Meals & Entertainment",
+      "Lodging",
+      "Taxi Charges & Local Travel",
+      "Auto Expense"
+    ],
+    "TOTAL TRAVEL AND ENTERTAINMENT": [
+      "Meals & Entertainment",
+      "Taxi Charges & Local Travel",
+      "Travel and Entertainment - Other",
+      "Airfare",
+      "Meals & Entertainment",
+      "Lodging",
+      "Taxi Charges & Local Travel",
+      "Auto Expense",
+      "Web Design & Maintenance",
+      "Valet Parking - Guest",
+      "Clearing and Freight charges",
+      "Telephone",
+      "Internet/Email"
+    ]
+  },
+  "PROFESSIONAL FEES": {
+    "PROFESSIONAL FEES": [
+      "General and Administrative Exps - Other",
+      "Professional Fee - Other",
+      "Legal Fee",
+      "Audit Fee",
+      "Tax Fee",
+      "Professional Fee",
+      "Accounting Fee",
+      "Consulting Fee",
+      "Bookkeeping Fees",
+      "General and Administrative Exps - Other",
+      "Professional Fee - Other",
+      "Legal Fee",
+      "Audit Fee",
+      "Tax Fee",
+      "Professional Fee",
+      "Accounting Fee",
+      "Consulting Fee",
+      "Bookkeeping Fees",
+      "Professional Fees - Other",
+      "Legal Fees",
+      "Audit Fees",
+      "Tax Fees",
+      "Professional Fees",
+      "Accounting Fees",
+      "Consulting Fees",
+      "Bookkeeping Fees",
+      "Legal Fees",
+      "Audit Fees",
+      "Tax Fees",
+      "Professional Fee",
+      "Accounting Fees",
+      "Consulting Fees"
+    ],
+    "Professional Fees": [
+      "Professional Fees"
+    ],
+    "Legal Fees": [
+      "Legal Fees"
+    ],
+    "Audit Fees": [
+      "Audit Fees"
+    ],
+    "Tax Fees": [
+      "Tax Fees"
+    ],
+    "Professional Fee": [
+      "Professional Fee"
+    ],
+    "Accounting Fees": [
+      "Accounting Fees"
+    ],
+    "Consulting Fees": [
+      "Consulting Fees"
+    ],
+    "TOTAL PROFESSIONAL FEES": [
+      "Legal Fees",
+      "Professional Fees",
+      "Accounting Fees",
+      "Consulting Fees",
+      "Mangement Fees",
+      "Legal Fees",
+      "Audit Fees",
+      "Tax Fees",
+      "Professional Fee",
+      "Accounting Fees",
+      "Consulting Fees",
+      "Management Fees"
+    ]
+  },
+  "Other Expenses": {
+    "Other Expenses": [
+      "Chargebacks",
+      "Extra/Short Receipts",
+      "Under/Over",
+      "Digital Sales - Adjustment",
+      "Sales Adjustments - Other",
+      "Interest Expense - Other",
+      "Interest Paid on Loans - 1",
+      "Interest Paid on Loans - 2",
+      "Interest on Tax/Penalties",
+      "Depreciation Expense",
+      "Amortization Expense",
+      "Pre-opening Costs",
+      "Other Expenses - Other",
+      "Exchange Differences",
+      "Rounding Differences",
+      "Interest Expense",
+      "Interest Paid on Loans - 1",
+      "Interest Paid on Loans - 2",
+      "Interest on Tax/Penalties",
+      "Depreciation Expense - Other",
+      "Leasehold",
+      "Kitchen/Hood",
+      "Machinery and Equipment",
+      "Furniture and Fixtures",
+      "Amortization Expense - Other",
+      "Fees",
+      "Intangible Assets",
+      "Start-Up Costs",
+      "Other Expenses",
+      "Other Expenses",
+      "Chargebacks",
+      "Extra/Short Receipts",
+      "Under/Over",
+      "Digital Sales - Adjustments",
+      "Uncategorized Expenses",
+      "Corporate Tax Expense",
+      "Other Expenses",
+      "Postage and Delivery",
+      "Prior Period Adjustment",
+      "Cleaning - Stock adjustment",
+      "Other Expenses",
+      "Landlord Maintenance",
+      "Fees",
+      "Other Expense",
+      "Depreciation Expense - Other",
+      "Leasehold",
+      "Kitchen/Hood",
+      "Machinery and Equipment",
+      "Furniture and Fixtures",
+      "Amortization Expense - Other",
+      "Fees",
+      "Intangible Assets",
+      "Start-Up Costs",
+      "Exta/Short Receipts",
+      "Other Expense",
+      "Chargebacks",
+      "Extra/Short Receipts",
+      "Under/Over",
+      "Digital Sales - Adjustment",
+      "Sales Adjustments - Other",
+      "Interest Expense - Other",
+      "Interest Paid on Loans - 1",
+      "Interest Paid on Loans - 2",
+      "Interest on Tax/Penalties",
+      "Depreciation Expense",
+      "Amortization Expense",
+      "Pre-opening Costs",
+      "Other Expenses - Other",
+      "Exchange Differences",
+      "Rounding Differences",
+      "Under/Over",
+      "Uncategorized Expenses",
+      "Interest Expense",
+      "Interest Expense",
+      "Corporate Tax Expense",
+      "Other Expenses - Other",
+      "Rounding Differences",
+      "Exchange Differences",
+      "TIPS Over/Shor",
+      "Donations",
+      "Pre Opening Expense",
+      "Other Expenses"
+    ],
+    "Fresh Direct Admin Fee": [
+      "Fresh Direct Admin Fee"
+    ],
+    "Fresh Direct Operational fees": [
+      "Fresh Direct Operational fees"
+    ],
+    "Interest Expense - Other": [
+      "Interest Expense - Other"
+    ],
+    "Interest - Credit line Loan": [
+      "Interest - Credit line Loan"
+    ],
+    "Interest on Tax/Penalties": [
+      "Interest on Tax/Penalties"
+    ],
+    "Corporate Tax Expense": [
+      "Corporate Tax Expense"
+    ],
+    "Depreciation Expense - Other": [
+      "Depreciation Expense - Other"
+    ],
+    "Leasehold": [
+      "Leasehold"
+    ],
+    "Kitchen/Hood": [
+      "Kitchen/Hood"
+    ],
+    "Machinery and Equipment": [
+      "Machinery and Equipment"
+    ],
+    "Furniture and Fixtures": [
+      "Furniture and Fixtures"
+    ],
+    "Amortization Expense - Other": [
+      "Amortization Expense - Other"
+    ],
+    "Fees": [
+      "Fees"
+    ],
+    "Intangible Assets": [
+      "Intangible Assets"
+    ],
+    "Start-Up Costs": [
+      "Start-Up Costs"
+    ],
+    "Other Expenses - Other": [
+      "Other Expenses - Other"
+    ],
+    "Embezzlement": [
+      "Embezzlement"
+    ],
+    "Exchange Differences": [
+      "Exchange Differences"
+    ],
+    "Rounding Differences": [
+      "Rounding Differences"
+    ]
+  },
+  "SUPPLIES AND MAINTENANCE": {
+    "SUPPLIES AND MAINTENANCE": [
+      "Supplies and Maintenanc - Other",
+      "Linen & Laundry",
+      "Paper Supplies",
+      "Office Supplies/Stationery",
+      "Repairs General",
+      "Repairs Equipment",
+      "BOH Supplies & Accessories",
+      "FOH Supplies & Accessories",
+      "Packaging Supplies",
+      "China",
+      "Glassware",
+      "Silverware",
+      "Menus",
+      "Cleaning Supplies",
+      "Flowers & Candles",
+      "Equipment Rental",
+      "Office Supplies/Stationery",
+      "Trash/Waste Removal Service",
+      "Pest Control",
+      "IT Cost",
+      "Postage & Courier",
+      "Music",
+      "Linen & Laundry",
+      "Cleaning Supplies",
+      "Cleaning Contract Services",
+      "Pest Control",
+      "Trash/Waste Removal Service",
+      "BOH Supplies & Accessories",
+      "FOH Supplies & Accessories",
+      "Paper Supplies",
+      "Packaging Supplies",
+      "Chinaware",
+      "Flatware",
+      "Glassware",
+      "Barware",
+      "Music",
+      "Landscape, Flowers & Candles",
+      "Office Supplies/Stationery",
+      "IT Cost",
+      "Equipment Rental",
+      "Repairs - Building",
+      "Repairs - Equipment",
+      "Repairs - General",
+      "Postage & Courier",
+      "Tip Expense",
+      "Cleaning - Stock adjustment",
+      "Supplies and Maintenance - Other",
+      "Linen & Laundry",
+      "Cleaning Supplies",
+      "Cleaning Contract Services",
+      "Pest Control",
+      "Trash/Waste Removal Service",
+      "BOH Supplies & Accessories",
+      "FOH Supplies & Accessories",
+      "Paper Supplies",
+      "Packaging Supplies",
+      "Music",
+      "Landscape, Flowers & Candles",
+      "Office Supplies/Stationery",
+      "IT Cost",
+      "Equipment Rental",
+      "Repairs - Building",
+      "Repairs - Equipment",
+      "Repairs - General",
+      "Postage & Courier",
+      "Fire Control",
+      "Supplies and Maintenanc - Other",
+      "Linen & Laundry",
+      "Paper Supplies",
+      "Office Supplies/Stationery",
+      "Repairs General",
+      "Repairs Equipment",
+      "BOH Supplies & Accessories",
+      "FOH Supplies & Accessories",
+      "Packaging Supplies",
+      "China",
+      "Glassware",
+      "Silverware",
+      "Menus",
+      "Cleaning Supplies",
+      "Flowers & Candles",
+      "Equipment Rental",
+      "Office Supplies/Stationery",
+      "Trash/Waste Removal Service",
+      "Pest Control",
+      "IT Cost",
+      "Postage & Courier",
+      "Music",
+      "Supp. & Maint. - Other",
+      "Linen & Laundry",
+      "Cleaning Supplies",
+      "Cleaning Contract Services",
+      "Pest Control",
+      "Trash/Waste Removal Service",
+      "BOH Supplies & Accessories",
+      "FOH Supplies & Accessories",
+      "Paper Supplies",
+      "Packaging Supplies",
+      "Chinaware",
+      "Flatware",
+      "Glassware",
+      "Barware",
+      "Music",
+      "Landscape, Flowers & Candles",
+      "Office Supplies/Stationery",
+      "Menus",
+      "IT Cost",
+      "Equipment Rental",
+      "Repairs - Building",
+      "Repairs - Equipment",
+      "Repairs - General",
+      "Postage & Courier"
+    ],
+    "TOTAL SUPPLIES AND MAINTENANCE": [
+      "Linen & Laundry",
+      "Cleaning Supplies",
+      "Cleaning Contract Services",
+      "Pest Control",
+      "Trash/Waste Removal Service",
+      "BOH Supplies & Accessories",
+      "FOH Supplies & Accessories",
+      "Paper Supplies",
+      "Packaging Supplies",
+      "Landscape, Flowers & Candles",
+      "Office Supplies/Stationery",
+      "IT Cost",
+      "Equipment Rental",
+      "Repairs - Building",
+      "Repairs - Equipment",
+      "Repairs - General",
+      "Postage & Courier",
+      "Fire Control",
+      "Supplies and Maintenance - Other",
+      "Linen & Laundry",
+      "Cleaning Supplies",
+      "Cleaning Contract Services",
+      "Pest Control",
+      "Trash/Waste Removal Service",
+      "BOH Supplies & Accessories",
+      "FOH Supplies & Accessories",
+      "Paper Supplies",
+      "Packaging Supplies",
+      "Chinaware",
+      "Flatware",
+      "Glassware",
+      "Barware",
+      "Music",
+      "Landscape, Flowers & Candles",
+      "Office Supplies/Stationery",
+      "Menus",
+      "IT Cost",
+      "Equipment Rental",
+      "Repairs - Building",
+      "Repairs - Equipment",
+      "Repairs - General",
+      "Postage & Courier",
+      "POS Charges"
+    ]
+  },
+  "PROFESSIONAL CHARGES": {
+    "PROFESSIONAL CHARGES": [
+      "Guaranteed Payments",
+      "Legal Fees",
+      "Tax Fees",
+      "Professional Fees",
+      "Consulting Fees",
+      "Management Fees",
+      "Guaranteed Payments"
+    ],
+    "TOTAL PROFESSIONAL CHARGES": [
+      "Professional Fees - Other",
+      "Legal Fees",
+      "Audit Fees",
+      "Tax Fees",
+      "Professional Fees",
+      "Accounting Fees",
+      "Consulting Fees"
+    ]
+  },
+  "OTHER FINANCIAL COSTS": {
+    "OTHER FINANCIAL COSTS": [
+      "Other Financial Costs - Other",
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Bank Carges",
+      "Donations",
+      "Royalties",
+      "Tangible Property Taxes",
+      "Penalties",
+      "License, Permits & Filling Fees",
+      "Sales and Use Tax",
+      "Tip Expenses",
+      "Finance Charges",
+      "Umbrella Insurance",
+      "Liability Insurance",
+      "Property Insurance",
+      "Uncategorized Exp/Ask My Acc",
+      "Corporate Tax Expense",
+      "Other Financial Costs - Other",
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Bank Charges",
+      "Donations",
+      "Royalties",
+      "Tangible Property Taxes",
+      "Penalties",
+      "Licenses, Permits, and Filing F",
+      "Sales and Use Tax",
+      "Tips Expense",
+      "Other Financial Costs - Other",
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Bank Carges",
+      "Donations",
+      "Royalties",
+      "Tangible Property Taxes",
+      "Penalties",
+      "License, Permits & Filling Fees",
+      "Sales and Use Tax",
+      "Tip Expenses",
+      "Finance Charges",
+      "Umbrella Insurance",
+      "Liability Insurance",
+      "Property Insurance",
+      "Uncategorized Exp/Ask My Acc",
+      "Corporate Tax Expense",
+      "Other Financial Costs - Other",
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Bank Charges",
+      "Donations",
+      "Royalties",
+      "Tangible Property Taxes",
+      "Penalties",
+      "License, Permits & Filing Fees",
+      "Sales and Use Tax",
+      "Tips Expense",
+      "Finance charges",
+      "Insurance Expense",
+      "Liability Insurance",
+      "Property Insurance",
+      "EPLI Insurance"
+    ],
+    "TOTAL OTHER FINANCIAL COSTS": [
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Bank Charges",
+      "Penalties",
+      "Licenses, Permits, and Filing",
+      "Sales and Use Tax",
+      "Other Financial Costs - Other",
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Bank Charges",
+      "Donations",
+      "Royalties",
+      "Tangible Property Taxes",
+      "Penalties",
+      "Licenses & Permits",
+      "Sales and Use Tax"
+    ]
+  },
+  "UTILITIES": {
+    "UTILITIES": [
+      "Utilities - Other",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Security And Alarm",
+      "Telephone",
+      "Internet/Email",
+      "Utilities - Other",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Security And Alarm",
+      "Telephone",
+      "Internet/Email"
+    ]
+  },
+  "OCCUPANCY COST": {
+    "OCCUPANCY COST": [
+      "Occupancy Costs - Other",
+      "Rent",
+      "Percentage Rent",
+      "CAM Charges",
+      "Real Estate Escalation Tax",
+      "Storage Rent",
+      "Commercial Rent Tax",
+      "Personal/Tangible Property Tax",
+      "OCCUPANCY COST",
+      "Rent",
+      "Percentage Rent",
+      "Real Estate Escalation Tax",
+      "Commercial Rent Tax",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent",
+      "Security and Alarm",
+      "CAM Charges",
+      "Occupancy Costs - Other",
+      "Rent",
+      "Percentage Rent",
+      "CAM Charges",
+      "Real Estate Escalation Tax",
+      "Storage Rent",
+      "Commercial Rent Tax",
+      "Personal/Tangible Property Tax",
+      "Rent",
+      "Real Estate Taxes",
+      "Cam Charges",
+      "Rent",
+      "Percentage Rent",
+      "Real Estate Escalation Tax",
+      "Commercial Rent Tax",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent",
+      "Security and Alarm",
+      "CAM Charges"
+    ],
+    "Rent": [
+      "Rent",
+      "Rent",
+      "Rent?"
+    ],
+    "Storage Rent": [
+      "Storage Rent",
+      "Storage Rent",
+      "Storage Rent?"
+    ],
+    "Real State Taxes": [
+      "Real State Taxes"
+    ],
+    "Personal Property Taxes": [
+      "Personal Property Taxes"
+    ],
+    "Insurance-Property & Casualty": [
+      "Insurance-Property & Casualty"
+    ],
+    "Other Municipal Taxes": [
+      "Other Municipal Taxes"
+    ],
+    "TOTAL OCCUPANCY COST": [
+      "Rent",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent",
+      "Occupancy Costs - Other",
+      "Rent",
+      "Percentage Rent",
+      "Real Estate Escalation Tax",
+      "Commercial Rent Tax",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent",
+      "Security and Alarm",
+      "CAM Charges",
+      "Uncategorized Expenses"
+    ],
+    "Occupancy - Other": [
+      "Occupancy - Other",
+      "Occupancy - Other"
+    ],
+    "Real Estate Escalation Tax": [
+      "Real Estate Escalation Tax",
+      "Real Estate Escalation Tax"
+    ],
+    "Electricity": [
+      "Electricity",
+      "Electricity?"
+    ],
+    "Gas": [
+      "Gas",
+      "Gas?"
+    ],
+    "Water": [
+      "Water",
+      "Water?"
+    ],
+    "Contributions": [
+      "Contributions"
+    ]
+  },
+  "Other Income": {
+    "Other Income": [
+      "Other Income - Other",
+      "Interest Income",
+      "Other Income",
+      "Event Income",
+      "Other Income - Other",
+      "Interest Income",
+      "Other Misc Income",
+      "Uncategorized Income",
+      "Other Income",
+      "Other Income",
+      "Uncategorized Income",
+      "Other Income - Other",
+      "Interest Income",
+      "Other Income",
+      "Other Income - Other",
+      "Interest Income",
+      "Other Income",
+      "Event Income",
+      "Other Income",
+      "Other Income - Other",
+      "Interest Income",
+      "Other Incomes",
+      "Uncategorized Income",
+      "Other Income",
+      "Other Income",
+      "Other Income",
+      "AR Chargeback"
+    ],
+    "Sales Adjustments - Other": [
+      "Sales Adjustments - Other"
+    ],
+    "Chargebacks": [
+      "Chargebacks"
+    ],
+    "Extra/Short Receipts": [
+      "Extra/Short Receipts"
+    ],
+    "Under/Over": [
+      "Under/Over"
+    ],
+    "Digital Sales - Adjustments": [
+      "Digital Sales - Adjustments"
+    ],
+    "Other Income - Other": [
+      "Other Income - Other"
+    ],
+    "Interest Income": [
+      "Interest Income"
+    ],
+    "Total Other Income": [
+      "Other Income",
+      "Other Income",
+      "Depreciation Expense"
+    ],
+    "PROFIT BEFORE TAX & DEPRECIATION": [
+      "Other Income",
+      "Interest Income",
+      "Other Income"
+    ]
+  },
+  "TOTAL OCCUPANCY": {
+    "TOTAL OCCUPANCY": [
+      "TOTAL OCCUPANCY",
+      "Occupancy Costs - Other",
+      "Rent",
+      "Real Estate Escalation Tax",
+      "Commercial Rent Tax",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent",
+      "Security and Alarm",
+      "Occupancy Costs - Other",
+      "Rent",
+      "Percentage Rent",
+      "Real Estate Escalation Tax",
+      "Commercial Rent Tax",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent",
+      "Security and Alarm",
+      "CAM Charges",
+      "PPP Rent",
+      "PPP Utilities",
+      "Rent",
+      "Percentage Rent",
+      "Real Estate Escalation Tax",
+      "Commercial Rent Tax",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent",
+      "Security Services",
+      "Condo Charges",
+      "Rent",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent &Vestibule Storage",
+      "General Liability Insurance",
+      "Security Services"
+    ]
+  },
+  "STAFF COST": {
+    "TOTAL STAFF COST": [
+      "TOTAL STAFF COST",
+      "Labor Cost",
+      "Wage Cost",
+      "FOH",
+      "Wages - F.O.H. Salaried",
+      "GM",
+      "Assistant Manager",
+      "Floor Manager",
+      "Wages - F.O.H. Hourly",
+      "Wages - F.O.H. Hourly - OT",
+      "Server",
+      "Busser",
+      "Runner",
+      "Bartender",
+      "Barback",
+      "Hostess",
+      "Cashier",
+      "BOH",
+      "Wages - B.O.H. Salaried",
+      "Executive Chef",
+      "Sous Chef",
+      "Chef de Cuisine",
+      "Wages - B.O.H. Hourly",
+      "Wages - B.O.H. Hourly - OT",
+      "Cook",
+      "Steward",
+      "Receiving Clerk",
+      "Fresh Direct Payroll",
+      "Labor Cost - Other",
+      "Wage Cost - Other",
+      "PPP Payroll Expense",
+      "FOH",
+      "FOH",
+      "FOH",
+      "FOH",
+      "FOH",
+      "FOH",
+      "FOH",
+      "FOH",
+      "BOH",
+      "BOH",
+      "BOH",
+      "BOH",
+      "BOH",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Use Tax on Comps",
+      "Valet Parking Charges",
+      "Payroll Expenses",
+      "Wages - F.O.H. Salaries - Other",
+      "Wages - Management FOH/BOH",
+      "Wages-Waitress / Hostess",
+      "Wages - Management (1099)",
+      "Wages - FOH",
+      "Wages - B.O.H. Salaries - Other",
+      "Wages - Kitchen",
+      "Wages - Porters",
+      "Wages - Prep & Cook",
+      "Wages - Dish Washers",
+      "Wages - BOH",
+      "Wages - Other",
+      "Wages - Severance",
+      "Managers - Bonus",
+      "Wages - Bonus",
+      "Wages - Agency",
+      "Guaranteed Payments",
+      "Employer Taxes - Other",
+      "Federal FICA",
+      "Federal FUTA",
+      "State SUI",
+      "MTA",
+      "NY Family paid & Disability Ins",
+      "Commission Expenses"
+    ],
+    "Wages - F.O.H.": [
+      "Wages - F.O.H.",
+      "Wages - F.O.H.",
+      "Wages - F.O.H.",
+      "Wages - F.O.H.",
+      "Wages - F.O.H.",
+      "Wages - F.O.H.",
+      "Wages - F.O.H.",
+      "Wages - F.O.H.",
+      "Wages - F.O.H.",
+      "Wages - F.O.H.",
+      "Wages - F.O.H.",
+      "Wages - F.O.H."
+    ],
+    "Wages - B.O.H.": [
+      "Wages - B.O.H.",
+      "Wages - B.O.H.",
+      "Wages - B.O.H.",
+      "Wages - B.O.H.",
+      "Wages - B.O.H.",
+      "Wages - B.O.H.",
+      "Wages - B.O.H.",
+      "Wages - B.O.H.",
+      "Wages - B.O.H.",
+      "Wages - B.O.H.",
+      "Wages - B.O.H.",
+      "Wages - B.O.H.",
+      "Line Cook",
+      "Prep Hourly",
+      "Prep Salaried",
+      "Dishwasher",
+      "BOH Overtime",
+      "Pastry Hourly",
+      "Executive Chef ( Hourly)",
+      "Pastry Salaried",
+      "Manager Salaried",
+      "Executive Chef"
+    ],
+    "Wages - Bonuses": [
+      "Wages - Bonuses",
+      "Wages - Bonuses"
+    ],
+    "Salaries - Owners": [
+      "Salaries - Owners",
+      "Salaries - Owners"
+    ],
+    "Guaranteed Payments": [
+      "Guaranteed Payments"
+    ],
+    "Wages - Tips": [
+      "Wages - Tips",
+      "Wages - Tips"
+    ],
+    "Wages - 1099": [
+      "Wages - 1099",
+      "Wages - 1099",
+      "Wages - 1099",
+      "Wages - 1099"
+    ],
+    "Other - Wages": [
+      "Other - Wages"
+    ],
+    "Employer Taxes": [
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes - Other",
+      "Federal FUTA",
+      "Medicare",
+      "DC Unemploy/Surcharge",
+      "Social Security / OASDI",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes"
+    ],
+    "STAFF COST": [
+      "Wages - F.O.H. Salaries",
+      "Wages - F.O.H. Salaries",
+      "Wages - F.O.H. Salaries",
+      "Wages - F.O.H. Salaries",
+      "Wages - F.O.H. Salaries",
+      "Wages - F.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages – Contractor",
+      "Wages - Bonus",
+      "Wages - Others",
+      "Wages - Commission",
+      "Cash - Wages",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "STAFF COST",
+      "STAFF COST",
+      "STAFF COST",
+      "Payroll Processing Fees",
+      "Workers Compansation",
+      "Other Employee Benefits",
+      "Staff Bonus",
+      "Management Bonus",
+      "Staff Medical Insurance",
+      "Group Insurance",
+      "Staff benifit/employee cost",
+      "Disability Insurance",
+      "Wages - F.O.H. Salaries",
+      "Wages - F.O.H. Salaries",
+      "Wages - F.O.H. Salaries",
+      "Wages - F.O.H. Salaries",
+      "Wages - F.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages - B.O.H. Salaries",
+      "Wages – Contractor",
+      "Wages - Bonus",
+      "Wages - Others",
+      "Wages - Agency",
+      "Cash - Wages",
+      "Wages-Commission",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes",
+      "Employer Taxes"
+    ],
+    "Owner Salary": [
+      "Owner Salary",
+      "Owner Salary"
+    ],
+    "Administration Salaries": [
+      "Administration Salaries",
+      "Administration Salaries"
+    ],
+    "Management Salaries": [
+      "Management Salaries",
+      "Management Salaries"
+    ],
+    "Hourly Management": [
+      "Hourly Management"
+    ],
+    "Cooks": [
+      "Cooks",
+      "Cooks"
+    ],
+    "Prep Cooks": [
+      "Prep Cooks",
+      "Prep Cooks"
+    ],
+    "Dishwashers": [
+      "Dishwashers"
+    ],
+    "Bussers": [
+      "Bussers",
+      "Bussers"
+    ],
+    "Hosts": [
+      "Hosts",
+      "Hosts"
+    ],
+    "Servers": [
+      "Servers",
+      "Servers"
+    ],
+    "Barbacks": [
+      "Barbacks",
+      "Barbacks"
+    ],
+    "Bartenders": [
+      "Bartenders",
+      "Bartenders"
+    ],
+    "Employee Sick Pay": [
+      "Employee Sick Pay",
+      "Employee Sick Pay"
+    ],
+    "Employee Bonus": [
+      "Employee Bonus",
+      "Employee Bonus"
+    ],
+    "Staff - Training": [
+      "Staff - Training"
+    ],
+    "TOTAL EMPLOYEE BENEFITS": [
+      "Employer PR Taxes",
+      "Workers Compesation",
+      "Medical Insurance",
+      "401K Expense",
+      "TOTAL EMPLOYEE BENEFITS",
+      "Employer Taxes",
+      "Workers Compensation",
+      "Medical Insurance",
+      "401K Expense",
+      "Wage Garnishment",
+      "Health Insurance",
+      "TOTAL EMPLOYEE BENEFITS"
+    ],
+    "Sick Pay": [
+      "Sick Pay"
+    ],
+    "Dishwasher": [
+      "Dishwasher"
+    ],
+    "Server Sick Pay": [
+      "Server Sick Pay"
+    ],
+    "Delivery Service Driver": [
+      "Delivery Service Driver"
+    ],
+    "Training": [
+      "Training"
+    ],
+    "Security Wages": [
+      "Security Wages"
+    ],
+    "Wage Cost - Other": [
+      "Wage Cost - Other",
+      "Wage Cost - Other"
+    ],
+    "Wages - F.O.H": [
+      "Wages - F.O.H",
+      "Market Hourly",
+      "Bartender",
+      "Servers",
+      "Bussers",
+      "Host",
+      "Manager",
+      "Market Salaried",
+      "FOH Overtime",
+      "Barista/Cashier",
+      "Supervisor"
+    ],
+    "FOH": [
+      "Manager",
+      "Server",
+      "Busser/Runner",
+      "Bartender",
+      "Waiter",
+      "Cashier",
+      "Other"
+    ],
+    "FOH O.T.": [
+      "FOH O.T."
+    ],
+    "Wages - B.O.H. Salaried": [
+      "Wages - B.O.H. Salaried",
+      "Wages - B.O.H. Salaried",
+      "Wages - B.O.H. Salaried",
+      "Wages - B.O.H. Salaried",
+      "Wages - B.O.H. Salaried"
+    ],
+    "BOH": [
+      "Executive Chef",
+      "Cook",
+      "Dishwasher"
+    ],
+    "BOH O.T.": [
+      "BOH O.T."
+    ],
+    "Total Wages 1099": [
+      "Wages - 1099",
+      "Contractor Labor"
+    ],
+    "Total Wages": [
+      "Regulare Wages",
+      "Vacation Pay",
+      "Total Wages"
+    ],
+    "Total Tips": [
+      "Tips Expenses"
+    ],
+    "Total Employer Taxes": [
+      "Federal FUTA",
+      "Medicare",
+      "Ny Re-employment",
+      "State SUI",
+      "OASDI",
+      "Employer Taxes - Other",
+      "Federal FUTA",
+      "Medicare & Social Security",
+      "Ny Re-employment",
+      "Ny MTAI",
+      "State SUI",
+      "OASDI",
+      "ERTC",
+      "Employer Taxes - Other",
+      "Federal FUTA",
+      "Medicare & Social Security",
+      "Ny Re-employment",
+      "Ny MTAI",
+      "State SUI",
+      "OASDI",
+      "ERTC",
+      "Labour - Other",
+      "Wages - 1099",
+      "Employer Taxes - Other",
+      "Federal FUTA",
+      "Medicare & Social Security",
+      "Ny Re-employment",
+      "Ny MTAI",
+      "State SUI",
+      "OASDI",
+      "ERTC"
+    ],
+    "TOTAL OTHER STAFF COST": [
+      "Labour - Other",
+      "Wages - Agency",
+      "Wages - 1099",
+      "Cash - Wages",
+      "Consulting fees",
+      "Executive Fees",
+      "Catering & Admin",
+      "Payroll Expense",
+      "Payroll Admin",
+      "R&M Manager",
+      "District Manager",
+      "Labour - Other",
+      "Wages - F.O.H. Management",
+      "Wages - B.O.H. Management",
+      "Wages - Agency",
+      "Wages - 1099",
+      "Cash - Wages",
+      "Consulting fees",
+      "Executive Fees",
+      "Catering & Admin",
+      "Payroll Expense",
+      "Payroll Admin",
+      "R&M Manager",
+      "District Manager"
+    ],
+    "Wages - Other": [
+      "Wages - Other",
+      "Wages - Other",
+      "Wages - Other",
+      "Wages - Other"
+    ],
+    "Total Employer Benefits": [
+      "Employment Benefits - Other",
+      "Staff Workman's Comp",
+      "Staff Insurance - Other",
+      "Medical",
+      "Dental",
+      "Vision",
+      "Disability",
+      "PFL Insurance",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Conveyance Charges",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "Training",
+      "Paid Time Off",
+      "Bonus",
+      "Vacation",
+      "Employment Benefits - Other",
+      "Staff Workman's Comp",
+      "Staff Insurance - Other",
+      "Medical",
+      "Dental",
+      "Vision",
+      "Disability",
+      "PFL Insurance",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Executive Benefits",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "Training",
+      "Paid Time Off",
+      "Bonus",
+      "Vacation",
+      "Employment Benefits - Other",
+      "Wages - Agency",
+      "Cash - Wages",
+      "Staff Workman's Comps",
+      "Staff Insurance - Other",
+      "Medical",
+      "Dental",
+      "Vision",
+      "Disability",
+      "PFL Insurance",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Conveyance Charges",
+      "Staff Accommodation/Relocation",
+      "Staff First Aids",
+      "Training",
+      "Paid Time Off",
+      "Bonus",
+      "Vacation",
+      "Garnishments"
+    ],
+    "Total Wages - F.O.H. Wages": [
+      "Wages - F.O.H. Wages - Other",
+      "Assistant Manager",
+      "Counter",
+      "General Manager",
+      "Shift Leader",
+      "Operations",
+      "Human Resource",
+      "Server",
+      "Supervisor",
+      "Wages - F.O.H. Wages - Other",
+      "Assistant Manager",
+      "Counter",
+      "General Manager",
+      "Shift Leader",
+      "Operations",
+      "Human Resource",
+      "Server",
+      "Supervisor",
+      "Wages - F.O.H. Wages - Other",
+      "Assistant Manager",
+      "Counter",
+      "General Manager",
+      "Shift Leader",
+      "Operations",
+      "Human Resource",
+      "Server",
+      "Supervisor",
+      "Wages - F.O.H. Wages - Other",
+      "Assistant Manager",
+      "General Manager",
+      "Shift Leader",
+      "Operations",
+      "Human Resource",
+      "Server",
+      "Supervisor"
+    ],
+    "Total Wages - B.O.H. Hourly": [
+      "Wages - B.O.H. Wages - Other",
+      "Delivery",
+      "Pizza",
+      "Oven",
+      "Prep",
+      "Dishwasher/Porter",
+      "Wages - B.O.H. Wages - Other",
+      "Delivery",
+      "Pizza",
+      "Oven",
+      "Prep",
+      "Dishwasher/Porter"
+    ],
+    "Wages - F.O.H. Management": [
+      "Wages - F.O.H. Management",
+      "Wages - F.O.H. Management",
+      "Wages - F.O.H. Management"
+    ],
+    "Wages - B.O.H. Management": [
+      "Wages - B.O.H. Management",
+      "Wages - B.O.H. Management",
+      "Wages - B.O.H. Management"
+    ],
+    "Total Wages - F.O.H. Salaried": [
+      "Wages - 1099",
+      "GM",
+      "Front Manager",
+      "Busser/Runner",
+      "Bartender",
+      "Barista",
+      "Kitchen Manager"
+    ],
+    "Total Wages FOH Hourly": [
+      "Server",
+      "Captain"
+    ],
+    "Total Wages B.O.H Salaried": [
+      "Total Wages B.O.H Salaried"
+    ],
+    "Total Wages B.O.H. Hourly": [
+      "Total Wages B.O.H. Hourly",
+      "Total Wages B.O.H. Hourly"
+    ],
+    "Total Wages - FOH": [
+      "Total Wages - FOH",
+      "Wages - FOH - Other",
+      "FOH Hourly - Other",
+      "Wages - F.O.H. Hourly - Other",
+      "Server?",
+      "Busser?",
+      "Runner?",
+      "Bartender?",
+      "Barback?",
+      "Bathroom attendants",
+      "Training",
+      "Floor Caption",
+      "Host",
+      "Wages - F.O.H. Hourly - OT - Other",
+      "Server",
+      "Busser",
+      "Runner",
+      "Bartender",
+      "Barback",
+      "Hostess"
+    ],
+    "Total Wages - F.O.H. Hourly - OT": [
+      "Total Wages - F.O.H. Hourly - OT",
+      "BOH - Other",
+      "Wages - B.O.H. Salaried - Other",
+      "Executive Chef",
+      "Sous Chef",
+      "Chef de Cuisine",
+      "Shift Manager/Assist",
+      "Wages Bonus",
+      "Wages - B.O.H. Hourly - Other",
+      "Prep Cook",
+      "Steward?",
+      "Dishwasher",
+      "Cook?",
+      "Wages - B.O.H. Hourly - OT - Other",
+      "Cook",
+      "Steward",
+      "Receiving Clerk"
+    ],
+    "F.O.H Salaried": [
+      "F.O.H Salaried"
+    ],
+    "Shift Manager": [
+      "Shift Manager"
+    ],
+    "Total Wages - B.O.H. Wages": [
+      "Wages - B.O.H. Wages - Other",
+      "Delivery",
+      "Pizza",
+      "Oven",
+      "Prep",
+      "Dishwasher/Porter"
+    ],
+    "Total Salaries & Wages": [
+      "Salaries & Wages - Other",
+      "Salary - Management",
+      "Salary - FOH Hourly",
+      "Salary - BOH Hourly",
+      "Salary - FOH Overtime",
+      "Salary - BOH Overtime",
+      "Salary - Paid Time Off",
+      "Salary - Paid Sick Days",
+      "Spread of Hours"
+    ],
+    "Total Payroll Taxes": [
+      "Payroll Taxes - Other",
+      "Employer Taxes - Medicare",
+      "Employer Taxes-Social Security",
+      "NY Re-Employement Service Fund",
+      "Federal Unemployment Tax",
+      "State Unemployment Tax",
+      "Staff Meal Purchases"
+    ],
+    "Total FOH Salaries": [
+      "Budgeted FOH Cost",
+      "FOH",
+      "Management",
+      "Admin",
+      "Wages Bonus",
+      "Waiter",
+      "Busboy",
+      "Runner",
+      "Bar",
+      "Cashier",
+      "Hostess",
+      "Wages F.O.H. Overtime"
+    ],
+    "BOH SALARIES": [
+      "Budgeted BOH Cost",
+      "BOH",
+      "Bonus BOH",
+      "Kitchen",
+      "Porter",
+      "Kitchen - Jacob Mark",
+      "Polisher",
+      "Wages B.O.H. Overtime"
+    ],
+    "PPP Payroll Taxes": [
+      "PPP Payroll Taxes"
+    ],
+    "PPP Payroll": [
+      "PPP Payroll"
+    ],
+    "Total Labour - Other": [
+      "Labour - Other"
+    ],
+    "Total Employment Benefits": [
+      "Employment Benefits - Other",
+      "Staff Workman's Comp",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Executive Benefits",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "Training",
+      "Paid Time Off",
+      "Bonus",
+      "Vacation"
+    ],
+    "Total Wages -B.O.H. Wages": [
+      "Wages - B.O.H. Wages - Other",
+      "Delivery",
+      "Pizza",
+      "Oven",
+      "Prep",
+      "Dishwasher/Porter"
+    ],
+    "Wages - Agency": [
+      "Wages - Agency"
+    ],
+    "Cash - Wages": [
+      "Cash - Wages",
+      "Cash - Wages"
+    ],
+    "Consulting Fee": [
+      "Consulting Fee",
+      "Consulting Fee"
+    ],
+    "Executive Fees": [
+      "Executive Fees",
+      "Executive Fees"
+    ],
+    "Catering & Admin": [
+      "Catering & Admin",
+      "Catering & Admin"
+    ],
+    "Payroll Expense": [
+      "Payroll Expense",
+      "Payroll Expense"
+    ],
+    "Total Wages Employer Taxes": [
+      "Employer Taxes - Other",
+      "Federal FUTA",
+      "Medicare & Social Security",
+      "Ny Re-employment",
+      "Ny MTAI",
+      "State SUI",
+      "OASDI",
+      "ERTC"
+    ],
+    "Total Staff Insurance": [
+      "Staff Insurance - Other",
+      "Medical",
+      "Dental",
+      "Vision",
+      "Disability",
+      "PFL Insurance"
+    ],
+    "Payroll Admin": [
+      "Payroll Admin",
+      "Payroll Admin"
+    ],
+    "R&M Manager": [
+      "R&M Manager",
+      "R&M Manager"
+    ],
+    "District Manager": [
+      "District Manager",
+      "District Manager"
+    ],
+    "Other-Wages": [
+      "Other-Wages"
+    ],
+    "Labor Cost - Other": [
+      "Labor Cost - Other"
+    ],
+    "Wages - F.O.H. Salaried": [
+      "Wages - F.O.H. Salaried",
+      "Wages - F.O.H. Salaried",
+      "Wages - F.O.H. Salaried",
+      "Wages - F.O.H. Salaried"
+    ],
+    "Wages - F.O.H. Hourly": [
+      "Wages - F.O.H. Hourly",
+      "Wages - F.O.H. Hourly",
+      "Wages - F.O.H. Hourly",
+      "Wages - F.O.H. Hourly",
+      "Wages - F.O.H. Hourly",
+      "Wages - F.O.H. Hourly",
+      "Wages - F.O.H. Hourly",
+      "Wages - F.O.H. Hourly",
+      "Wages - F.O.H. Hourly",
+      "Wages - F.O.H. Hourly",
+      "Wages - F.O.H. Hourly"
+    ],
+    "Wages - F.O.H. Hourly - OT": [
+      "Wages - F.O.H. Hourly - OT",
+      "Wages - F.O.H. Hourly - OT",
+      "Wages - F.O.H. Hourly - OT",
+      "Wages - F.O.H. Hourly - OT",
+      "Wages - F.O.H. Hourly - OT",
+      "Wages - F.O.H. Hourly - OT",
+      "Wages - F.O.H. Hourly - OT"
+    ],
+    "Wages - B.O.H. Hourly": [
+      "Wages - B.O.H. Hourly",
+      "Wages - B.O.H. Hourly",
+      "Wages - B.O.H. Hourly",
+      "Wages - B.O.H. Hourly",
+      "Wages - B.O.H. Hourly",
+      "Wages - B.O.H. Hourly"
+    ],
+    "Wages - B.O.H. Hourly - OT": [
+      "Wages - B.O.H. Hourly - OT",
+      "Wages - B.O.H. Hourly - OT",
+      "Wages - B.O.H. Hourly - OT",
+      "Wages - B.O.H. Hourly - OT"
+    ]
+  },
+  "ADVERTISING / PROMOTION": {
+    "Complimentary Cost": [
+      "Complimentary Cost",
+      "Complimentary Cost",
+      "Complimentary Cost",
+      "Complimentary Cost",
+      "Complimentary Cost"
+    ],
+    "ADVERTISING / PROMOTION": [
+      "ADVERTISING / PROMOTION",
+      "Advertising and Promotion - Other",
+      "Advertising",
+      "Public Relations",
+      "Branding & Design",
+      "R & D",
+      "Event Expenses",
+      "Commission Expense",
+      "Subscriptions",
+      "Photography expense",
+      "Complimentary Cost"
+    ],
+    "TOTAL PROMOTION": [
+      "Advertising",
+      "Advertising",
+      "Advertising",
+      "Public Relations",
+      "Web Design & Maintenance",
+      "Branding & Design",
+      "R & D",
+      "Event Expenses",
+      "Commission Expense",
+      "Car Lease Expense",
+      "Subscriptions",
+      "Photography Expense",
+      "Interior Design",
+      "Donations"
+    ],
+    "Advertising": [
+      "Advertising"
+    ],
+    "Public Relations": [
+      "Public Relations"
+    ],
+    "Web Design & Maintenance": [
+      "Web Design & Maintenance"
+    ],
+    "R & D": [
+      "R & D"
+    ],
+    "Event Expenses": [
+      "Event Expenses"
+    ],
+    "Subscriptions": [
+      "Subscriptions"
+    ],
+    "Photography Expense": [
+      "Photography Expense"
+    ],
+    "Investor": [
+      "Investor"
+    ],
+    "Guest Relation": [
+      "Guest Relation"
+    ],
+    "Gift Card Promotion": [
+      "Gift Card Promotion"
+    ],
+    "Donations": [
+      "Donations"
+    ],
+    "TOTAL ADVERTISING / PROMOTION": [
+      "Advertising",
+      "Public Relations",
+      "R & D",
+      "Event Expenses",
+      "Clearing & Forwarding Charges",
+      "Subscriptions",
+      "Photography expense",
+      "Complimentary Cost"
+    ]
+  },
+  "TOTAL TRAVEL & ENTERTAINMENT": {
+    "TOTAL TRAVEL & ENTERTAINMENT": [
+      "TOTAL TRAVEL & ENTERTAINMENT",
+      "Airfare",
+      "Meals & Entertainment",
+      "Taxi/Travel Charges",
+      "Auto Expense",
+      "Valet Parking - Guest",
+      "Airfare",
+      "Travel Expenses",
+      "Entertainment Meals",
+      "Lodging",
+      "Taxi & Uber Charges"
+    ]
+  },
+  "TOTAL COMMUNICATION": {
+    "TOTAL COMMUNICATION": [
+      "TOTAL COMMUNICATION",
+      "Web Design & Maintenance",
+      "Clearing and Freight charges",
+      "Telephone",
+      "Internet/Email",
+      "Subscriptions",
+      "Telephone & Internet",
+      "Postage",
+      "Postage / Courier",
+      "Internet/Email"
+    ]
+  },
+  "TOTAL SUPPLIES & MAINTENANCE": {
+    "TOTAL SUPPLIES & MAINTENANCE": [
+      "TOTAL SUPPLIES & MAINTENANCE",
+      "Supplies and Maintenance - Other",
+      "Linen & Laundry",
+      "Cleaning Supplies",
+      "Cleaning Contract Services",
+      "Cleaning Supplies",
+      "Cleaning Supplies",
+      "Restaurant Supplies",
+      "Restaurant Supplies",
+      "Paper Supplies",
+      "Packaging Supplies",
+      "Chinaware",
+      "Flatware",
+      "Glassware",
+      "Barware",
+      "Music",
+      "Landscape, Candles & Decor",
+      "Office Supplies/Stationery",
+      "Menus",
+      "IT Cost",
+      "Equipment Rental",
+      "Repairs - Building",
+      "Repairs - Equipment",
+      "Repairs - General",
+      "Postage & Courier",
+      "Flowers Expense",
+      "Tip Expense",
+      "Computer Expense",
+      "Maintenance Contract",
+      "Petty - Cash",
+      "Restaurant Supplies",
+      "Ask My Accountant",
+      "Linen & Laundry",
+      "Cleaning General",
+      "Cleaning Hood / Grease Trap",
+      "Pest Control",
+      "Trash/Waste Removal Service",
+      "BOH Accessories",
+      "FOH Accessories",
+      "Paper Supplies",
+      "Packaging",
+      "Silverware",
+      "Glassware",
+      "Barware",
+      "Music",
+      "Decoration, Flowers & Candles",
+      "Office Supplies/Stationery",
+      "Menus",
+      "IT Cost",
+      "Equipment Rental",
+      "Repairs - Building",
+      "Repairs - Equipment",
+      "Repairs - General",
+      "Postage & Courier",
+      "Decorations"
+    ]
+  },
+  "TOTAL REPAIRS & MAINTENANCE": {
+    "TOTAL REPAIRS & MAINTENANCE": [
+      "TOTAL REPAIRS & MAINTENANCE",
+      "Repairs & Maintenance - Other",
+      "Equipment",
+      "Maintenance",
+      "Building and Grounds",
+      "Janitorial",
+      "Contract Labor",
+      "TOTAL REPAIRS & MAINTENANCE",
+      "Repairs / Maintenance",
+      "New furniture, Equipment, Upgrades and Plants",
+      "Other Maintenance",
+      "Maintenance Contracts"
+    ]
+  },
+  "TOTAL FINANCIAL COST": {
+    "TOTAL FINANCIAL COST": [
+      "TOTAL FINANCIAL COST",
+      "Management Fees",
+      "Commission Expenses",
+      "Legal Fees",
+      "Sales Tax Expense",
+      "Tax Fees",
+      "Professional Fees",
+      "Bookkeeping Services (Pchase)",
+      "PaperChase Fees",
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Bank Charges",
+      "Donations",
+      "Penalties",
+      "Licenses and Permits",
+      "Charity",
+      "Consulting Fees"
+    ]
+  },
+  "Transfer From/To  Piccolina": {
+    "Transfer From/To  Piccolina": [
+      "Transfer From/To  Piccolina"
+    ]
+  },
+  "INTEREST & OTHER EXPENSES": {
+    "INTEREST & OTHER EXPENSES": [
+      "INTEREST & OTHER EXPENSES",
+      "Over / Under",
+      "Director Of Operation-Salary",
+      "Amy’s CEO Salary Portion",
+      "Bank Interest",
+      "Other Income",
+      "Other Income",
+      "Ask My Accountant",
+      "Under/Over",
+      "Other Expenses - 910-000",
+      "Customer Balance (Write Off)",
+      "Other Expenses"
+    ]
+  },
+  "OCCUPANCY": {
+    "OCCUPANCY": [
+      "Security and Alarm",
+      "Pest Control",
+      "Rent",
+      "Rent",
+      "Rent",
+      "Real Estate Escalation Tax",
+      "Electricity",
+      "Gas",
+      "Wood Expense",
+      "Insurance",
+      "Rent",
+      "Landlord Settle. for Key Money",
+      "Real Estate Escalation Tax",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent",
+      "Insurance",
+      "Security Services",
+      "CAM Charges",
+      "Monitoring charges",
+      "Collected by Steven for Rent",
+      "Rent",
+      "Real Estate Escalation Tax",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent",
+      "Insurance",
+      "Security Services",
+      "Monitoring charges",
+      "Collected by Steven for Rent",
+      "Occupancy Costs - Other",
+      "Rent",
+      "Percentage Rent",
+      "Real Estate Escalation Tax",
+      "Commercial Rent Tax",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent",
+      "Security and Alarm",
+      "CAM Charges",
+      "Internet /Telephone"
+    ],
+    "OCCUPANCY COST": [
+      "Rent",
+      "Percentage Rent",
+      "Real Estate Escalation Tax",
+      "Commercial Rent Tax",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent",
+      "Security and Alarm",
+      "CAM Charges"
+    ],
+    "TOTAL OCCUPANCY": [
+      "Tangible Property Taxes",
+      "Rent",
+      "Real Estate Escalation Tax",
+      "Commercial Rent Tax",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent",
+      "Security & Alarm",
+      "CAM Charges",
+      "Storage Rent",
+      "Rent",
+      "Real Estate Escalation Tax",
+      "Security Services",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Expense",
+      "Insurance",
+      "Elevator Charges",
+      "CAM Charges"
+    ],
+    "Security and Alarm": [
+      "Security and Alarm"
+    ],
+    "Rent": [
+      "Base- Rent"
+    ],
+    "Real Estate Escalation Tax": [
+      "Real Estate Escalation Tax"
+    ],
+    "Electricity": [
+      "Electricity"
+    ],
+    "Gas": [
+      "Gas"
+    ],
+    "Wood Expenses": [
+      "Wood Expenses"
+    ],
+    "Insurance": [
+      "Insurance"
+    ],
+    "Pest Control": [
+      "Pest Control"
+    ]
+  },
+  "TRAVEL & ENTERTAINMENT": {
+    "TRAVEL & ENTERTAINMENT": [
+      "Travel Cost",
+      "Entertainment Meals",
+      "Lodging",
+      "Parking Charges",
+      "Chef's Table",
+      "Auto Expense",
+      "Airfare",
+      "Lodging",
+      "Transport – Charges",
+      "Shipping Charges",
+      "Travel and Entertainment - Other",
+      "Airfare",
+      "Meals & Entertainment",
+      "Lodging",
+      "Taxi Charges & Local Travel",
+      "Auto Expense",
+      "Airfare",
+      "Lodging",
+      "Transport – Charges",
+      "Shipping Charges",
+      "Travel and Entertainment - Other",
+      "Airfare",
+      "Meals & Entertainment",
+      "Lodging",
+      "Delivery Charges",
+      "Taxi Charges & Local Travel",
+      "Auto Expense",
+      "Web Design & Maintenance",
+      "Valet Parking - Guest",
+      "Clearing and Freight charges"
+    ],
+    "Total Travelling": [
+      "Airfare",
+      "Meals & Entertainment",
+      "Taxi Charges & Local Travel",
+      "Clearing and Freight charges",
+      "Lodging"
+    ],
+    "TOTAL TRAVEL & ENTERTAINMENT": [
+      "Airfare",
+      "Meals & Entertainment",
+      "Lodging",
+      "Taxi Charges & Local Travel",
+      "Auto Expense",
+      "Airfare",
+      "Lodging",
+      "Transport – Taxi, Metro & Fuel"
+    ],
+    "Travel Cost": [
+      "Travel Cost"
+    ],
+    "Entertainment Meals": [
+      "Entertainment Meals"
+    ],
+    "Lodging": [
+      "Lodging"
+    ],
+    "Parking Charges": [
+      "Parking Charges"
+    ],
+    "Auto Expense": [
+      "Auto Expense"
+    ]
+  },
+  "COMMUNICATION": {
+    "COMMUNICATION": [
+      "Telephone",
+      "Postage",
+      "Courier",
+      "Telephone",
+      "Postage/Courier",
+      "Internet/Email",
+      "Web Design & Maintenance",
+      "Valet Parking - Guest",
+      "Clearing and Freight charges",
+      "Telephone",
+      "Internet/Email",
+      "Telephone",
+      "Postage/Courier"
+    ],
+    "Total Telecommunication Cost": [
+      "Telephone",
+      "Internet/Email"
+    ],
+    "TOTAL COMMUNICATION": [
+      "Web Design & Maintenance",
+      "Telephone",
+      "Internet/Email",
+      "Telephone",
+      "Postage/Courier",
+      "Internet/Email"
+    ],
+    "Telephone": [
+      "Telephone"
+    ],
+    "Postage": [
+      "Postage"
+    ],
+    "Courier": [
+      "Courier"
+    ]
+  },
+  "SUPPLIES & MAINTENANCE": {
+    "SUPPLIES & MAINTENANCE": [
+      "Linen & Laundry",
+      "Cleaning",
+      "Cleaning Services",
+      "Kitchen Accessories",
+      "Wood Expenses",
+      "Restaurant",
+      "China, Glass, Silverware",
+      "Barware",
+      "Music",
+      "Landscape, Flowers & Candles",
+      "Office Supplies/Stationery",
+      "Printing Expense",
+      "Menus",
+      "IT Cost",
+      "Equipment Rental",
+      "Supplies",
+      "Trash / Water Condenser",
+      "Reservations",
+      "Carry Out Supplies",
+      "Linen & Laundry",
+      "Cleaning",
+      "Cleaning Contract Services",
+      "Pest Control",
+      "Trash/Waste Removal Service",
+      "BOH Supplies / accessories",
+      "FOH Supplies / accessories",
+      "Paper Supplies",
+      "Packing supply",
+      "Flatware",
+      "Glassware",
+      "Barware",
+      "Music",
+      "Flowers & Candles",
+      "Office Supplies",
+      "Menus",
+      "IT Cost",
+      "Equipment Rental",
+      "Linen & Laundry",
+      "Cleaning",
+      "Cleaning Contract Services",
+      "Pest Control",
+      "Trash/Waste Removal Service",
+      "BOH Supplies / accessories",
+      "FOH Supplies / accessories",
+      "Paper Supplies",
+      "Packing supply",
+      "Flatware",
+      "Glassware",
+      "Barware",
+      "Music",
+      "Flowers & Candles",
+      "Office Supplies",
+      "Menus",
+      "IT Cost",
+      "Supplies and Maintenance - Other",
+      "Linen & Laundry",
+      "Cleaning Supplies",
+      "Cleaning Contract Services",
+      "Pest Control",
+      "Trash/Waste Removal Service",
+      "BOH Supplies & Accessories",
+      "FOH Supplies & Accessories",
+      "Paper Supplies",
+      "Packaging Supplies",
+      "Chinaware",
+      "Flatware",
+      "Glassware",
+      "Barware",
+      "Music",
+      "Landscape, Flowers & Candles",
+      "Office Supplies/Stationery",
+      "Menus",
+      "IT Cost",
+      "Equipment Rental",
+      "Postage & Courier"
+    ],
+    "Linen & Laundry": [
+      "Linen & Laundry",
+      "Linen & Laundry"
+    ],
+    "Cleaning Supplies": [
+      "Cleaning Supplies"
+    ],
+    "Cleaning Contract Services": [
+      "Cleaning Contract Services"
+    ],
+    "Pest Control": [
+      "Pest Control"
+    ],
+    "Trash/Waste Removal Service": [
+      "Trash/Waste Removal Service"
+    ],
+    "BOH Supplies & Accessories": [
+      "BOH Supplies & Accessories"
+    ],
+    "FOH Supplies & Accessories": [
+      "FOH Supplies & Accessories"
+    ],
+    "Paper Supplies": [
+      "Paper Supplies"
+    ],
+    "Packaging Supplies": [
+      "Packaging Supplies"
+    ],
+    "Chinaware": [
+      "Chinaware"
+    ],
+    "Flatware": [
+      "Flatware"
+    ],
+    "Glassware": [
+      "Glassware"
+    ],
+    "Barware": [
+      "Barware",
+      "Barware"
+    ],
+    "Music": [
+      "Music",
+      "Music"
+    ],
+    "Landscape, Flowers & Candles": [
+      "Landscape, Flowers & Candles",
+      "Landscape, Flowers & Candles"
+    ],
+    "Office Supplies/Stationery": [
+      "Office Supplies/Stationery",
+      "Office Supplies/Stationery"
+    ],
+    "Menus": [
+      "Menus",
+      "Menus"
+    ],
+    "IT Cost": [
+      "IT Cost",
+      "IT Cost"
+    ],
+    "Equipment Rental": [
+      "Equipment Rental",
+      "Equipment Rental"
+    ],
+    "Postage & Courier": [
+      "Postage & Courier"
+    ],
+    "Propane Expenses": [
+      "Propane Expenses"
+    ],
+    "TOTAL SUPPLIES & MAINTENANCE": [
+      "Clearing & Freight Charges",
+      "Linen & Laundry",
+      "Cleaning Supplies",
+      "Cleaning Contract Services",
+      "Cleaning Supplies",
+      "Cleaning Supplies",
+      "BOH Supplies & Accessories",
+      "FOH Supplies & Accessories",
+      "Paper Supplies",
+      "Packaging Supplies",
+      "Chinaware",
+      "Flatware",
+      "Glassware",
+      "Barware",
+      "Music",
+      "Landscape, Candles & Decor Cost",
+      "Office Supplies/Stationery",
+      "Menus",
+      "IT Cost",
+      "Equipment Rental",
+      "Repairs - Building",
+      "Repairs - Equipment",
+      "Repairs - General",
+      "Postage & Courier",
+      "Flowers Cost",
+      "Tip Expense",
+      "Computer Expense",
+      "Cleaning Supplies",
+      "Ask My Accountant",
+      "Linen - Laundry",
+      "Cleaning",
+      "Cleaning Contract Services",
+      "Pest Control",
+      "Trash/Waste Removal Service",
+      "BOH Supplies",
+      "FOH Supplies",
+      "Paper Supplies",
+      "Packaging supply",
+      "Chinaware",
+      "Flatware",
+      "Glassware",
+      "Barware",
+      "Music",
+      "Landscape, Flowers & Candles",
+      "Office Supplies/Stationery",
+      "IT Cost",
+      "Equipment Rental",
+      "Menus"
+    ],
+    "Cleaning": [
+      "Cleaning"
+    ],
+    "Cleaning Services": [
+      "Cleaning Services"
+    ],
+    "Kitchen Accessories": [
+      "Kitchen Accessories"
+    ],
+    "Wood Expense": [
+      "Wood Expense"
+    ],
+    "Restaurant": [
+      "Restaurant"
+    ],
+    "China, Glass, Silverware": [
+      "China, Glass, Silverware"
+    ],
+    "Supplies": [
+      "Supplies"
+    ],
+    "Trash / Water Condenser": [
+      "Trash / Water Condenser"
+    ],
+    "Reservations": [
+      "Reservations"
+    ],
+    "Carry Out Supplies": [
+      "Carry Out Supplies"
+    ]
+  },
+  "REPAIRS & MAINTENANCE": {
+    "REPAIRS & MAINTENANCE": [
+      "Repairs - Building",
+      "Repairs - Equipment",
+      "Repairs - General",
+      "Repairs - Building",
+      "Repairs - Equipment",
+      "Repairs - General"
+    ],
+    "Repairs - Building": [
+      "Repairs - Building",
+      "Repairs - Building"
+    ],
+    "Repairs - Equipment": [
+      "Repairs - Equipment",
+      "Repairs - Equipment"
+    ],
+    "Repairs - General": [
+      "Repairs - General",
+      "Repairs - General"
+    ],
+    "TOTAL REPAIRS & MAINTENANCE": [
+      "Repairs - Building",
+      "Repairs - Equipment",
+      "Repairs - General"
+    ]
+  },
+  "FINANCIAL COST": {
+    "FINANCIAL COST": [
+      "Legal Fees",
+      "Tax Fees",
+      "Professional Fees",
+      "Accountancy Charges",
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Eventbrite Fees",
+      "Ritual Fees & Commission",
+      "Caviar/Doordash  Fees",
+      "Resy Merchant Fee",
+      "Credit Card Chargeback",
+      "Bank Charges",
+      "Interest Paid on Loans",
+      "Use Tax on Comps",
+      "Tangible Property Taxes",
+      "Penalties",
+      "Interest on Tax/Penalties",
+      "Licenses and Permits",
+      "Ballpark fees",
+      "Tock Fees",
+      "Sales Tax",
+      "Charge Back - Covid",
+      "Fees / Commisions",
+      "Legal Fees",
+      "Tax Fees",
+      "Professional Fees",
+      "Accountancy Charges",
+      "Payroll Charges",
+      "Credit Card Charges",
+      "Bank Charges",
+      "Donations",
+      "Royalties-Trademark Agreement",
+      "NYC LLC FILLING FEES",
+      "Penalties",
+      "Interest on Tax / Penalties",
+      "License & Permit",
+      "Bad Debts",
+      "Charge Back - Covid",
+      "Fees / Commisions",
+      "Legal Fees",
+      "Tax Fees",
+      "Professional Fees",
+      "Accountancy Charges",
+      "Payroll Charges",
+      "Credit Card Charges",
+      "Bank Charges",
+      "Donations",
+      "Royalties-Trademark Agreement",
+      "NYC LLC FILLING FEES",
+      "Penalties",
+      "Interest on Tax / Penalties",
+      "License & Permit",
+      "Bad Debts",
+      "Car Insurance",
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Bank Charges",
+      "Donations",
+      "Royalties",
+      "Tangible Property Taxes",
+      "Penalties",
+      "Licenses, Permits, and Filing F",
+      "Sales and Use Tax - Charged",
+      "Insurance Expense",
+      "Insurance Expense",
+      "Insurance Expense",
+      "Insurance Expense",
+      "Corporate Tax Expense",
+      "Uncategorized Expenses",
+      "Uncategorized Expenses-69800"
+    ],
+    "Payroll Processing Charges": [
+      "Payroll Processing Charges",
+      "Payroll Processing Charges"
+    ],
+    "Credit Card Charges": [
+      "Credit Card Charges",
+      "Credit Card Charges"
+    ],
+    "Bank Charges": [
+      "Bank Charges",
+      "Bank Charges"
+    ],
+    "Donations": [
+      "Donations"
+    ],
+    "Royalties": [
+      "Royalties"
+    ],
+    "Tangible Property Taxes": [
+      "Tangible Property Taxes",
+      "Tangible Property Taxes"
+    ],
+    "Penalties": [
+      "Penalties",
+      "Penalties"
+    ],
+    "Licenses, Permits, and Filing F": [
+      "Licenses, Permits, and Filing F"
+    ],
+    "Sales and Use Tax": [
+      "Sales and Use Tax"
+    ],
+    "Liability Insurance": [
+      "Liability Insurance"
+    ],
+    "Umbrella Insurance": [
+      "Umbrella Insurance"
+    ],
+    "Car Insurance": [
+      "Car Insurance"
+    ],
+    "Commision Paid -Caviar/Doordash": [
+      "Commision Paid -Caviar/Doordash"
+    ],
+    "Ritual Fees & Commission": [
+      "Ritual Fees & Commission"
+    ],
+    "Legal Fees": [
+      "Legal Fees"
+    ],
+    "Professional Fees": [
+      "Professional Fees"
+    ],
+    "Accountancy Charges": [
+      "Accountancy Charges"
+    ],
+    "Eventbrite Fees": [
+      "Eventbrite Fees"
+    ],
+    "Stripe fees": [
+      "Stripe fees"
+    ],
+    "Credit Card Chargeback": [
+      "Credit Card Chargeback"
+    ],
+    "Interest Paid on Loans": [
+      "Interest Paid on Loans"
+    ],
+    "Use Tax on Comps": [
+      "Use Tax on Comps"
+    ],
+    "Licenses and Permits": [
+      "Licenses and Permits"
+    ],
+    "Tock Fees": [
+      "Tock Fees"
+    ],
+    "Sales Tax": [
+      "Sales Tax"
+    ],
+    "TOTAL FINANCIAL COST": [
+      "Legal Fees",
+      "Audit Fees",
+      "LLC FILING FEE",
+      "Professional Fees",
+      "Consulting",
+      "Accountancy Charges",
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Bank Charges",
+      "Interest Paid on Loans",
+      "Donations",
+      "Franchisee Fees",
+      "Taxes",
+      "Corporate Tax",
+      "Property Tax",
+      "Commercial Rent Tax",
+      "Penalties",
+      "Interest On Tax / Penalties",
+      "License/Permit Fee"
+    ]
+  },
+  "Gross Profit - Food": {
+    "Gross Profit - Food": [
+      "Gross Profit - Food",
+      "Gross Profit - Food",
+      "Gross Profit - Food",
+      "Gross Profit - Food",
+      "Gross Profit - Food",
+      "Gross Profit - Food",
+      "Gross Profit - Food",
+      "Gross Profit - Food",
+      "Gross Profit - Food",
+      "Gross Profit - Food",
+      "Gross Profit - Food"
+    ]
+  },
+  "Gross Profit - Tea/Coffee": {
+    "Gross Profit - Tea/Coffee": [
+      "Gross Profit - Tea/Coffee",
+      "Gross Profit - Tea/Coffee",
+      "Gross Profit - Tea/Coffee",
+      "Gross Profit - Tea/Coffee",
+      "Gross Profit - Tea/Coffee"
+    ]
+  },
+  "Gross Profit - Wines": {
+    "Gross Profit - Wines": [
+      "Gross Profit - Wines",
+      "Gross Profit - Wines",
+      "Gross Profit - Wines",
+      "Gross Profit - Wines",
+      "Gross Profit - Wines",
+      "Gross Profit - Wines",
+      "Gross Profit - Wines",
+      "Gross Profit - Wines",
+      "Gross Profit - Wines"
+    ]
+  },
+  "Gross Profit - Liquor": {
+    "Gross Profit - Liquor": [
+      "Gross Profit - Liquor",
+      "Gross Profit - Liquor",
+      "Gross Profit - Liquor",
+      "Gross Profit - Liquor",
+      "Gross Profit - Liquor",
+      "Gross Profit - Liquor",
+      "Gross Profit - Liquor",
+      "Gross Profit - Liquor",
+      "Gross Profit - Liquor"
+    ]
+  },
+  "Gross Profit - Other Bev": {
+    "Gross Profit - Other Bev": [
+      "Gross Profit - Other Bev",
+      "Gross Profit - Other Bev",
+      "Gross Profit - Other Bev",
+      "Gross Profit - Other Bev",
+      "Gross Profit - Other Bev",
+      "Gross Profit - Other Bev",
+      "Gross Profit - Other Bev",
+      "Gross Profit - Other Bev"
+    ]
+  },
+  "Cost of Sales - FOOD": {
+    "Cost of Sales - FOOD": [
+      "Cost of Sales - Food - Other",
+      "Food Purchases",
+      "Food - Stock Adjustment"
+    ]
+  },
+  "Cost of Sales - Tea/Coffee": {
+    "Cost of Sales - Tea/Coffee": [
+      "Cost of Sales - Tea/Coffee - Other",
+      "Tea/Coffee Purchases",
+      "Tea/Coffee - Stock Adjustment",
+      "Tea/Coffee - Others",
+      "Tea/Coffee Purchases",
+      "Tea/Coffee - Stock Adjustment"
+    ]
+  },
+  "Cost of Sales - Wine": {
+    "Cost of Sales - Wine": [
+      "Cost of Sales - Wine - Other",
+      "Wine Purchases",
+      "Wine - Stock Adjustment"
+    ]
+  },
+  "Cost of Sales - Liquor": {
+    "Cost of Sales - Liquor": [
+      "Cost of Sales - Liquor - Other",
+      "Liquor Purchases",
+      "Liquor - Stock Adjustment",
+      "Liquor Purchase",
+      "Liquor - Stock Adjustment",
+      "Liquor - Others",
+      "Liquor Purchase",
+      "Liquor - Stock Adjustment"
+    ]
+  },
+  "Cost of Sales - Beer": {
+    "Cost of Sales - Beer": [
+      "Cost of Sales - Beer - Other",
+      "Beer Purchases",
+      "Beer - Stock Adjustment",
+      "Beer Purchase",
+      "Beer - Stock Adjustment",
+      "Beer - Others",
+      "Beer Purchases",
+      "Beer - Stock Adjustment"
+    ]
+  },
+  "Cost of Sales - Other Bev": {
+    "Cost of Sales - Other Bev": [
+      "Cost of Sales - Other Bev - Other",
+      "Other Bev Purchases",
+      "Other Bev - Stock Adjustment",
+      "Cost of Sales - Other Bev"
+    ]
+  },
+  "ADVERTISING/PROMOTION": {
+    "ADVERTISING/PROMOTION": [
+      "Advertising",
+      "Public Relations",
+      "Web Design",
+      "Event Expenses",
+      "Commission Expense",
+      "Subscriptions",
+      "Photography expense",
+      "Complimentary Cost",
+      "Complimentary Cost",
+      "Entertainment Meals",
+      "Used Tax on Comps",
+      "Advertising",
+      "Public Relations",
+      "Web Design",
+      "Event Expenses",
+      "Commission Expense",
+      "Subscriptions",
+      "Photography expense",
+      "Complimentary Cost",
+      "Advertising",
+      "Entertainment Meals",
+      "Used Tax on Comps"
+    ]
+  },
+  "REPAIR & MAINTENANCE": {
+    "REPAIR & MAINTENANCE": [
+      "Repairs - Building",
+      "Repairs - Equipment",
+      "Repairs - General",
+      "Repairs - Building",
+      "Repairs - Equipment",
+      "Repairs - General"
+    ]
+  },
+  "Interest on Loans": {
+    "Interest on Loans": [
+      "Interest on Loans",
+      "Interest on Loans"
+    ]
+  },
+  "TOTAL BEVERAGES": {
+    "BEVERAGES": [
+      "TOTAL BEVERAGES"
+    ],
+    "TOTAL BEVERAGES": [
+      "TOTAL BEVERAGES",
+      "TOTAL BEVERAGES"
+    ]
+  },
+  "OTHER INCOME & EXPENSES": {
+    "OTHER INCOME & EXPENSES": [
+      "Bank Interest",
+      "Other Income",
+      "Other Charges",
+      "Other Charges",
+      "Ask My Accountant"
+    ],
+    "Extra/Short Receipts": [
+      "Extra/Short Receipts"
+    ],
+    "Under/Over": [
+      "Under/Over"
+    ],
+    "Other Income": [
+      "Other Income"
+    ],
+    "Uncategorized Income": [
+      "Uncategorized Income"
+    ],
+    "Leasehold Improvements": [
+      "Leasehold Improvements"
+    ],
+    "Machinery & Equipment": [
+      "Machinery & Equipment"
+    ],
+    "Furnitue & Fixture": [
+      "Furnitue & Fixture"
+    ],
+    "Other Expenses": [
+      "Uncategorized Expense",
+      "Other Expense"
+    ],
+    "Pre-Opening Expense": [
+      "Pre-Opening Expense"
+    ],
+    "ASK MY ACCOUNT": [
+      "ASK MY ACCOUNT"
+    ]
+  },
+  "Tips Paid": {
+    "Tips Paid": [
+      "Tips Paid",
+      "Tips Paid"
+    ]
+  },
+  "TOTAL COST OF GOODS SOLD": {
+    "COST OF GOODS SOLD": [
+      "TOTAL COST OF GOODS SOLD"
+    ],
+    "TOTAL COST OF GOODS SOLD": [
+      "TOTAL COST OF GOODS SOLD",
+      "TOTAL COST OF GOODS SOLD",
+      "TOTAL COST OF GOODS SOLD"
+    ]
+  },
+  "Written Off": {
+    "Written Off": [
+      "Written Off",
+      "Written Off"
+    ]
+  },
+  "PL Depreciation & Amortization": {
+    "PL Depreciation & Amortization": [
+      "P & L Amortization",
+      "P & L Depreciation",
+      "P & L Depreciation",
+      "P & L Amortization",
+      "P & L Amortization",
+      "P & L Depreciation"
+    ]
+  },
+  "MARKETING & ADVERTISING": {
+    "Total Discounts": [
+      "Total Discounts",
+      "Discount - Aood",
+      "Discount - Liquor",
+      "Discount - Beer Bottle",
+      "Discount - Beer DraAt",
+      "Discount - Wine",
+      "Discount - NA Beverage",
+      "Discount - Merchandise"
+    ],
+    "Advertising": [
+      "Advertising"
+    ],
+    "Marketing": [
+      "Marketing"
+    ],
+    "Public Relations": [
+      "Public Relations"
+    ],
+    "Consulting": [
+      "Consulting"
+    ],
+    "Recruiting": [
+      "Recruiting"
+    ],
+    "Research and Development": [
+      "Research and Development"
+    ],
+    "Printing Expense": [
+      "Printing Expense"
+    ]
+  },
+  "P & L Depreciation": {
+    "P & L Depreciation": [
+      "P & L Depreciation",
+      "P & L Depreciation",
+      "Depreciation Expense",
+      "P & L Depreciation",
+      "P & L Depreciation",
+      "P & L Depreciation",
+      "P & L Depreciation",
+      "P & L Depreciation",
+      "P & L Depreciation",
+      "P & L Depreciation",
+      "P & L Depreciation"
+    ]
+  },
+  "P & L Amortization": {
+    "P & L Amortization": [
+      "P & L Amortization",
+      "P & L Amortization",
+      "Amortization Expense",
+      "P & L Amortization",
+      "P & L Amortization",
+      "P & L Amortization",
+      "P & L Amortization",
+      "P & L Amortization",
+      "P & L Amortization",
+      "P & L Amortization"
+    ],
+    "TOTAL P & L Amortization": [
+      "P & L Amortization - Other",
+      "Fees"
+    ]
+  },
+  "OCCUPANCY EXPENSE": {
+    "Rent": [
+      "Rent"
+    ],
+    "Personal Property Taxes": [
+      "Personal Property Taxes"
+    ],
+    "Insurance-Property & Casualty": [
+      "Insurance-Property & Casualty"
+    ],
+    "TOTAL UTILITIES": [
+      "Electrical",
+      "Gas",
+      "Water",
+      "Telephone",
+      "Internet Service",
+      "TOTAL UTILITIES"
+    ],
+    "TOTAL REPAIRS & MAINTENANCE": [
+      "Repairs & Maintenance - Other",
+      "Equipment",
+      "Maintenance",
+      "Building and Grounds",
+      "Janitorial",
+      "Contract Labor",
+      "TOTAL REPAIRS & MAINTENANCE"
+    ]
+  },
+  "General & Administrative Exp": {
+    "USE TAX": [
+      "USE TAX"
+    ],
+    "EE Health Services": [
+      "EE Health Services"
+    ],
+    "Office Supplies": [
+      "OAAice Supplies"
+    ],
+    "Computer": [
+      "Computer"
+    ],
+    "Postage & Delivery": [
+      "Postage & Delivery"
+    ],
+    "Payroll Processing": [
+      "Payroll Processing"
+    ],
+    "Insurance General": [
+      "Insurance General"
+    ],
+    "Dues & Subscriptions": [
+      "Dues & Subscriptions"
+    ],
+    "Donations/Charitable Contributi": [
+      "Donations/Charitable Contributi"
+    ],
+    "Credit Card Discounts": [
+      "Credit Card Discounts"
+    ],
+    "3rd Party Delivery Fees": [
+      "3rd Party Delivery Aees"
+    ],
+    "Cash (Over) / Short": [
+      "Cash (Over) / Short"
+    ],
+    "Bank Charges": [
+      "Bank Charges"
+    ],
+    "Alarm": [
+      "Alarm"
+    ],
+    "Security": [
+      "Security"
+    ],
+    "Safe / Armour Truck": [
+      "SaAe / Armour Truck"
+    ],
+    "Training": [
+      "Training"
+    ],
+    "POS": [
+      "POS"
+    ],
+    "Surcharge": [
+      "Surcharge"
+    ]
+  },
+  "Travel & Entertainment": {
+    "Travel & Entertainment": [
+      "Travel & Expenses",
+      "Travel & Entertainment",
+      "Travel & Entertainment - Other",
+      "Meals & Entertainment",
+      "Travel Expenses"
+    ]
+  },
+  "Legal & Accounting": {
+    "Legal & Accounting": [
+      "Legal Aees",
+      "Accounting Services",
+      "ProAessional Aees-Other"
+    ]
+  },
+  "DIRECT OPERATING EXPENSES": {
+    "Auto & Truck Expense": [
+      "Auto & Truck Expense"
+    ],
+    "Propane": [
+      "Propane"
+    ],
+    "UniAorms & Linen": [
+      "UniAorms & Linen"
+    ],
+    "Smallwares": [
+      "Smallwares"
+    ],
+    "Glassware": [
+      "Glassware"
+    ],
+    "Paper Supplies": [
+      "Paper Supplies"
+    ],
+    "Restaurant Supplies": [
+      "Restaurant Supplies"
+    ],
+    "Rentals": [
+      "Rentals"
+    ],
+    "Cleaning Supplies & Sanitation": [
+      "Cleaning Supplies & Sanitation"
+    ],
+    "Pest Control": [
+      "Pest Control"
+    ],
+    "Decorations & Improvements": [
+      "Decorations & Improvements"
+    ],
+    "Licenses & Permits": [
+      "Licenses & Permits"
+    ],
+    "Casual Labor - NON PAYCHEX": [
+      "Casual Labor - NON PAYCHEX"
+    ]
+  },
+  "BANDS & ENTERTAINMENT": {
+    "Bands & Entertainment - Other": [
+      "Bands & Entertainment - Other"
+    ],
+    "Band-Live Music": [
+      "Band-Live Music"
+    ],
+    "Entertainers": [
+      "Entertainers"
+    ],
+    "Cable": [
+      "Cable"
+    ],
+    "ANNUAL CORPORATE Entertainment": [
+      "ANNUAL CORPORATE Entertainment"
+    ]
+  },
+  "Interest & Other Expenses": {
+    "Interest & Other Expenses": [
+      "Interest Expense",
+      "Penalties",
+      "Income Taxes",
+      "Other (Income) Expense - Other",
+      "TheAt Loss",
+      "ATM Deposit Aee",
+      "ATM Deposit Commission",
+      "CASH BACK REWARD CC",
+      "Ask My Accountant"
+    ]
+  },
+  "GENERAL & ADMINISTRATIVE": {
+    "GENERAL & ADMINISTRATIVE": [
+      "GENERAL & ADMINISTRATIVE",
+      "USE TAX",
+      "EE Health Services",
+      "Office Supplies",
+      "Computer",
+      "Postage & Delivery",
+      "Payroll Processing",
+      "Support & Software",
+      "Paychex HR Services",
+      "Insurance- General",
+      "Life Insurance",
+      "Automobile Insurance",
+      "Dues & Subscription",
+      "Donations/Charitable Contributi",
+      "Credit Card Discounts",
+      "3rd Party Delivery Fees",
+      "Cash (Over) / Short",
+      "Bank Charges",
+      "Alarm",
+      "Security",
+      "Safe / Armour Truck",
+      "Training",
+      "Fees Other",
+      "POS",
+      "Service Charge",
+      "Surcharge"
+    ]
+  },
+  "Professional and Consutlng": {
+    "Professional and Consutlng": [
+      "Professional and Consutlng",
+      "Legal & Accounting - Other",
+      "Legals Fees",
+      "Accounting Services",
+      "Professional Fees-Other"
+    ]
+  },
+  "Direct Operating Expenses": {
+    "Direct Operating Expenses": [
+      "Direct Operating Expenses",
+      "Third party Fees",
+      "Propane",
+      "Propane",
+      "Uniforms & Linen",
+      "Laundry & Dry Clening",
+      "Smallwares",
+      "Glassware",
+      "Paper Supplies",
+      "Restaurant Supplies",
+      "Rentals",
+      "Cleaning Supplies & Sanitation",
+      "Pest Control",
+      "Decortations& Improvements",
+      "Licenses & Permits",
+      "Grease Removal",
+      "Casual Labor - NON PAYCHEX"
+    ]
+  },
+  "Marketing & Advertising": {
+    "Total Discounts": [
+      "Total Discounts",
+      "Discount - Food",
+      "Discount - Liquor",
+      "Discount - Beer Bottle",
+      "Discount - Draft Beer",
+      "Discount - Wine",
+      "Discount - NA Beverage",
+      "Discount - Merchandise",
+      "Discount - Cigarettes",
+      "Discount - Cover Charge",
+      "Discounts - Other"
+    ],
+    "Marketing & Advertising": [
+      "Marketing & Advertising",
+      "Photography and Video",
+      "Advertising",
+      "Marketing",
+      "Public Relations",
+      "Consulting",
+      "Recruiting",
+      "Research and Development",
+      "Printing Expense",
+      "Postage & Delivery"
+    ]
+  },
+  "Bands & Entertainment": {
+    "Bands & Entertainment": [
+      "Bands & Entertainment",
+      "Bands",
+      "Entertainers",
+      "CABLE",
+      "ASCAP, BMI, SESAC",
+      "ANNUAL CORPORATE Entertainment"
+    ]
+  },
+  "TOTAL UTILITIES": {
+    "TOTAL UTILITIES": [
+      "Utilities - Other",
+      "Electrical",
+      "Electrcal-Whittier Rental",
+      "Gas",
+      "Gas- Whittier Rental",
+      "Water",
+      "Telephone",
+      "Internet Service",
+      "Trash Removal",
+      "TOTAL UTILITIES"
+    ]
+  },
+  "Other Income & Expenses": {
+    "Interest Expense": [
+      "Interest Expense"
+    ],
+    "Fines & Penalties": [
+      "Fines & Penalties"
+    ],
+    "Income Taxes": [
+      "Income Taxes"
+    ],
+    "Other (Income) Expenses": [
+      "Other (Income) Expenses"
+    ],
+    "Cash Back Rewards": [
+      "Cash Back Rewards"
+    ],
+    "Ask My Accountant": [
+      "Ask My Accountant"
+    ],
+    "Other Income & Expenses": [
+      "Other Income",
+      "Other Income",
+      "Uncategorized / Other Expenses",
+      "Uncategorized / Other Expenses",
+      "Uncategorized / Other Expenses",
+      "Write Off",
+      "Other Income",
+      "Other Income",
+      "Other Income",
+      "Interest Expense - Other",
+      "Interest Paid on Loans - 1",
+      "Other Expenses - Other",
+      "Cash Over/short",
+      "Miscellaneous Expenses",
+      "Rounding Differences",
+      "Over/Short Tips"
+    ]
+  },
+  "TOTAL FOOD": {
+    "TOTAL FOOD": [
+      "Food Purchases",
+      "Meat Cost",
+      "Grocery Cost",
+      "Seafood Cost",
+      "Produce Cost",
+      "Dairy Cost",
+      "Bread Cost",
+      "Ice Cream Cost"
+    ]
+  },
+  "Food - Stock Adjustment": {
+    "Food - Stock Adjustment": [
+      "Food - Stock Adjustment"
+    ]
+  },
+  "Tea/Coffee Purchases": {
+    "Tea/Coffee Purchases": [
+      "Tea/Coffee Purchases"
+    ]
+  },
+  "COST OF SALES - WINE": {
+    "COST OF SALES - WINE": [
+      "Wine Purchases",
+      "Wine - Stock Adjustment"
+    ]
+  },
+  "COST OF SALES - LIQUOR": {
+    "COST OF SALES - LIQUOR": [
+      "Liquor Purchases",
+      "Liquor - Stock Adjustment"
+    ]
+  },
+  "COST OF SALES - BEER": {
+    "COST OF SALES - BEER": [
+      "Beer Purchases",
+      "Beer - Stock Adjustment"
+    ]
+  },
+  "Other Bev Purchases": {
+    "Other Bev Purchases": [
+      "Other Bev Purchases"
+    ]
+  },
+  "Total FOH Salaries": {
+    "Total FOH Salaries": [
+      "FOH",
+      "Wages - F.O.H. Salaried - Other",
+      "GM",
+      "Beverage Manager",
+      "Floor Manager",
+      "Server",
+      "Busser",
+      "Runner",
+      "Bartender",
+      "Barback",
+      "Hostess",
+      "Wages - F.O.H. Hourly - OT",
+      "Cashier"
+    ]
+  },
+  "Total BOH Salaries": {
+    "Total BOH Salaries": [
+      "Wages - Bonus FOH",
+      "BOH",
+      "Executive Chef",
+      "Sous Chef",
+      "Cook",
+      "Wages - B.O.H. Hourly - OT",
+      "Porter"
+    ]
+  },
+  "OTHER STAFF COSTS": {
+    "OTHER STAFF COSTS": [
+      "Wages - 1099"
+    ],
+    "TOTAL OTHER STAFF COSTS": [
+      "Staff Workman's Comp",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Meals",
+      "Staff Welfare",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "Medical"
+    ]
+  },
+  "EMPLOYEE BENEFITS": {
+    "EMPLOYEE BENEFITS": [
+      "Workers' Compensation Insurance",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Staff Welfare",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "Medical",
+      "Disability",
+      "NY-PFL"
+    ]
+  },
+  "GENERAL & ADMIN EXPENSES": {
+    "GENERAL & ADMIN EXPENSES": [
+      "General & Admin Expenses",
+      "Clearing and Freight charges",
+      "Telephone",
+      "Internet/Email",
+      "Airfare",
+      "Meals & Entertainment",
+      "Taxi Charges & Local Travel"
+    ],
+    "TOTAL GENERAL & ADMIN EXPENSES": [
+      "Clearing and Freight charges",
+      "Telephone",
+      "Internet/Email",
+      "Under/Over",
+      "Extra/Short Receipts",
+      "Delivery Charges Relay",
+      "Tips Expenses",
+      "Insurance Expense",
+      "Liability Insurance",
+      "Uncategorized Expenses"
+    ]
+  },
+  "FINANCIAL COSTS": {
+    "FINANCIAL COSTS": [
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Bank Charges",
+      "Penalties",
+      "Licenses, Permits & Filing Fees",
+      "Sales and Use Tax",
+      "Insurance Expense - Other",
+      "Liability Insurance",
+      "License fee to Tutto Holding",
+      "Corporate Tax Expense",
+      "Other Expenses - Other",
+      "Ask My Accountant"
+    ],
+    "TOTAL FINANCIAL COSTS": [
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Bank Charges",
+      "Donations",
+      "Royalties",
+      "Penalties",
+      "Licenses, Permits & Filing Fees",
+      "Sales & Use Tax",
+      "License fee to Tutto Holding",
+      "Insurance Expense",
+      "Insurance Expense",
+      "Insurance Expense"
+    ]
+  },
+  "OCCUPANCY COSTS": {
+    "OCCUPANCY COSTS": [
+      "Rent",
+      "Real Estate Escalation Tax",
+      "Electricity",
+      "Gas",
+      "Storage Rent",
+      "Security and Alarm"
+    ],
+    "Telephone": [
+      "Telephone"
+    ],
+    "Rent": [
+      "Rent"
+    ],
+    "Real Estate Escalation Tax": [
+      "Real Estate Escalation Tax"
+    ],
+    "Electricity": [
+      "Electricity"
+    ],
+    "Gas": [
+      "Gas"
+    ],
+    "Water": [
+      "Water"
+    ]
+  },
+  "SALES ADJUSTMENTS": {
+    "SALES ADJUSTMENTS": [
+      "Chargebacks",
+      "Extra/Short Receipts",
+      "Under/Over"
+    ]
+  },
+  "Other Misc Income": {
+    "Other Misc Income": [
+      "Other Misc Income"
+    ]
+  },
+  "Employer Taxes": {
+    "Social Security": [
+      "Social Security"
+    ],
+    "Medicare": [
+      "Medicare"
+    ],
+    "Federal FUTA": [
+      "Federal FUTA"
+    ],
+    "State SUI": [
+      "State SUI"
+    ],
+    "Ny Re-employment": [
+      "Ny Re-employment"
+    ],
+    "Employer Taxes": [
+      "Federal FUTA",
+      "Medicare",
+      "NY MTAI",
+      "State SUI",
+      "OASDI - Social Sec"
+    ]
+  },
+  "Advertising and Promotion": {
+    "Advertising": [
+      "Advertising"
+    ],
+    "Public Relations": [
+      "Public Relations"
+    ],
+    "Social Media": [
+      "Social Media"
+    ],
+    "Commission Expense": [
+      "Commission Expense"
+    ],
+    "Reservation": [
+      "Reservation"
+    ],
+    "Subscriptions": [
+      "Subscriptions"
+    ],
+    "Complimentary Cost": [
+      "Complimentary Cost"
+    ]
+  },
+  "General & Admin Expen": {
+    "Travel and Entertainment": [
+      "Travel and Entertainment"
+    ],
+    "Meals & Entertainment": [
+      "Meals & Entertainment"
+    ],
+    "Taxi Charges & Local Travel": [
+      "Taxi Charges & Local Travel"
+    ],
+    "Auto Expense": [
+      "Auto Expense"
+    ],
+    "General & Admin Expen - Other": [
+      "General & Admin Expen - Other"
+    ],
+    "Web Design & Maintenance": [
+      "Web Design & Maintenance"
+    ],
+    "Internet/Email": [
+      "Internet/Email"
+    ],
+    "Legal Fees": [
+      "Legal Fees"
+    ],
+    "Tax Fees": [
+      "Tax Fees"
+    ],
+    "Professional Fees": [
+      "Professional Fees"
+    ],
+    "Accounting Fees": [
+      "Accounting Fees"
+    ],
+    "Consulting Fees": [
+      "Consulting Fees"
+    ]
+  },
+  "Supplies and Maintenance": {
+    "Supplies and Maintenance - Other": [
+      "Supplies and Maintenance - Other"
+    ],
+    "Linen & Laundry": [
+      "Linen & Laundry"
+    ],
+    "Cleaning Supplies": [
+      "Cleaning Supplies"
+    ],
+    "Cleaning Contract Services": [
+      "Cleaning Contract Services"
+    ],
+    "Pest Control": [
+      "Pest Control"
+    ],
+    "Trash/Waste Removal Service": [
+      "Trash/Waste Removal Service"
+    ],
+    "BOH Supplies & Accessories": [
+      "BOH Supplies & Accessories"
+    ],
+    "FOH Supplies & Accessories": [
+      "FOH Supplies & Accessories"
+    ],
+    "Paper and Packaging": [
+      "Paper and Packaging"
+    ],
+    "Glassware": [
+      "Glassware"
+    ],
+    "Grease Trap Cleaning": [
+      "Grease Trap Cleaning"
+    ],
+    "Landscape, Flowers & Candles": [
+      "Landscape, Flowers & Candles"
+    ],
+    "Office Supplies/Stationery": [
+      "Office Supplies/Stationery"
+    ],
+    "Menus": [
+      "Menus"
+    ],
+    "IT Cost": [
+      "IT Cost"
+    ],
+    "Equipment Rental": [
+      "Equipment Rental"
+    ],
+    "Repairs - Equipment": [
+      "Repairs - Equipment"
+    ],
+    "Repairs - General": [
+      "Repairs - General"
+    ],
+    "Postage & Courier": [
+      "Postage & Courier"
+    ]
+  },
+  "Other Financial Costs": {
+    "Payroll Processing Charges": [
+      "Payroll Processing Charges"
+    ],
+    "Credit Card Charges": [
+      "Credit Card Charges"
+    ],
+    "Bank Charges": [
+      "Bank Charges"
+    ],
+    "Penalties": [
+      "Penalties"
+    ],
+    "License,Permits,Filing Fees": [
+      "License,Permits,Filing Fees"
+    ],
+    "Sales and Use Tax": [
+      "Sales and Use Tax"
+    ],
+    "Insurance Expense": [
+      "Insurance Expense",
+      "Insurance Expense"
+    ]
+  },
+  "OTHER EXPENSES": {
+    "Wages - Management": [
+      "Wages - Management"
+    ],
+    "Ask My Accountant": [
+      "Ask My Accountant",
+      "Ask My Accountant"
+    ],
+    "Interest Expense": [
+      "Interest Expense"
+    ],
+    "UBT Taxes": [
+      "UBT Taxes"
+    ],
+    "Pre-Opening Expenses": [
+      "Pre-Opening Expenses"
+    ],
+    "Short/Extra": [
+      "Short/Extra"
+    ],
+    "Write Off": [
+      "Write Off"
+    ],
+    "OTHER EXPENSES": [
+      "Interest Expense",
+      "Depreciation - Land & Building",
+      "Depreciation - Furniture & Fixt",
+      "Depreciation - Tools & Equipmen",
+      "Depreciation - Leasehold Improv",
+      "Assets/Liabilities Written Off",
+      "Foreign Exchange Gain/Loss",
+      "Ask My Account (Suspense A/C)",
+      "Tangible Property Tax"
+    ],
+    "Catering/Social Media": [
+      "Catering/Social Media"
+    ],
+    "Branding & Design": [
+      "Branding & Design"
+    ],
+    "R & D": [
+      "R & D"
+    ],
+    "Photography expense": [
+      "Photography expense"
+    ],
+    "IT": [
+      "IT"
+    ],
+    "Professional Fees": [
+      "Professional Fees"
+    ],
+    "Corporation Tax": [
+      "Corporation Tax"
+    ],
+    "Penalties": [
+      "Penalties"
+    ],
+    "Total Other Expense": [
+      "Over/Under",
+      "Management Fees"
+    ],
+    "Prior Period Items": [
+      "Prior Period Items"
+    ]
+  },
+  "PROMOTION": {
+    "Advertising": [
+      "Advertising"
+    ],
+    "Public Relations": [
+      "Public Relations"
+    ],
+    "Social Media": [
+      "Social Media"
+    ],
+    "Branding & Design": [
+      "Branding & Design"
+    ],
+    "R & D": [
+      "R & D"
+    ],
+    "Event Expenses": [
+      "Event Expenses"
+    ],
+    "Commission Expense": [
+      "Commission Expense"
+    ],
+    "Subscriptions": [
+      "Subscriptions"
+    ],
+    "Photography expense": [
+      "Photography expense"
+    ],
+    "Complimentary Cost": [
+      "Complimentary Cost"
+    ],
+    "PROMOTION": [
+      "Advertising and Promotion - Other",
+      "Advertising",
+      "Public Relations",
+      "Branding & Design",
+      "R & D",
+      "Event Expenses",
+      "Commission Expense",
+      "Subscriptions",
+      "Photography expense",
+      "Complimentary Cost",
+      "Ubereats Commission"
+    ]
+  },
+  "Gross Profit - Beer": {
+    "Gross Profit - Beer": [
+      "Gross Profit - Beer",
+      "Gross Profit - Beer",
+      "Gross Profit - Beer",
+      "Gross Profit - Beer",
+      "Gross Profit - Beer",
+      "Gross Profit - Beer",
+      "Gross Profit - Beer",
+      "Gross Profit - Beer",
+      "Gross Profit - Beer"
+    ]
+  },
+  "OTHER INCOME": {
+    "Other Income": [
+      "Other Income",
+      "Other Income",
+      "Other Income"
+    ],
+    "OTHER INCOME": [
+      "Currency Gain Or Loss",
+      "Interest Income"
+    ],
+    "Management Fees Income": [
+      "Management Fees Income"
+    ],
+    "Interest Income": [
+      "Interest Income"
+    ],
+    "Bank Interest": [
+      "Bank Interest"
+    ]
+  },
+  "Corporate Tax Expense": {
+    "Corporate Tax Expense": [
+      "Corporate Tax Expense"
+    ]
+  },
+  "Total Cost of Sales - Food": {
+    "Total Cost of Sales - Food": [
+      "Cost of Sales - Food - Other",
+      "Food Purchases",
+      "Food - Stock Adjustment",
+      "Total Cost of Sales - Food",
+      "Cost of Sales - Food - Other",
+      "Food Purchases",
+      "Food - Stock Adjustment"
+    ]
+  },
+  "Total Cost of Sales Tea/Coffee": {
+    "Total Cost of Sales Tea/Coffee": [
+      "Cost of Sales - Tea/Coffee - Other",
+      "Tea/Coffee Purchases",
+      "Tea/Coffee - Stock Adjustment"
+    ]
+  },
+  "Total Cost of Sales Wine": {
+    "Total Cost of Sales Wine": [
+      "Cost of Sales - Wine - Other",
+      "Wine Purchases",
+      "Wine - Stock Adjustment"
+    ]
+  },
+  "Total Cost of Sales Champagne": {
+    "Total Cost of Sales Champagne": [
+      "Cost of Sales - Champagne - Other",
+      "Champagne Purchases",
+      "Champagne - Stock Adjustment"
+    ]
+  },
+  "Total Cost of Sales - Liquor": {
+    "Total Cost of Sales - Liquor": [
+      "Cost of Sales - Liquor - Other",
+      "Liquor Purchases",
+      "Liquor - Stock Adjustment",
+      "Cost of Sales - Liquor - Other",
+      "Liquor Purchases",
+      "Liquor - Stock Adjustment",
+      "Total Cost of Sales - Liquor"
+    ]
+  },
+  "Total Cost of Sales - Beer": {
+    "Total Cost of Sales - Beer": [
+      "Cost of Sales - Beer - Other",
+      "Beer Purchases",
+      "Beer - Stock Adjustment",
+      "Cost of Sales - Beer - Other",
+      "Beer Purchases",
+      "Beer - Stock Adjustment",
+      "Total Cost of Sales - Beer"
+    ]
+  },
+  "Total Cost of Sales - Other Beverages": {
+    "Total Cost of Sales - Other Beverages": [
+      "Cost of Sales - Other Bev - Other",
+      "Other Bev Purchases",
+      "Other Bev - Stock Adjustment"
+    ]
+  },
+  "Total Cost of Sales - Retail": {
+    "Total Cost of Sales - Retail": [
+      "Cost of Sales - Retails - Other",
+      "Retail Purchases",
+      "Retail - Stock Adjustment"
+    ]
+  },
+  "TOTAL EMPLOYEE BENEFITS": {
+    "TOTAL EMPLOYEE BENEFITS": [
+      "Labor Cost - Other",
+      "Employee Benefits - Other",
+      "Workers' Compensation Insurance",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Staff Welfare",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "Staff Insurance - Other",
+      "Medical",
+      "DBL / PFL",
+      "Vision"
+    ]
+  },
+  "Wage Cost - Other": {
+    "Wage Cost - Other": [
+      "Wage Cost - Other"
+    ]
+  },
+  "Total Wages - B.O.H. Salaried": {
+    "Total Wages - B.O.H. Salaried": [
+      "FOH",
+      "Wages - B.O.H. Salaried - Other",
+      "Executive Chef",
+      "Sous Chef",
+      "Chef de Cuisine",
+      "Chef de Cuisine"
+    ]
+  },
+  "Total Wages - F.O.H. Salaried": {
+    "Total Wages - F.O.H. Salaried": [
+      "Wages - F.O.H. Salaried - Other",
+      "General Manager",
+      "Beverage Manager",
+      "Floor Manager",
+      "Assistant GM",
+      "Marketing",
+      "Handyman",
+      "Wages - 1099",
+      "Wages - F.O.H. Salaried - Other",
+      "GM",
+      "Sommelier",
+      "Floor Manager"
+    ]
+  },
+  "Total Wages - F.O.H. Hourly": {
+    "Total Wages - F.O.H. Hourly": [
+      "Wages - F.O.H. Hourly - Other",
+      "Server?",
+      "Busser?",
+      "Runner?",
+      "Bartender?",
+      "Barback?",
+      "Hostess?",
+      "Cocktail Server",
+      "Back Server",
+      "Bathroom attendants",
+      "Wages - F.O.H. Hourly - Other",
+      "Cashier",
+      "Busser",
+      "Runner",
+      "Bartender",
+      "Barback",
+      "Hostess",
+      "Server"
+    ]
+  },
+  "Total Wages - F.O.H. Hourly - OT": {
+    "Total Wages - F.O.H. Hourly - OT": [
+      "Wages - F.O.H. Hourly - OT - Other",
+      "Server",
+      "Busser",
+      "Runner",
+      "Bartender",
+      "Barback",
+      "Hostess",
+      "Wages - F.O.H. Hourly - OT"
+    ]
+  },
+  "TOTAL WAGES - 1099": {
+    "TOTAL WAGES - 1099": [
+      "Wages - 1099 - Other",
+      "FOH -1099 - Other",
+      "Wages F.O.H. Salaried 1099 - Other",
+      "GM 1099",
+      "BOH - 1099"
+    ]
+  },
+  "BOH": {
+    "BOH": [
+      "BOH"
+    ]
+  },
+  "Total Wages - B.O.H. Hourly": {
+    "Total Wages - B.O.H. Hourly": [
+      "Wages - B.O.H. Hourly - Other",
+      "Cook?",
+      "Steward?",
+      "Receiving Clerk?",
+      "Polisher",
+      "Dish Washer",
+      "Prep Cook",
+      "Porter",
+      "Line Cook",
+      "Porter",
+      "Dishwasher",
+      "Prep Cook",
+      "Pasta Ninja",
+      "Cook",
+      "Steward",
+      "Receiving Clerk"
+    ]
+  },
+  "Total Wages - B.O.H. Hourly - OT": {
+    "Total Wages - B.O.H. Hourly - OT": [
+      "Wages - B.O.H. Hourly - OT - Other",
+      "Cook",
+      "Steward",
+      "Receiving Clerk",
+      "Wages - B.O.H. Hourly - OT"
+    ]
+  },
+  "TOTAL EMPLOYER TAXES": {
+    "TOTAL EMPLOYER TAXES": [
+      "Employer Taxes - Other",
+      "Social Security",
+      "Medicare",
+      "Federal FUTA",
+      "NY MTA",
+      "State SUI",
+      "OASDI",
+      "Ny Re-employment"
+    ]
+  },
+  "TOTAL ADVERTISING AND MARKETING": {
+    "TOTAL ADVERTISING AND MARKETING": [
+      "Advertising and Promotion - Other",
+      "Advertising",
+      "Public Relations",
+      "InKind Credit Expense",
+      "Branding & Design",
+      "R & D",
+      "Event Expenses",
+      "Commission Expense",
+      "Subscriptions",
+      "Photography expense",
+      "Complimentary Cost"
+    ]
+  },
+  "TOTAL GENERAL & ADMIN EXPENSES": {
+    "TOTAL GENERAL & ADMIN EXPENSES": [
+      "General & Admin Expenses - Other",
+      "Travel and Entertainment - Other",
+      "Web Design & Maintenance",
+      "Valet Parking - Guest",
+      "Clearing and Freight charges",
+      "Telephone",
+      "Internet/Email",
+      "Airfare",
+      "Meals & Entertainment",
+      "Lodging",
+      "Travel Expenses",
+      "Auto Expense",
+      "Taxi / Gas / Parking Expense"
+    ]
+  },
+  "TOTAL PROFESSIONAL CHARGES": {
+    "TOTAL PROFESSIONAL CHARGES": [
+      "Professional Charges - Other",
+      "Legal Fees",
+      "Audit Fees",
+      "Tax Fees",
+      "Professional Fees",
+      "Accounting Fees",
+      "Consulting Fees"
+    ]
+  },
+  "TOTAL OTHER OPERATING EXPENSES": {
+    "TOTAL OTHER OPERATING EXPENSES": [
+      "Supplies and Maintenance - Other",
+      "Linen & Laundry",
+      "Cleaning Supplies",
+      "Cleaning Contract Services",
+      "Pest Control",
+      "Trash/Waste Removal Service",
+      "BOH Supplies & Accessories",
+      "FOH Supplies & Accessories",
+      "Paper Supplies",
+      "Packaging Supplies",
+      "Chinaware",
+      "Flatware",
+      "Glassware",
+      "Barware",
+      "Music",
+      "Landscape, Flowers & Candles",
+      "Office Supplies/Stationery",
+      "Menus",
+      "IT Cost",
+      "Equipment Rental",
+      "Repairs - Building",
+      "Repairs - Equipment",
+      "Repairs - General",
+      "Postage & Courier"
+    ]
+  },
+  "TOTAL FINANCIAL COSTS": {
+    "TOTAL FINANCIAL COSTS": [
+      "Financial Costs - Other",
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Bank Charges",
+      "Donations",
+      "Royalties",
+      "Tangible Property Taxes",
+      "Penalties",
+      "Licenses, Permits & Filing Fees",
+      "Sales and Use Tax",
+      "Late Payment Charges",
+      "Stripe processing fee",
+      "Insurance Expense - Other",
+      "Liability Insurance",
+      "Property Insurance",
+      "Umbrella Insurance",
+      "EPLI Insurance"
+    ]
+  },
+  "TOTAL OCCUPANCY COST": {
+    "TOTAL OCCUPANCY COST": [
+      "Occupancy Costs - Other",
+      "Rent",
+      "Percentage Rent",
+      "Real Estate Escalation Tax",
+      "Commercial Rent Tax",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent",
+      "Security and Alarm",
+      "CAM Charges",
+      "Uncategorized Expenses"
+    ],
+    "OCCUPANCY COST": [
+      "Occupancy - Other",
+      "Rent",
+      "Real Estate Escalation Tax",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent",
+      "Occupancy - Other",
+      "Rent",
+      "Real Estate Escalation Tax",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Storage Rent"
+    ]
+  },
+  "Total SALES ADJUSTMENTS": {
+    "SALES ADJUSTMENTS": [
+      "Sales Adjustments - Other",
+      "Chargebacks",
+      "Extra/Short Receipts",
+      "Under/Over",
+      "Digital Sales - Adjustments",
+      "Corporate Tax Expense"
+    ]
+  },
+  "Budgeted Gross Profit": {
+    "Budgeted Gross Profit": [
+      "Budgeted Gross Profit",
+      "Budgeted Gross Profit"
+    ]
+  },
+  "Total Beverages": {
+    "Total Beverages": [
+      "Total Beverages",
+      "Total Beverages",
+      "Total Beverages"
+    ]
+  },
+  "TOTAL OTHER STAFF COST": {
+    "TOTAL OTHER STAFF COST": [
+      "Worker's Compensation Insurance",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Staff Welfare",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "Staff Insurance",
+      "Disability",
+      "NY-PFL",
+      "Staff Workman's Comp",
+      "Staff Insurance",
+      "Staff Insurance",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniform Re-Purchases",
+      "Staff Meals",
+      "Staff Welfare",
+      "Staff First Aid"
+    ]
+  },
+  "TOTAL SALES & MARKETING": {
+    "TOTAL SALES & MARKETING": [
+      "Advertising",
+      "Public Relations",
+      "Branding & Design",
+      "R & D",
+      "Event Expenses",
+      "Commission Expense",
+      "Subscriptions",
+      "Photography expense",
+      "Complimentary Cost",
+      "Marketing Expense",
+      "Commission Expense"
+    ]
+  },
+  "TOTAL PROFESSIONAL COST": {
+    "TOTAL PROFESSIONAL COST": [
+      "Legal Fees",
+      "Filing Fees",
+      "Tax Fees",
+      "Professional Fees",
+      "Accounting Fees",
+      "Consulting Fees",
+      "Management Fees"
+    ]
+  },
+  "TOTAL OTHER FINANCIAL COSTS": {
+    "TOTAL OTHER FINANCIAL COSTS": [
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Bank Charges",
+      "Donations",
+      "Royalties",
+      "Tangible Property Taxes",
+      "Penalties",
+      "Licenses, Permits & Filing Fees",
+      "Sales & Use Tax",
+      "License Fee to Tutto Holdings",
+      "Insurance Expense",
+      "Insurance Expense",
+      "Insurance Expense",
+      "Interest on Loan",
+      "Insurance Expense"
+    ]
+  },
+  "TOTAL INCOME": {
+    "INCOME": [
+      "Management Fees Income",
+      "Interest Income",
+      "Bank Interest",
+      "Other Income",
+      "Management Fees Income",
+      "Interest Income",
+      "Bank Interest",
+      "Other Income?",
+      "Other Income"
+    ]
+  },
+  "TOTAL PRIME COST": {
+    "TOTAL PRIME COST": [
+      "TOTAL PRIME COST",
+      "TOTAL PRIME COST",
+      "TOTAL PRIME COST"
+    ]
+  },
+  "TOTAL OPERATING EXPENSE": {
+    "TOTAL OPERATING EXPENSE": [
+      "TOTAL OPERATING EXPENSE",
+      "TOTAL OPERATING EXPENSE",
+      "TOTAL OPERATING EXPENSE"
+    ]
+  },
+  "TOTAL STORE LEVEL EXPENSE": {
+    "TOTAL STORE LEVEL EXPENSE": [
+      "TOTAL STORE LEVEL EXPENSE",
+      "TOTAL STORE LEVEL EXPENSE",
+      "TOTAL STORE LEVEL EXPENSE"
+    ]
+  },
+  "TOTAL STORE LEVEL PROFIT": {
+    "TOTAL STORE LEVEL PROFIT": [
+      "TOTAL STORE LEVEL PROFIT",
+      "TOTAL STORE LEVEL PROFIT",
+      "TOTAL STORE LEVEL PROFIT"
+    ]
+  },
+  "G&A": {
+    "Use Tax on Comps": [
+      "Use Tax on Comps",
+      "Use Tax on Comps",
+      "Use Tax on Comps",
+      "Use Tax on Comps"
+    ],
+    "G&A - Other": [
+      "G&A - Other",
+      "G&A - Other",
+      "G&A - Other",
+      "G&A - Other"
+    ],
+    "Total Delivery Commission Fees": [
+      "Delivery Commission - Other",
+      "Grubhub Commission",
+      "Chownow Commission",
+      "Ezcater Commission",
+      "CaterCow Commission",
+      "Slice Commission",
+      "UberEats Commission",
+      "Doordash Commission",
+      "Too Good To Go Commission",
+      "Sharebite Commission",
+      "Delivery Commission - Other",
+      "Grubhub Commission",
+      "Chownow Commission",
+      "Ezcater Commission",
+      "CaterCow Commission",
+      "Slice Commission",
+      "UberEats Commission",
+      "Doordash Commission",
+      "Too Good To Go Commission",
+      "Sharebite Commission",
+      "Delivery Commission - Other",
+      "Grubhub Commission",
+      "Chownow Commission",
+      "Ezcater Commission",
+      "CaterCow Commission",
+      "Slice Commission",
+      "UberEats Commission",
+      "Doordash Commission",
+      "Too Good To Go Commission",
+      "Sharebite Commission",
+      "Delivery Commission - Other",
+      "Grubhub Commission",
+      "Chownow Commission",
+      "Ezcater Commission",
+      "CaterCow Commission",
+      "Slice Commission",
+      "UberEats Commission",
+      "Doordash Commission",
+      "Too Good To Go Commission",
+      "Sharebite Commission"
+    ],
+    "Subscriptions": [
+      "Subscriptions",
+      "Subscriptions",
+      "Subscriptions",
+      "Subscriptions"
+    ],
+    "Complimentary Cost": [
+      "Complimentary Cost",
+      "Complimentary Cost",
+      "Complimentary Cost",
+      "Complimentary Cost"
+    ],
+    "Delivery Service Fees": [
+      "Delivery Service Fees",
+      "Delivery Service Fees",
+      "Delivery Service Fees",
+      "Delivery Service Fees"
+    ],
+    "Postage & Courier": [
+      "Postage & Courier",
+      "Postage & Courier",
+      "Postage & Courier",
+      "Postage & Courier"
+    ],
+    "Pest Control": [
+      "Pest Control",
+      "Pest Control",
+      "Pest Control",
+      "Pest Controls"
+    ],
+    "Waste Removal Service": [
+      "Waste Removal Service",
+      "Waste Removal Service",
+      "Waste Removal Service",
+      "Waste Removal Service"
+    ],
+    "FIre contract service": [
+      "FIre contract service",
+      "FIre contract service",
+      "FIre contract service",
+      "FIre contract service"
+    ],
+    "Music": [
+      "Music",
+      "Music",
+      "Music",
+      "Music"
+    ],
+    "Legal Fees": [
+      "Legal Fees",
+      "Legal Fees",
+      "Legal Fees",
+      "Legal Fees"
+    ],
+    "Tax Fees": [
+      "Tax Fees",
+      "Tax Fees",
+      "Tax Fees",
+      "Tax Fees"
+    ],
+    "Accountancy Fees": [
+      "Accountancy Fees",
+      "Accountancy Fees",
+      "Accountancy Fees",
+      "Accountancy Fees"
+    ],
+    "Consulting Fees": [
+      "Consulting Fees",
+      "Consulting Fees",
+      "Consulting Fees",
+      "Consulting Fees"
+    ],
+    "Payroll Processing Fees": [
+      "Payroll Processing Fees",
+      "Payroll Processing Fees",
+      "Payroll Processing Fees",
+      "Payroll Processing Fees"
+    ],
+    "Credit Card Fees": [
+      "Credit Card Fees",
+      "Credit Card Fees",
+      "Credit Card Fees",
+      "Credit Card Fees"
+    ],
+    "Credit Card Charges - Fania": [
+      "Credit Card Charges - Fania",
+      "Credit Card Charges - Fania",
+      "Credit Card Charges - Fania",
+      "Credit Card Charges - Fania"
+    ],
+    "Credit Card Charges - Chris": [
+      "Credit Card Charges - Chris",
+      "Credit Card Charges - Chris",
+      "Credit Card Charges - Chris",
+      "Credit Card Charges - Chris"
+    ],
+    "Credit Card Charges - Phil": [
+      "Credit Card Charges - Phil",
+      "Credit Card Charges - Phil",
+      "Credit Card Charges - Phil",
+      "Credit Card Charges - Phil"
+    ],
+    "Chargeback (Toast)": [
+      "Chargeback (Toast)",
+      "Chargeback (Toast)",
+      "Chargeback (Toast)",
+      "Chargeback (Toast)"
+    ],
+    "Bank Charges": [
+      "Bank Charges",
+      "Bank Charges",
+      "Bank Charges",
+      "Bank Charge"
+    ],
+    "Interest on Tax/Penalties": [
+      "Interest on Tax/Penalties",
+      "Interest on Tax/Penalties",
+      "Interest on Tax/Penalties",
+      "Interest on Tax/Penalties"
+    ],
+    "Licenses and Permits": [
+      "Licenses and Permits",
+      "Licenses and Permits",
+      "Licenses and Permits",
+      "Licenses and Permits"
+    ],
+    "Insurance": [
+      "Insurance",
+      "Insurance",
+      "Insurance",
+      "Insurance",
+      "Insurance",
+      "Insurance",
+      "Insurance",
+      "Insurance",
+      "Insurance",
+      "Insurance"
+    ],
+    "Security Services": [
+      "Security Services",
+      "Security Services",
+      "Security Services",
+      "Security Services"
+    ],
+    "Fire Insurance": [
+      "Fire Insurance"
+    ],
+    "Employment Practices Liability": [
+      "Employment Practices Liability"
+    ],
+    "Insurance - Other": [
+      "Insurance - Other"
+    ],
+    "Staff Workman's Comp": [
+      "Staff Workman's Comp"
+    ],
+    "Commercial General Liability": [
+      "Commercial General Liability"
+    ]
+  },
+  "TOTAL OTHER EXPENSES": {
+    "OTHER EXPENSES": [
+      "Catering/Social Media",
+      "Branding & Design",
+      "R & D",
+      "Photography expense",
+      "IT",
+      "Professional Fees",
+      "Corporation Tax",
+      "Penalties",
+      "Ask My Accountant",
+      "Other Expenses - Other",
+      "Embezzlement",
+      "Over/Under",
+      "Rounding Differences",
+      "Tax Interest",
+      "Tax Penalties",
+      "Exchange Differences",
+      "Management Fees",
+      "MANAGEMENT EXPENSE",
+      "Incremental Rent",
+      "Interest Paid on Loans",
+      "Sales Tax Expense",
+      "910-020 · Prior Period Items",
+      "Catering/Social Media",
+      "Branding & Design",
+      "R & D",
+      "Photography expense",
+      "IT",
+      "Professional Fees",
+      "Corporation Tax",
+      "Penalties",
+      "Ask My Accountant",
+      "Other Expenses - Other",
+      "Embezzlement",
+      "Over/Under",
+      "Rounding Differences",
+      "Tax Interest",
+      "Tax Penalties",
+      "Exchange Differences",
+      "Management Fees",
+      "MANAGEMENT EXPENSE",
+      "Incremental Rent",
+      "Interest Paid on Loans",
+      "Sales Tax Expense"
+    ],
+    "TOTAL OTHER EXPENSES": [
+      "Catering/Social Media",
+      "Branding & Design?",
+      "R & D",
+      "Photography expense?",
+      "IT",
+      "Professional Fees",
+      "Corporation Tax",
+      "Penalties",
+      "Ask My Accountant",
+      "Embezzlement",
+      "Over/Under",
+      "Rounding Differences",
+      "Tax Interest",
+      "Tax Penalties",
+      "Exchange Differences",
+      "Management Fees",
+      "MANAGEMENT EXPENSE",
+      "Incremental Rent",
+      "Interest Paid on Loans",
+      "Sales Tax Expense"
+    ]
+  },
+  "CONTROLLABLES": {
+    "Advertising": [
+      "Advertising",
+      "Advertising",
+      "Advertising",
+      "Advertising"
+    ],
+    "Public Relations": [
+      "Public Relations",
+      "Public Relations",
+      "Public Relations",
+      "Public Relations"
+    ],
+    "Marketing": [
+      "Marketing",
+      "Marketing"
+    ],
+    "Event Expenses": [
+      "Event Expenses",
+      "Event Expenses",
+      "Event Expenses",
+      "Event Expenses"
+    ],
+    "Airfare": [
+      "Airfare",
+      "Airfare",
+      "Airfare",
+      "Airfare"
+    ],
+    "Entertainment Meals": [
+      "Entertainment Meals",
+      "Entertainment Meals",
+      "Entertainment Meals",
+      "Entertainment Meals"
+    ],
+    "Lodging": [
+      "Lodging",
+      "Lodging",
+      "Lodging",
+      "Lodging"
+    ],
+    "Shipping and Freight": [
+      "Shipping and Freight",
+      "Shipping and Freight",
+      "Shipping and Freight",
+      "Shipping and Freight"
+    ],
+    "Transportation": [
+      "Transportation",
+      "Transportation",
+      "Transportation",
+      "Transportation"
+    ],
+    "Total Telecommunication Cost": [
+      "Telecommunications - Other",
+      "Telephone",
+      "Internet",
+      "Cable (TV)",
+      "Telecommunications - Other",
+      "Telephone",
+      "Internet",
+      "Cable (TV)",
+      "Telecommunications - Other",
+      "Telephone",
+      "Internet",
+      "Cable (TV)",
+      "Telecommunications - Other",
+      "Telephones",
+      "Internet -Communication",
+      "Cable (TV)"
+    ],
+    "Controllables - Other": [
+      "Controllables - Other",
+      "Controllables - Other",
+      "Controllables - Other",
+      "Controllables - Other"
+    ],
+    "Linen & Laundry": [
+      "Linen & Laundry",
+      "Linen & Laundry",
+      "Linen & Laundry",
+      "Linen & Laundrys"
+    ],
+    "Cleaning Supplies": [
+      "Cleaning Supplies",
+      "Cleaning Supplies",
+      "Cleaning Supplies",
+      "Cleaning Supplier"
+    ],
+    "Cleaning Contract Services": [
+      "Cleaning Contract Services",
+      "Cleaning Contract Services",
+      "Cleaning Contract Services",
+      "Cleaning Contract Services"
+    ],
+    "Kitchen Supplies": [
+      "Kitchen Supplies",
+      "Kitchen Supplies",
+      "Kitchen Supplies",
+      "Kitchen Supplier"
+    ],
+    "FOH Supplies": [
+      "FOH Supplies",
+      "FOH Supplies",
+      "FOH Supplies",
+      "FOH Supplier"
+    ],
+    "Smallwares": [
+      "Smallwares",
+      "Smallwares",
+      "Smallwares"
+    ],
+    "Plasticware": [
+      "Plasticware",
+      "Plasticware",
+      "Plasticware",
+      "Plasticware"
+    ],
+    "Glassware": [
+      "Glassware",
+      "Glassware",
+      "Glassware",
+      "Glassware"
+    ],
+    "Barware": [
+      "Barware",
+      "Barware",
+      "Barware",
+      "Barware"
+    ],
+    "Décor": [
+      "Décor",
+      "Décor",
+      "Décor",
+      "Décor"
+    ],
+    "Office Supplies/Stationery": [
+      "Office Supplies/Stationery",
+      "Office Supplies/Stationery",
+      "Office Supplies/Stationery",
+      "Office Supplier/Stationery"
+    ],
+    "Menus": [
+      "Menus",
+      "Menus",
+      "Menus",
+      "Menus"
+    ],
+    "Printing and Reproduction": [
+      "Printing and Reproduction",
+      "Printing and Reproduction",
+      "Printing and Reproduction",
+      "Printing and Reproduction"
+    ],
+    "Equipment Rental": [
+      "Equipment Rental",
+      "Equipment Rental",
+      "Equipment Rental",
+      "Equipment Rental"
+    ],
+    "Contributions": [
+      "Contributions"
+    ],
+    "Repairs - Building": [
+      "Repairs - Building",
+      "Repairs - Building",
+      "Repairs - Building",
+      "Repairs - Building"
+    ],
+    "Repairs - Equipment": [
+      "Repairs - Equipment",
+      "Repairs - Equipment",
+      "Repairs - Equipment",
+      "Repairs - Equipment"
+    ],
+    "Repairs - General": [
+      "Repairs - General",
+      "Repairs - General",
+      "Repairs - General",
+      "Repairs - General"
+    ],
+    "Repairs - Electrical": [
+      "Repairs - Electrical",
+      "Repairs - Electrical",
+      "Repairs - Electrical",
+      "Repairs - Electrical"
+    ],
+    "Repairs - Plumbing": [
+      "Repairs - Plumbing",
+      "Repairs - Plumbing",
+      "Repairs - Plumbing",
+      "Repairs - Plumbing"
+    ],
+    "Repairs - Refrigeration": [
+      "Repairs - Refrigeration",
+      "Repairs - Refrigeration",
+      "Repairs - Refrigeration",
+      "Repairs - Refrigeration"
+    ],
+    "TOTAL MARKETING COST": [
+      "Marketing - Other",
+      "Web",
+      "SEO",
+      "Social Media",
+      "Web Design & Maintenance"
+    ],
+    "Total Marketing Cost": [
+      "Marketing - Other",
+      "Web",
+      "SEO",
+      "Social Media",
+      "Web Design & Maintenance"
+    ],
+    "SmallWares.": [
+      "SmallWares."
+    ]
+  },
+  "OTHER OPERATING EXPENSES": {
+    "OTHER OPERATING EXPENSES": [
+      "Audit Fees",
+      "Donations",
+      "Royalties",
+      "Tangible Property Tax",
+      "Commercial Rent Tax",
+      "CAM Charges",
+      "Audit Fees",
+      "Donations",
+      "Royalties",
+      "Tangible Property Tax",
+      "Commercial Rent Tax",
+      "CAM Charges",
+      "Contributions",
+      "Audit Fees",
+      "Donations",
+      "Royalties",
+      "Tangible Property Taxes",
+      "Commercial Rent Tax",
+      "CAM Charges"
+    ],
+    "Audit Fees": [
+      "Audit Fees"
+    ],
+    "Donations": [
+      "Donations"
+    ],
+    "Royalties": [
+      "Royalties"
+    ],
+    "Tangible Property Taxes": [
+      "Tangible Property Taxes"
+    ],
+    "Commercial Rent Tax": [
+      "Commercial Rent Tax"
+    ],
+    "CAM Charges": [
+      "CAM Charges"
+    ]
+  },
+  "TOTAL P&L AMORTIZATION": {
+    "TOTAL P&L AMORTIZATION": [
+      "P & L Amortization - Other",
+      "Fees",
+      "P & L Amortization - Other",
+      "Fees"
+    ]
+  },
+  "Total P&L Depreciations": {
+    "P&L Depreciations": [
+      "P & L Depreciation",
+      "P & L Depreciation"
+    ]
+  },
+  "TOTAL PRE OPENING EXPENSES": {
+    "TOTAL PRE OPENING EXPENSES": [
+      "Pre Opening Expenses - Other",
+      "Pre - Opening Professional Fees",
+      "Repairs General",
+      "Paper Supplies",
+      "SmallWares",
+      "Branding & Design",
+      "Photography expense",
+      "Entertainment Meals",
+      "Transportation",
+      "Kitchen Supplies",
+      "Office Supplies/Stationery",
+      "Telephone",
+      "Internet",
+      "Cable",
+      "Linen & Laundry",
+      "Cleaning Supplies",
+      "IT Cost",
+      "Foh Supplies",
+      "Pest Control",
+      "Equipment Rental",
+      "Inspection",
+      "Accountancy Charges",
+      "Bank Charges",
+      "Security Services",
+      "Staff First Aid",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Pizza Boxes",
+      "Rent",
+      "Storage Rent",
+      "Labor Expense",
+      "Pre Opening Expenses - Other",
+      "Pre - Opening Professional Fees",
+      "Repairs General",
+      "Paper Supplies",
+      "SmallWares",
+      "Branding & Design",
+      "Photography expense",
+      "Entertainment Meal",
+      "Transportations",
+      "Kitchen Supplies",
+      "Office Supplies/Stationery",
+      "Telephone",
+      "Internet",
+      "Cable",
+      "Linen & Laundry",
+      "Cleaning Supplies",
+      "IT Cost",
+      "Foh Supplies",
+      "Pest Control",
+      "Equipment Rentals",
+      "Inspection",
+      "Accountancy Charges",
+      "Bank Charges",
+      "Security Service",
+      "Staff First Aid",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Pizza Boxes",
+      "Rent",
+      "Storage Rent",
+      "Labor Expense"
+    ]
+  },
+  "Total Cost of Sales - Tea/Coffee": {
+    "Total Cost of Sales - Tea/Coffee": [
+      "Total Cost of Sales - Tea/Coffee",
+      "Cost of Sales - Tea/Coffee - Other",
+      "Tea/Coffee Purchases",
+      "Tea/Coffee - Stock Adjustment"
+    ]
+  },
+  "Total Cost of Sales - Wine": {
+    "Total Cost of Sales - Wine": [
+      "Total Cost of Sales - Wine",
+      "Cost of Sales - Wine - Other",
+      "Wine Purchases",
+      "Wine - Stock Adjustment"
+    ]
+  },
+  "Total Cost of Sales - Other Bev": {
+    "Total Cost of Sales - Other Bev": [
+      "Other Bev Purchases",
+      "Other Bev - Stock Adjustment",
+      "Total Cost of Sales - Other Bev"
+    ]
+  },
+  "Total Cost of Sales - Retails": {
+    "Total Cost of Sales - Retails": [
+      "Total Cost of Sales - Retails"
+    ]
+  },
+  "Total Cost of Sales - Event Expense": {
+    "Total Cost of Sales - Event Expense": [
+      "Total Cost of Sales - Event Expense"
+    ]
+  },
+  "GENERAL & ADMINISTRATIVE EXP": {
+    "GENERAL & ADMINISTRATIVE EXP": [
+      "General and Administrative Expe - Other",
+      "Web Design & Maintenance",
+      "Clearing and Freight charges",
+      "Telephone",
+      "Internet/Email",
+      "Under/Over",
+      "Auto Expense"
+    ]
+  },
+  "PROFESSIONAL FEE": {
+    "PROFESSIONAL FEE": [
+      "Professional Fees - Other",
+      "Legal Fees",
+      "Audit Fees",
+      "Tax Fees",
+      "Professional Fees",
+      "Accounting Fees",
+      "Consulting Fees",
+      "Management Fees/Wages",
+      "General & Admin Expenses - Other",
+      "Professional Fees - Other",
+      "Legal Fees",
+      "Audit Fees",
+      "Tax Fees",
+      "Professional Fees",
+      "Accounting Fees",
+      "Consulting Fees"
+    ]
+  },
+  "INSURANCE EXPENSE": {
+    "INSURANCE EXPENSE": [
+      "Insurance Expense - Other",
+      "Liability Insurance",
+      "Property Insurance",
+      "Umbrella Insurance",
+      "EPLI Insurance",
+      "Occupancy Expenses",
+      "Uncategorized Expenses"
+    ]
+  },
+  "Guaranteed Payment": {
+    "Guaranteed Payment": [
+      "Stef",
+      "Sam",
+      "David"
+    ]
+  },
+  "Dummy": {
+    "Dummy": [
+      "Dummy",
+      "For Column Width"
+    ]
+  },
+  "STAFF INSURANCE": {
+    "TOTAL STAFF INSURANCE": [
+      "Staff Insurance - Other",
+      "Medical",
+      "Dental",
+      "Vision",
+      "PFL",
+      "Disability",
+      "Workers' Compensation Insurance"
+    ]
+  },
+  "INSURANCE EXPENSES": {
+    "TOTAL INSURANCE EXPENSES": [
+      "Insurance Expense - Other",
+      "Liability Insurance",
+      "Property Insurance",
+      "Umbrella Insurance",
+      "EPLI Insurance"
+    ],
+    "INSURANCE EXPENSES": [
+      "Insurance Expense",
+      "Liability Insurance",
+      "Property Insurance",
+      "Umbrella Insurance",
+      "EPLI Insurance"
+    ]
+  },
+  "ADMINISTRATION": {
+    "ADMINISTRATION": [
+      "Transit Chek",
+      "Transit Chek Deduction",
+      "Federal Paid Medical Leave Tier",
+      "Federal Paid Med Leave Tier 2",
+      "Cell Phone",
+      "Accountancy & Audit Fee",
+      "Bank Charges",
+      "Refund / Chargebacks",
+      "Postage, Stamp & Courier",
+      "Licence & Permits",
+      "Legal & Professional Fee",
+      "IT & Computer Costs",
+      "Travel & Subsistence",
+      "Credit Card Fee",
+      "Other Fees",
+      "Sales Tax Expense",
+      "Use Tax on Comps",
+      "Shipment & Clearing Charges",
+      "Trash Removal Services",
+      "Valet Expense",
+      "Commercial Rent Tax",
+      "Charitable Donations",
+      "Miscellaneous",
+      "Violations",
+      "Staff Recruitment Fees",
+      "Cash Over/Short",
+      "Penalty And Fine",
+      "Bad Debts",
+      "Wages - 1099",
+      "Uncategorized Expenses",
+      "Federal Income Taxes",
+      "State Income Taxes",
+      "Other Income Taxes"
+    ],
+    "Total Third Party Fees": [
+      "Third Party fees - Other",
+      "Stripe Fees",
+      "Doordash Fees",
+      "Grubhub Fees",
+      "Uber Fees"
+    ]
+  },
+  "RESTAURANT UTILITIES": {
+    "RESTAURANT UTILITIES": [
+      "Insurance-Liability",
+      "Insurance-Other",
+      "Insurance",
+      "Laundry / Linen",
+      "Event Expenses",
+      "Repair & Maintenance",
+      "Electricity",
+      "Gas",
+      "Water",
+      "Equipment Hire & Rental",
+      "Flowers And Decorations",
+      "Uniform & Linen Replacement",
+      "Security & Guardforce",
+      "Cleaning Supplies",
+      "Telephone & Internet",
+      "Pest Control",
+      "Contract Cleaning"
+    ],
+    "Total Restaurant Essential": [
+      "Restaurant Essential - Other",
+      "Bar Equipments",
+      "Kitchen Accessories / Supply",
+      "Glasses",
+      "Restaurant Accessories / Supply",
+      "Printing and Menus"
+    ]
+  },
+  "MARKETING": {
+    "MARKETING": [
+      "Advertising & Promotion",
+      "PR Fees",
+      "Event Commission",
+      "Guest Satisfaction",
+      "Musicians & Entertainment",
+      "Research & Development",
+      "Dues And Subscriptions",
+      "Reservationb Charges"
+    ]
+  },
+  "Gross Profit - Retails": {
+    "Gross Profit - Retails": [
+      "Gross Profit - Retails",
+      "Gross Profit - Retails",
+      "Gross Profit - Retails",
+      "Gross Profit - Retails"
+    ]
+  },
+  "SALES & MARKETING": {
+    "TOTAL SALES & MARKETING": [
+      "Marketing / Advertising",
+      "Public Relations",
+      "Promotional Cost",
+      "Branding & Design",
+      "Event Expenses",
+      "Commission Expense",
+      "Discount",
+      "Subscriptions",
+      "Photography expense",
+      "Complimentary Cost",
+      "Commission - UberEats"
+    ],
+    "SALES & MARKETING": [
+      "Advertising and Promotion - Other",
+      "Advertising",
+      "Public Relations",
+      "Branding & Design",
+      "R & D",
+      "Event Expenses",
+      "Commission Expense",
+      "Subscriptions",
+      "Photography expense",
+      "Complimentary Cost"
+    ]
+  },
+  "Other Expense": {
+    "Total Other Expense": [
+      "Sales Adjustments",
+      "Under/Over",
+      "Uncategorized Expense",
+      "Sales Adjustments",
+      "Interest Paid on Loans",
+      "Other Expense",
+      "Amortization Expense",
+      "Rounding Differences",
+      "Adjustment-2025",
+      "Landlord Maintenance cost"
+    ],
+    "PROFIT BEFORE TAX & DEPRECIATION": [
+      "Sales Adjustments",
+      "Sales Adjustments",
+      "Uncategorized Expenses",
+      "Ask My Accountant",
+      "Sales Adjustments",
+      "Interest Expense",
+      "Corporate Tax Expense",
+      "Other Expenses",
+      "Exchange Differences",
+      "Rounding Differences",
+      "Ask My Accountant"
+    ]
+  },
+  "SUPPLIES & MAINTAINANCE": {
+    "SUPPLIES & MAINTAINANCE": [
+      "Supplies and Maintenance - Other",
+      "Linen & Laundry",
+      "Cleaning Supplies",
+      "Cleaning Contract Services",
+      "Pest Control",
+      "Trash/Waste Removal Service",
+      "BOH Supplies & Accessories",
+      "FOH Supplies & Accessories",
+      "Paper Supplies",
+      "Packaging Supplies",
+      "Chinaware",
+      "Flatware",
+      "Glassware",
+      "Barware",
+      "Music",
+      "Landscape, Flowers & Candles",
+      "Office Supplies/Stationery",
+      "Menus",
+      "IT Cost",
+      "Equipment Rental",
+      "Repairs - Building",
+      "Repairs - Equipment",
+      "Repairs - General",
+      "Postage & Courier"
+    ]
+  },
+  "Revenue -  Beverages": {
+    "Revenue -  Beverages": [
+      "Revenue -  Beverages"
+    ]
+  },
+  "Gross Profit - Cocktail": {
+    "Gross Profit - Cocktail": [
+      "Gross Profit - Cocktail"
+    ]
+  },
+  "Gross Profit - Other Beverages": {
+    "Gross Profit - Other Beverages": [
+      "Gross Profit - Other Beverages",
+      "Gross Profit - Other Beverages"
+    ]
+  },
+  "Gross Profit - Beverages": {
+    "Gross Profit - Beverages": [
+      "Gross Profit - Beverages",
+      "Gross Profit - Beverages",
+      "Gross Profit - Beverages"
+    ]
+  },
+  "Gross Profit - Event": {
+    "Gross Profit - Event": [
+      "Gross Profit - Event"
+    ]
+  },
+  "Cost of Sales - Food": {
+    "Cost of Sales - Food": [
+      "Food Purchases",
+      "Food - Stock Adjustment",
+      "Food - Others",
+      "Food Purchases",
+      "Food - Stock Adjustment"
+    ]
+  },
+  "Cost of Sales - Wines": {
+    "Cost of Sales - Wines": [
+      "Wine Purchase",
+      "Wine - Stock Adjustment",
+      "Wines - Others",
+      "Wine Purchase",
+      "Wine - Stock Adjustment"
+    ]
+  },
+  "Cost of Sales - Other Beverages": {
+    "Cost of Sales - Other Beverages": [
+      "Other Bev Purchases",
+      "Other Bev - Stock Adjustment"
+    ]
+  },
+  "Cost of Sales - Event Purchase": {
+    "Cost of Sales - Event Purchase": [
+      "Cost of Sales - Event Purchase"
+    ]
+  },
+  "Cost of Sales - Cocktail": {
+    "Cost of Sales - Cocktail": [
+      "Cost of Sales - Cocktail"
+    ]
+  },
+  "Wages - F.O.H. Salaries": {
+    "Wages - F.O.H. Salaries": [
+      "FOH - General Manager",
+      "Office Marketing",
+      "FOH - Wages - 1099",
+      "FOH - Server",
+      "Bartenders",
+      "Bartender - Bar Back",
+      "Support/Bussers",
+      "Runner",
+      "Floor Captain",
+      "Bar Captain"
+    ]
+  },
+  "Wages · Co Owner": {
+    "Wages · Co Owner": [
+      "Wages · Co Owner"
+    ]
+  },
+  "Wages · Chef Owner": {
+    "Wages · Chef Owner": [
+      "Wages · Chef Owner"
+    ]
+  },
+  "Wages - B.O.H. Salaries": {
+    "Wages - B.O.H. Salaries": [
+      "BOH - Line Cook",
+      "BOH - Porter",
+      "Prep Kitchen"
+    ]
+  },
+  "Wages - Event": {
+    "Wages - Event": [
+      "Wages - Event"
+    ]
+  },
+  "Total OTHER STAFF COST": {
+    "Total OTHER STAFF COST": [
+      "Contract Labor",
+      "Reimbursement",
+      "Payroll Expense",
+      "Workers' Compensation Insurance",
+      "Staff Recruitment",
+      "Staff Training",
+      "Staff Uniforms",
+      "Staff Meals",
+      "Staff Welfare",
+      "Staff First Aid",
+      "Staff Insurance",
+      "Vision",
+      "NYFLI"
+    ]
+  },
+  "Total ADVERTISING/PROMOTION": {
+    "Total ADVERTISING/PROMOTION": [
+      "Advertising",
+      "Public Relations",
+      "Sauce Commission expense",
+      "Branding & Design",
+      "R & D",
+      "Event Expenses",
+      "Grubhub Commission Expense",
+      "Subscriptions",
+      "Photography expense",
+      "Reservations",
+      "Promotions",
+      "Resy Commission Expense",
+      "Stripe Commission",
+      "Inkind Credit Expense"
+    ]
+  },
+  "Total TRAVEL & ENTERAINMENT": {
+    "Total TRAVEL & ENTERAINMENT": [
+      "Airfare",
+      "Entertainment Meals",
+      "Lodging",
+      "Taxi/Parking/Gas Charges",
+      "Auto Expense"
+    ]
+  },
+  "Total COMMUNICATION": {
+    "Total COMMUNICATION": [
+      "Web Design & Maintenance",
+      "Telephone",
+      "Internet/Email"
+    ]
+  },
+  "TOTAL SALES ADJUSTMENT": {
+    "TOTAL SALES ADJUSTMENT": [
+      "Chargebacks",
+      "Under / Over"
+    ]
+  },
+  "TOTAL PROFESSIONAL FEES": {
+    "TOTAL PROFESSIONAL FEES": [
+      "Legal Fees",
+      "Audit Fees",
+      "Tax Fees",
+      "Professional Fees",
+      "Accountancy Charges",
+      "Consulting Fees",
+      "Management Fees"
+    ]
+  },
+  "TOTAL OTHER FINANCIAL COST": {
+    "TOTAL OTHER FINANCIAL COST": [
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Bank Charges",
+      "Donations",
+      "Penalties",
+      "Licenses and Permits",
+      "Sales and Use Tax",
+      "Liability Insurance",
+      "Umbrella Insurance",
+      "EPLI Insurance",
+      "Auto Insurance"
+    ]
+  },
+  "Total Uncategorized": {
+    "Total Uncategorized": [
+      "Uncategorized Expenses",
+      "CORPORATE TAX"
+    ]
+  },
+  "Total Cost of Sales - Beverages": {
+    "Total Cost of Sales - Beverages": [
+      "Cost of Sales - Beverages"
+    ]
+  },
+  "Total Other Income": {
+    "Total Other Income": [
+      "Other Income"
+    ]
+  },
+  "Interest Paid on Loans": {
+    "Interest Paid on Loans": [
+      "Interest Paid on Loans"
+    ]
+  },
+  "Total Other Expenses": {
+    "Total Other Expenses": [
+      "Interest on Tax/Penalties",
+      "Ask My Accountant",
+      "Other Expense",
+      "Under/Over",
+      "Short / Extra - AR",
+      "Receivable from TD Bank",
+      "Start-Up Costs.",
+      "Location Planning"
+    ]
+  },
+  "Depreciation Expense": {
+    "Depreciation Expense": [
+      "Depreciation Expense"
+    ]
+  },
+  "Amortization Expense": {
+    "Amortization Expense": [
+      "Amortization Expense"
+    ]
+  },
+  "Gross Profit - Champagne": {
+    "Gross Profit - Champagne": [
+      "Gross Profit - Champagne"
+    ]
+  },
+  "Total Employer Taxes": {
+    "Total Employer Taxes": [
+      "Employer Taxes - Other",
+      "Social Security",
+      "Medicare",
+      "Federal FUTA",
+      "FL MTA",
+      "State SUI",
+      "OASDI",
+      "FL Re-employment"
+    ]
+  },
+  "GENERAL AND ADMIN EXPENSES": {
+    "GENERAL AND ADMIN EXPENSES": [
+      "Web Design & Maint.",
+      "Parking & Tolls",
+      "Clearing and Freight charges",
+      "Telephone",
+      "Internet/Email"
+    ]
+  },
+  "OTHER FINANCIAL COST": {
+    "OTHER FINANCIAL COST": [
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Bank Charges",
+      "Donations",
+      "Royalties",
+      "Tangible Property Taxes",
+      "Penalties",
+      "Licenses, Permits & Filing Fees",
+      "Sales and Use Tax",
+      "Credit Card Charges"
+    ]
+  },
+  "Gross Profit - Wine": {
+    "Gross Profit - Wine": [
+      "Gross Profit - Wine"
+    ]
+  },
+  "Gross Profit - Catering": {
+    "Gross Profit - Catering": [
+      "Gross Profit - Catering"
+    ]
+  },
+  "Gross Profit - Others": {
+    "Gross Profit - Others": [
+      "Gross Profit - Others"
+    ]
+  },
+  "Pre-Opening Expenses": {
+    "Total Pre-Opening Expenses": [
+      "Pre-Opg Purchases",
+      "Pre-Opening Staff wages",
+      "Pre-Opening Other Staff Cost",
+      "Pre -Opening Employee Taxes",
+      "Pre-Opening Advertising",
+      "Pre-Opening Supplies & Mainten.",
+      "Pre-Opening Occupancy",
+      "Pre-Opening Financial Cost",
+      "Pre-opening Communication",
+      "Pre-Opening R&D"
+    ]
+  },
+  "Over / Under": {
+    "Over / Under": [
+      "Over / Under"
+    ]
+  },
+  "Bank Interest": {
+    "Bank Interest": [
+      "Bank Interest",
+      "Bank Interest",
+      "Bank Interest"
+    ]
+  },
+  "Ask My Accountant": {
+    "Ask My Accountant": [
+      "Ask My Accountant",
+      "Ask My Accountant"
+    ]
+  },
+  "Customer Balance (Write Off)": {
+    "Customer Balance (Write Off)": [
+      "Customer Balance (Write Off)"
+    ]
+  },
+  "TOTAL OTHER INCOME": {
+    "TOTAL OTHER INCOME": [
+      "Management Fees Income",
+      "Interest Income",
+      "Bank Interest",
+      "Other Income",
+      "Other Income"
+    ]
+  },
+  "PRIME COST": {
+    "PRIME COST": [
+      "PRIME COST"
+    ]
+  },
+  "OPERATING EXPENSE": {
+    "OPERATING EXPENSE": [
+      "TOTAL OPERATING EXPENSE"
+    ]
+  },
+  "STORE LEVEL EXPENSE": {
+    "STORE LEVEL EXPENSE": [
+      "TOTAL STORE LEVEL EXPENSE"
+    ]
+  },
+  "STORE LEVEL PROFIT": {
+    "STORE LEVEL PROFIT": [
+      "TOTAL STORE LEVEL PROFIT"
+    ]
+  },
+  "TOTAL OTHER EXPENSE": {
+    "TOTAL OTHER EXPENSE": [
+      "TOTAL OTHER EXPENSE"
+    ]
+  },
+  "P&L AMORTIZATION": {
+    "P & L Amortization - Other": [
+      "P & L Amortization - Other"
+    ],
+    "Fees": [
+      "Fees"
+    ]
+  },
+  "Gross Profit - Wine & Champagn": {
+    "Gross Profit - Wine & Champagn": [
+      "Gross Profit - Wine & Champagn"
+    ]
+  },
+  "Other Charges - Other": {
+    "Other Charges - Other": [
+      "Other Charges - Other"
+    ]
+  },
+  "Write Off - 2016": {
+    "Write Off - 2016": [
+      "Write Off - 2016"
+    ]
+  },
+  "Write Off": {
+    "Write Off": [
+      "Write Off"
+    ]
+  },
+  "Gross Profit - Liquor & Beer": {
+    "Gross Profit - Liquor & Beer": [
+      "Gross Profit - Liquor & Beer"
+    ]
+  },
+  "Sales Tax 2015": {
+    "Sales Tax 2015": [
+      "Sales Tax 2015"
+    ]
+  },
+  "Write Off Tips": {
+    "Write Off Tips": [
+      "Write Off Tips"
+    ]
+  },
+  "A/R Write Off": {
+    "A/R Write Off": [
+      "A/R Write Off"
+    ]
+  },
+  "Uncategorized Expenses": {
+    "Uncategorized Expenses": [
+      "Uncategorized Expenses"
+    ]
+  },
+  "Extra/Short": {
+    "Extra/Short": [
+      "Extra/Short"
+    ]
+  },
+  "Uncategorized Income": {
+    "Uncategorized Income": [
+      "Uncategorized Income"
+    ]
+  },
+  "A/P Write Off": {
+    "A/P Write Off": [
+      "A/P Write Off"
+    ]
+  },
+  "Net Reduction of Debt": {
+    "Net Reduction of Debt": [
+      "Net Reduction of Debt"
+    ]
+  },
+  "Loss on Dissolution": {
+    "Loss on Dissolution": [
+      "Loss on Dissolution"
+    ]
+  },
+  "Revenue - Beverages": {
+    "Revenue - Beverages": [
+      "Revenue - Beverages"
+    ]
+  },
+  "TOTAL SUPPLIES & CLEANING": {
+    "TOTAL SUPPLIES & CLEANING": [
+      "Used Tax on Comps",
+      "White Plains Linen & Laundry",
+      "Dry Cleaning & Uniforms Clean",
+      "Pest Control",
+      "Garbage Disposal",
+      "Cleaning Supplies",
+      "BOH & FOH Supplies",
+      "BOH Supplies / accessories",
+      "Platware",
+      "Cleaning Crew",
+      "FOH Supplies / accessories",
+      "Paper Supplies",
+      "Paper Supplies-SummerLong",
+      "Silverware",
+      "Glassware",
+      "Barware",
+      "Music",
+      "Landscape, Flowers & Candles",
+      "Office Supplies/Stationery",
+      "Menus",
+      "IT Cost",
+      "Equipment Rental & AutoChlor"
+    ]
+  },
+  "TOTAL PROMOTION": {
+    "TOTAL PROMOTION": [
+      "Advertising",
+      "Mailchimp & Mailers",
+      "PR / Events",
+      "Web Design & Maintenance",
+      "Branding & Design",
+      "R&D Dining Expenses",
+      "Event Expenses",
+      "Complimentary Cost"
+    ]
+  },
+  "Non-Operating Expenses": {
+    "Non-Operating Expenses": [
+      "Non-Operating Expenses"
+    ]
+  },
+  "Business Development Cost": {
+    "Business Development Cost": [
+      "Business Development Cost"
+    ]
+  },
+  "Gross Profit - Non-Revenue Service Charge": {
+    "Gross Profit - Non-Revenue Service Charge": [
+      "Gross Profit - Non-Revenue Service Charge"
+    ]
+  },
+  "Cost of Sales -Wine Consignment": {
+    "Cost of Sales -Wine Consignment": [
+      "Wine Consignment - Others",
+      "Wine Consignment Purchase",
+      "Wine Consignment- Stock Adjust"
+    ]
+  },
+  "Other Charges": {
+    "Other Charges": [
+      "Other Charges"
+    ]
+  },
+  "Cost of Sales - Beverages": {
+    "Cost of Sales - Beverages": [
+      "Cost of Sales - Beverages"
+    ]
+  },
+  "Gross Profit - Other": {
+    "Gross Profit - Other": [
+      "Gross Profit - Other"
+    ]
+  }
+}

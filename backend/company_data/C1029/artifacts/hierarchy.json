@@ -1,0 +1,372 @@
+{
+  "OCCUPANCY": {
+    "OCCUPANCY": [
+      "Water",
+      "Gas",
+      "Insurance",
+      "Collected by Steven for Rent",
+      "Security Services",
+      "Electricity",
+      "Storage Rent",
+      "Landlord Settle. for Key Money",
+      "Rent",
+      "CAM Charges",
+      "Real Estate Escalation Tax",
+      "Monitoring charges"
+    ]
+  },
+  "FINANCIAL COST": {
+    "FINANCIAL COST": [
+      "Charge Back - Covid",
+      "NYC LLC FILLING FEES",
+      "License & Permit",
+      "Donations",
+      "Royalties-Trademark Agreement",
+      "Accountancy Charges",
+      "Penalties",
+      "Bank Charges",
+      "Bad Debts",
+      "Credit Card Charges",
+      "Payroll Charges",
+      "Fees / Commisions",
+      "Interest on Tax / Penalties"
+    ]
+  },
+  "ADVERTISING / PROMOTION": {
+    "ADVERTISING / PROMOTION": [
+      "Event Expenses",
+      "Advertising",
+      "Photography expense",
+      "Complimentary Cost",
+      "Subscriptions",
+      "Commission Expense",
+      "Public Relations"
+    ],
+    "TOTAL ADVERTISING/PROMOTION": [
+      "TOTAL ADVERTISING/PROMOTION"
+    ]
+  },
+  "REPAIRS & MAINTENANCE": {
+    "REPAIRS & MAINTENANCE": [
+      "Repairs - Equipment",
+      "Repairs - Building",
+      "Repairs - General"
+    ],
+    "TOTAL REPAIRS & MAINTENANCE": [
+      "TOTAL REPAIR & MAINTENANCE"
+    ]
+  },
+  "TOTAL OTHER STAFF COST": {
+    "TOTAL OTHER STAFF COST": [
+      "TOTAL OTHER STAFF COST"
+    ]
+  },
+  "ADVERTISING/PROMOTION": {
+    "ADVERTISING/PROMOTION": [
+      "Web Design",
+      "Entertainment Meals",
+      "Used Tax on Comps"
+    ]
+  },
+  "PL Depreciation & Amortization": {
+    "PL Depreciation & Amortization": [
+      "P & L Amortization",
+      "P & L Depreciation",
+      "PL Depreciation & Amortization"
+    ],
+    "P & L Depreciation & Amortization": [
+      "PL Depreciation & Amortization"
+    ]
+  },
+  "STAFF COST": {
+    "STAFF COST": [
+      "Cash - Wages",
+      "Wages - F.O.H. Salaries",
+      "Wages – Contractor",
+      "Wages - Commission",
+      "Wages - Bonus",
+      "Wages - B.O.H. Salaries",
+      "Wages - Others"
+    ],
+    "Employer Taxes": [
+      "Employer Taxes"
+    ]
+  },
+  "SUPPLIES & MAINTENANCE": {
+    "SUPPLIES & MAINTENANCE": [
+      "Glassware",
+      "Flatware",
+      "Music",
+      "Pest Control",
+      "Trash/Waste Removal Service",
+      "Cleaning",
+      "BOH Supplies / accessories",
+      "Equipment Rental",
+      "Office Supplies",
+      "Packing supply",
+      "Linen & Laundry",
+      "Barware",
+      "FOH Supplies / accessories",
+      "Flowers & Candles",
+      "IT Cost",
+      "Cleaning Contract Services",
+      "Menus",
+      "Paper Supplies"
+    ]
+  },
+  "Tips Paid": {
+    "Tips Paid": [
+      "Tips Paid"
+    ]
+  },
+  "Cost of Sales - Liquor": {
+    "Cost of Sales - Liquor": [
+      "Liquor - Stock Adjustment"
+    ]
+  },
+  "OTHER STAFF COST": {
+    "OTHER STAFF COST": [
+      "Staff First Aid",
+      "Staff Meals",
+      "Staff Workman's Comp",
+      "Staff Insurance",
+      "Staff Welfare",
+      "Staff Accommodation",
+      "Steven's Personal Expense",
+      "Staff Training",
+      "Staff Recruitment",
+      "Staff Uniforms"
+    ]
+  },
+  "Gross Profit - Wines": {
+    "Gross Profit - Wines": [
+      "Gross Profit - Wines"
+    ]
+  },
+  "TOTAL REPAIRS & MAINTENANCE": {
+    "TOTAL REPAIRS & MAINTENANCE": [
+      "TOTAL REPAIR & MAINTENANCE"
+    ]
+  },
+  "GROSS PROFIT": {
+    "GROSS PROFIT": [
+      "GROSS PROFIT"
+    ]
+  },
+  "Bank Interest": {
+    "Bank Interest": [
+      "Bank Interest"
+    ]
+  },
+  "COST OF GOODS SOLD": {
+    "Total Cost of Sales - Tea/Coffee": [
+      "Cost of Sales - Tea/Coffee - Other"
+    ],
+    "COST OF GOODS SOLD": [
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Tea/Coffee"
+    ],
+    "Total Cost of Sales - Liquor": [
+      "Cost of Sales - Liquor - Other"
+    ],
+    "Cost of Sales - Food": [
+      "Cost of Sales - FOOD"
+    ],
+    "COG Other Beverages": [
+      "Other Bev - Stock Adjustment",
+      "Other Bev Purchases"
+    ],
+    "Total Cost of Sales - Wine": [
+      "Wine Purchases",
+      "Cost of Sales - Wine - Other"
+    ],
+    "Total Cost of Sales - Beer": [
+      "Cost of Sales - Beer - Other"
+    ],
+    "TOTAL BEVERAGES": [
+      "TOTAL BEVERAGES"
+    ],
+    "Total Cost of Sales - Other Beverages": [
+      "Cost of Sales - Other Bev - Other"
+    ],
+    "Total Cost of Sales - Food": [
+      "Cost of Sales - FOOD"
+    ],
+    "COG Liquor": [
+      "Liquor Purchases"
+    ],
+    "Cost of Sales - Food - Other": [
+      "Cost of Sales - Food - Other"
+    ]
+  },
+  "REVENUE": {
+    "REVENUE": [
+      "Revenue - Tea/Coffee",
+      "Non-Revenue Service Charge",
+      "Revenue - Liquor",
+      "Revenue - Wines",
+      "Revenue - Retails",
+      "Revenue - Food"
+    ],
+    "TOTAL REVENUE": [
+      "Revenue - Other Beverages",
+      "TOTAL REVENUE"
+    ]
+  },
+  "Other Income & Expenses": {
+    "Other Income & Expenses": [
+      "Other Income"
+    ]
+  },
+  "TOTAL COMMUNICATION": {
+    "TOTAL COMMUNICATION": [
+      "Internet/Email",
+      "TOTAL COMMUNICATION"
+    ]
+  },
+  "TRAVEL & ENTERTAINMENT": {
+    "TRAVEL & ENTERTAINMENT": [
+      "Airfare",
+      "Shipping Charges",
+      "Lodging",
+      "Transport – Charges"
+    ]
+  },
+  "Cost of Sales - Beer": {
+    "Cost of Sales - Beer": [
+      "Beer Purchases",
+      "Beer - Stock Adjustment"
+    ]
+  },
+  "COMMUNICATION": {
+    "COMMUNICATION": [
+      "Postage/Courier",
+      "Telephone"
+    ]
+  },
+  "Cost of Sales - Tea/Coffee": {
+    "Cost of Sales - Tea/Coffee": [
+      "Tea/Coffee - Stock Adjustment",
+      "Tea/Coffee Purchases"
+    ]
+  },
+  "Ask My Accountant": {
+    "Ask My Accountant": [
+      "Ask My Accountant"
+    ]
+  },
+  "TOTAL TRAVEL & ENTERTAINMENT": {
+    "TOTAL TRAVEL & ENTERTAINMENT": [
+      "TOTAL TRAVEL & ENTERTAINMENT"
+    ]
+  },
+  "EBITDA": {
+    "EBITDA": [
+      "EBITDA"
+    ]
+  },
+  "Written Off": {
+    "Written Off": [
+      "Written Off"
+    ]
+  },
+  "Other Charges": {
+    "Other Charges": [
+      "Other Charges"
+    ]
+  },
+  "Gross Profit - Other Bev": {
+    "Gross Profit - Other Bev": [
+      "Gross Profit - Other Bev"
+    ]
+  },
+  "PROFESSIONAL FEE": {
+    "PROFESSIONAL FEE": [
+      "Professional Fees",
+      "Legal Fees",
+      "Tax Fees"
+    ]
+  },
+  "NET PROFIT/(LOSS)": {
+    "NET PROFIT/(LOSS)": [
+      "NET PROFIT/(LOSS)"
+    ]
+  },
+  "Interest on Loans": {
+    "Interest on Loans": [
+      "Interest on Loans"
+    ]
+  },
+  "PROFIT BEFORE TAX & DEPRECIATION": {
+    "PROFIT BEFORE TAX & DEPRECIATION": [
+      "PROFIT BEFORE TAX & DEPRECIATION"
+    ]
+  },
+  "Gross Profit - Tea/Coffee": {
+    "Gross Profit - Tea/Coffee": [
+      "Gross Profit - Tea/Coffee"
+    ]
+  },
+  "TOTAL OPERATING EXPENSES": {
+    "TOTAL OPERATING EXPENSES": [
+      "TOTAL OPERATING EXPENSES"
+    ]
+  },
+  "Gross Profit - Liquor": {
+    "Gross Profit - Liquor": [
+      "Gross Profit - Liquor"
+    ]
+  },
+  "TOTAL SUPPLIES & MAINTENANCE": {
+    "TOTAL SUPPLIES & MAINTENANCE": [
+      "TOTAL SUPPLIES & MAINTENANCE"
+    ]
+  },
+  "Gross Profit - Food": {
+    "Gross Profit - Food": [
+      "Gross Profit - Food"
+    ]
+  },
+  "TOTAL FINANCIAL COST": {
+    "TOTAL FINANCIAL COST": [
+      "TOTAL FINANCIAL COST"
+    ]
+  },
+  "Cost of Sales - Food": {
+    "Cost of Sales - Food": [
+      "Food Purchases",
+      "Food - Stock Adjustment"
+    ]
+  },
+  "OTHER INCOME & EXPENSES": {
+    "Other Income & Expenses": [
+      "OTHER INCOME & EXPENSES"
+    ],
+    "OTHER INCOME & EXPENSES": [
+      "OTHER INCOME & EXPENSES"
+    ]
+  },
+  "Cost of Sales - Wines": {
+    "Cost of Sales - Wines": [
+      "Wine - Stock Adjustment"
+    ]
+  },
+  "TOTAL COST OF GOODS SOLD": {
+    "TOTAL COST OF GOODS SOLD": [
+      "TOTAL COST OF GOODS SOLD"
+    ]
+  },
+  "TOTAL OCCUPANCY": {
+    "TOTAL OCCUPANCY": [
+      "TOTAL OCCUPANCY"
+    ]
+  },
+  "TOTAL STAFF COST": {
+    "TOTAL STAFF COST": [
+      "TOTAL STAFF COST"
+    ]
+  }
+}

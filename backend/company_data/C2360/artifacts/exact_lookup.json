@@ -1,0 +1,226 @@
+{
+  "Charitable Donations": {
+    "parent": "ADMINISTRATION",
+    "grandparent": "ADMINISTRATION"
+  },
+  "PR Fees": {
+    "parent": "MARKETING",
+    "grandparent": "MARKETING"
+  },
+  "Total Other Cost": {
+    "parent": "Total Other Cost",
+    "grandparent": "OTHER EXPENSES"
+  },
+  "Miscellaneous": {
+    "parent": "ADMINISTRATION",
+    "grandparent": "ADMINISTRATION"
+  },
+  "Depreciation - Land & Building": {
+    "parent": "OTHER EXPENSES",
+    "grandparent": "OTHER EXPENSES"
+  },
+  "Beverage": {
+    "parent": "Total Sales Revenue",
+    "grandparent": "REVENUE"
+  },
+  "Depreciation - Furniture & Fixt": {
+    "parent": "OTHER EXPENSES",
+    "grandparent": "OTHER EXPENSES"
+  },
+  "Event Commission": {
+    "parent": "MARKETING",
+    "grandparent": "MARKETING"
+  },
+  "Interest Expense": {
+    "parent": "Other Expenses",
+    "grandparent": "Other Expenses"
+  },
+  "Cash Over/Short": {
+    "parent": "ADMINISTRATION",
+    "grandparent": "ADMINISTRATION"
+  },
+  "Depreciation - Tools & Equipmen": {
+    "parent": "OTHER EXPENSES",
+    "grandparent": "OTHER EXPENSES"
+  },
+  "Violations": {
+    "parent": "ADMINISTRATION",
+    "grandparent": "ADMINISTRATION"
+  },
+  "Assets/Liabilities Written Off": {
+    "parent": "OTHER EXPENSES",
+    "grandparent": "OTHER EXPENSES"
+  },
+  "Staff Recruitment Fees": {
+    "parent": "ADMINISTRATION",
+    "grandparent": "ADMINISTRATION"
+  },
+  "EBITDA": {
+    "parent": "EBITDA",
+    "grandparent": "EBITDA"
+  },
+  "Federal Income Taxes": {
+    "parent": "ADMINISTRATION",
+    "grandparent": "ADMINISTRATION"
+  },
+  "Depreciation - Leasehold Improv": {
+    "parent": "OTHER EXPENSES",
+    "grandparent": "OTHER EXPENSES"
+  },
+  "Kitchen Accessories / Supply": {
+    "parent": "Total Restaurant Essential",
+    "grandparent": "RESTAURANT UTILITIES"
+  },
+  "Staff Meal Purchases": {
+    "parent": "Total Payroll Taxes",
+    "grandparent": "STAFF COST"
+  },
+  "Bad Debts": {
+    "parent": "FINANCIAL COST",
+    "grandparent": "FINANCIAL COST"
+  },
+  "Other Purchases": {
+    "parent": "Total Other Cost",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Penalty And Fine": {
+    "parent": "ADMINISTRATION",
+    "grandparent": "ADMINISTRATION"
+  },
+  "Restaurant Accessories / Supply": {
+    "parent": "Total Restaurant Essential",
+    "grandparent": "RESTAURANT UTILITIES"
+  },
+  "TOTAL RESTAURANT UTILITIES": {
+    "parent": "RESTAURANT UTILITIES",
+    "grandparent": "UTILITIES"
+  },
+  "Currency Gain Or Loss": {
+    "parent": "OTHER INCOME",
+    "grandparent": "OTHER INCOME"
+  },
+  "Guest Satisfaction": {
+    "parent": "MARKETING",
+    "grandparent": "MARKETING"
+  },
+  "Total Sales Revenue": {
+    "parent": "Total Sales Revenue",
+    "grandparent": "REVENUE"
+  },
+  "Total Salaries & Wages": {
+    "parent": "Total Wages",
+    "grandparent": "STAFF COST"
+  },
+  "Total Payroll Taxes": {
+    "parent": "Total Employer Taxes",
+    "grandparent": "TOTAL EMPLOYER TAXES"
+  },
+  "Total Restaurant Essential": {
+    "parent": "TOTAL SUPPLIES & MAINTENANCE",
+    "grandparent": "TOTAL SUPPLIES & MAINTENANCE"
+  },
+  "TOTAL MARKETING": {
+    "parent": "TOTAL MARKETING COST",
+    "grandparent": "MARKETING"
+  },
+  "Total Third Party Fees": {
+    "parent": "Total Third Party Fees",
+    "grandparent": "GENERAL AND ADMIN EXPENSES"
+  },
+  "ADMINISTRATION": {
+    "parent": "ADMINISTRATION",
+    "grandparent": "GENERAL & ADMINISTRATIVE"
+  },
+  "OCCUPANCY COST": {
+    "parent": "OCCUPANCY COST",
+    "grandparent": "OCCUPANCY COST"
+  },
+  "TOTAL OPERATING EXPENSES": {
+    "parent": "TOTAL OPERATING EXPENSES",
+    "grandparent": "TOTAL OPERATING EXPENSES"
+  },
+  "Total Other Income": {
+    "parent": "Total Other Income",
+    "grandparent": "OTHER INCOME"
+  },
+  "OTHER INCOME": {
+    "parent": "OTHER INCOME",
+    "grandparent": "OTHER INCOME"
+  },
+  "OTHER EXPENSES": {
+    "parent": "OTHER EXPENSES",
+    "grandparent": "OTHER EXPENSES"
+  },
+  "PROFIT BEFORE TAX & DEPRECIATION": {
+    "parent": "PROFIT BEFORE TAX & DEPRECIATION",
+    "grandparent": "PROFIT BEFORE TAX & DEPRECIATION"
+  },
+  "P & L Depreciation": {
+    "parent": "PL Depreciation & Amortization",
+    "grandparent": "PL Depreciation & Amortization"
+  },
+  "P & L Amortization": {
+    "parent": "PL Depreciation & Amortization",
+    "grandparent": "PL Depreciation & Amortization"
+  },
+  "NET PROFIT/(LOSS)": {
+    "parent": "NET PROFIT/(LOSS)",
+    "grandparent": "NET PROFIT/(LOSS)"
+  },
+  "REVENUE": {
+    "parent": "REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "Total Food Cost": {
+    "parent": "Total Food",
+    "grandparent": "TOTAL FOOD"
+  },
+  "Total Beverage Cost": {
+    "parent": "Total Beverages",
+    "grandparent": "TOTAL BEVERAGES"
+  },
+  "Sales Revenue - Other": {
+    "parent": "Total Sales Revenue",
+    "grandparent": "REVENUE"
+  },
+  "Food": {
+    "parent": "REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "Wine": {
+    "parent": "Total Sales Revenue",
+    "grandparent": "REVENUE"
+  },
+  "Others": {
+    "parent": "Total Sales Revenue",
+    "grandparent": "REVENUE"
+  },
+  "Merchandise/Retail Income": {
+    "parent": "Total Sales Revenue",
+    "grandparent": "REVENUE"
+  },
+  "Food - Other": {
+    "parent": "Total Cost of Sale - Food",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Stock Adjustment - Food": {
+    "parent": "Total Food Cost",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Beverage - Other": {
+    "parent": "Total Beverage Cost",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Beverage Purchases": {
+    "parent": "Total Beverage Cost",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Stock Adjustment - Beverage": {
+    "parent": "Total Beverage Cost",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Wine - Other": {
+    "parent": "Total Wine Cost",
+    "grandparent": "COST OF GOODS SOLD"
+  }
+}

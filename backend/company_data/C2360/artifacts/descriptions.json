@@ -1,0 +1,162 @@
+[
+  {
+    "grandparent": "ADMINISTRATION",
+    "parent": "ADMINISTRATION",
+    "description": "Parent 'ADMINISTRATION' (grandparent 'ADMINISTRATION') includes examples: Charitable Donations, Miscellaneous, Cash Over/Short, Violations, Staff Recruitment Fees, Federal Income Taxes, Penalty And Fi"
+  },
+  {
+    "grandparent": "MARKETING",
+    "parent": "MARKETING",
+    "description": "Parent 'MARKETING' (grandparent 'MARKETING') includes examples: PR Fees, Event Commission, Guest Satisfaction"
+  },
+  {
+    "grandparent": "MARKETING",
+    "parent": "TOTAL MARKETING COST",
+    "description": "Parent 'TOTAL MARKETING COST' (grandparent 'MARKETING') includes examples: TOTAL MARKETING"
+  },
+  {
+    "grandparent": "OTHER EXPENSES",
+    "parent": "Total Other Cost",
+    "description": "Parent 'Total Other Cost' (grandparent 'OTHER EXPENSES') includes examples: Total Other Cost"
+  },
+  {
+    "grandparent": "OTHER EXPENSES",
+    "parent": "OTHER EXPENSES",
+    "description": "Parent 'OTHER EXPENSES' (grandparent 'OTHER EXPENSES') includes examples: Depreciation - Land & Building, Depreciation - Furniture & Fixt, Depreciation - Tools & Equipmen, Assets/Liabilities Written O"
+  },
+  {
+    "grandparent": "REVENUE",
+    "parent": "Total Sales Revenue",
+    "description": "Parent 'Total Sales Revenue' (grandparent 'REVENUE') includes examples: Beverage, Total Sales Revenue, Sales Revenue - Other, Wine, Others, Merchandise/Retail Income"
+  },
+  {
+    "grandparent": "REVENUE",
+    "parent": "REVENUE",
+    "description": "Parent 'REVENUE' (grandparent 'REVENUE') includes examples: REVENUE, Food"
+  },
+  {
+    "grandparent": "Other Expenses",
+    "parent": "Other Expenses",
+    "description": "Parent 'Other Expenses' (grandparent 'Other Expenses') includes examples: Interest Expense"
+  },
+  {
+    "grandparent": "EBITDA",
+    "parent": "EBITDA",
+    "description": "Parent 'EBITDA' (grandparent 'EBITDA') includes examples: EBITDA"
+  },
+  {
+    "grandparent": "RESTAURANT UTILITIES",
+    "parent": "Total Restaurant Essential",
+    "description": "Parent 'Total Restaurant Essential' (grandparent 'RESTAURANT UTILITIES') includes examples: Kitchen Accessories / Supply, Restaurant Accessories / Supply"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Total Payroll Taxes",
+    "description": "Parent 'Total Payroll Taxes' (grandparent 'STAFF COST') includes examples: Staff Meal Purchases"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Total Wages",
+    "description": "Parent 'Total Wages' (grandparent 'STAFF COST') includes examples: Total Salaries & Wages"
+  },
+  {
+    "grandparent": "FINANCIAL COST",
+    "parent": "FINANCIAL COST",
+    "description": "Parent 'FINANCIAL COST' (grandparent 'FINANCIAL COST') includes examples: Bad Debts"
+  },
+  {
+    "grandparent": "COST OF GOODS SOLD",
+    "parent": "Total Other Cost",
+    "description": "Parent 'Total Other Cost' (grandparent 'COST OF GOODS SOLD') includes examples: Other Purchases"
+  },
+  {
+    "grandparent": "COST OF GOODS SOLD",
+    "parent": "Total Cost of Sale - Food",
+    "description": "Parent 'Total Cost of Sale - Food' (grandparent 'COST OF GOODS SOLD') includes examples: Food - Other"
+  },
+  {
+    "grandparent": "COST OF GOODS SOLD",
+    "parent": "Total Food Cost",
+    "description": "Parent 'Total Food Cost' (grandparent 'COST OF GOODS SOLD') includes examples: Stock Adjustment - Food"
+  },
+  {
+    "grandparent": "COST OF GOODS SOLD",
+    "parent": "Total Beverage Cost",
+    "description": "Parent 'Total Beverage Cost' (grandparent 'COST OF GOODS SOLD') includes examples: Beverage - Other, Beverage Purchases, Stock Adjustment - Beverage"
+  },
+  {
+    "grandparent": "COST OF GOODS SOLD",
+    "parent": "Total Wine Cost",
+    "description": "Parent 'Total Wine Cost' (grandparent 'COST OF GOODS SOLD') includes examples: Wine - Other"
+  },
+  {
+    "grandparent": "UTILITIES",
+    "parent": "RESTAURANT UTILITIES",
+    "description": "Parent 'RESTAURANT UTILITIES' (grandparent 'UTILITIES') includes examples: TOTAL RESTAURANT UTILITIES"
+  },
+  {
+    "grandparent": "OTHER INCOME",
+    "parent": "OTHER INCOME",
+    "description": "Parent 'OTHER INCOME' (grandparent 'OTHER INCOME') includes examples: Currency Gain Or Loss, OTHER INCOME"
+  },
+  {
+    "grandparent": "OTHER INCOME",
+    "parent": "Total Other Income",
+    "description": "Parent 'Total Other Income' (grandparent 'OTHER INCOME') includes examples: Total Other Income"
+  },
+  {
+    "grandparent": "TOTAL EMPLOYER TAXES",
+    "parent": "Total Employer Taxes",
+    "description": "Parent 'Total Employer Taxes' (grandparent 'TOTAL EMPLOYER TAXES') includes examples: Total Payroll Taxes"
+  },
+  {
+    "grandparent": "TOTAL SUPPLIES & MAINTENANCE",
+    "parent": "TOTAL SUPPLIES & MAINTENANCE",
+    "description": "Parent 'TOTAL SUPPLIES & MAINTENANCE' (grandparent 'TOTAL SUPPLIES & MAINTENANCE') includes examples: Total Restaurant Essential"
+  },
+  {
+    "grandparent": "GENERAL AND ADMIN EXPENSES",
+    "parent": "Total Third Party Fees",
+    "description": "Parent 'Total Third Party Fees' (grandparent 'GENERAL AND ADMIN EXPENSES') includes examples: Total Third Party Fees"
+  },
+  {
+    "grandparent": "GENERAL & ADMINISTRATIVE",
+    "parent": "ADMINISTRATION",
+    "description": "Parent 'ADMINISTRATION' (grandparent 'GENERAL & ADMINISTRATIVE') includes examples: ADMINISTRATION"
+  },
+  {
+    "grandparent": "OCCUPANCY COST",
+    "parent": "OCCUPANCY COST",
+    "description": "Parent 'OCCUPANCY COST' (grandparent 'OCCUPANCY COST') includes examples: OCCUPANCY COST"
+  },
+  {
+    "grandparent": "TOTAL OPERATING EXPENSES",
+    "parent": "TOTAL OPERATING EXPENSES",
+    "description": "Parent 'TOTAL OPERATING EXPENSES' (grandparent 'TOTAL OPERATING EXPENSES') includes examples: TOTAL OPERATING EXPENSES"
+  },
+  {
+    "grandparent": "PROFIT BEFORE TAX & DEPRECIATION",
+    "parent": "PROFIT BEFORE TAX & DEPRECIATION",
+    "description": "Parent 'PROFIT BEFORE TAX & DEPRECIATION' (grandparent 'PROFIT BEFORE TAX & DEPRECIATION') includes examples: PROFIT BEFORE TAX & DEPRECIATION"
+  },
+  {
+    "grandparent": "PL Depreciation & Amortization",
+    "parent": "PL Depreciation & Amortization",
+    "description": "Parent 'PL Depreciation & Amortization' (grandparent 'PL Depreciation & Amortization') includes examples: P & L Depreciation, P & L Amortization"
+  },
+  {
+    "grandparent": "NET PROFIT/(LOSS)",
+    "parent": "NET PROFIT/(LOSS)",
+    "description": "Parent 'NET PROFIT/(LOSS)' (grandparent 'NET PROFIT/(LOSS)') includes examples: NET PROFIT/(LOSS)"
+  },
+  {
+    "grandparent": "TOTAL FOOD",
+    "parent": "Total Food",
+    "description": "Parent 'Total Food' (grandparent 'TOTAL FOOD') includes examples: Total Food Cost"
+  },
+  {
+    "grandparent": "TOTAL BEVERAGES",
+    "parent": "Total Beverages",
+    "description": "Parent 'Total Beverages' (grandparent 'TOTAL BEVERAGES') includes examples: Total Beverage Cost"
+  }
+]

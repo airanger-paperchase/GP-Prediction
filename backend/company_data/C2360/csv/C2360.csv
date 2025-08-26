@@ -1,0 +1,57 @@
+LineItem,Parent,GrandParent
+Charitable Donations,ADMINISTRATION,ADMINISTRATION
+PR Fees,MARKETING,MARKETING
+Total Other Cost,Total Other Cost,OTHER EXPENSES
+Miscellaneous,ADMINISTRATION,ADMINISTRATION
+Depreciation - Land & Building,OTHER EXPENSES,OTHER EXPENSES
+Beverage,Total Sales Revenue,REVENUE
+Depreciation - Furniture & Fixt,OTHER EXPENSES,OTHER EXPENSES
+Event Commission,MARKETING,MARKETING
+Interest Expense,Other Expenses,Other Expenses
+Cash Over/Short,ADMINISTRATION,ADMINISTRATION
+Depreciation - Tools & Equipmen,OTHER EXPENSES,OTHER EXPENSES
+Violations,ADMINISTRATION,ADMINISTRATION
+Assets/Liabilities Written Off,OTHER EXPENSES,OTHER EXPENSES
+Staff Recruitment Fees,ADMINISTRATION,ADMINISTRATION
+EBITDA,EBITDA,EBITDA
+Federal Income Taxes,ADMINISTRATION,ADMINISTRATION
+Depreciation - Leasehold Improv,OTHER EXPENSES,OTHER EXPENSES
+Kitchen Accessories / Supply,Total Restaurant Essential,RESTAURANT UTILITIES
+Staff Meal Purchases,Total Payroll Taxes,STAFF COST
+Bad Debts,FINANCIAL COST,FINANCIAL COST
+Other Purchases,Total Other Cost,COST OF GOODS SOLD
+Penalty And Fine,ADMINISTRATION,ADMINISTRATION
+Restaurant Accessories / Supply,Total Restaurant Essential,RESTAURANT UTILITIES
+TOTAL RESTAURANT UTILITIES,RESTAURANT UTILITIES,UTILITIES
+Currency Gain Or Loss,OTHER INCOME,OTHER INCOME
+Guest Satisfaction,MARKETING,MARKETING
+Total Sales Revenue,Total Sales Revenue,REVENUE
+Total Salaries & Wages,Total Wages,STAFF COST
+Total Payroll Taxes,Total Employer Taxes,TOTAL EMPLOYER TAXES
+Total Restaurant Essential,TOTAL SUPPLIES & MAINTENANCE,TOTAL SUPPLIES & MAINTENANCE
+TOTAL MARKETING,TOTAL MARKETING COST,MARKETING
+Total Third Party Fees,Total Third Party Fees,GENERAL AND ADMIN EXPENSES
+ADMINISTRATION,ADMINISTRATION,GENERAL & ADMINISTRATIVE
+OCCUPANCY COST,OCCUPANCY COST,OCCUPANCY COST
+TOTAL OPERATING EXPENSES,TOTAL OPERATING EXPENSES,TOTAL OPERATING EXPENSES
+Total Other Income,Total Other Income,OTHER INCOME
+OTHER INCOME,OTHER INCOME,OTHER INCOME
+OTHER EXPENSES,OTHER EXPENSES,OTHER EXPENSES
+PROFIT BEFORE TAX & DEPRECIATION,PROFIT BEFORE TAX & DEPRECIATION,PROFIT BEFORE TAX & DEPRECIATION
+P & L Depreciation,PL Depreciation & Amortization,PL Depreciation & Amortization
+P & L Amortization,PL Depreciation & Amortization,PL Depreciation & Amortization
+NET PROFIT/(LOSS),NET PROFIT/(LOSS),NET PROFIT/(LOSS)
+REVENUE,REVENUE,REVENUE
+Total Food Cost,Total Food,TOTAL FOOD
+Total Beverage Cost,Total Beverages,TOTAL BEVERAGES
+Sales Revenue - Other,Total Sales Revenue,REVENUE
+Food,REVENUE,REVENUE
+Wine,Total Sales Revenue,REVENUE
+Others,Total Sales Revenue,REVENUE
+Merchandise/Retail Income,Total Sales Revenue,REVENUE
+Food - Other,Total Cost of Sale - Food,COST OF GOODS SOLD
+Stock Adjustment - Food,Total Food Cost,COST OF GOODS SOLD
+Beverage - Other,Total Beverage Cost,COST OF GOODS SOLD
+Beverage Purchases,Total Beverage Cost,COST OF GOODS SOLD
+Stock Adjustment - Beverage,Total Beverage Cost,COST OF GOODS SOLD
+Wine - Other,Total Wine Cost,COST OF GOODS SOLD
