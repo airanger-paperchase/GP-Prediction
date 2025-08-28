@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 5173,
+    allowedHosts: ["three-facts-press.loca.lt"],
   },
   plugins: [
     react(),

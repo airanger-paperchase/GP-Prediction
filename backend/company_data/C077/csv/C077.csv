@@ -1,0 +1,304 @@
+LineItem,Parent,GrandParent
+Cost of Sales -Wine Consignment,Cost of Sales - Wine & Champagn,COST OF GOODS SOLD
+Wine Consignment Purchase,Cost of Sales -Wine Consignment,Cost of Sales -Wine Consignment
+Wine Consignment- Stock Adjust,Cost of Sales -Wine Consignment,Cost of Sales -Wine Consignment
+Cost of Sales - Liquor,COST OF GOODS SOLD,COST OF GOODS SOLD
+Liquor Purchases,COG Liquor,COST OF GOODS SOLD
+Liquor - Stock Adjustment,Cost of Sales - Liquor,Cost of Sales - Liquor
+Cost of Sales - Beer,COST OF GOODS SOLD,COST OF GOODS SOLD
+Beer Purchases,Cost of Sales - Beer,Cost of Sales - Beer
+Beer - Stock Adjustment,Cost of Sales - Beer,Cost of Sales - Beer
+Cost of Sales - Other Bev,COST OF GOODS SOLD,COST OF GOODS SOLD
+Other Bev Purchases,COG Other Beverages,COST OF GOODS SOLD
+Other Bev - Stock Adjustment,COG Other Beverages,COST OF GOODS SOLD
+Cost of Goods Sold,TOTAL COST OF GOODS SOLD,COST OF GOODS SOLD
+Wages - F.O.H. Salaries,STAFF COST,STAFF COST
+FOH - Managers,Wages - F.O.H. Salaried,STAFF COST
+FOH - Hostess,Total Wages - F.O.H. Wages,TOTAL STAFF COST
+FOH - Cashiers,Wages - F.O.H. Wages,STAFF COST
+FOH - Server/ Captains,Wages - F.O.H.,STAFF COST
+FOH - Bartender/ Barbacks,Wages - F.O.H. Wages,STAFF COST
+FOH - Bussers/ Runners,TOTAL STAFF COST,TOTAL STAFF COST
+BOH - Managers,Wages - B.O.H. Salaried,STAFF COST
+BOH - Dishwashers,SUPPLIES AND MAINTENANCE,SUPPLIES AND MAINTENANCE
+Wages - B.O.H. Salaries,STAFF COST,STAFF COST
+BOH - Office/ Admin,ADMINISTRATION,GENERAL & ADMINISTRATIVE
+BOH - Executive Chef,Wages - B.O.H. Salaried,STAFF COST
+BOH - Sous Chef,Wages - B.O.H. Salaried,STAFF COST
+BOH - Line Cook,Wages - B.O.H. Salaries,Wages - B.O.H. Salaries
+BOH - Prep Cooks,Wages - B.O.H. Wages,STAFF COST
+BOH - Pastry Chef,Wages - B.O.H. Salaried,Total Wages - B.O.H. Salaried
+BOH - Stewards/ Porters,Total Wages - B.O.H. Wages,STAFF COST
+Wages ? Contractor,Total Wages - B.O.H. Salaried,TOTAL STAFF COST
+Wages - Bonus,STAFF COST,STAFF COST
+Wages - Others,STAFF COST,STAFF COST
+Wages - Agency,OTHER STAFF COST,OTHER STAFF COST
+Wages - 1099,OTHER STAFF COST,OTHER STAFF COST
+Cash - Wages,STAFF COST,STAFF COST
+Wages-Commission,STAFF COST,STAFF COST
+Employer Taxes,Employer Taxes,STAFF COST
+Federal FUTA,TOTAL STAFF COST,STAFF COST
+Medicare,Employer Taxes,STAFF COST
+Ny Re-employment,Total Employer Taxes,STAFF COST
+Ny MTA,TOTAL OPERATING EXPENSES,TOTAL OTHER STAFF COST
+State SUI,TOTAL STAFF COST,STAFF COST
+OASDI / Social Security,Total Employer Taxes,STAFF COST
+Staff Workmans Comp,Employer Taxes,Total Employer Benefits
+Staff Insurance,OTHER STAFF COST,OTHER STAFF COST
+Disability (NYSIDF),EMPLOYER TAXES,Total Employer Benefits
+Medical,Total Employer Benefits,STAFF COST
+Staff Recruitment,OTHER STAFF COST,OTHER STAFF COST
+Staff Training,OTHER STAFF COST,OTHER STAFF COST
+Staff Uniforms,OTHER STAFF COST,OTHER STAFF COST
+Staff Meals,OTHER STAFF COST,OTHER STAFF COST
+Staff Welfare,OTHER STAFF COST,OTHER STAFF COST
+Staff Accommodation,OTHER STAFF COST,OTHER STAFF COST
+Staff First Aid,OTHER STAFF COST,OTHER STAFF COST
+Stevens Personal Expense,Other Expenses,TOTAL OTHER STAFF
+Advertising,ADVERTISING / PROMOTION,ADVERTISING / PROMOTION
+Public Relations,ADVERTISING / PROMOTION,ADVERTISING / PROMOTION
+Web Design,ADVERTISING/PROMOTION,ADVERTISING/PROMOTION
+Branding & Design,ADVERTISING / PROMOTION,ADVERTISING / PROMOTION
+R & D,ADVERTISING / PROMOTION,ADVERTISING / PROMOTION
+Event Expenses,ADVERTISING / PROMOTION,ADVERTISING / PROMOTION
+Charge Back - Covid,FINANCIAL COST,FINANCIAL COST
+Fees / Commisions,FINANCIAL COST,FINANCIAL COST
+Commission Expense,ADVERTISING / PROMOTION,ADVERTISING / PROMOTION
+Subscriptions,ADVERTISING / PROMOTION,ADVERTISING / PROMOTION
+Photography expense,ADVERTISING / PROMOTION,ADVERTISING / PROMOTION
+Complimentary Cost,ADVERTISING / PROMOTION,ADVERTISING / PROMOTION
+Reservation - OT,Total Wages - B.O.H. Salaried,STAFF COST
+Airfare,TRAVEL & ENTERTAINMENT,TRAVEL & ENTERTAINMENT
+Entertainment Meals,ADVERTISING/PROMOTION,ADVERTISING/PROMOTION
+Entertainment Meals - S,TOTAL PROMOTION,ADVERTISING/PROMOTION
+Lodging,TRAVEL & ENTERTAINMENT,TRAVEL & ENTERTAINMENT
+Transport ? Charges,Transportation,TOTAL OPERATING EXPENSES
+Transport - Charges - S,Total Operating Expenses,TOTAL OPERATING EXPENSES
+Clearing and Freight charges,TRAVEL & ENTERTAINMENT,TRAVEL & ENTERTAINMENT
+Fuel Charges,Total Operating Expenses,TOTAL OTHER STAFF COST
+Shipping Charges,TRAVEL & ENTERTAINMENT,TRAVEL & ENTERTAINMENT
+Telephone,COMMUNICATION,COMMUNICATION
+Postage/Courier,COMMUNICATION,COMMUNICATION
+Linen & Laundry,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Cleaning,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Cleaning Contract Services,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Pest Control,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Trash/Waste Removal Service,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+BOH Supplies / accessories,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+FOH Supplies / accessories,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Paper Supplies,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Packaging supply,TOTAL SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Chinaware,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Flatware,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Glassware,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Barware,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Music,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Flowers & Candles,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Office Supplies,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Menus,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+IT Cost,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Equipment Rental,SUPPLIES & MAINTENANCE,SUPPLIES & MAINTENANCE
+Repairs - Building,REPAIRS & MAINTENANCE,REPAIRS & MAINTENANCE
+Repairs - Equipment,REPAIRS & MAINTENANCE,REPAIRS & MAINTENANCE
+Repairs - General,REPAIRS & MAINTENANCE,REPAIRS & MAINTENANCE
+Legal Fees,PROFESSIONAL FEE,PROFESSIONAL FEE
+Audit Fees,PROFESSIONAL FEE,PROFESSIONAL FEE
+Tax Fees,PROFESSIONAL FEE,PROFESSIONAL FEE
+Professional Fees,PROFESSIONAL FEE,PROFESSIONAL FEE
+Accountancy Charges,FINANCIAL COST,FINANCIAL COST
+Payroll Charges,FINANCIAL COST,FINANCIAL COST
+Credit Card Charges,FINANCIAL COST,FINANCIAL COST
+Bank Charges,FINANCIAL COST,FINANCIAL COST
+Interest on Loans,Interest on Loans,Interest on Loans
+Donations,FINANCIAL COST,FINANCIAL COST
+Royalties-Trademark Agreement,FINANCIAL COST,FINANCIAL COST
+NYC LLC FILLING FEES,FINANCIAL COST,FINANCIAL COST
+Penalties,FINANCIAL COST,FINANCIAL COST
+Interest on Tax / Penalties,FINANCIAL COST,FINANCIAL COST
+License & Permit,FINANCIAL COST,FINANCIAL COST
+Bad Debts,FINANCIAL COST,FINANCIAL COST
+Reconciliation Discrepancies,Total Other Expenses,TOTAL OTHER STAFF COST
+Rent,OCCUPANCY,OCCUPANCY
+Real Estate Escalation Tax,OCCUPANCY,OCCUPANCY
+Commercial Rent Tax,OCCUPANCY,OCCUPANCY
+Electricity,OCCUPANCY,OCCUPANCY
+Gas,OCCUPANCY,OCCUPANCY
+Water,OCCUPANCY,OCCUPANCY
+Storage Rent,OCCUPANCY,OCCUPANCY
+Insurance,OCCUPANCY,OCCUPANCY
+Security Services,OCCUPANCY,OCCUPANCY
+CAM Charges,OCCUPANCY,OCCUPANCY
+Monitoring charges,OCCUPANCY,OCCUPANCY
+Used Tax on Comps,ADVERTISING/PROMOTION,ADVERTISING/PROMOTION
+Collected by Steven for Rent,OCCUPANCY,OCCUPANCY
+Uncategorized Expenses,FINANCIAL COST,FINANCIAL COST
+P & L Depreciation,PL Depreciation & Amortization,PL Depreciation & Amortization
+Leasehold,Leasehold,Other Expenses
+Kitchen/Hood,Kitchen/Hood,Other Expenses
+Equipment,TOTAL REPAIRS & MAINTENANCE,TOTAL REPAIRS & MAINTENANCE
+POS,GENERAL & ADMINISTRATIVE,GENERAL & ADMINISTRATIVE
+Audio / Visual,TOTAL OTHER EXPENSE,TOTAL OTHER EXPENSE
+Restaurant Equipment,TOTAL OPERATING EXPENSES,TOTAL OPERATING EXPENSES
+It Securing,Other Charges - Other,G&A
+Kitchern Equipment,Total Wages - B.O.H. Salaried,STAFF COST
+F&F,Furniture and Fixtures,TOTAL OPERATING EXPENSES
+P & L Amortization,PL Depreciation & Amortization,PL Depreciation & Amortization
+Interior Design,TOTAL PROMOTION,ADVERTISING / PROMOTION
+Website Designing,Professional and Consutlng,Professional and Consutlng
+Permits,ADMINISTRATION,TOTAL GENERAL & ADMIN EXPENSES
+Legal Attorney,Legal & Accounting,GENERAL & ADMINISTRATIVE
+Liquor Attorney,Other Charges - Other,Other Expenses
+Code & Expeditor,TOTAL STAFF COST,STAFF COST
+License Fee,Legal & Accounting,GENERAL & ADMINISTRATIVE
+Bank Interest,Bank Interest,Bank Interest
+Other Income,Other Income & Expenses,Other Income & Expenses
+Other Charges,Other Charges,Other Charges
+AR Chargeback,Other Income,Other Income
+REIMBURSEMENT EXPENSES,Reimbursements,TOTAL OTHER STAFF
+UNDER / OVER,Extra/Short,TOTAL OTHER STAFF COST
+Guaranteed payments to partners,Total Wages - B.O.H. Salaried,STAFF COST
+Tips Paid,Tips Paid,Tips Paid
+Estimates,Total Other Expenses,Total Other Expenses
+Ask My Accountant,Ask My Accountant,Ask My Accountant
+Written Off,Written Off,Written Off
+Main Bank - 0776,Other Charges - Other,TOTAL OTHER STAFF COST
+Bank- 5915,Interest on Loans,FINANCIAL COST
+Bank - 5138,Interest on Loans,FINANCIAL COST
+Chase Bank - 9728,ADMINISTRATION,ADMINISTRATION
+BOA  Operating  -  2837,Total Operating Expenses,TOTAL OTHER EXPENSE
+BOA Payroll - 2879,TOTAL WAGES - B.O.H. Salaried,STAFF COST
+Citi Bank-7748,TOTAL FINANCIAL COSTS,FINANCIAL COST
+Citi Bank-7713,Interest on Loans,FINANCIAL COST
+BOA Savings - 4860,Other Expenses,TOTAL OTHER EXPENSE
+Bank Transfer A/C,Other Income & Expenses,Other Income & Expenses
+Cash Banking,Other Income & Expenses,Other Income & Expenses
+AR Control A/C,A/P Write Off,Total Other Expenses
+Account Receivable A/C,A/R Write Off,TOTAL OTHER EXPENSE
+Sales Ledger Control A/C- Event,ADMINISTRATION,ADMINISTRATION
+Sales Ledger Control A/C - Gift,REVENUE,REVENUE
+*Undeposited Funds,Other Income & Expenses,Other Income & Expenses
+Inventory,Total Cost of Goods Sold,COST OF GOODS SOLD
+Food Inventory,Total Cost of Sales - Food,COST OF GOODS SOLD
+Tea/Coffee Inventory,Total Cost of Sales - Tea/Coffee,COST OF GOODS SOLD
+Wine Inventory,Total Cost of Sales - Wine & Champagn,COST OF GOODS SOLD
+Liquor Inventory,Cost of Sales - Liquor,Gross Profit - Liquor
+Beer Inventory,Cost of Sales - Beer,Gross Profit - Beverages
+Other Beverages Inventory,Total Cost of Sales - Other Beverages,Gross Profit - Beverages
+Book Inventory,Total Cost of Sales - Other Beverages,COST OF GOODS SOLD
+Retail Inventory,Total Wages - B.O.H. Wages,STAFF COST
+Tobacco Inventory,Total Cost of Sales - Other Beverages,Gross Profit - Beverages
+Other Inventory,Total Cost of Sales - Other Bev,COST OF GOODS SOLD
+Inventory Asset,Total Wages - F.O.H. Wages,STAFF COST
+Prepaid Expenses,Total Other Expense,Other Expense
+Staff Wages,TOTAL WAGES - 1099,STAFF COST
+Other Staff Cost,TOTAL OTHER STAFF COST,STAFF COST
+Advertising/Promotion,ADVERTISING / PROMOTION,ADVERTISING/PROMOTION
+Communication,TOTAL COMMUNICATION,TOTAL OPERATING EXPENSES
+Supplies & Maintenance,TOTAL SUPPLIES & MAINTENANCE,SUPPLIES AND MAINTENANCE
+Repairs & Maintenance,REPAIRS & MAINTENANCE,TOTAL REPAIRS & MAINTENANCE
+Financial Cost,FINANCIAL COST,FINANCIAL COST
+Occupancy,TOTAL OCCUPANCY,TOTAL OCCUPANCY
+Travel & Entertainment,Travel & Entertainment,Travel & Entertainment
+Staff Loans/Salary Advances,OTHER EMPLOYEE EXPENSES,TOTAL OTHER STAFF COST
+Deposits,Total Revenue Other,REVENUE
+Deposit - Rent,TOTAL OCCUPANCY,TOTAL OCCUPANCY
+Deposit - Office,ADMINISTRATION,Gross Profit - Wines
+Deposit - Staff Accommodation,TOTAL STAFF COST,STAFF COST
+Deposit - Beer Kegs,Total Cost of Sales - Beer,Total Cost of Sales - Other Bev
+Deposit - Other,Other Income & Expenses,Total Other Expenses
+Due from Mike,Other Income & Expenses,Total Other Income
+Due from Massimo,Other Income & Expenses,Other Income & Expenses
+Due from SF,Other Income & Expenses,Other Income & Expenses
+Fees,Fees,P&L AMORTIZATION
+Accumulated Amortization,P & L Amortization - Other,TOTAL OTHER STAFF COST
+Leasehold Improvements,Leasehold Improvements,OTHER INCOME & EXPENSES
+GC Buildout,TOTAL PRE OPENING EXPENSES,TOTAL PRE OPENING EXPENSES
+Non-GC Buildout,TOTAL PRE OPENING EXPENSES,TOTAL PRE OPENING EXPENSES
+Owner Supplied,Total Cost of Sales - Other Beverages,Gross Profit - Beverages
+Accumulated Depreciation,PL Depreciation & Amortization,TOTAL OTHER EXPENSE
+Kitchen Buildout,TOTAL PRE OPENING EXPENSES,TOTAL PRE OPENING EXPENSES
+Hood Buildout,TOTAL REPAIRS & MAINTENANCE,REPAIRS & MAINTENANCE
+Audio/Visual,TOTAL OTHER EXPENSE,TOTAL OTHER STAFF COST
+Restaurant,Restaurant,SUPPLIES & MAINTENANCE
+Office,ADMINISTRATION,ADMINISTRATION
+Acoustical,TOTAL REPAIRS & MAINTENANCE,REPAIRS & MAINTENANCE
+Kitchen,BOH SALARIES,STAFF COST
+Furniture & Fixures,Furniture and Fixtures,TOTAL PRE OPENING EXPENSES
+Intangible Assets,Intangible Assets,Other Expenses
+Start-Up Costs,Start-Up Costs,Other Expenses
+Start-Up Costs - Expenses,Total Pre Opening Expenses,Pre-Opening Expenses
+Accounts Payable - USD,A/P Write Off,Total Other Expenses
+American Express # 81008-Steven,Total Wages - F.O.H. Wages,STAFF COST
+Amex #83020 - Leslie,Other Income & Expenses,Other Income & Expenses
+Amex #81057 - Riccardo,Total Wages - F.O.H. Wages,STAFF COST
+Amex #81040- Salvatore,Total Wages - F.O.H. Wages,STAFF COST
+Chase Card # 7714,Total Wages - B.O.H. Salaried,STAFF COST
+Credit Card #5255,Credit Card Charges - Phil,TOTAL OTHER EXPENSE
+American Express#11007 - Steven,Total Wages - F.O.H. Wages,STAFF COST
+American Express #11015 -Leslie,Total Wages,STAFF COST
+American Express Delta #81006,TOTAL OTHER EXPENSE,TOTAL OTHER EXPENSE
+Accrued Liabilities,Other Expenses,TOTAL OTHER STAFF
+COGS,Total Cost of Sales - F&B,COST OF GOODS SOLD
+Net Wages Payable,TOTAL WAGES - 1099,STAFF COST
+PPP-Payroll Liability,Total Employer Benefits,Total Employer Benefits
+Payroll Misc Deductions,Other Expenses,TOTAL OTHER STAFF COST
+Child Support,Total Employer Benefits,Total Employer Benefits
+Wages-Garnishment,Total Wages - F.O.H. Wages,STAFF COST
+Tips Payable,Tips Paid,Total Wages - F.O.H. Wages
+Staff Disability Ins.,Total Employer Benefits,Total Employer Benefits
+NYS - PFL Payable,TOTAL EMPLOYEE BENEFITS,Total Employer Benefits
+Liability of Uncleared Checks,Other Expenses,TOTAL OTHER STAFF COST
+Payroll Tax Payable,Total Employer Taxes,Total Employer Benefits
+Sales Tax Payable,Sales Tax 2015,TOTAL OTHER STAFF COST
+Royalty Payables,Other Income & Expenses,Other Income & Expenses
+Unearn Revenue,Other Income & Expenses,TOTAL OTHER STAFF COST
+Gift Card Redeem,Total Sales Revenue,TOTAL REVENUE
+Event Deposit Redeem,Total Wages - F.O.H. Wages,STAFF COST
+IC Mamo Miami,Other Income & Expenses,Other Income & Expenses
+Guaranteed Payment to Partner,Total Wages - B.O.H. Salaried,STAFF COST
+IC Mamo Midtown,Total Wages - F.O.H. Wages,STAFF COST
+Loans Payable,Interest on Loans,FINANCIAL COST
+Loan From GRELEX INVESTMENTS LL,Other Income & Expenses,Other Income & Expenses
+Loan From MALEX LLC,Other Income & Expenses,Other Income & Expenses
+Loan from Steven Fruman,Other Income & Expenses,Other Income & Expenses
+Loan From Paperchase,Interest on Loans,TOTAL FINANCIAL COST
+Loan from AF Scrapes LLC,Other Income & Expenses,Other Income & Expenses
+PPP Loan Liability,Total Other Expenses,TOTAL OTHER STAFF COST
+Steven Fruman Withdrawals,Total Wages - F.O.H. Wages,STAFF COST
+EIDL Loan,Other Income & Expenses,Other Income & Expenses
+Amex Loan - Line of credit,Interest on Loans,FINANCIAL COST
+SBA Loan,Other Income & Expenses,Other Income & Expenses
+SBA Loan-1,Other Charges - Other,TOTAL OTHER STAFF COST
+ERTC Fund,TOTAL FINANCIAL COSTS,TOTAL FINANCIAL COST
+*Sales Tax Payable,Sales Tax 2015,TOTAL OTHER STAFF COST
+Retained Earnings,Total Wages - F.O.H. Wages,STAFF COST
+Members Contributions,Other Income,Other Income & Expenses
+SF,TOTAL WAGES - 1099,STAFF COST
+2,TOTAL WAGES - F.O.H. Wages,STAFF COST
+3,TOTAL WAGES - F.O.H. Wages,STAFF COST
+Partners capital account - SF,Other Income & Expenses,Other Income & Expenses
+5,TOTAL WAGES - F.O.H. Wages,STAFF COST
+Distribution-Cash,Total Wages - F.O.H. Wages,STAFF COST
+Members Distribution,Total Sales Revenue,REVENUE
+MM Hospitality,ADMINISTRATION,Gross Profit - Beverages
+Salvatore Marcello,TOTAL WAGES - F.O.H. Wages,STAFF COST
+Steven Fruman,TOTAL WAGES - F.O.H. Wages,STAFF COST
+4,Extra/Short,TOTAL OTHER STAFF COST
+Opening Balance Equity,Total Wages - B.O.H. Salaried,STAFF COST
+Revenue - Food,REVENUE,REVENUE
+Revenue - Tea/Coffee,REVENUE,REVENUE
+Revenue - Wines,REVENUE,REVENUE
+Revenue - Liquor,REVENUE,REVENUE
+Revenue - Other Beverages,TOTAL REVENUE,REVENUE
+Non-Revenue Service Charge,REVENUE,REVENUE
+Revenue - Retails,REVENUE,REVENUE
+*Retained Earnings,Other Income & Expenses,Other Income & Expenses
+Cost of Sales - Food,COST OF GOODS SOLD,COST OF GOODS SOLD
+Food Purchases,Cost of Sales - Food,Cost of Sales - Food
+Food - Stock Adjustment,Cost of Sales - Food,Cost of Sales - Food
+Cost of Sales - Tea/Coffee,COST OF GOODS SOLD,COST OF GOODS SOLD
+Tea/Coffee Purchases,Cost of Sales - Tea/Coffee,Cost of Sales - Tea/Coffee
+Tea/Coffee - Stock Adjustment,Cost of Sales - Tea/Coffee,Cost of Sales - Tea/Coffee
+Cost of Sales - Wine,COST OF GOODS SOLD,COST OF GOODS SOLD
+Wine Purchases,Total Cost of Sales - Wine,COST OF GOODS SOLD
+Wine - Stock Adjustment,Cost of Sales - Wines,Cost of Sales - Wines

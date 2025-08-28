@@ -1,8 +1,14 @@
+
+import uuid
+from datetime import datetime, timedelta, timezone
+
 # api_langextract_company.py
 from typing import List, Optional
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import os
+import io
+import pandas as pd
 import json
 import csv
 import logging
@@ -15,6 +21,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from shared_setup import load_label_csv, build_lookups, normalize_lineitem
 import langextract_style
 import build_artifacts
+import pyodbc
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("api_langextract_company")
@@ -38,6 +46,188 @@ app.add_middleware(
 
 BASE_COMPANY_DIR = "company_data"
 FALLBACK_CSV = "filtered_data.csv"
+###########################
+# SQL Processing Route
+###########################
+
+# DB connection settings
+SERVER = os.getenv("SERVER")
+DATABASE = os.getenv("DATABASE")
+USERNAME = "DEV_TANISH"
+PASSWORD = os.getenv("PASSWORD")
+
+CONN_STR = (
+    f"DRIVER={{ODBC Driver 18 for SQL Server}};"
+    f"SERVER={SERVER};DATABASE={DATABASE};"
+    f"UID={USERNAME};PWD={PASSWORD};TrustServerCertificate=yes;"
+)
+
+class CompanyRequest(BaseModel):
+    company_code: str
+    username: str
+
+class StoreAutoMappingRequest(BaseModel):
+    rows: list  # List of dicts, each with columns matching the final df
+
+
+# Place this after app = FastAPI(...)
+
+@app.post("/store_auto_mapping")
+def store_auto_mapping(req: StoreAutoMappingRequest):
+    # Insert each row into PL_Master_AutoMapping
+    try:
+        conn = pyodbc.connect(CONN_STR)
+        cursor = conn.cursor()
+        for row in req.rows:
+            # Ensure all columns exist except Id
+            CompanyCode = row.get("CompanyCode")
+            GLCode = row.get("GLCode")
+            LineItem = row.get("LineItem")
+            GrandParent = row.get("GrandParent")
+            Parent = row.get("Parent")
+            UpdatedOn = row.get("UpdatedOn")
+            UpdatedBy = row.get("UpdatedBy")
+            cursor.execute(
+                """
+                INSERT INTO PL_Master_AutoMapping (CompanyCode, GLCode, LineItem, GrandParent, Parent, UpdatedOn, UpdatedBy)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+                """,
+                CompanyCode, GLCode, LineItem, GrandParent, Parent, UpdatedOn, UpdatedBy
+            )
+        conn.commit()
+        cursor.close()
+        conn.close()
+        return {"status": "ok", "rows_inserted": len(req.rows)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to store auto mapping: {e}")
+
+def get_plmaster_mapping(company_code: str):
+    conn = pyodbc.connect(CONN_STR)
+    cursor = conn.cursor()
+    cursor.execute("EXEC Get_GetPLMaster_Mapping ?", company_code)
+
+    columns = [column[0] for column in cursor.description]
+    rows = cursor.fetchall()
+    results = [dict(zip(columns, row)) for row in rows]
+
+    cursor.close()
+    conn.close()
+    return results
+
+def split_plmaster_mapping(df: pd.DataFrame):
+    # Filter out rows where GLCode is null
+    df = df[df['GLCode'].notna()]
+
+    # 1) LineItems with no Parent & GrandParent but GLCode present
+    LineItems_with_no_Parent_GrandParent = df[
+        (df['Parent'].isna()) & (df['GrandParent'].isna())
+    ]
+
+    only_lineitems = LineItems_with_no_Parent_GrandParent['LineItem'].tolist()
+
+    # 2) LineItems with both Parent & GrandParent and GLCode present
+    LineItems_with_Parent_GrandParent = df[
+        (df['Parent'].notna()) & (df['GrandParent'].notna())
+    ]
+
+    return LineItems_with_no_Parent_GrandParent, LineItems_with_Parent_GrandParent, only_lineitems
+
+
+def enrich_and_merge_predictions(no_pg_df: pd.DataFrame, with_pg_df: pd.DataFrame, predictions: list, company_code: str, username: str):
+    """
+    no_pg_df: DataFrame -> LineItems_with_no_Parent_GrandParent
+    with_pg_df: DataFrame -> LineItems_with_Parent_GrandParent
+    predictions: list of dicts (from /batch/langextract_by_company results)
+    company_code: str
+    username: str
+    """
+    # 1) Convert predictions JSON to DataFrame, handle missing columns
+    pred_df = pd.DataFrame(predictions)
+    required_cols = ["line_item", "parent", "grandparent"]
+    missing_cols = [col for col in required_cols if col not in pred_df.columns]
+    if missing_cols:
+        logger.error(f"Predictions missing columns: {missing_cols}. Actual columns: {list(pred_df.columns)}. Predictions: {predictions}")
+        # Create empty columns for missing ones
+        for col in missing_cols:
+            pred_df[col] = None
+    # 2) Merge with no_pg_df (left join, so we keep all rows in no_pg_df)
+    merged_df = no_pg_df.merge(
+        pred_df[required_cols],
+        left_on="LineItem",
+        right_on="line_item",
+        how="left"
+    )
+    # 3) Fill missing Parent/GrandParent in no_pg_df with prediction values
+    merged_df["Parent"] = merged_df["Parent"].fillna(merged_df["parent"])
+    merged_df["GrandParent"] = merged_df["GrandParent"].fillna(merged_df["grandparent"])
+    # 4) Drop helper cols (line_item, parent, grandparent from prediction)
+    merged_df = merged_df.drop(columns=["line_item", "parent", "grandparent"])
+    # 5) Final combine with already-complete with_pg_df
+    final_df = pd.concat([merged_df, with_pg_df], ignore_index=True)
+
+    # Add new columns: Id, CompanyCode, UpdatedOn (IST), UpdatedBy
+    # GLCode, LineItem, GrandParent, Parent must remain as is
+    # Column order: Id, CompanyCode, GLCode, LineItem, GrandParent, Parent, UpdatedOn, UpdatedBy
+    def get_ist_now():
+        # IST is UTC+5:30
+        return (datetime.utcnow() + timedelta(hours=5, minutes=30)).strftime('%Y-%m-%d %H:%M:%S')
+
+    final_df["Id"] = [str(uuid.uuid4()) for _ in range(len(final_df))]
+    final_df["CompanyCode"] = company_code
+    final_df["UpdatedOn"] = get_ist_now()
+    final_df["UpdatedBy"] = username
+
+    # Reorder columns
+    # If any column is missing, add as empty string
+    for col in ["GLCode", "LineItem", "GrandParent", "Parent"]:
+        if col not in final_df.columns:
+            final_df[col] = ""
+    final_df = final_df[["Id", "CompanyCode", "GLCode", "LineItem", "GrandParent", "Parent", "UpdatedOn", "UpdatedBy"]]
+    return final_df
+
+@app.post("/get_plmaster_mapping")
+def get_plmaster_mapping_route(req: CompanyRequest):
+    company_code = req.company_code.strip()
+    username = req.username.strip()
+    if not company_code:
+        raise HTTPException(status_code=400, detail="company_code is required")
+
+    try:
+        data = get_plmaster_mapping(company_code)
+        df = pd.DataFrame(data)
+
+        # apply split
+        df1, df2, only_lineitems = split_plmaster_mapping(df)
+
+        # If there are lineitems missing parent/grandparent, get predictions
+        predictions = []
+        if only_lineitems:
+            # Call batch/langextract_by_company internally
+            batch_req = CompanyBatchRequest(company_code=company_code, lines=only_lineitems)
+            batch_result = langextract_by_company(batch_req)
+            predictions = batch_result.get("results", [])
+
+        # Merge predictions with df1 and combine with df2, add extra columns
+        final_df = enrich_and_merge_predictions(df1, df2, predictions, company_code, username)
+
+        # Convert final_df to CSV for download
+        csv_buffer = io.StringIO()
+        final_df.to_csv(csv_buffer, index=False)
+        csv_str = csv_buffer.getvalue()
+
+        return {
+            "company_code": company_code,
+            "count_total": len(df),
+            "count_df1": len(df1),
+            "count_df2": len(df2),
+            "LineItems_with_no_Parent_GrandParent": df1.to_dict(orient="records"),
+            "LineItems_with_Parent_GrandParent": df2.to_dict(orient="records"),
+            "only_lineitems": only_lineitems,
+            "predictions": predictions,
+            "final_csv": csv_str
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 class CompanyBatchRequest(BaseModel):
@@ -77,7 +267,7 @@ def _ensure_company_dirs(base_dir: str, company_code: str):
     os.makedirs(artifacts_dir, exist_ok=True)
     return code, csv_dir, artifacts_dir
 
-
+# this is for local persistence of predictions
 def _append_prediction_to_company_csv(csv_dir: str, company_code: str, line_item: str, parent: str, grandparent: str):
     """
     Append a prediction to the company CSV if it doesn't already exist.
@@ -142,140 +332,6 @@ def _append_prediction_to_company_csv(csv_dir: str, company_code: str, line_item
 @app.get("/health")
 def health():
     return {"status": "ok"}
-
-
-# @app.post("/batch/langextract_by_company")
-# def langextract_by_company(req: CompanyBatchRequest):
-#     # Validate input
-#     company_code = (req.company_code or "").strip()
-#     if not company_code:
-#         raise HTTPException(status_code=400, detail="company_code is required")
-
-#     if not req.lines or not any([l.strip() for l in req.lines]):
-#         raise HTTPException(status_code=400, detail="lines must contain at least one non-empty line item")
-
-#     # Build company paths
-#     company_root = os.path.join(BASE_COMPANY_DIR, company_code)
-#     company_csv_dir = os.path.join(company_root, "csv")
-#     company_artifacts_dir = os.path.join(company_root, "artifacts")
-
-#     # 1) First try to find CSV in company-specific directory
-#     csv_path = None
-#     if os.path.isdir(company_csv_dir):
-#         for name in os.listdir(company_csv_dir):
-#             if name.lower().endswith(".csv"):
-#                 csv_path = os.path.join(company_csv_dir, name)
-#                 logger.info(f"Found company CSV: {csv_path}")
-#                 break
-
-#     # 2) If no company CSV, try loading default artifacts
-#     if not csv_path:
-#         default_artifacts_dir = os.path.join(BASE_COMPANY_DIR, "_default", "artifacts")
-#         if os.path.exists(default_artifacts_dir):
-#             exact_lookup = _load_exact_lookup_from_artifacts(default_artifacts_dir) or {}
-#             logger.info(f"Using default artifacts from: {default_artifacts_dir}")
-#             examples = []
-#             parents = []
-#             grandparents = []
-            
-#             # If we have default artifacts, use them
-#             if exact_lookup:
-#                 examples = [
-#                     {"lineitem": k, "parent": v.get("parent", ""), "grandparent": v.get("grandparent", "")}
-#                     for k, v in exact_lookup.items()
-#                 ]
-#                 parents = list({v.get("parent", "") for v in exact_lookup.values() if v.get("parent")})
-#                 grandparents = list({v.get("grandparent", "") for v in exact_lookup.values() if v.get("grandparent")})
-#         else:
-#             exact_lookup = {}
-#             examples = []
-#             parents = []
-#             grandparents = []
-#     else:
-#         # 3) If we have a company CSV, load it
-#         try:
-#             df = load_label_csv(csv_path)
-#             exact_lookup, examples, parents, grandparents = build_lookups(df)
-#             logger.info(f"Loaded {len(exact_lookup)} entries from company CSV")
-#         except Exception as e:
-#             logger.exception("Failed loading company CSV, falling back to defaults")
-#             exact_lookup = {}
-#             examples = []
-#             parents = []
-#             grandparents = []
-    
-#     # 4) Final fallback to default CSV if no data loaded yet
-#     if not exact_lookup:
-#         default_csv_path = os.path.join(BASE_COMPANY_DIR, "_default", "csv", "filtered_data.csv")
-#         if os.path.exists(default_csv_path):
-#             try:
-#                 df = load_label_csv(default_csv_path)
-#                 exact_lookup, examples, parents, grandparents = build_lookups(df)
-#                 logger.info(f"Loaded {len(exact_lookup)} entries from default CSV")
-#             except Exception as e:
-#                 logger.exception("Failed loading default CSV")
-#                 if not exact_lookup:
-#                     exact_lookup = {}
-    
-#     if not exact_lookup:
-#         logger.warning("No data loaded from any source - starting with empty lookup")
-
-#     # Process each line item
-#     results = []
-#     for line in req.lines:
-#         if not line or not line.strip():
-#             continue
-            
-#         line = line.strip()
-#         normalized = line.lower()
-        
-#         # 1) Check for exact match first (highest priority)
-#         if exact_lookup and normalized in exact_lookup:
-#             match = exact_lookup[normalized]
-#             results.append({
-#                 "line_item": line,
-#                 "normalized": normalized,
-#                 "parent": match.get("parent", ""),
-#                 "grandparent": match.get("grandparent", ""),
-#                 "parent_confidence": 1.0,
-#                 "grandparent_confidence": 1.0,
-#                 "source": "exact_match"
-#             })
-#             continue
-            
-#         # 2) If no exact match, try LLM prediction
-#         try:
-#             prediction = langextract_style.predict_langextract(
-#                 lineitem=normalized,
-#                 exact_lookup=exact_lookup or {},
-#                 examples=examples,
-#                 parents=parents,
-#                 grandparents=grandparents,
-#             )
-#             results.append({
-#                 "line_item": line,
-#                 "normalized": normalized,
-#                 "parent": prediction.get("parent", ""),
-#                 "grandparent": prediction.get("grandparent", ""),
-#                 "parent_confidence": prediction.get("parent_confidence", 0.0),
-#                 "grandparent_confidence": prediction.get("grandparent_confidence", 0.0),
-#                 "rationale": prediction.get("rationale", ""),
-#                 "source": "llm_prediction"
-#             })
-#         except Exception as e:
-#             logger.error(f"Error predicting for line '{line}': {str(e)}")
-#             results.append({
-#                 "line_item": line,
-#                 "normalized": normalized,
-#                 "parent": "",
-#                 "grandparent": "",
-#                 "parent_confidence": 0.0,
-#                 "grandparent_confidence": 0.0,
-#                 "error": str(e),
-#                 "source": "error"
-#             })
-    
-#     return {"company_code": company_code, "count": len(results), "results": results}
 
 @app.post("/batch/langextract_by_company")
 def langextract_by_company(req: CompanyBatchRequest):

@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from "react";
+import { useToast } from "@/hooks/use-toast";
 import axios from "axios";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -28,6 +29,7 @@ const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:8000";
 const ITEMS_PER_PAGE = 20;
 
 const Index = () => {
+  const { toast } = useToast();
   const [file, setFile] = useState<File | null>(null);
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState<PredictResponse | null>(null);
@@ -183,8 +185,21 @@ const Index = () => {
     }
   };
 
-  const handleDownloadCSV = () => {
+  const handleDownloadCSV = async () => {
     if (!data) return;
+    try {
+      // Store to SQL before download
+      await axios.post(`${API_BASE}/store_auto_mapping`, {
+        rows: data.full_dataset || data.rows,
+      });
+    } catch (e: any) {
+      toast({
+        title: "Error",
+        description: `Failed to store auto mapping: ${e?.response?.data?.detail || e?.message || e}`,
+        variant: "destructive",
+      });
+      // Still allow download
+    }
     const csvContent = [
       "LineItem,Parent,GrandParent",
       ...(data.full_dataset || data.rows).map((row) =>
@@ -207,7 +222,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background p-6">
       <div className="mx-auto max-w-7xl space-y-8">
-        <div className="text-center">
+      <div className="text-center">
           <h1 className="text-3xl font-bold tracking-tight text-foreground mb-2">LineItem Processor</h1>
           <p className="text-lg text-muted-foreground">Upload your CSV/XLSX file to extract and predict line item mappings</p>
         </div>
@@ -252,6 +267,12 @@ const Index = () => {
             )}
           </CardContent>
         </Card>
+
+        {/* Link to SQL PLMaster Mapping Page */}
+        <div className="flex justify-end mb-4">
+          <a href="/SqlPlMasterMapping" className="underline text-primary hover:text-primary-dark">Go to SQL PLMaster Mapping</a>
+        </div>
+        
 
         {counts && (
           <Card className="bg-surface-elevated">
