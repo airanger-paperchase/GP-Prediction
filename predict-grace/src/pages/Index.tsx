@@ -270,7 +270,7 @@ const Index = () => {
 
         {/* Link to SQL PLMaster Mapping Page */}
         <div className="flex justify-end mb-4">
-          <a href="/SqlPlMasterMapping" className="underline text-primary hover:text-primary-dark">Go to SQL PLMaster Mapping</a>
+          <a href="/" className="underline text-primary hover:text-primary-dark">Go to SQL PLMaster Mapping</a>
         </div>
         
 

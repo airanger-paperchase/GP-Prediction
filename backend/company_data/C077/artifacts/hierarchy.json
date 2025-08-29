@@ -1,138 +1,84 @@
 {
-  "TOTAL OTHER STAFF COST": {
-    "Total Cost of Sales - Water": [
-      "215-025"
-    ],
-    "Other Charges - Other": [
-      "Main Bank - 0776",
-      "SBA Loan-1"
-    ],
-    "OTHER EMPLOYEE EXPENSES": [
-      "Staff Loans/Salary Advances"
-    ],
-    "P & L Amortization - Other": [
-      "Accumulated Amortization"
-    ],
-    "TOTAL OTHER EXPENSE": [
-      "Audio/Visual"
-    ],
-    "Other Expenses": [
-      "Payroll Misc Deductions",
-      "Liability of Uncleared Checks"
-    ],
-    "Sales Tax 2015": [
-      "Sales Tax Payable",
-      "*Sales Tax Payable"
-    ],
-    "Other Income & Expenses": [
-      "Unearn Revenue"
-    ],
-    "Total Other Expenses": [
-      "PPP Loan Liability",
-      "Reconciliation Discrepancies"
-    ],
-    "Extra/Short": [
-      "4",
-      "UNDER / OVER"
-    ],
-    "TOTAL OPERATING EXPENSES": [
-      "Ny MTA"
-    ],
-    "Total Operating Expenses": [
-      "Fuel Charges"
-    ]
-  },
-  "TOTAL FINANCIAL COST": {
-    "TOTAL FINANCIAL COSTS": [
-      "220-030",
-      "ERTC Fund"
-    ],
+  "FINANCIAL COST": {
     "Interest on Loans": [
-      "Loan From Paperchase"
-    ]
-  },
-  "Gross Profit - Beverages": {
-    "Total Cost of Sales - Other Beverages": [
-      "300-050",
-      "Other Beverages Inventory",
-      "Tobacco Inventory",
-      "Owner Supplied"
+      "Main Bank - 0776",
+      "Bank- 5915",
+      "Citi Bank-7713",
+      "Loans Payable",
+      "Bank - 5138",
+      "Amex Loan - Line of credit"
     ],
-    "Cost of Sales - Beer": [
-      "Beer Inventory"
+    "FINANCIAL COST": [
+      "Payroll Charges",
+      "Accountancy Charges",
+      "Charge Back - Covid",
+      "NYC LLC FILLING FEES",
+      "Royalties-Trademark Agreement",
+      "Credit Card Charges",
+      "Bank Charges",
+      "License & Permit",
+      "Interest on Tax / Penalties",
+      "Bad Debts",
+      "Fees / Commisions",
+      "Penalties",
+      "Donations",
+      "Uncategorized Expenses",
+      "Financial Cost"
     ],
-    "ADMINISTRATION": [
-      "MM Hospitality"
+    "TOTAL FINANCIAL COSTS": [
+      "Citi Bank-7748"
     ]
   },
   "STAFF COST": {
+    "STAFF COST": [
+      "Wages - Others",
+      "Wages - Bonus",
+      "Wages - B.O.H. Salaries",
+      "Wages - F.O.H. Salaries",
+      "Cash - Wages",
+      "Wages-Commission"
+    ],
     "Total Wages - F.O.H. Wages": [
-      "300-100",
-      "600-020",
-      "600-100",
-      "600-200",
       "Inventory Asset",
-      "American Express # 81008-Steven",
       "Amex #81057 - Riccardo",
-      "Amex #81040- Salvatore",
-      "American Express#11007 - Steven",
-      "Wages-Garnishment",
-      "Event Deposit Redeem",
-      "IC Mamo Midtown",
-      "Steven Fruman Withdrawals",
+      "Distribution-Cash",
       "Retained Earnings",
-      "Distribution-Cash"
-    ],
-    "TOTAL WAGES - 1099": [
-      "600-022",
-      "Staff Wages",
-      "Net Wages Payable",
-      "SF"
-    ],
-    "TOTAL WAGES - B.O.H. Salaried": [
-      "BOA Payroll - 2879"
-    ],
-    "Total Wages - B.O.H. Wages": [
-      "Retail Inventory",
-      "BOH - Stewards/ Porters"
-    ],
-    "TOTAL OTHER STAFF COST": [
-      "Other Staff Cost"
+      "Amex #81040- Salvatore",
+      "Event Deposit Redeem",
+      "Steven Fruman Withdrawals",
+      "American Express # 81008-Steven",
+      "IC Mamo Midtown",
+      "Wages-Garnishment",
+      "American Express#11007 - Steven"
     ],
     "TOTAL STAFF COST": [
-      "Deposit - Staff Accommodation",
       "Federal FUTA",
+      "Code & Expeditor",
       "State SUI",
-      "Code & Expeditor"
+      "Deposit - Staff Accommodation"
     ],
-    "BOH SALARIES": [
-      "Kitchen"
+    "Employer Taxes": [
+      "Medicare",
+      "Employer Taxes"
     ],
-    "Total Wages - B.O.H. Salaried": [
-      "Chase Card # 7714",
-      "Guaranteed Payment to Partner",
-      "Opening Balance Equity",
-      "Reservation - OT",
-      "Kitchern Equipment",
-      "Guaranteed payments to partners"
-    ],
-    "Total Wages": [
-      "American Express #11015 -Leslie"
+    "Total Employer Taxes": [
+      "Ny Re-employment",
+      "OASDI / Social Security"
     ],
     "TOTAL WAGES - F.O.H. Wages": [
       "2",
-      "3",
+      "Steven Fruman",
       "5",
       "Salvatore Marcello",
-      "Steven Fruman"
+      "3"
     ],
-    "STAFF COST": [
-      "Wages - F.O.H. Salaries",
-      "Wages - B.O.H. Salaries",
-      "Wages - Bonus",
-      "Wages - Others",
-      "Cash - Wages",
-      "Wages-Commission"
+    "Wages - B.O.H. Salaried": [
+      "BOH - Managers",
+      "BOH - Sous Chef",
+      "BOH - Executive Chef"
+    ],
+    "TOTAL OTHER STAFF COST": [
+      "Other Staff Cost"
     ],
     "Wages - F.O.H. Salaried": [
       "FOH - Managers"
@@ -141,35 +87,100 @@
       "FOH - Cashiers",
       "FOH - Bartender/ Barbacks"
     ],
-    "Wages - F.O.H.": [
-      "FOH - Server/ Captains"
+    "TOTAL WAGES - 1099": [
+      "Net Wages Payable",
+      "Staff Wages",
+      "SF"
     ],
-    "Wages - B.O.H. Salaried": [
-      "BOH - Managers",
-      "BOH - Executive Chef",
-      "BOH - Sous Chef"
+    "Total Wages - B.O.H. Salaried": [
+      "Guaranteed payments to partners",
+      "Opening Balance Equity",
+      "Reservation - OT",
+      "Kitchern Equipment",
+      "Chase Card # 7714",
+      "Guaranteed Payment to Partner"
+    ],
+    "TOTAL WAGES - B.O.H. Salaried": [
+      "BOA Payroll - 2879"
+    ],
+    "Total Wages - B.O.H. Wages": [
+      "BOH - Stewards/ Porters",
+      "Retail Inventory"
     ],
     "Wages - B.O.H. Wages": [
       "BOH - Prep Cooks"
     ],
-    "Employer Taxes": [
-      "Employer Taxes",
-      "Medicare"
+    "BOH SALARIES": [
+      "Kitchen"
     ],
-    "Total Employer Taxes": [
-      "Ny Re-employment",
-      "OASDI / Social Security"
+    "Wages - F.O.H.": [
+      "FOH - Server/ Captains"
     ],
     "Total Employer Benefits": [
       "Medical"
+    ],
+    "Total Wages": [
+      "American Express #11015 -Leslie"
+    ]
+  },
+  "REPAIRS & MAINTENANCE": {
+    "REPAIRS & MAINTENANCE": [
+      "Repairs - Building",
+      "Repairs - General",
+      "Repairs - Equipment"
+    ],
+    "TOTAL REPAIRS & MAINTENANCE": [
+      "Hood Buildout",
+      "Acoustical"
+    ]
+  },
+  "COMMUNICATION": {
+    "COMMUNICATION": [
+      "Telephone",
+      "Postage/Courier"
+    ]
+  },
+  "Total Cost of Sales - Other Bev": {
+    "Total Cost of Sales - Beer": [
+      "Deposit - Beer Kegs"
     ]
   },
   "COST OF GOODS SOLD": {
-    "Total Cost of Sales - Water": [
-      "600-021"
+    "COST OF GOODS SOLD": [
+      "Cost of Sales - Food",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Tea/Coffee",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Other Bev"
     ],
     "Total Cost of Goods Sold": [
       "Inventory"
+    ],
+    "Cost of Sales - Wine & Champagn": [
+      "Cost of Sales -Wine Consignment"
+    ],
+    "Total Cost of Sales - Other Beverages": [
+      "Book Inventory"
+    ],
+    "COG Liquor": [
+      "Liquor Purchases"
+    ],
+    "COG Other Beverages": [
+      "Other Bev - Stock Adjustment",
+      "Other Bev Purchases"
+    ],
+    "Total Cost of Sales - Wine": [
+      "Wine Purchases"
+    ],
+    "TOTAL COST OF GOODS SOLD": [
+      "Cost of Goods Sold"
+    ],
+    "Total Cost of Sales - F&B": [
+      "COGS"
+    ],
+    "Total Cost of Sales - Other Bev": [
+      "Other Inventory"
     ],
     "Total Cost of Sales - Food": [
       "Food Inventory"
@@ -179,100 +190,37 @@
     ],
     "Total Cost of Sales - Wine & Champagn": [
       "Wine Inventory"
-    ],
-    "Total Cost of Sales - Other Beverages": [
-      "Book Inventory"
-    ],
-    "Total Cost of Sales - Other Bev": [
-      "Other Inventory"
-    ],
-    "Total Cost of Sales - F&B": [
-      "COGS"
-    ],
-    "COST OF GOODS SOLD": [
-      "Cost of Sales - Food",
-      "Cost of Sales - Tea/Coffee",
-      "Cost of Sales - Wine",
-      "Cost of Sales - Liquor",
-      "Cost of Sales - Beer",
-      "Cost of Sales - Other Bev"
-    ],
-    "Total Cost of Sales - Wine": [
-      "Wine Purchases"
-    ],
-    "Cost of Sales - Wine & Champagn": [
-      "Cost of Sales -Wine Consignment"
-    ],
-    "COG Liquor": [
-      "Liquor Purchases"
-    ],
-    "COG Other Beverages": [
-      "Other Bev Purchases",
-      "Other Bev - Stock Adjustment"
-    ],
-    "TOTAL COST OF GOODS SOLD": [
-      "Cost of Goods Sold"
     ]
   },
-  "SUPPLIES AND MAINTENANCE": {
-    "Total Cost of Sales - Water": [
-      "600-025"
+  "OTHER STAFF COST": {
+    "OTHER STAFF COST": [
+      "Wages - Agency",
+      "Staff Meals",
+      "Wages - 1099",
+      "Staff First Aid",
+      "Staff Uniforms",
+      "Staff Recruitment",
+      "Staff Welfare",
+      "Staff Accommodation",
+      "Staff Insurance",
+      "Staff Training"
     ],
-    "TOTAL SUPPLIES & MAINTENANCE": [
-      "Supplies & Maintenance"
+    "Ask My Accountant": [
+      "LICENSE FEE"
     ],
-    "SUPPLIES AND MAINTENANCE": [
-      "BOH - Dishwashers"
-    ]
-  },
-  "FINANCIAL COST": {
-    "Interest on Loans": [
-      "Bank- 5915",
-      "Bank - 5138",
-      "Citi Bank-7713",
-      "Loans Payable",
-      "Amex Loan - Line of credit"
-    ],
-    "TOTAL FINANCIAL COSTS": [
-      "Citi Bank-7748"
-    ],
-    "FINANCIAL COST": [
-      "Financial Cost",
-      "Charge Back - Covid",
-      "Fees / Commisions",
-      "Accountancy Charges",
-      "Payroll Charges",
-      "Credit Card Charges",
-      "Bank Charges",
-      "Donations",
-      "Royalties-Trademark Agreement",
-      "NYC LLC FILLING FEES",
-      "Penalties",
-      "Interest on Tax / Penalties",
-      "License & Permit",
-      "Bad Debts",
-      "Uncategorized Expenses"
-    ]
-  },
-  "ADMINISTRATION": {
-    "ADMINISTRATION": [
-      "Chase Bank - 9728",
-      "Sales Ledger Control A/C- Event",
-      "Office"
+    "Professional and Consutlng": [
+      "IT Securing"
     ]
   },
   "TOTAL OTHER EXPENSE": {
-    "Total Operating Expenses": [
-      "BOA  Operating  -  2837"
-    ],
     "Other Expenses": [
       "BOA Savings - 4860"
     ],
     "A/R Write Off": [
       "Account Receivable A/C"
     ],
-    "PL Depreciation & Amortization": [
-      "Accumulated Depreciation"
+    "Total Operating Expenses": [
+      "BOA  Operating  -  2837"
     ],
     "Credit Card Charges - Phil": [
       "Credit Card #5255"
@@ -280,110 +228,242 @@
     "TOTAL OTHER EXPENSE": [
       "American Express Delta #81006",
       "Audio / Visual"
+    ],
+    "PL Depreciation & Amortization": [
+      "Accumulated Depreciation"
     ]
   },
-  "Other Income & Expenses": {
-    "Other Income & Expenses": [
-      "Bank Transfer A/C",
-      "Cash Banking",
-      "*Undeposited Funds",
-      "Due from Massimo",
-      "Due from SF",
-      "Amex #83020 - Leslie",
-      "Royalty Payables",
-      "IC Mamo Miami",
-      "Loan From GRELEX INVESTMENTS LL",
-      "Loan From MALEX LLC",
-      "Loan from Steven Fruman",
-      "Loan from AF Scrapes LLC",
-      "EIDL Loan",
-      "SBA Loan",
-      "Partners capital account - SF",
-      "*Retained Earnings",
-      "Other Income"
+  "TOTAL STAFF COST": {
+    "Total Wages - B.O.H. Salaried": [
+      "Wages ? Contractor"
     ],
-    "Other Income": [
-      "Members Contributions"
+    "Total Wages - F.O.H. Wages": [
+      "FOH - Hostess"
+    ],
+    "TOTAL STAFF COST": [
+      "FOH - Bussers/ Runners"
+    ]
+  },
+  "Professional and Consutlng": {
+    "Professional and Consutlng": [
+      "Website Designing"
+    ]
+  },
+  "OCCUPANCY": {
+    "OCCUPANCY": [
+      "Insurance",
+      "Storage Rent",
+      "Rent",
+      "CAM Charges",
+      "Electricity",
+      "Water",
+      "Collected by Steven for Rent",
+      "Real Estate Escalation Tax",
+      "Gas",
+      "Commercial Rent Tax",
+      "Monitoring charges",
+      "Security Services"
+    ]
+  },
+  "SUPPLIES & MAINTENANCE": {
+    "SUPPLIES & MAINTENANCE": [
+      "Paper Supplies",
+      "Music",
+      "Chinaware",
+      "Flowers & Candles",
+      "Equipment Rental",
+      "FOH Supplies / accessories",
+      "Pest Control",
+      "Barware",
+      "Cleaning",
+      "BOH Supplies / accessories",
+      "Cleaning Contract Services",
+      "Linen & Laundry",
+      "Office Supplies",
+      "Menus",
+      "IT Cost",
+      "Flatware",
+      "Glassware",
+      "Trash/Waste Removal Service"
+    ],
+    "Restaurant": [
+      "Restaurant"
+    ],
+    "TOTAL SUPPLIES & MAINTENANCE": [
+      "Packaging supply"
+    ]
+  },
+  "Other Expenses": {
+    "Kitchen/Hood": [
+      "Kitchen/Hood"
+    ],
+    "Leasehold": [
+      "Leasehold"
+    ],
+    "Other Charges - Other": [
+      "Liquor Attorney"
+    ],
+    "Intangible Assets": [
+      "Intangible Assets"
+    ],
+    "Start-Up Costs": [
+      "Start-Up Costs"
+    ]
+  },
+  "REVENUE": {
+    "REVENUE": [
+      "Revenue - Liquor",
+      "Revenue - Retails",
+      "Revenue - Food",
+      "Non-Revenue Service Charge",
+      "Sales Ledger Control A/C - Gift",
+      "Revenue - Wines",
+      "Revenue - Tea/Coffee"
+    ],
+    "Total Revenue Other": [
+      "Deposits"
+    ],
+    "TOTAL REVENUE": [
+      "Revenue - Other Beverages"
+    ],
+    "Total Sales Revenue": [
+      "Members Distribution"
+    ]
+  },
+  "Cost of Sales -Wine Consignment": {
+    "Cost of Sales -Wine Consignment": [
+      "Wine Consignment- Stock Adjust",
+      "Wine Consignment Purchase"
     ]
   },
   "Total Other Expenses": {
+    "Other Income & Expenses": [
+      "Deposit - Other"
+    ],
     "A/P Write Off": [
       "AR Control A/C",
       "Accounts Payable - USD"
-    ],
-    "Other Income & Expenses": [
-      "Deposit - Other"
     ],
     "Total Other Expenses": [
       "Estimates"
     ]
   },
-  "REVENUE": {
-    "REVENUE": [
-      "Sales Ledger Control A/C - Gift",
-      "Revenue - Food",
-      "Revenue - Tea/Coffee",
-      "Revenue - Wines",
-      "Revenue - Liquor",
-      "Non-Revenue Service Charge",
-      "Revenue - Retails"
+  "Other Income & Expenses": {
+    "Other Income & Expenses": [
+      "Royalty Payables",
+      "Bank Transfer A/C",
+      "Loan From GRELEX INVESTMENTS LL",
+      "Amex #83020 - Leslie",
+      "Loan from AF Scrapes LLC",
+      "Cash Banking",
+      "Due from Massimo",
+      "EIDL Loan",
+      "Partners capital account - SF",
+      "*Retained Earnings",
+      "*Undeposited Funds",
+      "Other Income",
+      "Loan From MALEX LLC",
+      "IC Mamo Miami",
+      "SBA Loan",
+      "Due from SF",
+      "Loan from Steven Fruman"
     ],
-    "Total Revenue Other": [
-      "Deposits"
+    "Other Income": [
+      "Members Contributions"
     ],
-    "Total Sales Revenue": [
-      "Members Distribution"
+    "Interest on Loans": [
+      "Main Bank - 0776"
+    ]
+  },
+  "TOTAL OTHER STAFF COST": {
+    "Total Other Expenses": [
+      "PPP Loan Liability",
+      "Reconciliation Discrepancies"
     ],
-    "TOTAL REVENUE": [
-      "Revenue - Other Beverages"
+    "Other Income & Expenses": [
+      "Unearn Revenue"
+    ],
+    "Other Charges - Other": [
+      "SBA Loan-1"
+    ],
+    "TOTAL OTHER EXPENSE": [
+      "Audio/Visual"
+    ],
+    "P & L Amortization - Other": [
+      "Accumulated Amortization"
+    ],
+    "Other Expenses": [
+      "Payroll Misc Deductions",
+      "Liability of Uncleared Checks"
+    ],
+    "OTHER EMPLOYEE EXPENSES": [
+      "Staff Loans/Salary Advances"
+    ],
+    "Sales Tax 2015": [
+      "Sales Tax Payable",
+      "*Sales Tax Payable"
+    ],
+    "Total Operating Expenses": [
+      "Fuel Charges"
+    ],
+    "Extra/Short": [
+      "UNDER / OVER",
+      "4"
+    ],
+    "TOTAL OPERATING EXPENSES": [
+      "Ny MTA"
+    ]
+  },
+  "TOTAL PRE OPENING EXPENSES": {
+    "TOTAL PRE OPENING EXPENSES": [
+      "Kitchen Buildout",
+      "Non-GC Buildout",
+      "GC Buildout"
+    ],
+    "Furniture and Fixtures": [
+      "Furniture & Fixures"
+    ]
+  },
+  "TRAVEL & ENTERTAINMENT": {
+    "TRAVEL & ENTERTAINMENT": [
+      "Shipping Charges",
+      "Clearing and Freight charges",
+      "Airfare",
+      "Lodging"
+    ]
+  },
+  "Cost of Sales - Liquor": {
+    "Cost of Sales - Liquor": [
+      "Liquor - Stock Adjustment"
+    ]
+  },
+  "Total Employer Benefits": {
+    "Total Employer Benefits": [
+      "Staff Disability Ins.",
+      "PPP-Payroll Liability",
+      "Child Support"
+    ],
+    "Employer Taxes": [
+      "Staff Workmans Comp"
+    ],
+    "Total Employer Taxes": [
+      "Payroll Tax Payable"
+    ],
+    "TOTAL EMPLOYEE BENEFITS": [
+      "NYS - PFL Payable"
+    ],
+    "EMPLOYER TAXES": [
+      "Disability (NYSIDF)"
+    ]
+  },
+  "Interest on Loans": {
+    "Interest on Loans": [
+      "Interest on Loans"
     ]
   },
   "Gross Profit - Liquor": {
     "Cost of Sales - Liquor": [
       "Liquor Inventory"
-    ]
-  },
-  "Other Expense": {
-    "Total Other Expense": [
-      "Prepaid Expenses"
-    ]
-  },
-  "ADVERTISING/PROMOTION": {
-    "ADVERTISING / PROMOTION": [
-      "Advertising/Promotion"
-    ],
-    "ADVERTISING/PROMOTION": [
-      "Web Design",
-      "Entertainment Meals",
-      "Used Tax on Comps"
-    ],
-    "TOTAL PROMOTION": [
-      "Entertainment Meals - S"
-    ]
-  },
-  "TOTAL OPERATING EXPENSES": {
-    "TOTAL COMMUNICATION": [
-      "Communication"
-    ],
-    "Transportation": [
-      "Transport ? Charges"
-    ],
-    "Total Operating Expenses": [
-      "Transport - Charges - S"
-    ],
-    "TOTAL OPERATING EXPENSES": [
-      "Restaurant Equipment"
-    ],
-    "Furniture and Fixtures": [
-      "F&F"
-    ]
-  },
-  "TOTAL REPAIRS & MAINTENANCE": {
-    "REPAIRS & MAINTENANCE": [
-      "Repairs & Maintenance"
-    ],
-    "TOTAL REPAIRS & MAINTENANCE": [
-      "Equipment"
     ]
   },
   "TOTAL OCCUPANCY": {
@@ -392,133 +472,54 @@
       "Deposit - Rent"
     ]
   },
-  "Travel & Entertainment": {
-    "Travel & Entertainment": [
-      "Travel & Entertainment"
+  "TOTAL OTHER STAFF": {
+    "Other Expenses": [
+      "Stevens Personal Expense",
+      "Accrued Liabilities"
+    ],
+    "Reimbursements": [
+      "REIMBURSEMENT EXPENSES"
     ]
   },
-  "Gross Profit - Wines": {
-    "ADMINISTRATION": [
-      "Deposit - Office"
-    ]
-  },
-  "Total Cost of Sales - Other Bev": {
-    "Total Cost of Sales - Beer": [
-      "Deposit - Beer Kegs"
-    ]
-  },
-  "Total Other Income": {
-    "Other Income & Expenses": [
-      "Due from Mike"
-    ]
-  },
-  "P&L AMORTIZATION": {
-    "Fees": [
-      "Fees"
+  "Cost of Sales - Tea/Coffee": {
+    "Cost of Sales - Tea/Coffee": [
+      "Tea/Coffee - Stock Adjustment",
+      "Tea/Coffee Purchases"
     ]
   },
   "ADVERTISING / PROMOTION": {
-    "TOTAL PROMOTION": [
-      "Interior Design"
-    ],
     "ADVERTISING / PROMOTION": [
-      "Advertising",
-      "Public Relations",
+      "Photography expense",
+      "Complimentary Cost",
       "Branding & Design",
-      "R & D",
-      "Event Expenses",
       "Commission Expense",
       "Subscriptions",
-      "Photography expense",
-      "Complimentary Cost"
+      "Public Relations",
+      "R & D",
+      "Advertising",
+      "Event Expenses"
+    ],
+    "TOTAL PROMOTION": [
+      "Interior Design"
     ]
   },
-  "GENERAL & ADMINISTRATIVE": {
-    "Legal & Accounting": [
-      "Legal Attorney",
-      "License Fee"
-    ],
-    "GENERAL & ADMINISTRATIVE": [
-      "POS"
-    ],
-    "ADMINISTRATION": [
-      "BOH - Office/ Admin"
+  "Cost of Sales - Beer": {
+    "Cost of Sales - Beer": [
+      "Beer - Stock Adjustment",
+      "Beer Purchases"
     ]
   },
-  "Other Expenses": {
-    "Other Charges - Other": [
-      "Liquor Attorney"
+  "ADVERTISING/PROMOTION": {
+    "ADVERTISING/PROMOTION": [
+      "Web Design",
+      "Entertainment Meals",
+      "Used Tax on Comps"
     ],
-    "Kitchen/Hood": [
-      "Kitchen/Hood"
+    "ADVERTISING / PROMOTION": [
+      "Advertising/Promotion"
     ],
-    "Intangible Assets": [
-      "Intangible Assets"
-    ],
-    "Start-Up Costs": [
-      "Start-Up Costs"
-    ],
-    "Leasehold": [
-      "Leasehold"
-    ]
-  },
-  "OTHER INCOME & EXPENSES": {
-    "Leasehold Improvements": [
-      "Leasehold Improvements"
-    ]
-  },
-  "TOTAL PRE OPENING EXPENSES": {
-    "TOTAL PRE OPENING EXPENSES": [
-      "GC Buildout",
-      "Non-GC Buildout",
-      "Kitchen Buildout"
-    ],
-    "Furniture and Fixtures": [
-      "Furniture & Fixures"
-    ]
-  },
-  "REPAIRS & MAINTENANCE": {
-    "TOTAL REPAIRS & MAINTENANCE": [
-      "Hood Buildout",
-      "Acoustical"
-    ],
-    "REPAIRS & MAINTENANCE": [
-      "Repairs - Building",
-      "Repairs - Equipment",
-      "Repairs - General"
-    ]
-  },
-  "SUPPLIES & MAINTENANCE": {
-    "Restaurant": [
-      "Restaurant"
-    ],
-    "SUPPLIES & MAINTENANCE": [
-      "Linen & Laundry",
-      "Cleaning",
-      "Cleaning Contract Services",
-      "Pest Control",
-      "Trash/Waste Removal Service",
-      "BOH Supplies / accessories",
-      "FOH Supplies / accessories",
-      "Paper Supplies",
-      "Chinaware",
-      "Flatware",
-      "Glassware",
-      "Barware",
-      "Music",
-      "Flowers & Candles",
-      "Office Supplies",
-      "Menus",
-      "IT Cost",
-      "Equipment Rental"
-    ],
-    "TOTAL SUPPLIES & MAINTENANCE": [
-      "Packaging supply"
-    ]
-  },
-  "G&A": {
-    "Other Charges - Other": [
-      "It Securing"
+    "TOTAL PROMOTION": [
+      "Entertainment Meals - S"
     ]
   },
   "Pre-Opening Expenses": {
@@ -526,32 +527,12 @@
       "Start-Up Costs - Expenses"
     ]
   },
-  "TOTAL OTHER STAFF": {
-    "Other Expenses": [
-      "Accrued Liabilities",
-      "Stevens Personal Expense"
-    ],
-    "Reimbursements": [
-      "REIMBURSEMENT EXPENSES"
-    ]
-  },
-  "Total Employer Benefits": {
-    "Total Employer Benefits": [
-      "PPP-Payroll Liability",
-      "Child Support",
-      "Staff Disability Ins."
-    ],
-    "TOTAL EMPLOYEE BENEFITS": [
-      "NYS - PFL Payable"
-    ],
-    "Total Employer Taxes": [
-      "Payroll Tax Payable"
-    ],
-    "Employer Taxes": [
-      "Staff Workmans Comp"
-    ],
-    "EMPLOYER TAXES": [
-      "Disability (NYSIDF)"
+  "PROFESSIONAL FEE": {
+    "PROFESSIONAL FEE": [
+      "Audit Fees",
+      "Professional Fees",
+      "Legal Fees",
+      "Tax Fees"
     ]
   },
   "Total Wages - F.O.H. Wages": {
@@ -559,9 +540,17 @@
       "Tips Payable"
     ]
   },
-  "TOTAL REVENUE": {
-    "Total Sales Revenue": [
-      "Gift Card Redeem"
+  "Gross Profit - Beverages": {
+    "Total Cost of Sales - Other Beverages": [
+      "Tobacco Inventory",
+      "Other Beverages Inventory",
+      "Owner Supplied"
+    ],
+    "Cost of Sales - Beer": [
+      "Beer Inventory"
+    ],
+    "ADMINISTRATION": [
+      "MM Hospitality"
     ]
   },
   "Cost of Sales - Food": {
@@ -570,121 +559,9 @@
       "Food - Stock Adjustment"
     ]
   },
-  "Cost of Sales - Tea/Coffee": {
-    "Cost of Sales - Tea/Coffee": [
-      "Tea/Coffee Purchases",
-      "Tea/Coffee - Stock Adjustment"
-    ]
-  },
-  "Cost of Sales - Wines": {
-    "Cost of Sales - Wines": [
-      "Wine - Stock Adjustment"
-    ]
-  },
-  "Cost of Sales -Wine Consignment": {
-    "Cost of Sales -Wine Consignment": [
-      "Wine Consignment Purchase",
-      "Wine Consignment- Stock Adjust"
-    ]
-  },
-  "Cost of Sales - Liquor": {
-    "Cost of Sales - Liquor": [
-      "Liquor - Stock Adjustment"
-    ]
-  },
-  "Cost of Sales - Beer": {
-    "Cost of Sales - Beer": [
-      "Beer Purchases",
-      "Beer - Stock Adjustment"
-    ]
-  },
-  "TOTAL STAFF COST": {
-    "Total Wages - F.O.H. Wages": [
-      "FOH - Hostess"
-    ],
-    "TOTAL STAFF COST": [
-      "FOH - Bussers/ Runners"
-    ],
-    "Total Wages - B.O.H. Salaried": [
-      "Wages ? Contractor"
-    ]
-  },
-  "Wages - B.O.H. Salaries": {
-    "Wages - B.O.H. Salaries": [
-      "BOH - Line Cook"
-    ]
-  },
-  "Total Wages - B.O.H. Salaried": {
-    "Wages - B.O.H. Salaried": [
-      "BOH - Pastry Chef"
-    ]
-  },
-  "OTHER STAFF COST": {
-    "OTHER STAFF COST": [
-      "Wages - Agency",
-      "Wages - 1099",
-      "Staff Insurance",
-      "Staff Recruitment",
-      "Staff Training",
-      "Staff Uniforms",
-      "Staff Meals",
-      "Staff Welfare",
-      "Staff Accommodation",
-      "Staff First Aid"
-    ]
-  },
-  "TRAVEL & ENTERTAINMENT": {
-    "TRAVEL & ENTERTAINMENT": [
-      "Airfare",
-      "Lodging",
-      "Clearing and Freight charges",
-      "Shipping Charges"
-    ]
-  },
-  "COMMUNICATION": {
-    "COMMUNICATION": [
-      "Telephone",
-      "Postage/Courier"
-    ]
-  },
-  "PROFESSIONAL FEE": {
-    "PROFESSIONAL FEE": [
-      "Legal Fees",
-      "Audit Fees",
-      "Tax Fees",
-      "Professional Fees"
-    ]
-  },
-  "Interest on Loans": {
-    "Interest on Loans": [
-      "Interest on Loans"
-    ]
-  },
-  "OCCUPANCY": {
-    "OCCUPANCY": [
-      "Rent",
-      "Real Estate Escalation Tax",
-      "Commercial Rent Tax",
-      "Electricity",
-      "Gas",
-      "Water",
-      "Storage Rent",
-      "Insurance",
-      "Security Services",
-      "CAM Charges",
-      "Monitoring charges",
-      "Collected by Steven for Rent"
-    ]
-  },
-  "PL Depreciation & Amortization": {
-    "PL Depreciation & Amortization": [
-      "P & L Depreciation",
-      "P & L Amortization"
-    ]
-  },
-  "Professional and Consutlng": {
-    "Professional and Consutlng": [
-      "Website Designing"
+  "Tips Paid": {
+    "Tips Paid": [
+      "Tips Paid"
     ]
   },
   "TOTAL GENERAL & ADMIN EXPENSES": {
@@ -692,9 +569,126 @@
       "Permits"
     ]
   },
+  "SUPPLIES AND MAINTENANCE": {
+    "TOTAL SUPPLIES & MAINTENANCE": [
+      "Supplies & Maintenance"
+    ],
+    "SUPPLIES AND MAINTENANCE": [
+      "BOH - Dishwashers"
+    ]
+  },
+  "TOTAL OPERATING EXPENSES": {
+    "Transportation": [
+      "Transport ? Charges"
+    ],
+    "Furniture and Fixtures": [
+      "F&F"
+    ],
+    "TOTAL COMMUNICATION": [
+      "Communication"
+    ],
+    "Total Operating Expenses": [
+      "Transport - Charges - S"
+    ],
+    "TOTAL OPERATING EXPENSES": [
+      "Restaurant Equipment"
+    ]
+  },
+  "OTHER INCOME & EXPENSES": {
+    "Leasehold Improvements": [
+      "Leasehold Improvements"
+    ]
+  },
+  "GENERAL & ADMINISTRATIVE": {
+    "Legal & Accounting": [
+      "License Fee",
+      "Legal Attorney"
+    ],
+    "GENERAL & ADMINISTRATIVE": [
+      "POS"
+    ],
+    "ADMINISTRATION": [
+      "BOH - Office/ Admin"
+    ]
+  },
+  "Travel & Entertainment": {
+    "Travel & Entertainment": [
+      "Travel & Entertainment"
+    ]
+  },
+  "Written Off": {
+    "Written Off": [
+      "Written Off"
+    ]
+  },
+  "Ask My Accountant": {
+    "Ask My Accountant": [
+      "Ask My Accountant"
+    ]
+  },
+  "Wages - B.O.H. Salaries": {
+    "Wages - B.O.H. Salaries": [
+      "BOH - Line Cook"
+    ]
+  },
+  "ADMINISTRATION": {
+    "ADMINISTRATION": [
+      "Office",
+      "Chase Bank - 9728",
+      "Sales Ledger Control A/C- Event"
+    ]
+  },
+  "PL Depreciation & Amortization": {
+    "PL Depreciation & Amortization": [
+      "P & L Amortization",
+      "P & L Depreciation"
+    ]
+  },
   "Bank Interest": {
     "Bank Interest": [
       "Bank Interest"
+    ]
+  },
+  "Other Expense": {
+    "Total Other Expense": [
+      "Prepaid Expenses"
+    ]
+  },
+  "G&A": {
+    "Other Charges - Other": [
+      "IT Securing",
+      "It Securing"
+    ]
+  },
+  "Cost of Sales - Wines": {
+    "Cost of Sales - Wines": [
+      "Wine - Stock Adjustment"
+    ]
+  },
+  "TOTAL FINANCIAL COST": {
+    "TOTAL FINANCIAL COSTS": [
+      "ERTC Fund"
+    ],
+    "Interest on Loans": [
+      "Loan From Paperchase"
+    ]
+  },
+  "Total Other Income": {
+    "Other Income & Expenses": [
+      "Due from Mike"
+    ]
+  },
+  "Gross Profit - Wines": {
+    "ADMINISTRATION": [
+      "Deposit - Office"
+    ]
+  },
+  "TOTAL REPAIRS & MAINTENANCE": {
+    "TOTAL REPAIRS & MAINTENANCE": [
+      "Equipment"
+    ],
+    "REPAIRS & MAINTENANCE": [
+      "Repairs & Maintenance"
     ]
   },
   "Other Charges": {
@@ -707,19 +701,19 @@
       "AR Chargeback"
     ]
   },
-  "Tips Paid": {
-    "Tips Paid": [
-      "Tips Paid"
+  "Total Wages - B.O.H. Salaried": {
+    "Wages - B.O.H. Salaried": [
+      "BOH - Pastry Chef"
     ]
   },
-  "Ask My Accountant": {
-    "Ask My Accountant": [
-      "Ask My Accountant"
+  "P&L AMORTIZATION": {
+    "Fees": [
+      "Fees"
     ]
   },
-  "Written Off": {
-    "Written Off": [
-      "Written Off"
+  "TOTAL REVENUE": {
+    "Total Sales Revenue": [
+      "Gift Card Redeem"
     ]
   }
 }

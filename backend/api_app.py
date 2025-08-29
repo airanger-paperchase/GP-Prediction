@@ -69,9 +69,6 @@ class CompanyRequest(BaseModel):
 class StoreAutoMappingRequest(BaseModel):
     rows: list  # List of dicts, each with columns matching the final df
 
-
-# Place this after app = FastAPI(...)
-
 @app.post("/store_auto_mapping")
 def store_auto_mapping(req: StoreAutoMappingRequest):
     # Insert each row into PL_Master_AutoMapping
