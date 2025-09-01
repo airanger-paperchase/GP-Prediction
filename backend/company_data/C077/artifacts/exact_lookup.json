@@ -1,7 +1,7 @@
 {
   "Main Bank - 0776": {
     "parent": "Interest on Loans",
-    "grandparent": "Other Income & Expenses"
+    "grandparent": "FINANCIAL COST"
   },
   "Wages - Others": {
     "parent": "STAFF COST",
@@ -852,8 +852,8 @@
     "grandparent": "Gross Profit - Beverages"
   },
   "IT Securing": {
-    "parent": "Professional and Consutlng",
-    "grandparent": "OTHER STAFF COST"
+    "parent": "Other Charges - Other",
+    "grandparent": "G&A"
   },
   "Chase Bank - 9728": {
     "parent": "ADMINISTRATION",

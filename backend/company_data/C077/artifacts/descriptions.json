@@ -205,11 +205,6 @@
     "description": "Parent 'Ask My Accountant' (grandparent 'OTHER STAFF COST') includes examples: LICENSE FEE"
   },
   {
-    "grandparent": "OTHER STAFF COST",
-    "parent": "Professional and Consutlng",
-    "description": "Parent 'Professional and Consutlng' (grandparent 'OTHER STAFF COST') includes examples: IT Securing"
-  },
-  {
     "grandparent": "TOTAL OTHER EXPENSE",
     "parent": "Other Expenses",
     "description": "Parent 'Other Expenses' (grandparent 'TOTAL OTHER EXPENSE') includes examples: BOA Savings - 4860"
@@ -353,11 +348,6 @@
     "grandparent": "Other Income & Expenses",
     "parent": "Other Income",
     "description": "Parent 'Other Income' (grandparent 'Other Income & Expenses') includes examples: Members Contributions"
-  },
-  {
-    "grandparent": "Other Income & Expenses",
-    "parent": "Interest on Loans",
-    "description": "Parent 'Interest on Loans' (grandparent 'Other Income & Expenses') includes examples: Main Bank - 0776"
   },
   {
     "grandparent": "TOTAL OTHER STAFF COST",
