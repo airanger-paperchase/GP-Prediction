@@ -550,48 +550,79 @@ const SqlPlMasterMapping: React.FC = () => {
   return (
 <div
     ref={topRef}
-    className="min-h-screen p-6 relative"
+    className="min-h-screen p-6 relative "
     style={{
         background: "linear-gradient(90deg, #E4E1F0 0%, #E7EAFA 50%, #E8EEFE 100%)",
     }}
 >
-        {/* Left side images - 2 times */}
-        {[0, 1].map(i => (
+
+        {/* Left side images - always show first, second only if data is present, adjust position if no data */}
         <div
-            key={`left-img-${i}`}
+            key="left-img-0"
             className="absolute left-0 z-0 opacity-40 pointer-events-none"
             style={{
-            top: `${(i === 0 ? 4 : 10 + i * 20)}%`, // first image higher
-            transform: "translateY(-20%)",
+                top: editableRows.length > 0 ? `4%` : `16%`,
+                transform: "translateY(-20%)",
             }}
         >
             <img
-            src="/abstract1.webp"
-            alt={`abstract left ${i}`}
-            className="w-[500px] h-[500px] object-contain"
-            style={{ filter: "blur(0.5px)" }}
+                src="/abstract1.webp"
+                alt="abstract left 0"
+                className="w-[500px] h-[500px] object-contain"
+                style={{ filter: "blur(0.5px)" }}
             />
         </div>
-        ))}
+        {editableRows.length > 0 && (
+            <div
+                key="left-img-1"
+                className="absolute left-0 z-0 opacity-40 pointer-events-none"
+                style={{
+                    top: `30%`,
+                    transform: "translateY(-20%)",
+                }}
+            >
+                <img
+                    src="/abstract1.webp"
+                    alt="abstract left 1"
+                    className="w-[500px] h-[500px] object-contain"
+                    style={{ filter: "blur(0.5px)" }}
+                />
+            </div>
+        )}
 
-        {/* Right side images - 2 times */}
-        {[0].map(i => (
+        {/* Right side images - always show first, second only if data is present, adjust position if no data */}
         <div
-            key={`right-img-${i}`}
+            key="right-img-0"
             className="absolute right-0 z-0 opacity-40 pointer-events-none"
             style={{
-            top:  "18%", // first image lower
-            transform: "translateY(-20%)",
+                top: editableRows.length > 0 ? `18%` : `40%`,
+                transform: "translateY(-20%)",
             }}
         >
             <img
-            src="/abstract2.webp"
-            alt={`abstract right ${i}`}
-            className="w-[500px] h-[500px] object-contain"
-            style={{ filter: "blur(0.5px)" }}
+                src="/abstract2.webp"
+                alt="abstract right 0"
+                className="w-[500px] h-[500px] object-contain"
+                style={{ filter: "blur(0.5px)" }}
             />
         </div>
-        ))}
+        {editableRows.length > 0 && (
+            <div
+                key="right-img-1"
+                className="absolute right-0 z-0 opacity-40 pointer-events-none"
+                style={{
+                    top: `44%`,
+                    transform: "translateY(-20%)",
+                }}
+            >
+                <img
+                    src="/abstract2.webp"
+                    alt="abstract right 1"
+                    className="w-[500px] h-[500px] object-contain"
+                    style={{ filter: "blur(0.5px)" }}
+                />
+            </div>
+        )}
 
     <div className="mx-auto max-w-7xl space-y-8">
         {/* Down Arrow Button (same style as up arrow, but vice-versa) */}
@@ -626,10 +657,10 @@ const SqlPlMasterMapping: React.FC = () => {
         )}
 
         {/* Main Form Card */}
-        <Card className="bg-white/5 backdrop-blur border border-white/10 hover:bg-white/10 max-w-4xl mx-auto p-10">
+        <Card className="bg-white/5 backdrop-blur border border-white/10 hover:bg-white/10 max-w-4xl mx-auto p-15">
             <CardHeader className="text-center pb-8">
                 <div
-                    className="w-20 h-20 rounded-full flex items-center justify-center shadow-2xl mx-auto -mt-24 mb-4"
+                    className="w-20 h-20 rounded-full flex items-center justify-center shadow-2xl mx-auto  mb-4"
                     style={{
                         background: "linear-gradient(130deg, #E6ECFF, #DFE4FF, #D3D6FE)",
                     }}

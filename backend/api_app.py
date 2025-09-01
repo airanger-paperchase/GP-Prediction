@@ -34,6 +34,7 @@ origins = [
     "http://localhost:5173",  # Vite dev server
     "http://localhost:8000",  # if you also use CRA
     "http://127.0.0.1:5173",
+    "http://127.0.0.1:6514",
 ]
 
 app.add_middleware(
