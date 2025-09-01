@@ -548,357 +548,507 @@ const SqlPlMasterMapping: React.FC = () => {
   };
 
   return (
-  <div ref={topRef} className="min-h-screen p-6" style={{ background: "linear-gradient(90deg, #E4E1F0 0%, #E7EAFA 50%, #E8EEFE 100%)" }}>
-      <div className="mx-auto max-w-7xl space-y-8">
-      {/* Down Arrow Button (same style as up arrow, but vice-versa) */}
-      {editableRows.length > 0 && !isSummaryInView && !showUpArrow && (
-        <button
-          onClick={() => summaryRef.current && summaryRef.current.scrollIntoView({ behavior: "smooth", block: "start" })}
-          className="fixed top-8 right-8 z-50 bg-white rounded-full shadow-lg p-3 flex items-center justify-center hover:bg-[#E4E1F0] transition-colors"
-          style={{ border: '1px solid #615FA6' }}
-          aria-label="Scroll to summary"
+<div
+    ref={topRef}
+    className="min-h-screen p-6 relative"
+    style={{
+        background: "linear-gradient(90deg, #E4E1F0 0%, #E7EAFA 50%, #E8EEFE 100%)",
+    }}
+>
+        {/* Left side images - 2 times */}
+        {[0, 1].map(i => (
+        <div
+            key={`left-img-${i}`}
+            className="absolute left-0 z-0 opacity-40 pointer-events-none"
+            style={{
+            top: `${(i === 0 ? 4 : 10 + i * 20)}%`, // first image higher
+            transform: "translateY(-20%)",
+            }}
         >
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 5v14M12 19l-7-7M12 19l7-7" stroke="#615FA6" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-        </button>
-      )}
+            <img
+            src="/abstract1.webp"
+            alt={`abstract left ${i}`}
+            className="w-[500px] h-[500px] object-contain"
+            style={{ filter: "blur(0.5px)" }}
+            />
+        </div>
+        ))}
+
+        {/* Right side images - 2 times */}
+        {[0].map(i => (
+        <div
+            key={`right-img-${i}`}
+            className="absolute right-0 z-0 opacity-40 pointer-events-none"
+            style={{
+            top:  "18%", // first image lower
+            transform: "translateY(-20%)",
+            }}
+        >
+            <img
+            src="/abstract2.webp"
+            alt={`abstract right ${i}`}
+            className="w-[500px] h-[500px] object-contain"
+            style={{ filter: "blur(0.5px)" }}
+            />
+        </div>
+        ))}
+
+    <div className="mx-auto max-w-7xl space-y-8">
+        {/* Down Arrow Button (same style as up arrow, but vice-versa) */}
+        {editableRows.length > 0 && !isSummaryInView && !showUpArrow && (
+            <button
+                onClick={() =>
+                    summaryRef.current &&
+                    summaryRef.current.scrollIntoView({ behavior: "smooth", block: "start" })
+                }
+                className="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50 
+                             bg-white rounded-full shadow-lg p-3 flex items-center justify-center 
+                             hover:bg-[#E4E1F0] transition-colors"
+                style={{ border: "1px solid #615FA6" }}
+                aria-label="Scroll to summary"
+            >
+                <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        d="M12 5v14M12 19l-7-7M12 19l7-7"
+                        stroke="#615FA6"
+                        strokeWidth="2.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                    />
+                </svg>
+            </button>
+        )}
 
         {/* Main Form Card */}
         <Card className="bg-white/5 backdrop-blur border border-white/10 hover:bg-white/10 max-w-4xl mx-auto p-10">
-          <CardHeader className="text-center pb-8">
-              <div className="w-20 h-20 rounded-full flex items-center justify-center shadow-2xl mx-auto -mt-24 mb-4" style={{background: "linear-gradient(130deg, #E6ECFF, #DFE4FF, #D3D6FE)"}}>
-                <Sparkles className="h-10 w-10 text-[#615FA6]" />
-              </div>
-              <h1 className="text-4xl font-bold tracking-tight" style={{ color: '#615FA6' }}>
-                L <span style={{ color: '#D77E7B' }}>I</span> M A
-              </h1>
-            <CardDescription className="text-base max-w-lg mx-auto" style={{ color: '#615FA6' }}>
-              Enter your company credentials to fetch and process PLMaster mapping data from your backend system.
-            </CardDescription>
-          </CardHeader>
-          
-          <CardContent className="space-y-8">
-            {/* Input Fields */}
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="space-y-3">
-                <label className="text-sm font-medium text-foreground flex items-center gap-2">
-                  <div className="w-2 h-2 bg-[#615FA6] rounded-full"></div>
-                  Company Code
-                </label>
-                <div className="relative group">
-                  <input
-                    type="text"
-                    placeholder="Enter your company code"
-                    value={sqlCompanyCode}
-                    onChange={e => setSqlCompanyCode(e.target.value)}
-                    className="w-full px-4 py-3 bg-surface-elevated border border-border rounded-xl text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all duration-300 group-hover:border-primary/50"
-                  />
-                  <div className="absolute inset-y-0 right-3 flex items-center">
-                    <Users className="h-4 w-4 text-muted-foreground" />
-                  </div>
-                </div>
-              </div>
-              
-              <div className="space-y-3">
-                <label className="text-sm font-medium text-foreground flex items-center gap-2">
-                  <div className="w-2 h-2 bg-[#615FA6] rounded-full"></div>
-                  Username
-                </label>
-                <div className="relative group">
-                  <input
-                    type="text"
-                    placeholder="Enter your username"
-                    value={sqlUsername}
-                    onChange={e => setSqlUsername(e.target.value)}
-                    className="w-full px-4 py-3 bg-surface-elevated border border-border rounded-xl text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all duration-300 group-hover:border-primary/50"
-                  />
-                  <div className="absolute inset-y-0 right-3 flex items-center">
-                    <FileText className="h-4 w-4 text-muted-foreground" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Action Button */}
-            <div className="flex justify-center pt-4 ">
-              <Button
-                onClick={handleSqlMapping}
-                disabled={sqlLoading || !sqlCompanyCode || !sqlUsername}
-                size="lg"
-                className="px-8 py-3 font-semibold rounded-xl shadow-glow hover:shadow-large transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed hover-lift"
-                style={{ background: 'linear-gradient(to bottom, #E1A357 0%, #D5807B 100%)', color: '#fff', border: 'none' }}
-              >
-                {sqlLoading ? (
-                  <span className="flex items-center gap-2">
-                    <Loader2 className="h-5 w-5 animate-spin" />
-                    Processing Your Data...
-                  </span>
-                ) : (
-                  <span className="flex items-center gap-3 ">
-                    <Database className="h-5 w-5" />
-                    Get Lineitem Mapping
-                  </span>
-                )}
-              </Button>
-            </div>
-
-            {/* Download Section */}
-            {editableRows.length > 0 && (
-              <div className="pt-6 border-t border-border/50">
-                <div className="flex items-center justify-between">
-                  <div className="space-y-1">
-                    <h3 className="font-semibold text-foreground">Ready to Export</h3>
-                    <p className="text-sm text-muted-foreground">Save your processed data and download the CSV file</p>
-                  </div>
-                  <Button
-                    variant="outline"
-                    disabled={saving}
-                    onClick={async () => {
-                      if (editableRows.length === 0) return;
-                      setSaving(true);
-                      // Use the same column order as finalCsv
-                      const csvHeaders = ["Id", "CompanyCode", "GLCode", "LineItem", "GrandParent", "Parent", "UpdatedOn", "UpdatedBy"];
-                      const csvRows = editableRows.map(row =>
-                        csvHeaders.map(h => {
-                          if (h === "LineItem") return row.line_item ?? "";
-                          if (h === "Parent") return row.parent ?? "";
-                          if (h === "GrandParent") return row.grandparent ?? "";
-                          return row[h] ?? "";
-                        })
-                      );
-                      const csvString = [csvHeaders.join(","), ...csvRows.map(r => r.map(v => (v ?? "").toString().replace(/\r|\n|,/g, " ")).join(","))].join("\n");
-                      // Parse CSV to rows for backend
-                      const rows = editableRows.map(row => {
-                        const obj: any = {};
-                        csvHeaders.forEach(h => {
-                          if (h === "LineItem") obj[h] = row.line_item ?? "";
-                          else if (h === "Parent") obj[h] = row.parent ?? "";
-                          else if (h === "GrandParent") obj[h] = row.grandparent ?? "";
-                          else obj[h] = row[h] ?? "";
-                        });
-                        return obj;
-                      });
-                      try {
-                        // 1. Store in SQL
-                        await axios.post(`${API_BASE}/store_auto_mapping`, { rows });
-                        // 2. Save edited lineitem/parent/grandparent to company CSV and build artifacts
-                        const saveRows = editableRows.map(row => ({
-                          line_item: row.line_item ?? "",
-                          parent: row.parent ?? "",
-                          grandparent: row.grandparent ?? ""
-                        }));
-                        await axios.post(`${API_BASE}/save`, {
-                          company_code: sqlCompanyCode,
-                          rows: saveRows
-                        });
-                        // 3. Download CSV after storing
-                        const blob = new Blob([csvString], { type: "text/csv;charset=utf-8;" });
-                        const url = URL.createObjectURL(blob);
-                        const link = document.createElement("a");
-                        link.href = url;
-                        link.download = `final_plmaster_mapping_${new Date().toISOString().split("T")[0]}.csv`;
-                        document.body.appendChild(link);
-                        link.click();
-                        document.body.removeChild(link);
-                        
-                        toast({
-                          title: "Success!",
-                          description: "Data saved and CSV downloaded successfully.",
-                          variant: "default",
-                        });
-                      } catch (e: any) {
-                        toast({
-                          title: "Error",
-                          description: `Failed to store auto mapping or save company CSV: ${e?.response?.data?.detail || e?.message || e}`,
-                          variant: "destructive",
-                        });
-                      } finally {
-                        setSaving(false);
-                      }
+            <CardHeader className="text-center pb-8">
+                <div
+                    className="w-20 h-20 rounded-full flex items-center justify-center shadow-2xl mx-auto -mt-24 mb-4"
+                    style={{
+                        background: "linear-gradient(130deg, #E6ECFF, #DFE4FF, #D3D6FE)",
                     }}
-                    className="px-6 py-2 hover-lift"
-                    style={{ background: 'linear-gradient(to bottom, #E1A357 0%, #D5807B 100%)', color: '#fff', border: 'none' }}
-                  >
-                    {saving ? (
-                      <span className="flex items-center gap-2">
-                        <Loader2 className="h-4 w-4 animate-spin" />
-                        Saving...
-                      </span>
-                    ) : (
-                      <span className="flex items-center gap-2">
-                        <Download className="h-4 w-4" />
-                        Save & Download
-                      </span>
-                    )}
-                  </Button>
+                >
+                    <Sparkles className="h-10 w-10 text-[#615FA6]" />
                 </div>
-              </div>
-            )}
-          </CardContent>
+                <h1 className="text-4xl font-bold tracking-tight" style={{ color: "#615FA6" }}>
+                    L <span style={{ color: "#D77E7B" }}>I</span> M A
+                </h1>
+                <CardDescription
+                    className="text-base max-w-lg mx-auto"
+                    style={{ color: "#615FA6" }}
+                >
+                    Enter your company credentials to fetch and process PLMaster mapping data from your backend system.
+                </CardDescription>
+            </CardHeader>
+
+            <CardContent className="space-y-8">
+                {/* Input Fields */}
+                <div className="grid md:grid-cols-2 gap-6">
+                    <div className="space-y-3">
+                        <label className="text-sm font-medium text-foreground flex items-center gap-2">
+                            <div className="w-2 h-2 bg-[#615FA6] rounded-full"></div>
+                            Company Code
+                        </label>
+                        <div className="relative group">
+                            <input
+                                type="text"
+                                placeholder="Enter your company code"
+                                value={sqlCompanyCode}
+                                onChange={e => setSqlCompanyCode(e.target.value)}
+                                className="w-full px-4 py-3 border border-border rounded-xl text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all duration-300 group-hover:border-primary/50"
+                                style={{ background: "#DDE5FD" }}
+                            />
+                            <div className="absolute inset-y-0 right-3 flex items-center">
+                                <Users className="h-4 w-4 text-muted-foreground" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="space-y-3">
+                        <label className="text-sm font-medium text-foreground flex items-center gap-2">
+                            <div className="w-2 h-2 bg-[#615FA6] rounded-full"></div>
+                            Username
+                        </label>
+                        <div className="relative group">
+                            <input
+                                type="text"
+                                placeholder="Enter your username"
+                                value={sqlUsername}
+                                onChange={e => setSqlUsername(e.target.value)}
+                                className="w-full px-4 py-3 border border-border rounded-xl text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all duration-300 group-hover:border-primary/50"
+                                style={{ background: "#DDE5FD" }}
+                            />
+                            <div className="absolute inset-y-0 right-3 flex items-center">
+                                <FileText className="h-4 w-4 text-muted-foreground" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Action Button */}
+                <div className="flex justify-center pt-4 ">
+                    <Button
+                        onClick={handleSqlMapping}
+                        disabled={sqlLoading || !sqlCompanyCode || !sqlUsername}
+                        size="lg"
+                        className="px-8 py-3 font-semibold rounded-xl shadow-glow hover:shadow-large transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed hover-lift"
+                        style={{
+                            background: "linear-gradient(to bottom, #E1A357 0%, #D5807B 100%)",
+                            color: "#fff",
+                            border: "none",
+                        }}
+                    >
+                        {sqlLoading ? (
+                            <span className="flex items-center gap-2">
+                                <Loader2 className="h-5 w-5 animate-spin" />
+                                Processing Your Data...
+                            </span>
+                        ) : (
+                            <span className="flex items-center gap-3 ">
+                                <Database className="h-5 w-5" />
+                                Get Lineitem Mapping
+                            </span>
+                        )}
+                    </Button>
+                </div>
+
+                {/* Download Section */}
+                {editableRows.length > 0 && (
+                    <div className="pt-6 border-t border-border/50">
+                        <div className="flex items-center justify-between">
+                            <div className="space-y-1">
+                                <h3 className="font-semibold text-foreground">Ready to Export</h3>
+                                <p className="text-sm text-muted-foreground">
+                                    Save your processed data and download the CSV file
+                                </p>
+                            </div>
+                            <Button
+                                variant="outline"
+                                disabled={saving}
+                                onClick={async () => {
+                                    if (editableRows.length === 0) return;
+                                    setSaving(true);
+                                    // Use the same column order as finalCsv
+                                    const csvHeaders = [
+                                        "Id",
+                                        "CompanyCode",
+                                        "GLCode",
+                                        "LineItem",
+                                        "GrandParent",
+                                        "Parent",
+                                        "UpdatedOn",
+                                        "UpdatedBy",
+                                    ];
+                                    const csvRows = editableRows.map(row =>
+                                        csvHeaders.map(h => {
+                                            if (h === "LineItem") return row.line_item ?? "";
+                                            if (h === "Parent") return row.parent ?? "";
+                                            if (h === "GrandParent") return row.grandparent ?? "";
+                                            return row[h] ?? "";
+                                        })
+                                    );
+                                    const csvString = [
+                                        csvHeaders.join(","),
+                                        ...csvRows.map(r =>
+                                            r.map(v => (v ?? "").toString().replace(/\r|\n|,/g, " ")).join(",")
+                                        ),
+                                    ].join("\n");
+                                    // Parse CSV to rows for backend
+                                    const rows = editableRows.map(row => {
+                                        const obj: any = {};
+                                        csvHeaders.forEach(h => {
+                                            if (h === "LineItem") obj[h] = row.line_item ?? "";
+                                            else if (h === "Parent") obj[h] = row.parent ?? "";
+                                            else if (h === "GrandParent") obj[h] = row.grandparent ?? "";
+                                            else obj[h] = row[h] ?? "";
+                                        });
+                                        return obj;
+                                    });
+                                    try {
+                                        // 1. Store in SQL
+                                        await axios.post(`${API_BASE}/store_auto_mapping`, { rows });
+                                        // 2. Save edited lineitem/parent/grandparent to company CSV and build artifacts
+                                        const saveRows = editableRows.map(row => ({
+                                            line_item: row.line_item ?? "",
+                                            parent: row.parent ?? "",
+                                            grandparent: row.grandparent ?? "",
+                                        }));
+                                        await axios.post(`${API_BASE}/save`, {
+                                            company_code: sqlCompanyCode,
+                                            rows: saveRows,
+                                        });
+                                        // 3. Download CSV after storing
+                                        const blob = new Blob([csvString], {
+                                            type: "text/csv;charset=utf-8;",
+                                        });
+                                        const url = URL.createObjectURL(blob);
+                                        const link = document.createElement("a");
+                                        link.href = url;
+                                        link.download = `final_plmaster_mapping_${new Date()
+                                            .toISOString()
+                                            .split("T")[0]}.csv`;
+                                        document.body.appendChild(link);
+                                        link.click();
+                                        document.body.removeChild(link);
+
+                                        toast({
+                                            title: "Success!",
+                                            description: "Data saved and CSV downloaded successfully.",
+                                            variant: "default",
+                                        });
+                                    } catch (e: any) {
+                                        toast({
+                                            title: "Error",
+                                            description: `Failed to store auto mapping or save company CSV: ${e?.response?.data?.detail || e?.message || e}`,
+                                            variant: "destructive",
+                                        });
+                                    } finally {
+                                        setSaving(false);
+                                    }
+                                }}
+                                className="px-6 py-2 hover-lift"
+                                style={{
+                                    background: "linear-gradient(to bottom, #E1A357 0%, #D5807B 100%)",
+                                    color: "#fff",
+                                    border: "none",
+                                }}
+                            >
+                                {saving ? (
+                                    <span className="flex items-center gap-2">
+                                        <Loader2 className="h-4 w-4 animate-spin" />
+                                        Saving...
+                                    </span>
+                                ) : (
+                                    <span className="flex items-center gap-2">
+                                        <Download className="h-4 w-4" />
+                                        Save & Download
+                                    </span>
+                                )}
+                            </Button>
+                        </div>
+                    </div>
+                )}
+            </CardContent>
         </Card>
 
         {/* Results Section */}
         {editableRows.length > 0 && (
-          <div ref={summaryRef} className="space-y-6 animate-slide-up ">
-      {/* Up Arrow Button */}
-      {showUpArrow && (
-        <button
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="fixed bottom-8 right-8 z-50 bg-white rounded-full shadow-lg p-3 flex items-center justify-center hover:bg-[#E4E1F0] transition-colors"
-          style={{ border: '1px solid #615FA6' }}
-          aria-label="Scroll to top"
-        >
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 19V5M12 5L5 12M12 5L19 12" stroke="#615FA6" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-        </button>
-      )}
-            {/* Summary Cards */}
-            {summaryCounts && (
-              <Card className="bg-white/20 backdrop-blur border border-white/10">
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <TrendingUp className="h-5 w-5 text-primary" />
-                    Processing Summary
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <div className="p-6 rounded-2xl text-center hover-lift bg-white/20 backdrop-blur border border-white/10">
-                      <div className="text-3xl font-bold text-blue-700 mb-2">{summaryCounts.total.toLocaleString()}</div>
-                      <div className="text-sm text-blue-600 font-medium">Total Items</div>
-                    </div>
-                    <div className="p-6 rounded-2xl text-center hover-lift bg-white/20 backdrop-blur border border-white/10">
-                      <div className="text-3xl font-bold text-green-700 mb-2">{summaryCounts.mapped_existing.toLocaleString()}</div>
-                      <div className="text-sm text-green-600 font-medium">Existing</div>
-                    </div>
-                    <div className="p-6 rounded-2xl text-center hover-lift bg-white/20 backdrop-blur border border-white/10">
-                      <div className="text-3xl font-bold text-yellow-700 mb-2">{summaryCounts.predicted.toLocaleString()}</div>
-                      <div className="text-sm text-yellow-600 font-medium">Predicted</div>
-                    </div>
-                    <div className="p-6 rounded-2xl text-center hover-lift bg-white/20 backdrop-blur border border-white/10">
-                      <div className="text-3xl font-bold text-purple-700 mb-2">{(summaryCounts.mapped_percent * 100).toFixed(1)}%</div>
-                      <div className="text-sm text-purple-600 font-medium">Coverage</div>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            )}
-
-            {/* Data Table */}
-            <Card className="shadow-md bg-white/20 backdrop-blur border border-white/10">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <BarChart3 className="h-5 w-5 text-primary" />
-                  Tabulated Data
-                </CardTitle>
-                <CardDescription>
-                  Review and edit the AI predictions below. You can modify Parent or GrandParent values before saving.
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="rounded-2xl border border-border/100 overflow-hidden bg-surface-elevated">
-                  <Table>
-                    <TableHeader>
-                      <TableRow className="bg-accent-soft/150 hover:bg-accent-soft/100">
-                        <TableHead className="font-semibold text-foreground py-4 w-32">Line Item</TableHead>
-                        <TableHead className="font-semibold text-foreground py-4 ">Grand Parent</TableHead>
-                        <TableHead className="font-semibold text-foreground py-4 ">Parent</TableHead>
-                        <TableHead className="font-semibold text-foreground py-4">Source</TableHead>
-                      </TableRow>
-                    </TableHeader>
-                    <TableBody>
-                      {paginatedRows.map((row, idx) => (
-                        <TableRow key={idx + (currentPage - 1) * ITEMS_PER_PAGE} className="hover:bg-accent-soft/30 transition-colors duration-200">
-                          <TableCell className="font-medium py-4 text-foreground w-32 truncate">{row.line_item}</TableCell>
-                          <TableCell className="py-4 pl-2">
-                            <input
-                              type="text"
-                              value={row.grandparent}
-                              onChange={e => handleEditCell(idx + (currentPage - 1) * ITEMS_PER_PAGE, "grandparent", e.target.value)}
-                              className="w-full px-3 py-2 bg-blue-50 border border-blue-200 rounded-lg text-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-200/50 focus:border-blue-400 transition-all duration-200"
+            <div ref={summaryRef} className="space-y-6 animate-slide-up ">
+                {/* Up Arrow Button */}
+                {showUpArrow && (
+                    <button
+                        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                        className="fixed bottom-8 right-8 z-50 bg-white rounded-full shadow-lg p-3 flex items-center justify-center hover:bg-[#E4E1F0] transition-colors"
+                        style={{ border: "1px solid #615FA6" }}
+                        aria-label="Scroll to top"
+                    >
+                        <svg
+                            width="32"
+                            height="32"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M12 19V5M12 5L5 12M12 5L19 12"
+                                stroke="#615FA6"
+                                strokeWidth="2.5"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                             />
-                          </TableCell>
-                          <TableCell className="py-4 pl-2">
-                            <input
-                              type="text"
-                              value={row.parent}
-                              onChange={e => handleEditCell(idx + (currentPage - 1) * ITEMS_PER_PAGE, "parent", e.target.value)}
-                              className="w-full px-3 py-2 bg-purple-50 border border-purple-200 rounded-lg text-purple-900 focus:outline-none focus:ring-2 focus:ring-purple-200/50 focus:border-purple-400 transition-all duration-200"
-                            />
-                          </TableCell>
-                          <TableCell className="py-4">
-                            <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium ${
-                              row.source === "existing" 
-                                ? "bg-green-100 text-green-700 border border-green-200" 
-                                : "bg-yellow-100 text-yellow-700 border border-yellow-200"
-                            }`}>
-                              {row.source === "existing" ? "Existing" : "Predicted"}
-                            </span>
-                          </TableCell>
-                        </TableRow>
-                      ))}
-                    </TableBody>
-                  </Table>
-                </div>
-
-                {/* Enhanced Pagination */}
-                {totalPages > 1 && (
-                  <div className="mt-8 flex justify-center">
-                    <div className="bg-surface-elevated rounded-2xl p-2 shadow-medium">
-                      <Pagination>
-                        <PaginationContent className="gap-2">
-                          <PaginationItem>
-                            <PaginationPrevious 
-                              onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
-                              className={`rounded-xl transition-all duration-200 ${
-                                currentPage <= 1 
-                                  ? "pointer-events-none opacity-50" 
-                                  : "cursor-pointer hover:bg-primary/10 hover:text-primary"
-                              }`}
-                            />
-                          </PaginationItem>
-                          {[...Array(Math.min(5, totalPages))].map((_, i) => {
-                            const pageNum = i + Math.max(1, currentPage - 2);
-                            if (pageNum > totalPages) return null;
-                            return (
-                              <PaginationItem key={pageNum}>
-                                <PaginationLink
-                                  onClick={() => setCurrentPage(pageNum)}
-                                  isActive={currentPage === pageNum}
-                                  className={`rounded-xl cursor-pointer transition-all duration-200 ${
-                                    currentPage === pageNum
-                                      ? "bg-[#615FA6] text-primary-foreground shadow-glow"
-                                      : "hover:bg-[#615FA6]/10 hover:text-primary"
-                                  }`}
-                                >
-                                  {pageNum}
-                                </PaginationLink>
-                              </PaginationItem>
-                            );
-                          })}
-                          <PaginationItem>
-                            <PaginationNext 
-                              onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
-                              className={`rounded-xl transition-all duration-200 ${
-                                currentPage >= totalPages 
-                                  ? "pointer-events-none opacity-50" 
-                                  : "cursor-pointer hover:bg-primary/10 hover:text-primary"
-                              }`}
-                            />
-                          </PaginationItem>
-                        </PaginationContent>
-                      </Pagination>
-                    </div>
-                  </div>
+                        </svg>
+                    </button>
                 )}
-              </CardContent>
-            </Card>
-          </div>
+                {/* Summary Cards */}
+                {summaryCounts && (
+                    <Card className="bg-white/20 backdrop-blur border border-white/10 shadow-md">
+                        <CardHeader>
+                            <CardTitle className="flex items-center gap-2">
+                                <TrendingUp className="h-5 w-5 text-primary" />
+                                Processing Summary
+                            </CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                                <div className="p-6 rounded-2xl text-center hover-lift bg-white/20 backdrop-blur border border-white/10">
+                                    <div className="text-3xl font-bold text-blue-700 mb-2">
+                                        {summaryCounts.total.toLocaleString()}
+                                    </div>
+                                    <div className="text-sm text-blue-600 font-medium">Total Items</div>
+                                </div>
+                                <div className="p-6 rounded-2xl text-center hover-lift bg-white/20 backdrop-blur border border-white/10">
+                                    <div className="text-3xl font-bold text-green-700 mb-2">
+                                        {summaryCounts.mapped_existing.toLocaleString()}
+                                    </div>
+                                    <div className="text-sm text-green-600 font-medium">Existing</div>
+                                </div>
+                                <div className="p-6 rounded-2xl text-center hover-lift bg-white/20 backdrop-blur border border-white/10">
+                                    <div className="text-3xl font-bold text-yellow-700 mb-2">
+                                        {summaryCounts.predicted.toLocaleString()}
+                                    </div>
+                                    <div className="text-sm text-yellow-600 font-medium">Predicted</div>
+                                </div>
+                                <div className="p-6 rounded-2xl text-center hover-lift bg-white/20 backdrop-blur border border-white/10">
+                                    <div className="text-3xl font-bold text-purple-700 mb-2">
+                                        {(summaryCounts.mapped_percent * 100).toFixed(1)}%
+                                    </div>
+                                    <div className="text-sm text-purple-600 font-medium">Coverage</div>
+                                </div>
+                            </div>
+                        </CardContent>
+                    </Card>
+                )}
+
+                {/* Data Table */}
+                <Card className="shadow-md bg-white/20 backdrop-blur border border-white/10">
+                    <CardHeader>
+                        <CardTitle className="flex items-center gap-2">
+                            <BarChart3 className="h-5 w-5 text-primary" />
+                            Tabulated Data
+                        </CardTitle>
+                        <CardDescription>
+                            Review and edit the AI predictions below. You can modify Parent or GrandParent values before saving.
+                        </CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                        <div className="rounded-2xl border border-border/100 overflow-hidden bg-surface-elevated">
+                            <Table>
+                                <TableHeader>
+                                    <TableRow className="bg-accent-soft/150 hover:bg-accent-soft/100">
+                                        <TableHead className="font-semibold text-foreground py-4 w-32">
+                                            Line Item
+                                        </TableHead>
+                                        <TableHead className="font-semibold text-foreground py-4 ">
+                                            Grand Parent
+                                        </TableHead>
+                                        <TableHead className="font-semibold text-foreground py-4 ">
+                                            Parent
+                                        </TableHead>
+                                        <TableHead className="font-semibold text-foreground py-4">
+                                            Source
+                                        </TableHead>
+                                    </TableRow>
+                                </TableHeader>
+                                <TableBody>
+                                    {paginatedRows.map((row, idx) => (
+                                        <TableRow
+                                            key={idx + (currentPage - 1) * ITEMS_PER_PAGE}
+                                            className="hover:bg-accent-soft/30 transition-colors duration-200"
+                                        >
+                                            <TableCell className="font-medium py-4 text-foreground w-32 truncate">
+                                                {row.line_item}
+                                            </TableCell>
+                                            <TableCell className="py-4 pl-2">
+                                                <input
+                                                    type="text"
+                                                    value={row.grandparent}
+                                                    onChange={e =>
+                                                        handleEditCell(
+                                                            idx + (currentPage - 1) * ITEMS_PER_PAGE,
+                                                            "grandparent",
+                                                            e.target.value
+                                                        )
+                                                    }
+                                                    className="w-full px-3 py-2 border border-blue-200 rounded-lg text-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-200/50 focus:border-blue-400 transition-all duration-200"
+                                                    style={{ background: "#DDE5FD" }}
+                                                />
+                                            </TableCell>
+                                            <TableCell className="py-4 pl-2">
+                                                <input
+                                                    type="text"
+                                                    value={row.parent}
+                                                    onChange={e =>
+                                                        handleEditCell(
+                                                            idx + (currentPage - 1) * ITEMS_PER_PAGE,
+                                                            "parent",
+                                                            e.target.value
+                                                        )
+                                                    }
+                                                    className="w-full px-3 py-2 border border-purple-200 rounded-lg text-purple-900 focus:outline-none focus:ring-2 focus:ring-purple-200/50 focus:border-purple-400 transition-all duration-200"
+                                                    style={{ background: "#DDE5FD" }}
+                                                />
+                                            </TableCell>
+                                            <TableCell className="py-4">
+                                                <span
+                                                    className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium ${
+                                                        row.source === "existing"
+                                                            ? "bg-green-100 text-green-700 border border-green-200"
+                                                            : "bg-yellow-100 text-yellow-700 border border-yellow-200"
+                                                    }`}
+                                                >
+                                                    {row.source === "existing" ? "Existing" : "Predicted"}
+                                                </span>
+                                            </TableCell>
+                                        </TableRow>
+                                    ))}
+                                </TableBody>
+                            </Table>
+                        </div>
+
+                        {/* Enhanced Pagination */}
+                        {totalPages > 1 && (
+                            <div className="mt-8 flex justify-center">
+                                <div className="bg-surface-elevated rounded-2xl p-2 shadow-medium">
+                                    <Pagination>
+                                        <PaginationContent className="gap-2">
+                                            <PaginationItem>
+                                                <PaginationPrevious
+                                                    onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
+                                                    className={`rounded-xl transition-all duration-200 ${
+                                                        currentPage <= 1
+                                                            ? "pointer-events-none opacity-50"
+                                                            : "cursor-pointer hover:bg-primary/10 hover:text-primary"
+                                                    }`}
+                                                />
+                                            </PaginationItem>
+                                            {[...Array(Math.min(5, totalPages))].map((_, i) => {
+                                                const pageNum = i + Math.max(1, currentPage - 2);
+                                                if (pageNum > totalPages) return null;
+                                                return (
+                                                    <PaginationItem key={pageNum}>
+                                                        <PaginationLink
+                                                            onClick={() => setCurrentPage(pageNum)}
+                                                            isActive={currentPage === pageNum}
+                                                            className={`rounded-xl cursor-pointer transition-all duration-200 ${
+                                                                currentPage === pageNum
+                                                                    ? "bg-[#615FA6] text-primary-foreground shadow-glow"
+                                                                    : "hover:bg-[#615FA6]/10 hover:text-primary"
+                                                            }`}
+                                                        >
+                                                            {pageNum}
+                                                        </PaginationLink>
+                                                    </PaginationItem>
+                                                );
+                                            })}
+                                            <PaginationItem>
+                                                <PaginationNext
+                                                    onClick={() =>
+                                                        setCurrentPage(Math.min(totalPages, currentPage + 1))
+                                                    }
+                                                    className={`rounded-xl transition-all duration-200 ${
+                                                        currentPage >= totalPages
+                                                            ? "pointer-events-none opacity-50"
+                                                            : "cursor-pointer hover:bg-primary/10 hover:text-primary"
+                                                    }`}
+                                                />
+                                            </PaginationItem>
+                                        </PaginationContent>
+                                    </Pagination>
+                                </div>
+                            </div>
+                        )}
+                    </CardContent>
+                </Card>
+            </div>
         )}
-      </div>
     </div>
+</div>
   );
 };
 
