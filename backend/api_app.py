@@ -35,6 +35,9 @@ origins = [
     "http://localhost:8000",  # if you also use CRA
     "http://127.0.0.1:5173",
     "http://127.0.0.1:6514",
+    "http://10.200.7.77:6514", # backend itself (optional)
+    "http://10.200.7.77:5173", # if frontend is served from same network IP
+    "http://10.200.7.77:6513"
 ]
 
 app.add_middleware(
@@ -54,7 +57,7 @@ FALLBACK_CSV = "filtered_data.csv"
 # DB connection settings
 SERVER = os.getenv("SERVER")
 DATABASE = os.getenv("DATABASE")
-USERNAME = "DEV_TANISH"
+USERNAME = "Pchasedev"
 PASSWORD = os.getenv("PASSWORD")
 
 CONN_STR = (

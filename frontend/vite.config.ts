@@ -7,7 +7,7 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
-    port: 5173,
+    port: 6513,
     allowedHosts: ["three-facts-press.loca.lt"],
   },
   plugins: [

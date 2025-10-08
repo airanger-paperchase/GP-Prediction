@@ -408,7 +408,7 @@ import axios from "axios";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_BASE || "http://10.200.7.77:6514";
 
 const SqlPlMasterMapping: React.FC = () => {
   const [saving, setSaving] = useState(false);
@@ -440,6 +440,23 @@ const SqlPlMasterMapping: React.FC = () => {
   }, [finalCsv]);
   const [showUpArrow, setShowUpArrow] = useState(false);
   const ITEMS_PER_PAGE = 20;
+
+  // Listen for messages from iframe
+  useEffect(() => {
+    const handleMessage = (event: MessageEvent) => {
+      // Always verify the origin for security
+      if (event.origin !== window.location.origin) return;
+
+      if (event.data.type === "SET_CREDENTIALS") {
+        const { companyCode, username } = event.data;
+        setSqlCompanyCode(companyCode);
+        setSqlUsername(username);
+      }
+    };
+
+    window.addEventListener("message", handleMessage);
+    return () => window.removeEventListener("message", handleMessage);
+  }, []);
 
   const totalPages = Math.ceil(editableRows.length / ITEMS_PER_PAGE);
   const paginatedRows = useMemo(() => {
@@ -557,9 +574,9 @@ const SqlPlMasterMapping: React.FC = () => {
 >
 
         {/* Left side images - always show first, second only if data is present, adjust position if no data */}
-        <div
+        {/* <div
             key="left-img-0"
-            className="absolute left-0 z-0 opacity-40 pointer-events-none"
+            className="absolute left-0 z-0 opacity-70 pointer-events-none"
             style={{
                 top: editableRows.length > 0 ? `4%` : `16%`,
                 transform: "translateY(-20%)",
@@ -575,7 +592,7 @@ const SqlPlMasterMapping: React.FC = () => {
         {editableRows.length > 0 && (
             <div
                 key="left-img-1"
-                className="absolute left-0 z-0 opacity-40 pointer-events-none"
+                className="absolute left-0 z-0 opacity-70 pointer-events-none"
                 style={{
                     top: `30%`,
                     transform: "translateY(-20%)",
@@ -588,12 +605,12 @@ const SqlPlMasterMapping: React.FC = () => {
                     style={{ filter: "blur(0.5px)" }}
                 />
             </div>
-        )}
+        )} */}
 
         {/* Right side images - always show first, second only if data is present, adjust position if no data */}
-        <div
+        {/* <div
             key="right-img-0"
-            className="absolute right-0 z-0 opacity-40 pointer-events-none"
+            className="absolute right-0 z-0 opacity-70 pointer-events-none"
             style={{
                 top: editableRows.length > 0 ? `18%` : `40%`,
                 transform: "translateY(-20%)",
@@ -609,7 +626,7 @@ const SqlPlMasterMapping: React.FC = () => {
         {editableRows.length > 0 && (
             <div
                 key="right-img-1"
-                className="absolute right-0 z-0 opacity-40 pointer-events-none"
+                className="absolute right-0 z-0 opacity-70 pointer-events-none"
                 style={{
                     top: `44%`,
                     transform: "translateY(-20%)",
@@ -622,7 +639,7 @@ const SqlPlMasterMapping: React.FC = () => {
                     style={{ filter: "blur(0.5px)" }}
                 />
             </div>
-        )}
+        )} */}
 
     <div className="mx-auto max-w-7xl space-y-8">
         {/* Down Arrow Button (same style as up arrow, but vice-versa) */}
@@ -658,7 +675,7 @@ const SqlPlMasterMapping: React.FC = () => {
 
         {/* Main Form Card */}
         <Card className="bg-white/5 backdrop-blur border border-white/10 hover:bg-white/10 max-w-4xl mx-auto p-15">
-            <CardHeader className="text-center pb-8">
+            {/* <CardHeader className="text-center pb-8">
                 <div
                     className="w-20 h-20 rounded-full flex items-center justify-center shadow-2xl mx-auto  mb-4"
                     style={{
@@ -676,11 +693,11 @@ const SqlPlMasterMapping: React.FC = () => {
                 >
                     Enter your company credentials to fetch and process PLMaster mapping data from your backend system.
                 </CardDescription>
-            </CardHeader>
+            </CardHeader> */}
 
             <CardContent className="space-y-8">
                 {/* Input Fields */}
-                <div className="grid md:grid-cols-2 gap-6">
+                {/* <div className="grid md:grid-cols-2 gap-6">
                     <div className="space-y-3">
                         <label className="text-sm font-medium text-foreground flex items-center gap-2">
                             <div className="w-2 h-2 bg-[#615FA6] rounded-full"></div>
@@ -720,10 +737,43 @@ const SqlPlMasterMapping: React.FC = () => {
                             </div>
                         </div>
                     </div>
+                </div> */}
+                {/* Display the received values for debugging/UX (optional) */}
+                {/* <div className="grid md:grid-cols-2 gap-6">
+                <div className="space-y-3">
+                    <label className="text-sm font-medium text-foreground flex items-center gap-2">
+                    <div className="w-2 h-2 bg-[#615FA6] rounded-full"></div>
+                    Company Code (from iframe)
+                    </label>
+                    <div className="relative group">
+                    <input
+                        type="text"
+                        readOnly
+                        value={sqlCompanyCode}
+                        className="w-full px-4 py-3 border border-border rounded-xl text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all duration-300 group-hover:border-primary/50"
+                        style={{ background: "#DDE5FD" }}
+                    />
+                    </div>
                 </div>
+                <div className="space-y-3">
+                    <label className="text-sm font-medium text-foreground flex items-center gap-2">
+                    <div className="w-2 h-2 bg-[#615FA6] rounded-full"></div>
+                    Username (from iframe)
+                    </label>
+                    <div className="relative group">
+                    <input
+                        type="text"
+                        readOnly
+                        value={sqlUsername}
+                        className="w-full px-4 py-3 border border-border rounded-xl text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all duration-300 group-hover:border-primary/50"
+                        style={{ background: "#DDE5FD" }}
+                    />
+                    </div>
+                </div>
+                </div> */}
 
                 {/* Action Button */}
-                <div className="flex justify-center pt-4 ">
+                <div className="flex justify-center pt-4 gap-4">
                     <Button
                         onClick={handleSqlMapping}
                         disabled={sqlLoading || !sqlCompanyCode || !sqlUsername}
@@ -747,124 +797,114 @@ const SqlPlMasterMapping: React.FC = () => {
                             </span>
                         )}
                     </Button>
-                </div>
-
-                {/* Download Section */}
-                {editableRows.length > 0 && (
-                    <div className="pt-6 border-t border-border/50">
-                        <div className="flex items-center justify-between">
-                            <div className="space-y-1">
-                                <h3 className="font-semibold text-foreground">Ready to Export</h3>
-                                <p className="text-sm text-muted-foreground">
-                                    Save your processed data and download the CSV file
-                                </p>
-                            </div>
-                            <Button
-                                variant="outline"
-                                disabled={saving}
-                                onClick={async () => {
-                                    if (editableRows.length === 0) return;
-                                    setSaving(true);
-                                    // Use the same column order as finalCsv
-                                    const csvHeaders = [
-                                        "Id",
-                                        "CompanyCode",
-                                        "GLCode",
-                                        "LineItem",
-                                        "GrandParent",
-                                        "Parent",
-                                        "UpdatedOn",
-                                        "UpdatedBy",
-                                    ];
-                                    const csvRows = editableRows.map(row =>
-                                        csvHeaders.map(h => {
-                                            if (h === "LineItem") return row.line_item ?? "";
-                                            if (h === "Parent") return row.parent ?? "";
-                                            if (h === "GrandParent") return row.grandparent ?? "";
-                                            return row[h] ?? "";
-                                        })
-                                    );
-                                    const csvString = [
-                                        csvHeaders.join(","),
-                                        ...csvRows.map(r =>
-                                            r.map(v => (v ?? "").toString().replace(/\r|\n|,/g, " ")).join(",")
-                                        ),
-                                    ].join("\n");
-                                    // Parse CSV to rows for backend
-                                    const rows = editableRows.map(row => {
-                                        const obj: any = {};
-                                        csvHeaders.forEach(h => {
-                                            if (h === "LineItem") obj[h] = row.line_item ?? "";
-                                            else if (h === "Parent") obj[h] = row.parent ?? "";
-                                            else if (h === "GrandParent") obj[h] = row.grandparent ?? "";
-                                            else obj[h] = row[h] ?? "";
-                                        });
-                                        return obj;
+                    {/* Download Section */}
+                    {editableRows.length > 0 && (
+                        <Button
+                            variant="outline"
+                            disabled={saving}
+                            onClick={async () => {
+                                if (editableRows.length === 0) return;
+                                setSaving(true);
+                                // Use the same column order as finalCsv
+                                const csvHeaders = [
+                                    "Id",
+                                    "CompanyCode",
+                                    "GLCode",
+                                    "LineItem",
+                                    "GrandParent",
+                                    "Parent",
+                                    "UpdatedOn",
+                                    "UpdatedBy",
+                                ];
+                                const csvRows = editableRows.map(row =>
+                                    csvHeaders.map(h => {
+                                        if (h === "LineItem") return row.line_item ?? "";
+                                        if (h === "Parent") return row.parent ?? "";
+                                        if (h === "GrandParent") return row.grandparent ?? "";
+                                        return row[h] ?? "";
+                                    })
+                                );
+                                const csvString = [
+                                    csvHeaders.join(","),
+                                    ...csvRows.map(r =>
+                                        r.map(v => (v ?? "").toString().replace(/\r|\n|,/g, " ")).join(",")
+                                    ),
+                                ].join("\n");
+                                // Parse CSV to rows for backend
+                                const rows = editableRows.map(row => {
+                                    const obj: any = {};
+                                    csvHeaders.forEach(h => {
+                                        if (h === "LineItem") obj[h] = row.line_item ?? "";
+                                        else if (h === "Parent") obj[h] = row.parent ?? "";
+                                        else if (h === "GrandParent") obj[h] = row.grandparent ?? "";
+                                        else obj[h] = row[h] ?? "";
                                     });
-                                    try {
-                                        // 1. Store in SQL
-                                        await axios.post(`${API_BASE}/store_auto_mapping`, { rows });
-                                        // 2. Save edited lineitem/parent/grandparent to company CSV and build artifacts
-                                        const saveRows = editableRows.map(row => ({
-                                            line_item: row.line_item ?? "",
-                                            parent: row.parent ?? "",
-                                            grandparent: row.grandparent ?? "",
-                                        }));
-                                        await axios.post(`${API_BASE}/save`, {
-                                            company_code: sqlCompanyCode,
-                                            rows: saveRows,
-                                        });
-                                        // 3. Download CSV after storing
-                                        const blob = new Blob([csvString], {
-                                            type: "text/csv;charset=utf-8;",
-                                        });
-                                        const url = URL.createObjectURL(blob);
-                                        const link = document.createElement("a");
-                                        link.href = url;
-                                        link.download = `final_plmaster_mapping_${new Date()
-                                            .toISOString()
-                                            .split("T")[0]}.csv`;
-                                        document.body.appendChild(link);
-                                        link.click();
-                                        document.body.removeChild(link);
+                                    return obj;
+                                });
+                                try {
+                                    // 1. Store in SQL
+                                    await axios.post(`${API_BASE}/store_auto_mapping`, { rows });
+                                    // 2. Save edited lineitem/parent/grandparent to company CSV and build artifacts
+                                    const saveRows = editableRows.map(row => ({
+                                        line_item: row.line_item ?? "",
+                                        parent: row.parent ?? "",
+                                        grandparent: row.grandparent ?? "",
+                                    }));
+                                    await axios.post(`${API_BASE}/save`, {
+                                        company_code: sqlCompanyCode,
+                                        rows: saveRows,
+                                    });
+                                    // 3. Download CSV after storing
+                                    const blob = new Blob([csvString], {
+                                        type: "text/csv;charset=utf-8;",
+                                    });
+                                    const url = URL.createObjectURL(blob);
+                                    const link = document.createElement("a");
+                                    link.href = url;
+                                    link.download = `final_plmaster_mapping_${new Date()
+                                        .toISOString()
+                                        .split("T")[0]}.csv`;
+                                    document.body.appendChild(link);
+                                    link.click();
+                                    document.body.removeChild(link);
 
-                                        toast({
-                                            title: "Success!",
-                                            description: "Data saved and CSV downloaded successfully.",
-                                            variant: "default",
-                                        });
-                                    } catch (e: any) {
-                                        toast({
-                                            title: "Error",
-                                            description: `Failed to store auto mapping or save company CSV: ${e?.response?.data?.detail || e?.message || e}`,
-                                            variant: "destructive",
-                                        });
-                                    } finally {
-                                        setSaving(false);
-                                    }
-                                }}
-                                className="px-6 py-2 hover-lift"
-                                style={{
-                                    background: "linear-gradient(to bottom, #E1A357 0%, #D5807B 100%)",
-                                    color: "#fff",
-                                    border: "none",
-                                }}
-                            >
-                                {saving ? (
-                                    <span className="flex items-center gap-2">
-                                        <Loader2 className="h-4 w-4 animate-spin" />
-                                        Saving...
-                                    </span>
-                                ) : (
-                                    <span className="flex items-center gap-2">
-                                        <Download className="h-4 w-4" />
-                                        Save & Download
-                                    </span>
-                                )}
-                            </Button>
-                        </div>
-                    </div>
-                )}
+                                    toast({
+                                        title: "Success!",
+                                        description: "Data saved and CSV downloaded successfully.",
+                                        variant: "default",
+                                    });
+                                } catch (e: any) {
+                                    toast({
+                                        title: "Error",
+                                        description: `Failed to store auto mapping or save company CSV: ${e?.response?.data?.detail || e?.message || e}`,
+                                        variant: "destructive",
+                                    });
+                                } finally {
+                                    setSaving(false);
+                                }
+                            }}
+                            size="lg"
+                            className="px-8 py-3 font-semibold rounded-xl shadow-glow hover:shadow-large transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed hover-lift"
+                            style={{
+                                background: "linear-gradient(to bottom, #E1A357 0%, #D5807B 100%)",
+                                color: "#fff",
+                                border: "none",
+                            }}
+                        >
+                            {saving ? (
+                                <span className="flex items-center gap-2">
+                                    <Loader2 className="h-4 w-4 animate-spin" />
+                                    Saving...
+                                </span>
+                            ) : (
+                                <span className="flex items-center gap-2">
+                                    <Download className="h-5 w-5" />
+                                    Save & Download
+                                </span>
+                            )}
+                        </Button>
+                    )}
+                </div>
             </CardContent>
         </Card>
 
@@ -1075,6 +1115,122 @@ const SqlPlMasterMapping: React.FC = () => {
                             </div>
                         )}
                     </CardContent>
+                    {/* Download Section */}
+                {editableRows.length > 0 && (
+                    <div className="m-6 pt-3 border-t border-border/50">
+                        <div className="flex items-center justify-between">
+                            <div className="space-y-1">
+                                <h3 className="font-semibold text-foreground">Ready to Export</h3>
+                                <p className="text-sm text-muted-foreground">
+                                    Save your processed data and download the CSV file
+                                </p>
+                            </div>
+                            <Button
+                                variant="outline"
+                                disabled={saving}
+                                onClick={async () => {
+                                    if (editableRows.length === 0) return;
+                                    setSaving(true);
+                                    // Use the same column order as finalCsv
+                                    const csvHeaders = [
+                                        "Id",
+                                        "CompanyCode",
+                                        "GLCode",
+                                        "LineItem",
+                                        "GrandParent",
+                                        "Parent",
+                                        "UpdatedOn",
+                                        "UpdatedBy",
+                                    ];
+                                    const csvRows = editableRows.map(row =>
+                                        csvHeaders.map(h => {
+                                            if (h === "LineItem") return row.line_item ?? "";
+                                            if (h === "Parent") return row.parent ?? "";
+                                            if (h === "GrandParent") return row.grandparent ?? "";
+                                            return row[h] ?? "";
+                                        })
+                                    );
+                                    const csvString = [
+                                        csvHeaders.join(","),
+                                        ...csvRows.map(r =>
+                                            r.map(v => (v ?? "").toString().replace(/\r|\n|,/g, " ")).join(",")
+                                        ),
+                                    ].join("\n");
+                                    // Parse CSV to rows for backend
+                                    const rows = editableRows.map(row => {
+                                        const obj: any = {};
+                                        csvHeaders.forEach(h => {
+                                            if (h === "LineItem") obj[h] = row.line_item ?? "";
+                                            else if (h === "Parent") obj[h] = row.parent ?? "";
+                                            else if (h === "GrandParent") obj[h] = row.grandparent ?? "";
+                                            else obj[h] = row[h] ?? "";
+                                        });
+                                        return obj;
+                                    });
+                                    try {
+                                        // 1. Store in SQL
+                                        await axios.post(`${API_BASE}/store_auto_mapping`, { rows });
+                                        // 2. Save edited lineitem/parent/grandparent to company CSV and build artifacts
+                                        const saveRows = editableRows.map(row => ({
+                                            line_item: row.line_item ?? "",
+                                            parent: row.parent ?? "",
+                                            grandparent: row.grandparent ?? "",
+                                        }));
+                                        await axios.post(`${API_BASE}/save`, {
+                                            company_code: sqlCompanyCode,
+                                            rows: saveRows,
+                                        });
+                                        // 3. Download CSV after storing
+                                        const blob = new Blob([csvString], {
+                                            type: "text/csv;charset=utf-8;",
+                                        });
+                                        const url = URL.createObjectURL(blob);
+                                        const link = document.createElement("a");
+                                        link.href = url;
+                                        link.download = `final_plmaster_mapping_${new Date()
+                                            .toISOString()
+                                            .split("T")[0]}.csv`;
+                                        document.body.appendChild(link);
+                                        link.click();
+                                        document.body.removeChild(link);
+
+                                        toast({
+                                            title: "Success!",
+                                            description: "Data saved and CSV downloaded successfully.",
+                                            variant: "default",
+                                        });
+                                    } catch (e: any) {
+                                        toast({
+                                            title: "Error",
+                                            description: `Failed to store auto mapping or save company CSV: ${e?.response?.data?.detail || e?.message || e}`,
+                                            variant: "destructive",
+                                        });
+                                    } finally {
+                                        setSaving(false);
+                                    }
+                                }}
+                                className="px-6 py-2 hover-lift"
+                                style={{
+                                    background: "linear-gradient(to bottom, #E1A357 0%, #D5807B 100%)",
+                                    color: "#fff",
+                                    border: "none",
+                                }}
+                            >
+                                {saving ? (
+                                    <span className="flex items-center gap-2">
+                                        <Loader2 className="h-4 w-4 animate-spin" />
+                                        Saving...
+                                    </span>
+                                ) : (
+                                    <span className="flex items-center gap-2">
+                                        <Download className="h-4 w-4" />
+                                        Save & Download
+                                    </span>
+                                )}
+                            </Button>
+                        </div>
+                    </div>
+                )}
                 </Card>
             </div>
         )}
