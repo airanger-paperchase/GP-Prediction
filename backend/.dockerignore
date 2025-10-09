@@ -1,0 +1,52 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local development files
+venv/
+env/
+.venv/
+
+# Logs
+*.log
+logs/
+
+# Local data (we'll copy the specific ones we need)
+company_data/*/csv/*
+!company_data/*/artifacts/
+
+# Large files
+*.pt
+*.bin
+*.pth
+*.h5
+*.zip
+*.tar.gz
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

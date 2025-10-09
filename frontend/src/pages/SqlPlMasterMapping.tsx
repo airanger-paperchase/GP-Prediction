@@ -408,7 +408,7 @@ import axios from "axios";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://10.200.7.77:6514";
+const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:6514";
 
 const SqlPlMasterMapping: React.FC = () => {
   const [saving, setSaving] = useState(false);

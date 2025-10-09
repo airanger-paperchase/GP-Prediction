@@ -35,6 +35,7 @@ origins = [
     "http://localhost:8000",  # if you also use CRA
     "http://127.0.0.1:5173",
     "http://127.0.0.1:6514",
+    "http://localhost:6514",
     "http://10.200.7.77:6514", # backend itself (optional)
     "http://10.200.7.77:5173", # if frontend is served from same network IP
     "http://10.200.7.77:6513"
@@ -42,7 +43,7 @@ origins = [
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,      # or ["*"] for quick local testing
+    allow_origins=["*"],      # or ["*"] for quick local testing
     allow_credentials=True,
     allow_methods=["*"],        # GET, POST, OPTIONS, etc.
     allow_headers=["*"],        # allow custom headers (Authorization etc)
@@ -80,13 +81,24 @@ def store_auto_mapping(req: StoreAutoMappingRequest):
         conn = pyodbc.connect(CONN_STR)
         cursor = conn.cursor()
         for row in req.rows:
-            # Ensure all columns exist except Id
             CompanyCode = row.get("CompanyCode")
             GLCode = row.get("GLCode")
             LineItem = row.get("LineItem")
             GrandParent = row.get("GrandParent")
             Parent = row.get("Parent")
             UpdatedOn = row.get("UpdatedOn")
+            # Get or generate UpdatedOn
+            UpdatedOn = row.get("UpdatedOn")
+            if not UpdatedOn:
+                # Generate current timestamp in IST (UTC+5:30)
+                UpdatedOn = datetime.utcnow() + timedelta(hours=5, minutes=30)
+            else:
+                # If UpdatedOn is provided, parse it to datetime
+                try:
+                    UpdatedOn = datetime.strptime(UpdatedOn, '%Y-%m-%d %H:%M:%S')
+                except (ValueError, TypeError):
+                    # If parsing fails, use current time
+                    UpdatedOn = datetime.utcnow() + timedelta(hours=5, minutes=30)
             UpdatedBy = row.get("UpdatedBy")
             cursor.execute(
                 """
