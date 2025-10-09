@@ -1,21 +1,21 @@
-langextract
-openpyxl
-pandas
-transformers
-torch
-pyodbc
-scikit-learn
-huggingface_hub[hf_xet]
-hf_xet
-transformers[torch]
-accelerate
-pydantic
-jsonschema
-python-dotenv
-openai
-azure-cosmos
-azure-core
-gradio
-tenacity
-ijson
 
+# Minimal requirements needed to run the backend API in this repo.
+# If you need SQL Server connectivity inside the container, uncomment pyodbc
+# and use the alternate Dockerfile that installs the ODBC driver.
+
+fastapi
+uvicorn[standard]
+pandas
+numpy
+openpyxl  # optional: needed only if you upload Excel (.xls/.xlsx) files
+python-dotenv
+jsonschema
+openai
+python-multipart  # needed for file uploads (form data)
+pyodbc
+
+# Optional/extra (commented out):
+# pyodbc  # enable if you need to connect to SQL Server from inside the container
+gradio
+
+tenacity

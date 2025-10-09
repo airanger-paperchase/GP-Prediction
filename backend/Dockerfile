@@ -1,84 +1,35 @@
-# Use Python 3.11 to match local environment
 FROM python:3.11-slim-bullseye
 
-# Set environment variables
+# Minimal runtime image: no ODBC/DB drivers and no build tools.
 ENV PYTHONDONTWRITEBYTECODE=1 \
-    PYTHONUNBUFFERED=1 \
-    DEBIAN_FRONTEND=noninteractive
+    PYTHONUNBUFFERED=1
 
-# Set the working directory in the container
 WORKDIR /app
 
-# Install system dependencies with retry logic and error handling
-RUN set -ex; \
-    for i in 1 2 3; do \
-        apt-get update && \
-        apt-get install -y --no-install-recommends \
-            gcc \
-            unixodbc-dev \
-            unixodbc \
-            gnupg2 \
-            curl && \
-        { rm -rf /var/lib/apt/lists/*; exit 0; } && break; \
-        echo "Retrying package installation (attempt $i)..."; \
-        sleep 5; \
-    done || { echo "Failed to install system packages after 3 attempts"; exit 1; }
+# Copy only requirements first for caching
+COPY requirements.txt /app/
 
-# Install ODBC Driver 18 for SQL Server with retry logic
-RUN set -ex; \
-    for i in 1 2 3; do \
-        curl -f -sSL https://packages.microsoft.com/keys/microsoft.asc | apt-key add - && \
-        curl -f -sSL https://packages.microsoft.com/config/debian/11/prod.list > /etc/apt/sources.list.d/mssql-release.list && \
-        apt-get update && \
-        ACCEPT_EULA=Y apt-get install -y --no-install-recommends msodbcsql18 && \
-        { apt-get clean; rm -rf /var/lib/apt/lists/*; exit 0; } && break; \
-        echo "Retrying ODBC driver installation (attempt $i)..."; \
-        sleep 10; \
-    done || { echo "Failed to install ODBC driver after 3 attempts"; exit 1; }
-
-# Copy requirements file first to leverage Docker cache
-COPY requirements.txt .
-
-# Install Python dependencies with retry
-RUN pip install --no-cache-dir --upgrade pip && \
+# Upgrade pip and install pure-Python deps (no system build deps)
+RUN pip install --no-cache-dir --upgrade pip setuptools wheel && \
     pip install --no-cache-dir -r requirements.txt
 
-# Copy the current directory contents into the container at /app
-COPY . .
+# Copy application code
+COPY . /app/
 
-# Create necessary directories
-RUN mkdir -p /app/artifacts \
-    && mkdir -p /app/company_data
+# Create expected directories
+RUN mkdir -p /app/artifacts /app/company_data || true
 
-# Copy only the default artifacts if they exist
-COPY artifacts/ /app/artifacts/
+# Copy artifacts if present (no-op if directory missing)
+RUN if [ -d "company_data/_default/artifacts" ]; then \
+        cp -r company_data/_default/artifacts /app/default_company_data/_default/ || true; \
+    fi || true
 
-# Create a default company data structure if it doesn't exist
-RUN mkdir -p /app/default_company_data/_default/artifacts
-
-# Create default artifacts directory structure
-RUN mkdir -p /app/default_company_data/_default/artifacts
-
-# Copy artifacts if they exist, otherwise create an empty directory structure
-RUN if [ -d "company_data/_default/artifacts" ] && [ "$(ls -A company_data/_default/artifacts)" ]; then \
-        cp -r company_data/_default/artifacts/* /app/default_company_data/_default/artifacts/ && \
-        chown -R 1000:1000 /app/default_company_data/_default/artifacts; \
-    else \
-        echo "No default artifacts found, using empty directory"; \
-    fi
-
-# Create a volume for company data
 VOLUME /app/company_data
 
-# Copy initialization script
-COPY docker-entrypoint.sh /app/
-RUN chmod +x /app/docker-entrypoint.sh
+# Copy environment file into the image so python-dotenv (load_dotenv) can pick it up
+# Note: keep secrets out of source control in production; this is for local/dev convenience
+COPY .env /app/.env
 
-# Set the entrypoint
-ENTRYPOINT ["/app/docker-entrypoint.sh"]
-
-# Expose the port the app runs on
+# Run the app directly (no entrypoint script). The application uses python-dotenv to load /app/.env
 EXPOSE 6514
-
-# Command to run the application
 CMD ["uvicorn", "api_app:app", "--host", "0.0.0.0", "--port", "6514"]

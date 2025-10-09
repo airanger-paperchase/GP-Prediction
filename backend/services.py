@@ -1,9 +1,11 @@
-import pyodbc
-import pandas as pd
 import os
+
+import pandas as pd
+import pyodbc
 from dotenv import load_dotenv
 
 load_dotenv()
+
 
 class PLMasterRepository:
     def __init__(self):
@@ -40,13 +42,21 @@ class PLMasterRepository:
 
     def split_plmaster_mapping(self, df: pd.DataFrame):
         """Split into (no parent/grandparent), (with parent+grandparent), and only lineitems"""
-        df = df[df['GLCode'].notna()]  # ignore rows where GLCode is NULL
+        df = df[df["GLCode"].notna()]  # ignore rows where GLCode is NULL
 
         # 1) No Parent & No GrandParent
-        LineItems_with_no_Parent_GrandParent = df[(df['GrandParent'].isna()) & (df['Parent'].isna())]
-        only_lineitems = LineItems_with_no_Parent_GrandParent['LineItem'].tolist()
+        LineItems_with_no_Parent_GrandParent = df[
+            (df["GrandParent"].isna()) & (df["Parent"].isna())
+        ]
+        only_lineitems = LineItems_with_no_Parent_GrandParent["LineItem"].tolist()
 
         # 2) With Parent & GrandParent
-        LineItems_with_Parent_GrandParent = df[(df['GrandParent'].notna()) & (df['Parent'].notna())]
+        LineItems_with_Parent_GrandParent = df[
+            (df["GrandParent"].notna()) & (df["Parent"].notna())
+        ]
 
-        return LineItems_with_no_Parent_GrandParent, LineItems_with_Parent_GrandParent, only_lineitems
+        return (
+            LineItems_with_no_Parent_GrandParent,
+            LineItems_with_Parent_GrandParent,
+            only_lineitems,
+        )

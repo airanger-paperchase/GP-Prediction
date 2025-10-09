@@ -10,11 +10,6 @@ __pycache__/
 .coverage
 htmlcov/
 
-# Environment variables
-.env
-.env.*
-!.env.example
-
 # IDE
 .vscode/
 .idea/
