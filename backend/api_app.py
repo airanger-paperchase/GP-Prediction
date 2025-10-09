@@ -2,7 +2,7 @@
 import uuid
 from datetime import datetime, timedelta, timezone
 
-# api_langextract_company.py
+
 from typing import List, Optional
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
@@ -23,7 +23,6 @@ import langextract_style
 import build_artifacts
 import pyodbc
 
-
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("api_langextract_company")
 
@@ -31,19 +30,15 @@ app = FastAPI(title="LangExtract by Company Batch API")
 
 # development origins — restrict this in production
 origins = [
-    "http://localhost:5173",  # Vite dev server
-    "http://localhost:8000",  # if you also use CRA
-    "http://127.0.0.1:5173",
-    "http://127.0.0.1:6514",
-    "http://localhost:6514",
-    "http://10.200.7.77:6514", # backend itself (optional)
-    "http://10.200.7.77:5173", # if frontend is served from same network IP
-    "http://10.200.7.77:6513"
+    "http://localhost:5173",  # Frontend port
+    "http://127.0.0.1:5173",  # Frontend port alternative
+    "http://localhost:6514",   # Backend port
+    "http://127.0.0.1:6514"    # Backend port alternative
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],      # or ["*"] for quick local testing
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],        # GET, POST, OPTIONS, etc.
     allow_headers=["*"],        # allow custom headers (Authorization etc)
