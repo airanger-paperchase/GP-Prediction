@@ -67,7 +67,7 @@ KEY_VAULT_NAME = os.getenv("KEY_VAULT_NAME")
 KV_URI = f"https://{KEY_VAULT_NAME}.vault.azure.net/"
 
 # Initialize Azure credentials
-try:glmapapi
+try:
     # In production, DefaultAzureCredential will automatically use the managed identity
     # configured in the deployment.yaml without needing explicit client ID
     credential = DefaultAzureCredential()
@@ -386,7 +386,7 @@ def _append_prediction_to_company_csv(
     # Normalize the inputs
     safe_line_item = (line_item or "").replace("\r", " ").replace("\n", " ").strip()
     safe_parent = (parent or "").replace("\r", " ").replace("\n", " ").strip()
-    safe_graglmapapi (grandparent or "").replace("\r", " ").replace("\n", " ").strip()
+    safe_grandparent = (grandparent or "").replace("\r", " ").replace("\n", " ").strip()
 
     # Read existing data if file exists
     existing_data = []
@@ -601,7 +601,6 @@ def langextract_by_company(req: CompanyBatchRequest):
                 )
             except Exception:
                 logger.exception("Failed to persist exact-match prediction")
-glmapapi
             results.append(res)
             continue
 
@@ -788,7 +787,7 @@ async def upload_extract_missing(file: UploadFile = File(...)):
     parent_missing = (
         df[parent_col].apply(is_missing_val)
         if parent_col
-        elseglmapapi([True] * len(df))
+        else pd.Series([True] * len(df))
     )
     grand_missing = (
         df[grand_col].apply(is_missing_val)
