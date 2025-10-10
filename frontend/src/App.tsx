@@ -14,7 +14,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/gl-map-ui">
+      <BrowserRouter basename="/glmapuiapp">
         <Routes>
           <Route path="/" element={<SqlPlMasterMapping />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

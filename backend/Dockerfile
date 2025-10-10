@@ -58,13 +58,13 @@ USER appuser
 # ---------------------------------------------------------
 # Expose port and define healthcheck
 # ---------------------------------------------------------
-EXPOSE 6514
+EXPOSE 8007
 
 
 HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
-    CMD curl -f http://localhost:6514/health || exit 1
+    CMD curl -f http://localhost:8007/health || exit 1
 
 # ---------------------------------------------------------
 # Default command to run the FastAPI/Starlette app with Uvicorn
 # ---------------------------------------------------------
-CMD ["uvicorn", "api_app:app", "--host", "0.0.0.0", "--port", "6514", "--workers", "4"]
+CMD ["uvicorn", "api_app:app", "--host", "0.0.0.0", "--port", "8007", "--workers", "4"]

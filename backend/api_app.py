@@ -28,10 +28,10 @@ app = FastAPI(title="LangExtract by Company Batch API")
 
 # development origins — restrict this in production
 origins = [
-    "http://localhost:5173",  # Frontend port
-    "http://127.0.0.1:5173",  # Frontend port alternative
-    "http://localhost:6514",  # Backend port
-    "http://127.0.0.1:6514",  # Backend port alternative
+    "http://localhost:8008",  # Frontend port
+    "http://127.0.0.1:8008",  # Frontend port alternative
+    "http://localhost:8007",  # Backend port
+    "http://127.0.0.1:8007",  # Backend port alternative
 ]
 
 app.add_middleware(
@@ -67,7 +67,7 @@ KEY_VAULT_NAME = os.getenv("KEY_VAULT_NAME")
 KV_URI = f"https://{KEY_VAULT_NAME}.vault.azure.net/"
 
 # Initialize Azure credentials
-try:
+try:glmapapi
     # In production, DefaultAzureCredential will automatically use the managed identity
     # configured in the deployment.yaml without needing explicit client ID
     credential = DefaultAzureCredential()
@@ -224,7 +224,7 @@ def enrich_and_merge_predictions(
     with_pg_df: DataFrame -> LineItems_with_Parent_GrandParent
     predictions: list of dicts (from /batch/langextract_by_company results)
     company_code: str
-    username: str
+    usernameglmapapi
     """
     # 1) Convert predictions JSON to DataFrame, handle missing columns
     pred_df = pd.DataFrame(predictions)
@@ -386,7 +386,7 @@ def _append_prediction_to_company_csv(
     # Normalize the inputs
     safe_line_item = (line_item or "").replace("\r", " ").replace("\n", " ").strip()
     safe_parent = (parent or "").replace("\r", " ").replace("\n", " ").strip()
-    safe_grandparent = (grandparent or "").replace("\r", " ").replace("\n", " ").strip()
+    safe_graglmapapi (grandparent or "").replace("\r", " ").replace("\n", " ").strip()
 
     # Read existing data if file exists
     existing_data = []
@@ -601,7 +601,7 @@ def langextract_by_company(req: CompanyBatchRequest):
                 )
             except Exception:
                 logger.exception("Failed to persist exact-match prediction")
-
+glmapapi
             results.append(res)
             continue
 
@@ -788,7 +788,7 @@ async def upload_extract_missing(file: UploadFile = File(...)):
     parent_missing = (
         df[parent_col].apply(is_missing_val)
         if parent_col
-        else pd.Series([True] * len(df))
+        elseglmapapi([True] * len(df))
     )
     grand_missing = (
         df[grand_col].apply(is_missing_val)
