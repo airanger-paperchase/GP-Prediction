@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/gl-map-ui/',
+  base: '/glmapuiapp/',
   server: {
     host: "::",
     port: 5173,

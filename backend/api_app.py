@@ -67,7 +67,7 @@ class StoreAutoMappingRequest(BaseModel):
     rows: list  # List of dicts, each with columns matching the final df
 
 
-@app.post("/gl-map-api/store_auto_mapping")
+@app.post("/glmapapi/store_auto_mapping")
 def store_auto_mapping(req: StoreAutoMappingRequest):
     # Insert each row into PL_Master_AutoMapping
     try:
@@ -224,7 +224,7 @@ def enrich_and_merge_predictions(
     return final_df
 
 
-@app.post("/gl-map-api/get_plmaster_mapping")
+@app.post("/glmapapi/get_plmaster_mapping")
 def get_plmaster_mapping_route(req: CompanyRequest):
     company_code = req.company_code.strip()
     username = req.username.strip()
@@ -386,7 +386,7 @@ def health():
     return {"status": "ok"}
 
 
-@app.post("/gl-map-api/batch/langextract_by_company")
+@app.post("/glmapapi/batch/langextract_by_company")
 def langextract_by_company(req: CompanyBatchRequest):
     # Validate input
     company_code = (req.company_code or "").strip()
@@ -601,7 +601,7 @@ def langextract_by_company(req: CompanyBatchRequest):
     return {"company_code": company_code, "count": len(results), "results": results}
 
 
-@app.post("/gl-map-api/upload/extract_missing")
+@app.post("/glmapapi/upload/extract_missing")
 async def upload_extract_missing(file: UploadFile = File(...)):
     """
     Upload parser (only 'lineitem' required; case-insensitive).
@@ -788,7 +788,7 @@ class SaveAndBuildRequest(BaseModel):
     csv_filename: Optional[str] = None  # defaults to "<company_code>.csv"
 
 
-@app.post("/gl-map-api/save")
+@app.post("/glmapapi/save")
 def save_and_build(req: SaveAndBuildRequest):
     logger.info(f"Received save request: {req.dict()}")
     """
