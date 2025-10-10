@@ -1,0 +1,820 @@
+{
+  "Other Expenses": {
+    "Other Expenses": [
+      "Under/Over",
+      "Cleaning - Stock adjustment",
+      "Interest Paid on Loans - 2",
+      "Acoustical",
+      "Paperchase Control Account",
+      "Other Expenses",
+      "Interest Expense"
+    ],
+    "Furniture and Fixtures": [
+      "Furniture and Fixtures",
+      "Initial Buildout"
+    ],
+    "Leasehold": [
+      "Leasehold"
+    ],
+    "Start-Up Costs": [
+      "Start-Up Costs"
+    ],
+    "Kitchen/Hood": [
+      "Kitchen/Hood"
+    ],
+    "Machinery and Equipment": [
+      "Machinery and Equipment"
+    ],
+    "Intangible Assets": [
+      "Intangible Assets"
+    ]
+  },
+  "TOTAL STAFF COST": {
+    "TOTAL OTHER STAFF COST": [
+      "Inter-Company - G&G Hospitality",
+      "6",
+      "Members Contri./(Distri.)",
+      "3"
+    ],
+    "BOH SALARIES": [
+      "Wages - Bonus BOH"
+    ],
+    "TOTAL FOH SALARIES": [
+      "Wages - Bonus FOH"
+    ],
+    "Total Wages - F.O.H. Salaries": [
+      "Retained Earnings"
+    ],
+    "Wages - Tips": [
+      "Tips Payable"
+    ]
+  },
+  "TOTAL OTHER FINANCIAL COST": {
+    "Transfer From/To  Piccolina": [
+      "Loan from David"
+    ],
+    "Other Income & Expenses": [
+      "*Undeposited Funds",
+      "Intercompany",
+      "Receivable from Gianpaolo"
+    ],
+    "P & L Depreciation & Amortization": [
+      "Accumulated Amortization"
+    ],
+    "Income Taxes": [
+      "PTET-NYS- Advance Tax"
+    ],
+    "TOTAL OTHER EXPENSE": [
+      "2",
+      "Accumulated Amortization"
+    ],
+    "TOTAL FINANCIAL COST": [
+      "Financial Cost",
+      "Financial Costs",
+      "Bank-5",
+      "Bank-6"
+    ],
+    "TOTAL OTHER FINANCIAL COST": [
+      "3",
+      "Deferred Liabilities"
+    ],
+    "TOTAL PROFESSIONAL CHARGES": [
+      "Professional Charges"
+    ],
+    "Net Reduction of Debt": [
+      "Long Term Debt"
+    ],
+    "TOTAL PROFESSIONAL FEES": [
+      "Kitchen Consultant"
+    ],
+    "TOTAL ADVERTISING AND MARKETING": [
+      "Paperchase E-card- 1368"
+    ],
+    "TOTAL OTHER EXPENSES": [
+      "Credit Card 31056",
+      "1"
+    ],
+    "Total Other Income": [
+      "Undeposited Funds"
+    ],
+    "Total Other Expense": [
+      "Suspense Account - Debtors"
+    ]
+  },
+  "TRAVEL & ENTERTAINMENT": {
+    "TRAVEL & ENTERTAINMENT": [
+      "Meals & Entertainment",
+      "Valet Parking - Guest",
+      "Taxi Charges & Local Travel",
+      "Lodging",
+      "Auto Expense",
+      "Web Design & Maintenance",
+      "Clearing and Freight charges",
+      "Airfare"
+    ]
+  },
+  "OTHER STAFF COST": {
+    "OTHER STAFF COST": [
+      "Wages - Security - 1099",
+      "NY Paid Family Leave",
+      "Employee Benefits",
+      "Staff Recruitment",
+      "Staff Accommodation/Relocation",
+      "Staff First Aid",
+      "Wages - Agency",
+      "Wages - 1099",
+      "Staff Uniforms",
+      "Staff Insurance",
+      "Staff Welfare",
+      "Staff Training",
+      "Other Staff Costs",
+      "Staff Meals"
+    ]
+  },
+  "FINANCIAL COST": {
+    "FINANCIAL COST": [
+      "Tangible Property Taxes",
+      "Corporate Tax Expense",
+      "Uncategorized Expenses",
+      "Insurance Expense",
+      "Donations",
+      "Bank Charges",
+      "Payroll Processing Charges",
+      "Credit Card Charges",
+      "Royalties",
+      "Penalties"
+    ],
+    "Sales Tax": [
+      "Sales Tax Payable"
+    ]
+  },
+  "TOTAL OTHER STAFF COST": {
+    "TOTAL OTHER STAFF COST": [
+      "2",
+      "Inter-Company - Southampton",
+      "NY-PFL",
+      "4",
+      "Other Staff Cost",
+      "1",
+      "Accumulated Depreciation",
+      "5"
+    ],
+    "Cost of Sales - Bakery": [
+      "Cakes Cost"
+    ],
+    "Total Cost of Goods Sold": [
+      "Inventory Asset",
+      "Inventory"
+    ],
+    "Total Beverages": [
+      "Other Beverages Inventory"
+    ],
+    "Total Other Expense": [
+      "Credit Card - 2",
+      "MEP"
+    ],
+    "TOTAL SUPPLIES & MAINTENANCE": [
+      "Supplies & Maintenance"
+    ],
+    "Total Other Expenses": [
+      "Retained Earnings / (Deficit)",
+      "Suspense Account - Bank",
+      "Loans Payable",
+      "Accounts Payable - USD",
+      "Prepaid Expenses",
+      "Royalties Payable",
+      "Credit Card Liabilities"
+    ],
+    "Other Expenses": [
+      "Suspense Account - Creditors",
+      "Accrued Liabilities"
+    ],
+    "Total Uncategorized": [
+      "Opening Balance Equity",
+      "Inter-Company - Sag Harbor",
+      "A/R Control Account"
+    ],
+    "Total Other Income": [
+      "Bank Transfer A/C"
+    ],
+    "Income Taxes": [
+      "Corporate Tax Payable"
+    ],
+    "Sales Tax 2015": [
+      "Sales Tax Payable - Tourism"
+    ],
+    "OTHER EMPLOYEE EXPENSES": [
+      "Disability Payable"
+    ],
+    "\"License": [
+      "Permits"
+    ],
+    "Controllables - Other": [
+      "Leasehold Improvement"
+    ],
+    "INSURANCE EXPENSES": [
+      "Cyber Liability Insurance"
+    ],
+    "OCCUPANCY": [
+      "Occupancy"
+    ],
+    "Total Pre Opening Expenses": [
+      "Deposits for Future Events"
+    ],
+    "License,Permits,Filing Fees": [
+      "Permits"
+    ],
+    "GENERAL & ADMINISTRATIVE": [
+      "General & Administrative"
+    ],
+    "Total Operating Expenses": [
+      "Construction Management"
+    ],
+    "Leasehold Improvements": [
+      "Non-GC Buildout"
+    ],
+    "A/R Write Off": [
+      "Accounts Receivable"
+    ]
+  },
+  "SUPPLIES & MAINTENANCE": {
+    "SUPPLIES & MAINTENANCE": [
+      "Equipment Rental",
+      "Postage & Courier",
+      "Pest Control",
+      "BOH Supplies & Accessories",
+      "Paper Supplies",
+      "Music",
+      "IT Cost",
+      "Chinaware",
+      "Office Supplies/Stationery",
+      "Landscape, Flowers & Candles",
+      "FOH Supplies & Accessories",
+      "Flatware",
+      "Cleaning Supplies",
+      "Cleaning Contract Services",
+      "Packaging Supplies",
+      "Glassware",
+      "Linen & Laundry",
+      "Trash/Waste Removal Service",
+      "Barware",
+      "Menus"
+    ],
+    "TOTAL SUPPLIES & MAINTENANCE": [
+      "Paperchase E-Card 7895",
+      "Tip Expense"
+    ],
+    "Restaurant": [
+      "Restaurant"
+    ]
+  },
+  "STAFF COST": {
+    "TOTAL OTHER STAFF COST": [
+      "Other Staff Cost"
+    ],
+    "Total Employer Taxes": [
+      "Ny Re-employment",
+      "OASDI"
+    ],
+    "Total Wages - F.O.H. Wages": [
+      "Server",
+      "Wages - 1099 ( Cleaning)"
+    ],
+    "Total Wages - F.O.H. Salaried": [
+      "Unreconciled Net Wages Payable",
+      "Staff Loans/Salary Advances",
+      "Net Wages Payable",
+      "Payroll Liabilities",
+      "Connect One - 9856",
+      "Payroll Misc Deductions"
+    ],
+    "BOH SALARIES": [
+      "Kitchen"
+    ],
+    "Total Wages - F.O.H. Management": [
+      "Security Deposits",
+      "Code & Expeditor"
+    ],
+    "TOTAL STAFF COST": [
+      "Labor Cost",
+      "Federal FUTA",
+      "Wage Cost",
+      "BOH",
+      "State SUI",
+      "Sous Chef",
+      "FOH"
+    ],
+    "Total Wages - F.O.H.": [
+      "Staff Wages"
+    ],
+    "Wages - B.O.H.": [
+      "Executive Chef",
+      "Dishwasher"
+    ],
+    "Wages - B.O.H. Salaried": [
+      "Wages - B.O.H. Salaried"
+    ],
+    "Total Wages - B.O.H. Salaried": [
+      "Members Equity",
+      "Gift Certificates"
+    ],
+    "Wages - F.O.H": [
+      "Bartender"
+    ],
+    "Wages - F.O.H. Salaried": [
+      "Wages - F.O.H. Salaried"
+    ],
+    "STAFF INSURANCE": [
+      "Accrued Insurance",
+      "Workers Compensation Insurance"
+    ],
+    "Employer Taxes": [
+      "Medicare",
+      "Employer Taxes"
+    ],
+    "Consulting Fee": [
+      "Consulting Fee"
+    ],
+    "Wages - B.O.H. Hourly - OT": [
+      "Wages - B.O.H. Hourly - OT"
+    ],
+    "TOTAL EMPLOYEE BENEFITS": [
+      "Child Support"
+    ],
+    "Wages - F.O.H. Hourly": [
+      "Wages - F.O.H. Hourly"
+    ],
+    "Total Wages - F.O.H. Salaries": [
+      "David Mayer"
+    ],
+    "Total Employer Benefits": [
+      "Vision",
+      "Disability",
+      "Medical",
+      "Dental"
+    ],
+    "Wages - F.O.H. Hourly - OT": [
+      "Wages - F.O.H. Hourly - OT"
+    ],
+    "Wages - B.O.H. Hourly": [
+      "Wages - B.O.H. Hourly"
+    ]
+  },
+  "OTHER FINANCIAL COST": {
+    "OTHER FINANCIAL COST": [
+      "Sales and Use Tax",
+      "Licenses, Permits & Filing Fees"
+    ]
+  },
+  "Cost of Sales - Food": {
+    "Cost of Sales - Food": [
+      "Food - Stock Adjustment",
+      "Food Purchases"
+    ]
+  },
+  "OCCUPANCY": {
+    "OCCUPANCY": [
+      "Real Estate Escalation Tax",
+      "Gas",
+      "Occupancy Costs",
+      "Water",
+      "Commercial Rent Tax",
+      "Storage Rent",
+      "Rent",
+      "CAM Charges",
+      "Percentage Rent",
+      "Security and Alarm",
+      "Electricity",
+      "Security Deposit - Utilities"
+    ],
+    "Rent": [
+      "Security Deposit - Rent"
+    ]
+  },
+  "TOTAL OTHER EXPENSE": {
+    "Other Charges": [
+      "Accounts Payable - EUR"
+    ],
+    "TOTAL OTHER EXPENSE": [
+      "Accumulated Depreciation",
+      "Audio/Visual"
+    ]
+  },
+  "GENERAL & ADMINISTRATIVE": {
+    "GENERAL & ADMINISTRATIVE": [
+      "POS"
+    ],
+    "Office Supplies/Stationery": [
+      "Petty Cash Control",
+      "Office"
+    ],
+    "ADMINISTRATION": [
+      "Gianpaolo DeFelice"
+    ],
+    "Legal & Accounting": [
+      "Legal Attorney"
+    ]
+  },
+  "TOTAL FINANCIAL COST": {
+    "Interest on Loans": [
+      "Loan 2"
+    ],
+    "Bank Interest": [
+      "Bank-4",
+      "Bank-3"
+    ],
+    "TOTAL FINANCIAL COST": [
+      "Management Fees"
+    ]
+  },
+  "TOTAL FOOD": {
+    "TOTAL FOOD": [
+      "Produce Cost",
+      "Meat Cost",
+      "Ice Cream Cost",
+      "Seafood Cost",
+      "Dairy Cost",
+      "Bread Cost",
+      "Grocery Cost"
+    ]
+  },
+  "Total OTHER STAFF COST": {
+    "Total OTHER STAFF COST": [
+      "Contract Labor"
+    ]
+  },
+  "COST OF GOODS SOLD": {
+    "Total Cost of Sales - Champagne": [
+      "Champagne Purchases",
+      "Champagne - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Retails": [
+      "Retail Purchases",
+      "Retail - Stock Adjustment"
+    ],
+    "COST OF GOODS SOLD": [
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Retails",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Champagne",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Food",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Tea/Coffee"
+    ],
+    "COG Liquor": [
+      "Liquor Purchases"
+    ],
+    "Cost of Sales - Food": [
+      "Food Inventory"
+    ],
+    "TOTAL COST OF GOODS SOLD": [
+      "Cost of Goods Sold"
+    ],
+    "COG Other Beverages": [
+      "Other Bev Purchases",
+      "Other Bev - Stock Adjustment"
+    ],
+    "Cost of Sales - Wines": [
+      "Wine Inventory"
+    ],
+    "Total Cost of Sales - Tobacco": [
+      "Tobacco Inventory"
+    ],
+    "Total Cost of Sales - Wine": [
+      "Wine Purchases"
+    ]
+  },
+  "REVENUE": {
+    "REVENUE": [
+      "Revenue - Bakery",
+      "Revenue - Food",
+      "Digital Sales - Adjustments",
+      "Revenue - Tea/Coffee",
+      "Revenue - Champagne",
+      "Revenue - Wines",
+      "Discounts",
+      "Revenue",
+      "Revenue - Retails",
+      "Comps",
+      "Extra/Short Receipts",
+      "Sales Adjustments",
+      "Chargebacks",
+      "Revenue - Liquor"
+    ],
+    "Total Revenue Delievery": [
+      "5"
+    ],
+    "TOTAL REVENUE": [
+      "Revenue - Other Beverages",
+      "House Account",
+      "Revenue - Beer"
+    ],
+    "ADVERTISING AND PROMOTION": [
+      "Advertising/Promotion"
+    ]
+  },
+  "PROFESSIONAL FEE": {
+    "PROFESSIONAL FEE": [
+      "Legal Fees",
+      "Consulting Fees",
+      "Accounting Fees",
+      "Tax Fees",
+      "Audit Fees",
+      "Professional Fees"
+    ]
+  },
+  "TOTAL OTHER EXPENSES": {
+    "TOTAL OTHER EXPENSES": [
+      "IT",
+      "Exchange Differences",
+      "Embezzlement"
+    ],
+    "INSURANCE EXPENSES": [
+      "Cyber Liability Insurance"
+    ]
+  },
+  "INSURANCE EXPENSES": {
+    "INSURANCE EXPENSES": [
+      "Property Insurance",
+      "EPLI Insurance",
+      "Liability Insurance",
+      "Umbrella Insurance"
+    ]
+  },
+  "Other Expense": {
+    "Total Other Expense": [
+      "Chase Bank # 3103"
+    ]
+  },
+  "Cost of Sales - Tea/Coffee": {
+    "Cost of Sales - Tea/Coffee": [
+      "Tea/Coffee Purchases",
+      "Tea/Coffee - Stock Adjustment"
+    ]
+  },
+  "Total Employer Taxes": {
+    "Employer Taxes": [
+      "Payroll Tax Payable"
+    ],
+    "Total Employer Taxes": [
+      "Social Security"
+    ]
+  },
+  "Other Income & Expenses": {
+    "Other Income & Expenses": [
+      "Interest Paid on Loans - 1",
+      "Rounding Differences",
+      "Other Income"
+    ]
+  },
+  "TOTAL PRE OPENING EXPENSES": {
+    "TOTAL PRE OPENING EXPENSES": [
+      "4",
+      "Initial Buildout",
+      "6"
+    ]
+  },
+  "OCCUPANCY COST": {
+    "OCCUPANCY": [
+      "Occupancy"
+    ]
+  },
+  "ADVERTISING / PROMOTION": {
+    "TOTAL PROMOTION": [
+      "Interior Design"
+    ],
+    "ADVERTISING / PROMOTION": [
+      "Branding & Design",
+      "Event Expenses",
+      "Commission Expense",
+      "Advertising",
+      "R & D",
+      "Public Relations",
+      "Photography expense",
+      "Complimentary Cost",
+      "Subscriptions"
+    ]
+  },
+  "P&L AMORTIZATION": {
+    "Fees": [
+      "Fees"
+    ]
+  },
+  "Ask My Accountant": {
+    "Ask My Accountant": [
+      "Ask My Accountant"
+    ]
+  },
+  "TOTAL GENERAL & ADMIN EXPENSES": {
+    "GENERAL & ADMINISTRATIVE": [
+      "Accounts Payable - GBP"
+    ]
+  },
+  "TOTAL PROFESSIONAL FEES": {
+    "Total Professional Fees": [
+      "Lighting Consultant"
+    ],
+    "Professional and Consulting": [
+      "Architect"
+    ]
+  },
+  "Total Wages - B.O.H. Hourly": {
+    "Total Wages - B.O.H. Hourly": [
+      "Porter",
+      "Receiving Clerk",
+      "Steward",
+      "Cook"
+    ]
+  },
+  "P & L Depreciation & Amortization": {
+    "P & L Depreciation & Amortization": [
+      "Amortization Expense",
+      "Depreciation Expense"
+    ]
+  },
+  "Total Wages - F.O.H. Hourly": {
+    "Total Wages - F.O.H. Hourly": [
+      "Hostess",
+      "Cashier",
+      "Busser",
+      "Barback",
+      "Runner"
+    ]
+  },
+  "TOTAL STAFF INSURANCE": {
+    "STAFF INSURANCE": [
+      "Prepaid Insurance"
+    ]
+  },
+  "G&A": {
+    "Legal & Accounting": [
+      "Tangible Property Taxes Payable"
+    ],
+    "Interest on Tax/Penalties": [
+      "Interest on Tax/Penalties"
+    ]
+  },
+  "TOTAL FINANCIAL COSTS": {
+    "TOTAL FINANCIAL COSTS": [
+      "Late Payment Charges"
+    ]
+  },
+  "REPAIRS & MAINTENANCE": {
+    "REPAIRS & MAINTENANCE": [
+      "Repairs - Building",
+      "Repairs - General",
+      "Repairs - Equipment"
+    ]
+  },
+  "TOTAL COST OF GOODS SOLD": {
+    "Cost of Sales - Tea/Coffee": [
+      "Coffee Cost",
+      "Tea/Coffee Inventory"
+    ]
+  },
+  "TOTAL ADVERTISING AND MARKETING": {
+    "ADVERTISING AND PROMOTION": [
+      "Advertising/Promotion",
+      "Advertising and Promotion"
+    ]
+  },
+  "TOTAL PROFESSIONAL COST": {
+    "Professional and Consutlng": [
+      "Structural Engineer"
+    ]
+  },
+  "TOTAL OPERATING EXPENSES": {
+    "Office Supplies/Stationery": [
+      "Office"
+    ]
+  },
+  "Total Wages - F.O.H. Salaried": {
+    "Total Wages - F.O.H. Salaried": [
+      "Floor Manager",
+      "Beverage Manager",
+      "GM"
+    ]
+  },
+  "GrandParents": {
+    "GENERAL & ADMINISTRATIVE": [
+      "General & Administrative"
+    ]
+  },
+  "TOTAL SUPPLIES & MAINTENANCE": {
+    "Supplies and Maintenance": [
+      "Cleaning Inventory"
+    ],
+    "TOTAL SUPPLIES & MAINTENANCE": [
+      "Supplies and Maintenance"
+    ]
+  },
+  "FINANCIAL COSTS": {
+    "TOTAL FINANCIAL COSTS": [
+      "License fee to Tutto Holding"
+    ]
+  },
+  "Flowers & Candles\"": {
+    "SUPPLIES & MAINTENANCE": [
+      "\"Landscape"
+    ]
+  },
+  "Total Wages - B.O.H. Salaried": {
+    "Total Wages - B.O.H. Salaried": [
+      "Chef de Cuisine"
+    ]
+  },
+  "Cost of Sales - Beer": {
+    "Cost of Sales - Beer": [
+      "Beer - Stock Adjustment",
+      "Beer Purchases"
+    ]
+  },
+  "Gross Profit - Beverages": {
+    "Cost of Sales - Beer": [
+      "Beer Inventory"
+    ]
+  },
+  "Other Income": {
+    "Other Income": [
+      "Other Misc Income"
+    ]
+  },
+  "OTHER INCOME & EXPENSES": {
+    "Leasehold Improvements": [
+      "Leasehold Improvements"
+    ]
+  },
+  "Cost of Sales - Liquor": {
+    "Cost of Sales - Liquor": [
+      "Liquor - Stock Adjustment"
+    ]
+  },
+  "Gross Profit - Liquor & Beer": {
+    "Cost of Sales - Liquor": [
+      "Liquor Tax Payable",
+      "Liquor Inventory",
+      "Liquor Attorney"
+    ]
+  },
+  "COMMUNICATION": {
+    "COMMUNICATION": [
+      "Telephone"
+    ]
+  },
+  "General & Admin Expen": {
+    "Travel and Entertainment": [
+      "Travel and Entertainment"
+    ]
+  },
+  "TOTAL SALES & MARKETING": {
+    "TOTAL SALES & MARKETING": [
+      "Service Charge Payable Account"
+    ]
+  },
+  "GENERAL & ADMIN EXPENSES": {
+    "GENERAL & ADMIN EXPENSES": [
+      "General & Admin Expenses"
+    ]
+  },
+  "Cost of Sales - Wines": {
+    "Cost of Sales - Wines": [
+      "Wine - Stock Adjustment"
+    ]
+  },
+  "EMPLOYER TAXES": {
+    "TOTAL EMPLOYER TAXES": [
+      "NY MTA"
+    ]
+  },
+  "Permits & Filing Fees\"": {
+    "OTHER FINANCIAL COST": [
+      "\"Licenses"
+    ]
+  },
+  "TOTAL OTHER INCOME": {
+    "TOTAL OTHER INCOME": [
+      "Interest Income"
+    ]
+  },
+  "Uncategorized Income": {
+    "Uncategorized Income": [
+      "Uncategorized Income"
+    ]
+  },
+  "Total Uncategorized": {
+    "Total Uncategorized": [
+      "Suspense Account"
+    ]
+  },
+  "TOTAL COMMUNICATION": {
+    "TOTAL COMMUNICATION": [
+      "Internet/Email"
+    ]
+  },
+  "TOTAL REVENUE": {
+    "TOTAL REVENUE": [
+      "Intercompany-Tutto Mare"
+    ]
+  }
+}

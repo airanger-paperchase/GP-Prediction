@@ -1,0 +1,817 @@
+[
+  {
+    "grandparent": "Other Expenses",
+    "parent": "Other Expenses",
+    "description": "Parent 'Other Expenses' (grandparent 'Other Expenses') includes examples: Under/Over, Cleaning - Stock adjustment, Interest Paid on Loans - 2, Acoustical, Paperchase Control Account, Other Expenses, I"
+  },
+  {
+    "grandparent": "Other Expenses",
+    "parent": "Furniture and Fixtures",
+    "description": "Parent 'Furniture and Fixtures' (grandparent 'Other Expenses') includes examples: Furniture and Fixtures, Initial Buildout"
+  },
+  {
+    "grandparent": "Other Expenses",
+    "parent": "Leasehold",
+    "description": "Parent 'Leasehold' (grandparent 'Other Expenses') includes examples: Leasehold"
+  },
+  {
+    "grandparent": "Other Expenses",
+    "parent": "Start-Up Costs",
+    "description": "Parent 'Start-Up Costs' (grandparent 'Other Expenses') includes examples: Start-Up Costs"
+  },
+  {
+    "grandparent": "Other Expenses",
+    "parent": "Kitchen/Hood",
+    "description": "Parent 'Kitchen/Hood' (grandparent 'Other Expenses') includes examples: Kitchen/Hood"
+  },
+  {
+    "grandparent": "Other Expenses",
+    "parent": "Machinery and Equipment",
+    "description": "Parent 'Machinery and Equipment' (grandparent 'Other Expenses') includes examples: Machinery and Equipment"
+  },
+  {
+    "grandparent": "Other Expenses",
+    "parent": "Intangible Assets",
+    "description": "Parent 'Intangible Assets' (grandparent 'Other Expenses') includes examples: Intangible Assets"
+  },
+  {
+    "grandparent": "TOTAL STAFF COST",
+    "parent": "TOTAL OTHER STAFF COST",
+    "description": "Parent 'TOTAL OTHER STAFF COST' (grandparent 'TOTAL STAFF COST') includes examples: Inter-Company - G&G Hospitality, 6, Members Contri./(Distri.), 3"
+  },
+  {
+    "grandparent": "TOTAL STAFF COST",
+    "parent": "BOH SALARIES",
+    "description": "Parent 'BOH SALARIES' (grandparent 'TOTAL STAFF COST') includes examples: Wages - Bonus BOH"
+  },
+  {
+    "grandparent": "TOTAL STAFF COST",
+    "parent": "TOTAL FOH SALARIES",
+    "description": "Parent 'TOTAL FOH SALARIES' (grandparent 'TOTAL STAFF COST') includes examples: Wages - Bonus FOH"
+  },
+  {
+    "grandparent": "TOTAL STAFF COST",
+    "parent": "Total Wages - F.O.H. Salaries",
+    "description": "Parent 'Total Wages - F.O.H. Salaries' (grandparent 'TOTAL STAFF COST') includes examples: Retained Earnings"
+  },
+  {
+    "grandparent": "TOTAL STAFF COST",
+    "parent": "Wages - Tips",
+    "description": "Parent 'Wages - Tips' (grandparent 'TOTAL STAFF COST') includes examples: Tips Payable"
+  },
+  {
+    "grandparent": "TOTAL OTHER FINANCIAL COST",
+    "parent": "Transfer From/To  Piccolina",
+    "description": "Parent 'Transfer From/To  Piccolina' (grandparent 'TOTAL OTHER FINANCIAL COST') includes examples: Loan from David"
+  },
+  {
+    "grandparent": "TOTAL OTHER FINANCIAL COST",
+    "parent": "Other Income & Expenses",
+    "description": "Parent 'Other Income & Expenses' (grandparent 'TOTAL OTHER FINANCIAL COST') includes examples: *Undeposited Funds, Intercompany, Receivable from Gianpaolo"
+  },
+  {
+    "grandparent": "TOTAL OTHER FINANCIAL COST",
+    "parent": "P & L Depreciation & Amortization",
+    "description": "Parent 'P & L Depreciation & Amortization' (grandparent 'TOTAL OTHER FINANCIAL COST') includes examples: Accumulated Amortization"
+  },
+  {
+    "grandparent": "TOTAL OTHER FINANCIAL COST",
+    "parent": "Income Taxes",
+    "description": "Parent 'Income Taxes' (grandparent 'TOTAL OTHER FINANCIAL COST') includes examples: PTET-NYS- Advance Tax"
+  },
+  {
+    "grandparent": "TOTAL OTHER FINANCIAL COST",
+    "parent": "TOTAL OTHER EXPENSE",
+    "description": "Parent 'TOTAL OTHER EXPENSE' (grandparent 'TOTAL OTHER FINANCIAL COST') includes examples: 2, Accumulated Amortization"
+  },
+  {
+    "grandparent": "TOTAL OTHER FINANCIAL COST",
+    "parent": "TOTAL FINANCIAL COST",
+    "description": "Parent 'TOTAL FINANCIAL COST' (grandparent 'TOTAL OTHER FINANCIAL COST') includes examples: Financial Cost, Financial Costs, Bank-5, Bank-6"
+  },
+  {
+    "grandparent": "TOTAL OTHER FINANCIAL COST",
+    "parent": "TOTAL OTHER FINANCIAL COST",
+    "description": "Parent 'TOTAL OTHER FINANCIAL COST' (grandparent 'TOTAL OTHER FINANCIAL COST') includes examples: 3, Deferred Liabilities"
+  },
+  {
+    "grandparent": "TOTAL OTHER FINANCIAL COST",
+    "parent": "TOTAL PROFESSIONAL CHARGES",
+    "description": "Parent 'TOTAL PROFESSIONAL CHARGES' (grandparent 'TOTAL OTHER FINANCIAL COST') includes examples: Professional Charges"
+  },
+  {
+    "grandparent": "TOTAL OTHER FINANCIAL COST",
+    "parent": "Net Reduction of Debt",
+    "description": "Parent 'Net Reduction of Debt' (grandparent 'TOTAL OTHER FINANCIAL COST') includes examples: Long Term Debt"
+  },
+  {
+    "grandparent": "TOTAL OTHER FINANCIAL COST",
+    "parent": "TOTAL PROFESSIONAL FEES",
+    "description": "Parent 'TOTAL PROFESSIONAL FEES' (grandparent 'TOTAL OTHER FINANCIAL COST') includes examples: Kitchen Consultant"
+  },
+  {
+    "grandparent": "TOTAL OTHER FINANCIAL COST",
+    "parent": "TOTAL ADVERTISING AND MARKETING",
+    "description": "Parent 'TOTAL ADVERTISING AND MARKETING' (grandparent 'TOTAL OTHER FINANCIAL COST') includes examples: Paperchase E-card- 1368"
+  },
+  {
+    "grandparent": "TOTAL OTHER FINANCIAL COST",
+    "parent": "TOTAL OTHER EXPENSES",
+    "description": "Parent 'TOTAL OTHER EXPENSES' (grandparent 'TOTAL OTHER FINANCIAL COST') includes examples: Credit Card 31056, 1"
+  },
+  {
+    "grandparent": "TOTAL OTHER FINANCIAL COST",
+    "parent": "Total Other Income",
+    "description": "Parent 'Total Other Income' (grandparent 'TOTAL OTHER FINANCIAL COST') includes examples: Undeposited Funds"
+  },
+  {
+    "grandparent": "TOTAL OTHER FINANCIAL COST",
+    "parent": "Total Other Expense",
+    "description": "Parent 'Total Other Expense' (grandparent 'TOTAL OTHER FINANCIAL COST') includes examples: Suspense Account - Debtors"
+  },
+  {
+    "grandparent": "TRAVEL & ENTERTAINMENT",
+    "parent": "TRAVEL & ENTERTAINMENT",
+    "description": "Parent 'TRAVEL & ENTERTAINMENT' (grandparent 'TRAVEL & ENTERTAINMENT') includes examples: Meals & Entertainment, Valet Parking - Guest, Taxi Charges & Local Travel, Lodging, Auto Expense, Web Design &"
+  },
+  {
+    "grandparent": "OTHER STAFF COST",
+    "parent": "OTHER STAFF COST",
+    "description": "Parent 'OTHER STAFF COST' (grandparent 'OTHER STAFF COST') includes examples: Wages - Security - 1099, NY Paid Family Leave, Employee Benefits, Staff Recruitment, Staff Accommodation/Relocation, Staff"
+  },
+  {
+    "grandparent": "FINANCIAL COST",
+    "parent": "FINANCIAL COST",
+    "description": "Parent 'FINANCIAL COST' (grandparent 'FINANCIAL COST') includes examples: Tangible Property Taxes, Corporate Tax Expense, Uncategorized Expenses, Insurance Expense, Donations, Bank Charges, Payroll Pr"
+  },
+  {
+    "grandparent": "FINANCIAL COST",
+    "parent": "Sales Tax",
+    "description": "Parent 'Sales Tax' (grandparent 'FINANCIAL COST') includes examples: Sales Tax Payable"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "TOTAL OTHER STAFF COST",
+    "description": "Parent 'TOTAL OTHER STAFF COST' (grandparent 'TOTAL OTHER STAFF COST') includes examples: 2, Inter-Company - Southampton, NY-PFL, 4, Other Staff Cost, 1, Accumulated Depreciation, 5"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "Cost of Sales - Bakery",
+    "description": "Parent 'Cost of Sales - Bakery' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Cakes Cost"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "Total Cost of Goods Sold",
+    "description": "Parent 'Total Cost of Goods Sold' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Inventory Asset, Inventory"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "Total Beverages",
+    "description": "Parent 'Total Beverages' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Other Beverages Inventory"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "Total Other Expense",
+    "description": "Parent 'Total Other Expense' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Credit Card - 2, MEP"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "TOTAL SUPPLIES & MAINTENANCE",
+    "description": "Parent 'TOTAL SUPPLIES & MAINTENANCE' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Supplies & Maintenance"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "Total Other Expenses",
+    "description": "Parent 'Total Other Expenses' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Retained Earnings / (Deficit), Suspense Account - Bank, Loans Payable, Accounts Payable - USD, Prepaid Expenses,"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "Other Expenses",
+    "description": "Parent 'Other Expenses' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Suspense Account - Creditors, Accrued Liabilities"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "Total Uncategorized",
+    "description": "Parent 'Total Uncategorized' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Opening Balance Equity, Inter-Company - Sag Harbor, A/R Control Account"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "Total Other Income",
+    "description": "Parent 'Total Other Income' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Bank Transfer A/C"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "Income Taxes",
+    "description": "Parent 'Income Taxes' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Corporate Tax Payable"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "Sales Tax 2015",
+    "description": "Parent 'Sales Tax 2015' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Sales Tax Payable - Tourism"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "OTHER EMPLOYEE EXPENSES",
+    "description": "Parent 'OTHER EMPLOYEE EXPENSES' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Disability Payable"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "\"License",
+    "description": "Parent '\"License' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Permits"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "Controllables - Other",
+    "description": "Parent 'Controllables - Other' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Leasehold Improvement"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "INSURANCE EXPENSES",
+    "description": "Parent 'INSURANCE EXPENSES' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Cyber Liability Insurance"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "OCCUPANCY",
+    "description": "Parent 'OCCUPANCY' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Occupancy"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "Total Pre Opening Expenses",
+    "description": "Parent 'Total Pre Opening Expenses' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Deposits for Future Events"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "License,Permits,Filing Fees",
+    "description": "Parent 'License,Permits,Filing Fees' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Permits"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "GENERAL & ADMINISTRATIVE",
+    "description": "Parent 'GENERAL & ADMINISTRATIVE' (grandparent 'TOTAL OTHER STAFF COST') includes examples: General & Administrative"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "Total Operating Expenses",
+    "description": "Parent 'Total Operating Expenses' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Construction Management"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "Leasehold Improvements",
+    "description": "Parent 'Leasehold Improvements' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Non-GC Buildout"
+  },
+  {
+    "grandparent": "TOTAL OTHER STAFF COST",
+    "parent": "A/R Write Off",
+    "description": "Parent 'A/R Write Off' (grandparent 'TOTAL OTHER STAFF COST') includes examples: Accounts Receivable"
+  },
+  {
+    "grandparent": "SUPPLIES & MAINTENANCE",
+    "parent": "SUPPLIES & MAINTENANCE",
+    "description": "Parent 'SUPPLIES & MAINTENANCE' (grandparent 'SUPPLIES & MAINTENANCE') includes examples: Equipment Rental, Postage & Courier, Pest Control, BOH Supplies & Accessories, Paper Supplies, Music, IT Cost,"
+  },
+  {
+    "grandparent": "SUPPLIES & MAINTENANCE",
+    "parent": "TOTAL SUPPLIES & MAINTENANCE",
+    "description": "Parent 'TOTAL SUPPLIES & MAINTENANCE' (grandparent 'SUPPLIES & MAINTENANCE') includes examples: Paperchase E-Card 7895, Tip Expense"
+  },
+  {
+    "grandparent": "SUPPLIES & MAINTENANCE",
+    "parent": "Restaurant",
+    "description": "Parent 'Restaurant' (grandparent 'SUPPLIES & MAINTENANCE') includes examples: Restaurant"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "TOTAL OTHER STAFF COST",
+    "description": "Parent 'TOTAL OTHER STAFF COST' (grandparent 'STAFF COST') includes examples: Other Staff Cost"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Total Employer Taxes",
+    "description": "Parent 'Total Employer Taxes' (grandparent 'STAFF COST') includes examples: Ny Re-employment, OASDI"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Total Wages - F.O.H. Wages",
+    "description": "Parent 'Total Wages - F.O.H. Wages' (grandparent 'STAFF COST') includes examples: Server, Wages - 1099 ( Cleaning)"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Total Wages - F.O.H. Salaried",
+    "description": "Parent 'Total Wages - F.O.H. Salaried' (grandparent 'STAFF COST') includes examples: Unreconciled Net Wages Payable, Staff Loans/Salary Advances, Net Wages Payable, Payroll Liabilities, Connect One - "
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "BOH SALARIES",
+    "description": "Parent 'BOH SALARIES' (grandparent 'STAFF COST') includes examples: Kitchen"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Total Wages - F.O.H. Management",
+    "description": "Parent 'Total Wages - F.O.H. Management' (grandparent 'STAFF COST') includes examples: Security Deposits, Code & Expeditor"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "TOTAL STAFF COST",
+    "description": "Parent 'TOTAL STAFF COST' (grandparent 'STAFF COST') includes examples: Labor Cost, Federal FUTA, Wage Cost, BOH, State SUI, Sous Chef, FOH"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Total Wages - F.O.H.",
+    "description": "Parent 'Total Wages - F.O.H.' (grandparent 'STAFF COST') includes examples: Staff Wages"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Wages - B.O.H.",
+    "description": "Parent 'Wages - B.O.H.' (grandparent 'STAFF COST') includes examples: Executive Chef, Dishwasher"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Wages - B.O.H. Salaried",
+    "description": "Parent 'Wages - B.O.H. Salaried' (grandparent 'STAFF COST') includes examples: Wages - B.O.H. Salaried"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Total Wages - B.O.H. Salaried",
+    "description": "Parent 'Total Wages - B.O.H. Salaried' (grandparent 'STAFF COST') includes examples: Members Equity, Gift Certificates"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Wages - F.O.H",
+    "description": "Parent 'Wages - F.O.H' (grandparent 'STAFF COST') includes examples: Bartender"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Wages - F.O.H. Salaried",
+    "description": "Parent 'Wages - F.O.H. Salaried' (grandparent 'STAFF COST') includes examples: Wages - F.O.H. Salaried"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "STAFF INSURANCE",
+    "description": "Parent 'STAFF INSURANCE' (grandparent 'STAFF COST') includes examples: Accrued Insurance, Workers Compensation Insurance"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Employer Taxes",
+    "description": "Parent 'Employer Taxes' (grandparent 'STAFF COST') includes examples: Medicare, Employer Taxes"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Consulting Fee",
+    "description": "Parent 'Consulting Fee' (grandparent 'STAFF COST') includes examples: Consulting Fee"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Wages - B.O.H. Hourly - OT",
+    "description": "Parent 'Wages - B.O.H. Hourly - OT' (grandparent 'STAFF COST') includes examples: Wages - B.O.H. Hourly - OT"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "TOTAL EMPLOYEE BENEFITS",
+    "description": "Parent 'TOTAL EMPLOYEE BENEFITS' (grandparent 'STAFF COST') includes examples: Child Support"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Wages - F.O.H. Hourly",
+    "description": "Parent 'Wages - F.O.H. Hourly' (grandparent 'STAFF COST') includes examples: Wages - F.O.H. Hourly"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Total Wages - F.O.H. Salaries",
+    "description": "Parent 'Total Wages - F.O.H. Salaries' (grandparent 'STAFF COST') includes examples: David Mayer"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Total Employer Benefits",
+    "description": "Parent 'Total Employer Benefits' (grandparent 'STAFF COST') includes examples: Vision, Disability, Medical, Dental"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Wages - F.O.H. Hourly - OT",
+    "description": "Parent 'Wages - F.O.H. Hourly - OT' (grandparent 'STAFF COST') includes examples: Wages - F.O.H. Hourly - OT"
+  },
+  {
+    "grandparent": "STAFF COST",
+    "parent": "Wages - B.O.H. Hourly",
+    "description": "Parent 'Wages - B.O.H. Hourly' (grandparent 'STAFF COST') includes examples: Wages - B.O.H. Hourly"
+  },
+  {
+    "grandparent": "OTHER FINANCIAL COST",
+    "parent": "OTHER FINANCIAL COST",
+    "description": "Parent 'OTHER FINANCIAL COST' (grandparent 'OTHER FINANCIAL COST') includes examples: Sales and Use Tax, Licenses, Permits & Filing Fees"
+  },
+  {
+    "grandparent": "Cost of Sales - Food",
+    "parent": "Cost of Sales - Food",
+    "description": "Parent 'Cost of Sales - Food' (grandparent 'Cost of Sales - Food') includes examples: Food - Stock Adjustment, Food Purchases"
+  },
+  {
+    "grandparent": "OCCUPANCY",
+    "parent": "OCCUPANCY",
+    "description": "Parent 'OCCUPANCY' (grandparent 'OCCUPANCY') includes examples: Real Estate Escalation Tax, Gas, Occupancy Costs, Water, Commercial Rent Tax, Storage Rent, Rent, CAM Charges"
+  },
+  {
+    "grandparent": "OCCUPANCY",
+    "parent": "Rent",
+    "description": "Parent 'Rent' (grandparent 'OCCUPANCY') includes examples: Security Deposit - Rent"
+  },
+  {
+    "grandparent": "TOTAL OTHER EXPENSE",
+    "parent": "Other Charges",
+    "description": "Parent 'Other Charges' (grandparent 'TOTAL OTHER EXPENSE') includes examples: Accounts Payable - EUR"
+  },
+  {
+    "grandparent": "TOTAL OTHER EXPENSE",
+    "parent": "TOTAL OTHER EXPENSE",
+    "description": "Parent 'TOTAL OTHER EXPENSE' (grandparent 'TOTAL OTHER EXPENSE') includes examples: Accumulated Depreciation, Audio/Visual"
+  },
+  {
+    "grandparent": "GENERAL & ADMINISTRATIVE",
+    "parent": "GENERAL & ADMINISTRATIVE",
+    "description": "Parent 'GENERAL & ADMINISTRATIVE' (grandparent 'GENERAL & ADMINISTRATIVE') includes examples: POS"
+  },
+  {
+    "grandparent": "GENERAL & ADMINISTRATIVE",
+    "parent": "Office Supplies/Stationery",
+    "description": "Parent 'Office Supplies/Stationery' (grandparent 'GENERAL & ADMINISTRATIVE') includes examples: Petty Cash Control, Office"
+  },
+  {
+    "grandparent": "GENERAL & ADMINISTRATIVE",
+    "parent": "ADMINISTRATION",
+    "description": "Parent 'ADMINISTRATION' (grandparent 'GENERAL & ADMINISTRATIVE') includes examples: Gianpaolo DeFelice"
+  },
+  {
+    "grandparent": "GENERAL & ADMINISTRATIVE",
+    "parent": "Legal & Accounting",
+    "description": "Parent 'Legal & Accounting' (grandparent 'GENERAL & ADMINISTRATIVE') includes examples: Legal Attorney"
+  },
+  {
+    "grandparent": "TOTAL FINANCIAL COST",
+    "parent": "Interest on Loans",
+    "description": "Parent 'Interest on Loans' (grandparent 'TOTAL FINANCIAL COST') includes examples: Loan 2"
+  },
+  {
+    "grandparent": "TOTAL FINANCIAL COST",
+    "parent": "Bank Interest",
+    "description": "Parent 'Bank Interest' (grandparent 'TOTAL FINANCIAL COST') includes examples: Bank-4, Bank-3"
+  },
+  {
+    "grandparent": "TOTAL FINANCIAL COST",
+    "parent": "TOTAL FINANCIAL COST",
+    "description": "Parent 'TOTAL FINANCIAL COST' (grandparent 'TOTAL FINANCIAL COST') includes examples: Management Fees"
+  },
+  {
+    "grandparent": "TOTAL FOOD",
+    "parent": "TOTAL FOOD",
+    "description": "Parent 'TOTAL FOOD' (grandparent 'TOTAL FOOD') includes examples: Produce Cost, Meat Cost, Ice Cream Cost, Seafood Cost, Dairy Cost, Bread Cost, Grocery Cost"
+  },
+  {
+    "grandparent": "Total OTHER STAFF COST",
+    "parent": "Total OTHER STAFF COST",
+    "description": "Parent 'Total OTHER STAFF COST' (grandparent 'Total OTHER STAFF COST') includes examples: Contract Labor"
+  },
+  {
+    "grandparent": "COST OF GOODS SOLD",
+    "parent": "Total Cost of Sales - Champagne",
+    "description": "Parent 'Total Cost of Sales - Champagne' (grandparent 'COST OF GOODS SOLD') includes examples: Champagne Purchases, Champagne - Stock Adjustment"
+  },
+  {
+    "grandparent": "COST OF GOODS SOLD",
+    "parent": "Total Cost of Sales - Retails",
+    "description": "Parent 'Total Cost of Sales - Retails' (grandparent 'COST OF GOODS SOLD') includes examples: Retail Purchases, Retail - Stock Adjustment"
+  },
+  {
+    "grandparent": "COST OF GOODS SOLD",
+    "parent": "COST OF GOODS SOLD",
+    "description": "Parent 'COST OF GOODS SOLD' (grandparent 'COST OF GOODS SOLD') includes examples: Cost of Sales - Other Bev, Cost of Sales - Retails, Cost of Sales - Beer, Cost of Sales - Champagne, Cost of Sales - L"
+  },
+  {
+    "grandparent": "COST OF GOODS SOLD",
+    "parent": "COG Liquor",
+    "description": "Parent 'COG Liquor' (grandparent 'COST OF GOODS SOLD') includes examples: Liquor Purchases"
+  },
+  {
+    "grandparent": "COST OF GOODS SOLD",
+    "parent": "Cost of Sales - Food",
+    "description": "Parent 'Cost of Sales - Food' (grandparent 'COST OF GOODS SOLD') includes examples: Food Inventory"
+  },
+  {
+    "grandparent": "COST OF GOODS SOLD",
+    "parent": "TOTAL COST OF GOODS SOLD",
+    "description": "Parent 'TOTAL COST OF GOODS SOLD' (grandparent 'COST OF GOODS SOLD') includes examples: Cost of Goods Sold"
+  },
+  {
+    "grandparent": "COST OF GOODS SOLD",
+    "parent": "COG Other Beverages",
+    "description": "Parent 'COG Other Beverages' (grandparent 'COST OF GOODS SOLD') includes examples: Other Bev Purchases, Other Bev - Stock Adjustment"
+  },
+  {
+    "grandparent": "COST OF GOODS SOLD",
+    "parent": "Cost of Sales - Wines",
+    "description": "Parent 'Cost of Sales - Wines' (grandparent 'COST OF GOODS SOLD') includes examples: Wine Inventory"
+  },
+  {
+    "grandparent": "COST OF GOODS SOLD",
+    "parent": "Total Cost of Sales - Tobacco",
+    "description": "Parent 'Total Cost of Sales - Tobacco' (grandparent 'COST OF GOODS SOLD') includes examples: Tobacco Inventory"
+  },
+  {
+    "grandparent": "COST OF GOODS SOLD",
+    "parent": "Total Cost of Sales - Wine",
+    "description": "Parent 'Total Cost of Sales - Wine' (grandparent 'COST OF GOODS SOLD') includes examples: Wine Purchases"
+  },
+  {
+    "grandparent": "REVENUE",
+    "parent": "REVENUE",
+    "description": "Parent 'REVENUE' (grandparent 'REVENUE') includes examples: Revenue - Bakery, Revenue - Food, Digital Sales - Adjustments, Revenue - Tea/Coffee, Revenue - Champagne, Revenue - Wines, Discounts, Revenu"
+  },
+  {
+    "grandparent": "REVENUE",
+    "parent": "Total Revenue Delievery",
+    "description": "Parent 'Total Revenue Delievery' (grandparent 'REVENUE') includes examples: 5"
+  },
+  {
+    "grandparent": "REVENUE",
+    "parent": "TOTAL REVENUE",
+    "description": "Parent 'TOTAL REVENUE' (grandparent 'REVENUE') includes examples: Revenue - Other Beverages, House Account, Revenue - Beer"
+  },
+  {
+    "grandparent": "REVENUE",
+    "parent": "ADVERTISING AND PROMOTION",
+    "description": "Parent 'ADVERTISING AND PROMOTION' (grandparent 'REVENUE') includes examples: Advertising/Promotion"
+  },
+  {
+    "grandparent": "PROFESSIONAL FEE",
+    "parent": "PROFESSIONAL FEE",
+    "description": "Parent 'PROFESSIONAL FEE' (grandparent 'PROFESSIONAL FEE') includes examples: Legal Fees, Consulting Fees, Accounting Fees, Tax Fees, Audit Fees, Professional Fees"
+  },
+  {
+    "grandparent": "TOTAL OTHER EXPENSES",
+    "parent": "TOTAL OTHER EXPENSES",
+    "description": "Parent 'TOTAL OTHER EXPENSES' (grandparent 'TOTAL OTHER EXPENSES') includes examples: IT, Exchange Differences, Embezzlement"
+  },
+  {
+    "grandparent": "TOTAL OTHER EXPENSES",
+    "parent": "INSURANCE EXPENSES",
+    "description": "Parent 'INSURANCE EXPENSES' (grandparent 'TOTAL OTHER EXPENSES') includes examples: Cyber Liability Insurance"
+  },
+  {
+    "grandparent": "INSURANCE EXPENSES",
+    "parent": "INSURANCE EXPENSES",
+    "description": "Parent 'INSURANCE EXPENSES' (grandparent 'INSURANCE EXPENSES') includes examples: Property Insurance, EPLI Insurance, Liability Insurance, Umbrella Insurance"
+  },
+  {
+    "grandparent": "Other Expense",
+    "parent": "Total Other Expense",
+    "description": "Parent 'Total Other Expense' (grandparent 'Other Expense') includes examples: Chase Bank # 3103"
+  },
+  {
+    "grandparent": "Cost of Sales - Tea/Coffee",
+    "parent": "Cost of Sales - Tea/Coffee",
+    "description": "Parent 'Cost of Sales - Tea/Coffee' (grandparent 'Cost of Sales - Tea/Coffee') includes examples: Tea/Coffee Purchases, Tea/Coffee - Stock Adjustment"
+  },
+  {
+    "grandparent": "Total Employer Taxes",
+    "parent": "Employer Taxes",
+    "description": "Parent 'Employer Taxes' (grandparent 'Total Employer Taxes') includes examples: Payroll Tax Payable"
+  },
+  {
+    "grandparent": "Total Employer Taxes",
+    "parent": "Total Employer Taxes",
+    "description": "Parent 'Total Employer Taxes' (grandparent 'Total Employer Taxes') includes examples: Social Security"
+  },
+  {
+    "grandparent": "Other Income & Expenses",
+    "parent": "Other Income & Expenses",
+    "description": "Parent 'Other Income & Expenses' (grandparent 'Other Income & Expenses') includes examples: Interest Paid on Loans - 1, Rounding Differences, Other Income"
+  },
+  {
+    "grandparent": "TOTAL PRE OPENING EXPENSES",
+    "parent": "TOTAL PRE OPENING EXPENSES",
+    "description": "Parent 'TOTAL PRE OPENING EXPENSES' (grandparent 'TOTAL PRE OPENING EXPENSES') includes examples: 4, Initial Buildout, 6"
+  },
+  {
+    "grandparent": "OCCUPANCY COST",
+    "parent": "OCCUPANCY",
+    "description": "Parent 'OCCUPANCY' (grandparent 'OCCUPANCY COST') includes examples: Occupancy"
+  },
+  {
+    "grandparent": "ADVERTISING / PROMOTION",
+    "parent": "TOTAL PROMOTION",
+    "description": "Parent 'TOTAL PROMOTION' (grandparent 'ADVERTISING / PROMOTION') includes examples: Interior Design"
+  },
+  {
+    "grandparent": "ADVERTISING / PROMOTION",
+    "parent": "ADVERTISING / PROMOTION",
+    "description": "Parent 'ADVERTISING / PROMOTION' (grandparent 'ADVERTISING / PROMOTION') includes examples: Branding & Design, Event Expenses, Commission Expense, Advertising, R & D, Public Relations, Photography exp"
+  },
+  {
+    "grandparent": "P&L AMORTIZATION",
+    "parent": "Fees",
+    "description": "Parent 'Fees' (grandparent 'P&L AMORTIZATION') includes examples: Fees"
+  },
+  {
+    "grandparent": "Ask My Accountant",
+    "parent": "Ask My Accountant",
+    "description": "Parent 'Ask My Accountant' (grandparent 'Ask My Accountant') includes examples: Ask My Accountant"
+  },
+  {
+    "grandparent": "TOTAL GENERAL & ADMIN EXPENSES",
+    "parent": "GENERAL & ADMINISTRATIVE",
+    "description": "Parent 'GENERAL & ADMINISTRATIVE' (grandparent 'TOTAL GENERAL & ADMIN EXPENSES') includes examples: Accounts Payable - GBP"
+  },
+  {
+    "grandparent": "TOTAL PROFESSIONAL FEES",
+    "parent": "Total Professional Fees",
+    "description": "Parent 'Total Professional Fees' (grandparent 'TOTAL PROFESSIONAL FEES') includes examples: Lighting Consultant"
+  },
+  {
+    "grandparent": "TOTAL PROFESSIONAL FEES",
+    "parent": "Professional and Consulting",
+    "description": "Parent 'Professional and Consulting' (grandparent 'TOTAL PROFESSIONAL FEES') includes examples: Architect"
+  },
+  {
+    "grandparent": "Total Wages - B.O.H. Hourly",
+    "parent": "Total Wages - B.O.H. Hourly",
+    "description": "Parent 'Total Wages - B.O.H. Hourly' (grandparent 'Total Wages - B.O.H. Hourly') includes examples: Porter, Receiving Clerk, Steward, Cook"
+  },
+  {
+    "grandparent": "P & L Depreciation & Amortization",
+    "parent": "P & L Depreciation & Amortization",
+    "description": "Parent 'P & L Depreciation & Amortization' (grandparent 'P & L Depreciation & Amortization') includes examples: Amortization Expense, Depreciation Expense"
+  },
+  {
+    "grandparent": "Total Wages - F.O.H. Hourly",
+    "parent": "Total Wages - F.O.H. Hourly",
+    "description": "Parent 'Total Wages - F.O.H. Hourly' (grandparent 'Total Wages - F.O.H. Hourly') includes examples: Hostess, Cashier, Busser, Barback, Runner"
+  },
+  {
+    "grandparent": "TOTAL STAFF INSURANCE",
+    "parent": "STAFF INSURANCE",
+    "description": "Parent 'STAFF INSURANCE' (grandparent 'TOTAL STAFF INSURANCE') includes examples: Prepaid Insurance"
+  },
+  {
+    "grandparent": "G&A",
+    "parent": "Legal & Accounting",
+    "description": "Parent 'Legal & Accounting' (grandparent 'G&A') includes examples: Tangible Property Taxes Payable"
+  },
+  {
+    "grandparent": "G&A",
+    "parent": "Interest on Tax/Penalties",
+    "description": "Parent 'Interest on Tax/Penalties' (grandparent 'G&A') includes examples: Interest on Tax/Penalties"
+  },
+  {
+    "grandparent": "TOTAL FINANCIAL COSTS",
+    "parent": "TOTAL FINANCIAL COSTS",
+    "description": "Parent 'TOTAL FINANCIAL COSTS' (grandparent 'TOTAL FINANCIAL COSTS') includes examples: Late Payment Charges"
+  },
+  {
+    "grandparent": "REPAIRS & MAINTENANCE",
+    "parent": "REPAIRS & MAINTENANCE",
+    "description": "Parent 'REPAIRS & MAINTENANCE' (grandparent 'REPAIRS & MAINTENANCE') includes examples: Repairs - Building, Repairs - General, Repairs - Equipment"
+  },
+  {
+    "grandparent": "TOTAL COST OF GOODS SOLD",
+    "parent": "Cost of Sales - Tea/Coffee",
+    "description": "Parent 'Cost of Sales - Tea/Coffee' (grandparent 'TOTAL COST OF GOODS SOLD') includes examples: Coffee Cost, Tea/Coffee Inventory"
+  },
+  {
+    "grandparent": "TOTAL ADVERTISING AND MARKETING",
+    "parent": "ADVERTISING AND PROMOTION",
+    "description": "Parent 'ADVERTISING AND PROMOTION' (grandparent 'TOTAL ADVERTISING AND MARKETING') includes examples: Advertising/Promotion, Advertising and Promotion"
+  },
+  {
+    "grandparent": "TOTAL PROFESSIONAL COST",
+    "parent": "Professional and Consutlng",
+    "description": "Parent 'Professional and Consutlng' (grandparent 'TOTAL PROFESSIONAL COST') includes examples: Structural Engineer"
+  },
+  {
+    "grandparent": "TOTAL OPERATING EXPENSES",
+    "parent": "Office Supplies/Stationery",
+    "description": "Parent 'Office Supplies/Stationery' (grandparent 'TOTAL OPERATING EXPENSES') includes examples: Office"
+  },
+  {
+    "grandparent": "Total Wages - F.O.H. Salaried",
+    "parent": "Total Wages - F.O.H. Salaried",
+    "description": "Parent 'Total Wages - F.O.H. Salaried' (grandparent 'Total Wages - F.O.H. Salaried') includes examples: Floor Manager, Beverage Manager, GM"
+  },
+  {
+    "grandparent": "GrandParents",
+    "parent": "GENERAL & ADMINISTRATIVE",
+    "description": "Parent 'GENERAL & ADMINISTRATIVE' (grandparent 'GrandParents') includes examples: General & Administrative"
+  },
+  {
+    "grandparent": "TOTAL SUPPLIES & MAINTENANCE",
+    "parent": "Supplies and Maintenance",
+    "description": "Parent 'Supplies and Maintenance' (grandparent 'TOTAL SUPPLIES & MAINTENANCE') includes examples: Cleaning Inventory"
+  },
+  {
+    "grandparent": "TOTAL SUPPLIES & MAINTENANCE",
+    "parent": "TOTAL SUPPLIES & MAINTENANCE",
+    "description": "Parent 'TOTAL SUPPLIES & MAINTENANCE' (grandparent 'TOTAL SUPPLIES & MAINTENANCE') includes examples: Supplies and Maintenance"
+  },
+  {
+    "grandparent": "FINANCIAL COSTS",
+    "parent": "TOTAL FINANCIAL COSTS",
+    "description": "Parent 'TOTAL FINANCIAL COSTS' (grandparent 'FINANCIAL COSTS') includes examples: License fee to Tutto Holding"
+  },
+  {
+    "grandparent": "Flowers & Candles\"",
+    "parent": "SUPPLIES & MAINTENANCE",
+    "description": "Parent 'SUPPLIES & MAINTENANCE' (grandparent 'Flowers & Candles\"') includes examples: \"Landscape"
+  },
+  {
+    "grandparent": "Total Wages - B.O.H. Salaried",
+    "parent": "Total Wages - B.O.H. Salaried",
+    "description": "Parent 'Total Wages - B.O.H. Salaried' (grandparent 'Total Wages - B.O.H. Salaried') includes examples: Chef de Cuisine"
+  },
+  {
+    "grandparent": "Cost of Sales - Beer",
+    "parent": "Cost of Sales - Beer",
+    "description": "Parent 'Cost of Sales - Beer' (grandparent 'Cost of Sales - Beer') includes examples: Beer - Stock Adjustment, Beer Purchases"
+  },
+  {
+    "grandparent": "Gross Profit - Beverages",
+    "parent": "Cost of Sales - Beer",
+    "description": "Parent 'Cost of Sales - Beer' (grandparent 'Gross Profit - Beverages') includes examples: Beer Inventory"
+  },
+  {
+    "grandparent": "Other Income",
+    "parent": "Other Income",
+    "description": "Parent 'Other Income' (grandparent 'Other Income') includes examples: Other Misc Income"
+  },
+  {
+    "grandparent": "OTHER INCOME & EXPENSES",
+    "parent": "Leasehold Improvements",
+    "description": "Parent 'Leasehold Improvements' (grandparent 'OTHER INCOME & EXPENSES') includes examples: Leasehold Improvements"
+  },
+  {
+    "grandparent": "Cost of Sales - Liquor",
+    "parent": "Cost of Sales - Liquor",
+    "description": "Parent 'Cost of Sales - Liquor' (grandparent 'Cost of Sales - Liquor') includes examples: Liquor - Stock Adjustment"
+  },
+  {
+    "grandparent": "Gross Profit - Liquor & Beer",
+    "parent": "Cost of Sales - Liquor",
+    "description": "Parent 'Cost of Sales - Liquor' (grandparent 'Gross Profit - Liquor & Beer') includes examples: Liquor Tax Payable, Liquor Inventory, Liquor Attorney"
+  },
+  {
+    "grandparent": "COMMUNICATION",
+    "parent": "COMMUNICATION",
+    "description": "Parent 'COMMUNICATION' (grandparent 'COMMUNICATION') includes examples: Telephone"
+  },
+  {
+    "grandparent": "General & Admin Expen",
+    "parent": "Travel and Entertainment",
+    "description": "Parent 'Travel and Entertainment' (grandparent 'General & Admin Expen') includes examples: Travel and Entertainment"
+  },
+  {
+    "grandparent": "TOTAL SALES & MARKETING",
+    "parent": "TOTAL SALES & MARKETING",
+    "description": "Parent 'TOTAL SALES & MARKETING' (grandparent 'TOTAL SALES & MARKETING') includes examples: Service Charge Payable Account"
+  },
+  {
+    "grandparent": "GENERAL & ADMIN EXPENSES",
+    "parent": "GENERAL & ADMIN EXPENSES",
+    "description": "Parent 'GENERAL & ADMIN EXPENSES' (grandparent 'GENERAL & ADMIN EXPENSES') includes examples: General & Admin Expenses"
+  },
+  {
+    "grandparent": "Cost of Sales - Wines",
+    "parent": "Cost of Sales - Wines",
+    "description": "Parent 'Cost of Sales - Wines' (grandparent 'Cost of Sales - Wines') includes examples: Wine - Stock Adjustment"
+  },
+  {
+    "grandparent": "EMPLOYER TAXES",
+    "parent": "TOTAL EMPLOYER TAXES",
+    "description": "Parent 'TOTAL EMPLOYER TAXES' (grandparent 'EMPLOYER TAXES') includes examples: NY MTA"
+  },
+  {
+    "grandparent": "Permits & Filing Fees\"",
+    "parent": "OTHER FINANCIAL COST",
+    "description": "Parent 'OTHER FINANCIAL COST' (grandparent 'Permits & Filing Fees\"') includes examples: \"Licenses"
+  },
+  {
+    "grandparent": "TOTAL OTHER INCOME",
+    "parent": "TOTAL OTHER INCOME",
+    "description": "Parent 'TOTAL OTHER INCOME' (grandparent 'TOTAL OTHER INCOME') includes examples: Interest Income"
+  },
+  {
+    "grandparent": "Uncategorized Income",
+    "parent": "Uncategorized Income",
+    "description": "Parent 'Uncategorized Income' (grandparent 'Uncategorized Income') includes examples: Uncategorized Income"
+  },
+  {
+    "grandparent": "Total Uncategorized",
+    "parent": "Total Uncategorized",
+    "description": "Parent 'Total Uncategorized' (grandparent 'Total Uncategorized') includes examples: Suspense Account"
+  },
+  {
+    "grandparent": "TOTAL COMMUNICATION",
+    "parent": "TOTAL COMMUNICATION",
+    "description": "Parent 'TOTAL COMMUNICATION' (grandparent 'TOTAL COMMUNICATION') includes examples: Internet/Email"
+  },
+  {
+    "grandparent": "TOTAL REVENUE",
+    "parent": "TOTAL REVENUE",
+    "description": "Parent 'TOTAL REVENUE' (grandparent 'TOTAL REVENUE') includes examples: Intercompany-Tutto Mare"
+  }
+]
