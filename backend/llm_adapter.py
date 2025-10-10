@@ -13,11 +13,12 @@ import os
 
 from dotenv import load_dotenv
 from openai import AzureOpenAI
+from api_app import get_secret
 
 load_dotenv()
 
 client = AzureOpenAI(
-    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    api_key=get_secret("AZURE_OPENAI_API_KEY"),
     azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
     api_version=os.getenv("OPENAI_API_VERSION"),
 )

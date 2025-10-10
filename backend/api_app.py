@@ -13,6 +13,9 @@ import langextract_style
 import numpy as np
 import pandas as pd
 import pyodbc
+from azure.identity import DefaultAzureCredential
+from azure.keyvault.secrets import SecretClient
+from dotenv import load_dotenv
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -45,17 +48,72 @@ FALLBACK_CSV = "filtered_data.csv"
 # SQL Processing Route
 ###########################
 
-# DB connection settings
-SERVER = os.getenv("SERVER")
-DATABASE = os.getenv("DATABASE")
-USERNAME = "Pchasedev"
-PASSWORD = os.getenv("PASSWORD")
+# Load environment variables
+load_dotenv()
 
-CONN_STR = (
-    f"DRIVER={{ODBC Driver 18 for SQL Server}};"
-    f"SERVER={SERVER};DATABASE={DATABASE};"
-    f"UID={USERNAME};PWD={PASSWORD};TrustServerCertificate=yes;"
+# Set up logging
+logging.basicConfig(
+    level=logging.INFO, 
+    format='%(asctime)s - %(name)s - %(levelname)s - %(funcName)s:%(lineno)d - %(message)s',
+    handlers=[
+        logging.FileHandler('gl_auto_comments.log'),
+        logging.StreamHandler()
+    ]
 )
+
+# Initialize Key Vault client
+KEY_VAULT_NAME = os.getenv("KEY_VAULT_NAME")
+KV_URI = f"https://{KEY_VAULT_NAME}.vault.azure.net/"
+
+# Initialize Azure credentials
+try:
+    # In production, DefaultAzureCredential will automatically use the managed identity
+    # configured in the deployment.yaml without needing explicit client ID
+    credential = DefaultAzureCredential()
+    logger.info("Successfully initialized DefaultAzureCredential")
+    secret_client = SecretClient(vault_url=KV_URI, credential=credential)
+except Exception as e:
+    logger.error(f"Failed to initialize Azure credential: {str(e)}")
+    raise
+
+def get_secret(secret_name: str) -> str:
+    """
+    Fetch a secret from Azure Key Vault.
+    
+    Args:
+        secret_name (str): Name of the secret in Key Vault
+        
+    Returns:
+        str: Secret value
+    """
+    try:
+        return secret_client.get_secret(secret_name).value
+    except Exception as e:
+        logger.error(f"Failed to fetch secret {secret_name} from Key Vault: {str(e)}")
+        raise
+
+def get_db_conn_str():
+    """Get database connection string with credentials from Key Vault"""
+    try:
+        conn_str_secret = get_secret("DB-CONN-STR")
+        parsed_conn_str = dict(item.split("=") for item in conn_str_secret.split(";") if "=" in item)
+        
+        # Construct connection string with database name from environment
+        conn_str = (
+            "DRIVER={ODBC Driver 18 for SQL Server};"
+            f"SERVER={parsed_conn_str.get('Data Source')};"
+            f"DATABASE={os.getenv('DATABASE')};"  # Keep DATABASE from env vars
+            f"UID={parsed_conn_str.get('User ID')};"
+            f"PWD={parsed_conn_str.get('Password')};"
+            "TrustServerCertificate=yes;"
+        )
+        return conn_str
+    except Exception as e:
+        logger.error(f"Failed to construct database connection string: {str(e)}")
+        raise
+
+# Initialize the connection string
+CONN_STR = get_db_conn_str()
 
 
 class CompanyRequest(BaseModel):
