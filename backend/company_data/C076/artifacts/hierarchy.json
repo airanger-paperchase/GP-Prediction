@@ -1,0 +1,793 @@
+{
+  "TOTAL COMMUNICATION": {
+    "TOTAL COMMUNICATION": [
+      "Telephone & Internet",
+      "Postage / Courier",
+      "Internet/Email"
+    ]
+  },
+  "TOTAL TRAVEL & ENTERTAINMENT": {
+    "TOTAL TRAVEL & ENTERTAINMENT": [
+      "Taxi & Uber Charges",
+      "Travel Expenses"
+    ]
+  },
+  "REPAIRS & MAINTENANCE": {
+    "REPAIRS & MAINTENANCE": [
+      "Repairs - General",
+      "Repairs - Building"
+    ]
+  },
+  "ADMINISTRATION": {
+    "ADMINISTRATION": [
+      "Eduardo Hochschild",
+      "Accounts Payable - EUR"
+    ],
+    "Total Third Party Fees": [
+      "Photography"
+    ]
+  },
+  "STAFF COST": {
+    "Total Employer Benefits": [
+      "Training",
+      "Dental",
+      "401K - Retirement Plan",
+      "Medical",
+      "Vision"
+    ],
+    "BOH SALARIES": [
+      "Kitchen"
+    ],
+    "Total Wages - F.O.H. Salaried": [
+      "Retained Earnings",
+      "Juan Correa",
+      "Gift Card Liability",
+      "Sales Ledger Control A/C - Gift",
+      "PPP - Rent",
+      "Members Allocation",
+      "Credit Card - 2",
+      "IC Llama Spiral 66",
+      "GC Buildout",
+      "LLama Miami",
+      "PPP - Payroll Liability",
+      "Net Wages Payable",
+      "Inventory Asset",
+      "ERIK RAMIREZ",
+      "2017 Wages Adjustment",
+      "Wages - Training",
+      "A/R Control A/c",
+      "Summer Long Purchase",
+      "Chase Operating Bank - 7653",
+      "Staff Wages",
+      "PPP - GAS"
+    ],
+    "TOTAL EMPLOYEE BENEFITS": [
+      "Wage Garnishment"
+    ],
+    "Total Wages - F.O.H. Wages": [
+      "IC Llama Spiral",
+      "Suspense Acc - CC 0848 & 4409",
+      "6",
+      "Prep Cook & Expeditor",
+      "Sales Orders",
+      "Retail Inventory",
+      "IC Llama Inn Madrid",
+      "Deposits"
+    ],
+    "TOTAL STAFF COST": [
+      "Sous Chef",
+      "El Golpe Holdings INC.",
+      "4",
+      "Other Staff Cost",
+      "Staff Wages",
+      "State SUI",
+      "PPP Payroll Expense",
+      "5",
+      "Federal FUTA",
+      "Payroll Expenses",
+      "1",
+      "2"
+    ],
+    "Total Wages": [
+      "2",
+      "Payroll Misc Deductions"
+    ],
+    "Wages - B.O.H.": [
+      "Line Cook",
+      "Bar Tender \\ Barbacks",
+      "Dishwasher"
+    ],
+    "Employer Taxes": [
+      "Employer Taxes",
+      "Medicare"
+    ],
+    "Wages - Tips": [
+      "Cash Tips Payable"
+    ],
+    "Wages - F.O.H. Wages": [
+      "Chef"
+    ],
+    "STAFF COST": [
+      "Cash - Wages",
+      "Manuel Yunga"
+    ],
+    "Wages - F.O.H. Salaried": [
+      "Tips Payable"
+    ],
+    "Total Employer Taxes": [
+      "Ny Re-employment",
+      "OASDI",
+      "Ny MTAI"
+    ],
+    "Wages - B.O.H. Salaried": [
+      "Tournant"
+    ],
+    "STAFF INSURANCE": [
+      "Staff Workmans Comp"
+    ]
+  },
+  "ADVERTISING / PROMOTION": {
+    "ADVERTISING / PROMOTION": [
+      "Event Expenses",
+      "Commission Expense",
+      "Branding & Design",
+      "Subscriptions",
+      "Advertising",
+      "Complimentary Cost"
+    ],
+    "TOTAL PROMOTION": [
+      "Interior Design"
+    ]
+  },
+  "TOTAL OTHER STAFF COST": {
+    "TOTAL OTHER STAFF COST": [
+      "Staff Uniform Re-Purchases"
+    ],
+    "Controllables": [
+      "Kitchen Buildout",
+      "Building & Improvement"
+    ],
+    "Controllables - Other": [
+      "Structural Engineer",
+      "Lighting Consultant"
+    ],
+    "Sales Tax": [
+      "Sales Tax Payable - Tourism"
+    ],
+    "TOTAL OTHER EXPENSE": [
+      "Chase - CAPEX 3150"
+    ],
+    "Total Other Expense": [
+      "Prepaid Expenses"
+    ],
+    "TOTAL OTHER EXPENSES": [
+      "PPP - GAS",
+      "1"
+    ],
+    "TOTAL ADVERTISING AND MARKETING": [
+      "Advertising/Promotion"
+    ],
+    "P & L Amortization - Other": [
+      "Accumulated Amortization"
+    ],
+    "PL Depreciation & Amortization": [
+      "Accumulated Depreciation"
+    ],
+    "P & L Depreciation & Amortization": [
+      "Accumulated Depreciation"
+    ]
+  },
+  "FINANCIAL COST": {
+    "Interest on Loans": [
+      "Loan 2",
+      "RRF - Loan Liability",
+      "Loan 1"
+    ],
+    "FINANCIAL COST": [
+      "Royalties",
+      "Payroll Processing Charges",
+      "Penalties",
+      "Donations",
+      "Credit Card Charges",
+      "Tangible Property Taxes",
+      "Bank Charges",
+      "Financial Cost"
+    ],
+    "Interest & Other Expenses": [
+      "PPP - Loan Liability",
+      "Credit Card - 7282"
+    ],
+    "TOTAL FINANCIAL COST": [
+      "Interest Paid on Loans"
+    ]
+  },
+  "SUPPLIES & MAINTENANCE": {
+    "TOTAL SUPPLIES & MAINTENANCE": [
+      "Packaging supply"
+    ],
+    "SUPPLIES & MAINTENANCE": [
+      "FOH Supplies / accessories",
+      "Music",
+      "Glassware",
+      "Office Supplies/Stationery",
+      "Landscape, Flowers & Candles",
+      "BOH Supplies / accessories",
+      "Barware",
+      "Chinaware",
+      "Pest Control",
+      "Cleaning Supplies",
+      "Cleaning",
+      "Paper Supplies",
+      "IT Cost",
+      "Menus"
+    ],
+    "Supplies": [
+      "Supplies"
+    ],
+    "Restaurant": [
+      "Restaurant"
+    ]
+  },
+  "TRAVEL & ENTERTAINMENT": {
+    "TRAVEL & ENTERTAINMENT": [
+      "Airfare",
+      "Web Design & Maintenance",
+      "Valet Parking - Guest",
+      "Lodging",
+      "Clearing and Freight charges"
+    ]
+  },
+  "TOTAL PROMOTION": {
+    "TOTAL PROMOTION": [
+      "Mailchimp & Mailers",
+      "R&D Dining Expenses",
+      "PR / Events"
+    ]
+  },
+  "Total Other Financial Costs": {
+    "TOTAL OTHER FINANCIAL COST": [
+      "Chase - Saving 3961"
+    ]
+  },
+  "TOTAL SUPPLIES & MAINTENANCE": {
+    "SUPPLIES & MAINTENANCE": [
+      "Linen Likes/C-Folds"
+    ]
+  },
+  "PL Depreciation & Amortization": {
+    "PL Depreciation & Amortization": [
+      "P & L Amortization",
+      "P & L Depreciation"
+    ]
+  },
+  "TOTAL COST OF GOODS SOLD": {
+    "Cost of Sales - Food": [
+      "Food Inventory",
+      "Food, Bussers & Servers"
+    ],
+    "Cost of Goods Sold": [
+      "Inventory"
+    ]
+  },
+  "TOTAL SUPPLIES & CLEANING": {
+    "TOTAL SUPPLIES & CLEANING": [
+      "Silverware",
+      "BOH & FOH Supplies",
+      "Equipment Rental & AutoChlor",
+      "White Plains Linen & Laundry",
+      "Dry Cleaning & Uniforms Clean",
+      "Garbage Disposal",
+      "Paper Supplies-SummerLong",
+      "Platware",
+      "Cleaning Crew"
+    ]
+  },
+  "Total Other Income": {
+    "TOTAL OTHER INCOME": [
+      "Opening Balance Equity"
+    ],
+    "Total Other Income": [
+      "Investment to Llama San"
+    ],
+    "Other Income & Expenses": [
+      "Members Contributions",
+      "Undeposited Funds",
+      "Dividend Disbursement"
+    ]
+  },
+  "TOTAL OTHER EXPENSE": {
+    "TOTAL REPAIRS & MAINTENANCE": [
+      "Window Cleaning",
+      "Repairs & Maintenance",
+      "Plant Maintenance"
+    ],
+    "TOTAL SUPPLIES & MAINTENANCE": [
+      "Supplies & Maintenance"
+    ],
+    "Other Expense": [
+      "Accrued Liabilities"
+    ],
+    "TOTAL OTHER EXPENSE": [
+      "IT Securing"
+    ],
+    "ADMINISTRATION": [
+      "Architect"
+    ],
+    "TOTAL COMMUNICATION": [
+      "Communication"
+    ],
+    "P & L Depreciation & Amortization": [
+      "Accumulated Depreciation"
+    ],
+    "Sales Tax 2015": [
+      "Sales Tax Payable"
+    ],
+    "PL Depreciation & Amortization": [
+      "Accumulated Depreciation"
+    ]
+  },
+  "CONTROLLABLES": {
+    "Office Supplies/Stationery": [
+      "Office"
+    ],
+    "DIRECT OPERATING EXPENSES": [
+      "Acoustical",
+      "Hood, Grease Traps & Beer Lines",
+      "MEP"
+    ],
+    "Direct Operating Expenses": [
+      "Hood Buildout",
+      "Construction Management"
+    ],
+    "TOTAL TELECOMMUNICATION COST": [
+      "PPP Telephone"
+    ],
+    "SUPPLIES & MAINTENANCE": [
+      "Auto Chlor"
+    ]
+  },
+  "OCCUPANCY": {
+    "OCCUPANCY": [
+      "CAM Charges",
+      "Real Estate Escalation Tax",
+      "Electricity",
+      "Commercial Rent Tax",
+      "Occupancy",
+      "Gas",
+      "Rent",
+      "Water",
+      "Security Services"
+    ],
+    "TOTAL OCCUPANCY": [
+      "Permits"
+    ],
+    "TOTAL UTILITIES": [
+      "PPP - Electricity"
+    ],
+    "Rent": [
+      "Deposit - Rent"
+    ]
+  },
+  "Total Other Expense": {
+    "Other Expenses": [
+      "Reconciliation Discrepancies",
+      "Child Support",
+      "Fuel Charges",
+      "IC La Molina Holdings"
+    ],
+    "Other Expense": [
+      "Suspense Acc - Bank Acc 1253",
+      "Suspense Acc - Bank Acc 3150",
+      "Uncleared Checks Liability",
+      "Deposit - Other",
+      "Tangible Property Taxes Payable",
+      "Suspense Account",
+      "Deferred Liabilities"
+    ],
+    "OTHER EXPENSES": [
+      "Voluntary Disabitlity"
+    ],
+    "PL Depreciation & Amortization": [
+      "Accumulated Depreciation"
+    ]
+  },
+  "REVENUE": {
+    "REVENUE": [
+      "Revenue - Tea/Coffee",
+      "Revenue - Wines",
+      "Revenue - Food",
+      "Revenue - Liquor",
+      "Revenue - Retails",
+      "Sales Ledger Control A/C -Event"
+    ],
+    "TOTAL REVENUE": [
+      "Revenue - Other Beverages",
+      "Revenue - Summer Long",
+      "Revenue - Beer",
+      "Revenue - Covid Surcharge",
+      "Revenue - Other",
+      "Other Revenue-Resy Fee",
+      "IC LLAMA MIAMI",
+      "2"
+    ],
+    "Total Other Income": [
+      "IC La Molina Shared Service Inc"
+    ]
+  },
+  "TOTAL OCCUPANCY": {
+    "TOTAL OCCUPANCY": [
+      "General Liability Insurance",
+      "Storage Rent &Vestibule Storage"
+    ]
+  },
+  "TOTAL FINANCIAL COST": {
+    "TOTAL FINANCIAL COST": [
+      "Charity",
+      "Management Fees",
+      "Licenses and Permits",
+      "PaperChase Fees",
+      "Sales Tax Expense",
+      "Bookkeeping Services (Pchase)"
+    ],
+    "Bank Interest": [
+      "Bank - 9786"
+    ]
+  },
+  "COST OF GOODS SOLD": {
+    "COST OF GOODS SOLD": [
+      "Cost of Sales - Food",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Tea/Coffee",
+      "Cost of Sales - Retails",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Beer"
+    ],
+    "Total Cost of Sales - Meat": [
+      "IC Deli Llama Inn"
+    ],
+    "Total Cost of Sales - Retails": [
+      "Retail Purchases",
+      "Retail - Stock Adjustment"
+    ],
+    "Total Cost of Sales - Wines": [
+      "Wine Inventory"
+    ],
+    "COG Liquor": [
+      "Liquor Purchases"
+    ],
+    "TOTAL COST OF GOODS SOLD": [
+      "Cost of Goods - Summer Long",
+      "Cost of Goods-Caviar Commission"
+    ],
+    "Cost of Sales - Food": [
+      "Charcoal"
+    ],
+    "COG Other Beverages": [
+      "Other Bev - Stock Adjustment",
+      "Other Bev Purchases"
+    ],
+    "Total Cost of Sales - Other Beverages": [
+      "Other Beverages Inventory"
+    ],
+    "Total Cost of Sales - Wine": [
+      "Wine Purchases"
+    ]
+  },
+  "Other Income & Expenses": {
+    "Other Income & Expenses": [
+      "Bank Transfer A/C",
+      "Other Income",
+      "Rounding Differences",
+      "Write Off",
+      "Account Receivable A/C"
+    ],
+    "Other Expense": [
+      "Suspense Acc - Bank Acc 3961"
+    ]
+  },
+  "RESTAURANT UTILITIES": {
+    "RESTAURANT UTILITIES": [
+      "Cleaning Servies"
+    ]
+  },
+  "Cost of Sales - Wines": {
+    "Cost of Sales - Wines": [
+      "Wine - Stock Adjustment"
+    ]
+  },
+  "Cost of Sales - Food": {
+    "Cost of Sales - Food": [
+      "Food - Stock Adjustment",
+      "Food Purchases"
+    ]
+  },
+  "Cost of Sales - Liquor": {
+    "Cost of Sales - Liquor": [
+      "Liquor Inventory",
+      "Liquor Attorney",
+      "Liquor - Stock Adjustment",
+      "Liquor Discounts"
+    ],
+    "Cost of Sales - Beer": [
+      "Beer Inventory"
+    ]
+  },
+  "TOTAL ADVERTISING AND MARKETING": {
+    "TOTAL ADVERTISING AND MARKETING": [
+      "Advertising/Promotion"
+    ]
+  },
+  "Other Expenses": {
+    "Kitchen/Hood": [
+      "Kitchen/Hood"
+    ],
+    "Other Expenses": [
+      "La Molina Holdings LLC",
+      "Other Expenses"
+    ],
+    "Intangible Assets": [
+      "Intangible Assets"
+    ],
+    "Furniture and Fixtures": [
+      "Furniture and Fixtures"
+    ],
+    "Leasehold": [
+      "Leasehold"
+    ]
+  },
+  "PROFESSIONAL FEE": {
+    "PROFESSIONAL FEE": [
+      "Tax Fees",
+      "Legal Fees",
+      "Professional Fees",
+      "Management Fee",
+      "Audit Fees",
+      "Consulting Fees"
+    ]
+  },
+  "Non-Operating Expenses": {
+    "Non-Operating Expenses": [
+      "Non-Operating Expenses"
+    ]
+  },
+  "TOTAL REPAIRS & MAINTENANCE": {
+    "TOTAL REPAIRS & MAINTENANCE": [
+      "Equipment",
+      "Repairs / Maintenance",
+      "F&F",
+      "Maintenance Contracts",
+      "Repairs & Maintenance"
+    ]
+  },
+  "TOTAL STAFF COST": {
+    "TOTAL STAFF COST": [
+      "Wages-Bonus",
+      "Wages-SummerLong",
+      "Chef Salaries",
+      "Wages - F.O.H Management",
+      "Wages - F.O.H. Line Labor",
+      "Wages - B.O.H.  Line Labor"
+    ],
+    "Total Wages - F.O.H. Salaried": [
+      "BOH Incentive Plan",
+      "Retained Earnings / (Deficit)"
+    ],
+    "Total Wages - F.O.H. Wages": [
+      "Chase - Payroll 1253"
+    ],
+    "TOTAL SUPPLIES & MAINTENANCE": [
+      "Supplies & Maintenance"
+    ]
+  },
+  "Total Employer Taxes": {
+    "Total Employer Taxes": [
+      "Payroll Tax Payable"
+    ]
+  },
+  "TOTAL OTHER EXPENSES": {
+    "TOTAL OTHER EXPENSES": [
+      "Estimates",
+      "1",
+      "Embezzlement",
+      "AllPro & DayNite",
+      "Corporation Tax",
+      "Test",
+      "Exchange Differences",
+      "Investment to Deli Llama"
+    ],
+    "Other Expenses": [
+      "Staff Loans/Salary Advances"
+    ]
+  },
+  "OTHER INCOME & EXPENSES": {
+    "Leasehold Improvements": [
+      "Leasehold Improvements"
+    ]
+  },
+  "Cost of Sales - Tea/Coffee": {
+    "Cost of Sales - Tea/Coffee": [
+      "Tea/Coffee - Stock Adjustment",
+      "Tea/Coffee Purchases"
+    ]
+  },
+  "Other Expense": {
+    "Other Expenses": [
+      "Accounts Payable - USD",
+      "Petty Cash Control",
+      "Royalties Payable",
+      "IC Llama San LLC",
+      "Provisions for HRA Funding"
+    ],
+    "Total Other Expense": [
+      "Uncategorized Expense"
+    ],
+    "Other Expense": [
+      "Accounts Payable - GBP",
+      "Petty Cash Control Account",
+      "Suspense Acc. - Bank Acc 7653"
+    ],
+    "Taxes & Permits": [
+      "Corporation Tax Payable"
+    ]
+  },
+  "G&A": {
+    "Legal & Accounting": [
+      "Legal Attorney"
+    ],
+    "Interest on Tax/Penalties": [
+      "Interest on Tax/Penalties"
+    ]
+  },
+  "Tips Paid": {
+    "Tips Paid": [
+      "Tips Paid"
+    ]
+  },
+  "OTHER STAFF COST": {
+    "OTHER STAFF COST": [
+      "Staff Recruitment",
+      "Wages - 1099",
+      "Wages - Agency",
+      "Staff Training",
+      "Staff First Aid",
+      "Staff Accommodation/Relocation",
+      "Staff Welfare",
+      "NY Paid Family Leave",
+      "Staff Insurance",
+      "Staff Meals"
+    ]
+  },
+  "Total Cost of Sales": {
+    "Cost of Sales - Tea/Coffee": [
+      "Tea/Coffee Inventory"
+    ]
+  },
+  "OTHER EXPENSES": {
+    "OTHER EXPENSES": [
+      "Non-GC Buildout"
+    ]
+  },
+  "Business Development Cost": {
+    "Business Development Cost": [
+      "Business Development Cost"
+    ]
+  },
+  "P&L AMORTIZATION": {
+    "Fees": [
+      "Fees"
+    ]
+  },
+  "Cost of Sales - Beer": {
+    "Cost of Sales - Beer": [
+      "Beer - Stock Adjustment",
+      "Beer Purchases"
+    ]
+  },
+  "TOTAL OPERATING EXPENSES": {
+    "TOTAL OPERATING EXPENSES": [
+      "Code & Expeditor",
+      "3"
+    ],
+    "Total Operating Expenses": [
+      "Audio/Visual"
+    ]
+  },
+  "Total Employer Benefits": {
+    "Total Employer Benefits": [
+      "Susp Acc - Check Against 2015"
+    ]
+  },
+  "TOTAL OTHER FINANCIAL COST": {
+    "Interest & Other Expenses": [
+      "Long Term Debt"
+    ]
+  },
+  "Total Wages - F.O.H. Hourly": {
+    "Total Wages - F.O.H. Hourly": [
+      "Chase Savings - 3453",
+      "Hostess"
+    ]
+  },
+  "ADVERTISING/PROMOTION": {
+    "ADVERTISING/PROMOTION": [
+      "Used Tax on Comps",
+      "Entertainment Meals"
+    ]
+  },
+  "Wages - B.O.H. Salaried": {
+    "Wages - B.O.H. Salaried": [
+      "Net Wages Payable - Other"
+    ]
+  },
+  "GENERAL & ADMIN EXPENSES": {
+    "Furniture and Fixtures": [
+      "New Furniture, Equip & Upgrades"
+    ]
+  },
+  "OTHER FINANCIAL COSTS": {
+    "Interest on Loans": [
+      "Loans Payable"
+    ]
+  },
+  "Total Wages - F.O.H. Salaried": {
+    "P & L Amortization - Other": [
+      "Accumulated Amortization"
+    ]
+  },
+  "TOTAL PRE OPENING EXPENSES": {
+    "Pre-Opening Expenses": [
+      "Organizational Costs"
+    ]
+  },
+  "TOTAL OTHER INCOME": {
+    "Other Income & Expenses": [
+      "*Undeposited Funds"
+    ]
+  },
+  "Bank Interest": {
+    "Bank Interest": [
+      "Bank Interest"
+    ]
+  },
+  "GENERAL & ADMINISTRATIVE": {
+    "GENERAL & ADMINISTRATIVE": [
+      "POS"
+    ]
+  },
+  "TOTAL FINANCIAL COSTS": {
+    "TOTAL FINANCIAL COSTS": [
+      "Financial Cost"
+    ]
+  },
+  "TOTAL PROFESSIONAL FEES": {
+    "Professional and Consutlng": [
+      "Kitchen Consultant"
+    ]
+  },
+  "SUPPLIES AND MAINTENANCE": {
+    "Office Supplies": [
+      "Office"
+    ]
+  },
+  "Bussers & Servers\"": {
+    "TOTAL COST OF GOODS SOLD": [
+      "\"Food"
+    ]
+  },
+  "Grease Traps & Beer Lines\"": {
+    "CONTROLLABLES": [
+      "\"Hood"
+    ]
+  },
+  "Flowers & Candles\"": {
+    "SUPPLIES & MAINTENANCE": [
+      "\"Landscape"
+    ]
+  },
+  "Equip & Upgrades\"": {
+    "GENERAL & ADMIN EXPENSES": [
+      "\"New Furniture"
+    ]
+  }
+}

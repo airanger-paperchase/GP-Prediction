@@ -1,0 +1,69 @@
+# ---------------------------------------------------------
+# Base Image — Debian 12 (Bookworm) with Python 3.11
+# ---------------------------------------------------------
+FROM python:3.11-slim-bookworm
+
+# Environment variables
+ENV DEBIAN_FRONTEND=noninteractive \
+    PYTHONUNBUFFERED=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PYTHONDONTWRITEBYTECODE=1
+
+# ---------------------------------------------------------
+# Install essential system dependencies and Microsoft ODBC Driver for SQL Server
+# ---------------------------------------------------------
+RUN set -eux; \
+    apt-get update && apt-get install -y --no-install-recommends \
+        curl \
+        gnupg \
+        ca-certificates \
+        build-essential \
+        gcc \
+        g++ \
+        unixodbc \
+        unixodbc-dev \
+        libgomp1; \
+    \
+    # Add Microsoft repository securely (for msodbcsql18)
+    curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor -o /usr/share/keyrings/microsoft-prod.gpg; \
+    echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/debian/12/prod bookworm main" > /etc/apt/sources.list.d/microsoft-prod.list; \
+    \
+    apt-get update; \
+    ACCEPT_EULA=Y apt-get install -y --no-install-recommends msodbcsql18; \
+    \
+    # Clean up APT cache to reduce image size
+    apt-get clean; \
+    rm -rf /var/lib/apt/lists/* /tmp/*
+
+# ---------------------------------------------------------
+# Set working directory and install Python dependencies
+# ---------------------------------------------------------
+WORKDIR /app
+
+COPY requirements.txt ./
+
+RUN pip install --no-cache-dir --upgrade pip setuptools wheel && \
+    pip install --no-cache-dir -r requirements.txt
+
+# ---------------------------------------------------------
+# Copy application code and set non-root user
+# ---------------------------------------------------------
+COPY . .
+
+RUN useradd -m -u 1000 appuser && \
+    chown -R appuser:appuser /app
+
+USER appuser
+
+# ---------------------------------------------------------
+# Expose port and define healthcheck
+# ---------------------------------------------------------
+EXPOSE 6514
+
+HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:6514/health || exit 1
+
+# ---------------------------------------------------------
+# Default command to run the FastAPI/Starlette app with Uvicorn
+# ---------------------------------------------------------
+CMD ["uvicorn", "api_app:app", "--host", "0.0.0.0", "--port", "6514", "--workers", "4"]

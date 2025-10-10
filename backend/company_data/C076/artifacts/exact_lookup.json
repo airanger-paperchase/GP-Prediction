@@ -1,0 +1,1350 @@
+{
+  "Telephone & Internet": {
+    "parent": "TOTAL COMMUNICATION",
+    "grandparent": "TOTAL COMMUNICATION"
+  },
+  "Taxi & Uber Charges": {
+    "parent": "TOTAL TRAVEL & ENTERTAINMENT",
+    "grandparent": "TOTAL TRAVEL & ENTERTAINMENT"
+  },
+  "Repairs - General": {
+    "parent": "REPAIRS & MAINTENANCE",
+    "grandparent": "REPAIRS & MAINTENANCE"
+  },
+  "Eduardo Hochschild": {
+    "parent": "ADMINISTRATION",
+    "grandparent": "ADMINISTRATION"
+  },
+  "Training": {
+    "parent": "Total Employer Benefits",
+    "grandparent": "STAFF COST"
+  },
+  "Event Expenses": {
+    "parent": "ADVERTISING / PROMOTION",
+    "grandparent": "ADVERTISING / PROMOTION"
+  },
+  "Staff Uniform Re-Purchases": {
+    "parent": "TOTAL OTHER STAFF COST",
+    "grandparent": "TOTAL OTHER STAFF COST"
+  },
+  "Kitchen": {
+    "parent": "BOH SALARIES",
+    "grandparent": "STAFF COST"
+  },
+  "Loan 2": {
+    "parent": "Interest on Loans",
+    "grandparent": "FINANCIAL COST"
+  },
+  "Packaging supply": {
+    "parent": "TOTAL SUPPLIES & MAINTENANCE",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Retained Earnings": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Airfare": {
+    "parent": "TRAVEL & ENTERTAINMENT",
+    "grandparent": "TRAVEL & ENTERTAINMENT"
+  },
+  "Wage Garnishment": {
+    "parent": "TOTAL EMPLOYEE BENEFITS",
+    "grandparent": "STAFF COST"
+  },
+  "Mailchimp & Mailers": {
+    "parent": "TOTAL PROMOTION",
+    "grandparent": "TOTAL PROMOTION"
+  },
+  "Chase - Saving 3961": {
+    "parent": "TOTAL OTHER FINANCIAL COST",
+    "grandparent": "Total Other Financial Costs"
+  },
+  "Linen Likes/C-Folds": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "TOTAL SUPPLIES & MAINTENANCE"
+  },
+  "FOH Supplies / accessories": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Juan Correa": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Postage / Courier": {
+    "parent": "TOTAL COMMUNICATION",
+    "grandparent": "TOTAL COMMUNICATION"
+  },
+  "IC Llama Spiral": {
+    "parent": "Total Wages - F.O.H. Wages",
+    "grandparent": "STAFF COST"
+  },
+  "P & L Amortization": {
+    "parent": "PL Depreciation & Amortization",
+    "grandparent": "PL Depreciation & Amortization"
+  },
+  "Food Inventory": {
+    "parent": "Cost of Sales - Food",
+    "grandparent": "TOTAL COST OF GOODS SOLD"
+  },
+  "Gift Card Liability": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Silverware": {
+    "parent": "TOTAL SUPPLIES & CLEANING",
+    "grandparent": "TOTAL SUPPLIES & CLEANING"
+  },
+  "Sous Chef": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "STAFF COST"
+  },
+  "Opening Balance Equity": {
+    "parent": "TOTAL OTHER INCOME",
+    "grandparent": "Total Other Income"
+  },
+  "2": {
+    "parent": "TOTAL REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "Line Cook": {
+    "parent": "Wages - B.O.H.",
+    "grandparent": "STAFF COST"
+  },
+  "Window Cleaning": {
+    "parent": "TOTAL REPAIRS & MAINTENANCE",
+    "grandparent": "TOTAL OTHER EXPENSE"
+  },
+  "Office": {
+    "parent": "Office Supplies",
+    "grandparent": "SUPPLIES AND MAINTENANCE"
+  },
+  "Employer Taxes": {
+    "parent": "Employer Taxes",
+    "grandparent": "STAFF COST"
+  },
+  "CAM Charges": {
+    "parent": "OCCUPANCY",
+    "grandparent": "OCCUPANCY"
+  },
+  "R&D Dining Expenses": {
+    "parent": "TOTAL PROMOTION",
+    "grandparent": "TOTAL PROMOTION"
+  },
+  "PR / Events": {
+    "parent": "TOTAL PROMOTION",
+    "grandparent": "TOTAL PROMOTION"
+  },
+  "Suspense Acc - CC 0848 & 4409": {
+    "parent": "Total Wages - F.O.H. Wages",
+    "grandparent": "STAFF COST"
+  },
+  "Reconciliation Discrepancies": {
+    "parent": "Other Expenses",
+    "grandparent": "Total Other Expense"
+  },
+  "El Golpe Holdings INC.": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "STAFF COST"
+  },
+  "BOH & FOH Supplies": {
+    "parent": "TOTAL SUPPLIES & CLEANING",
+    "grandparent": "TOTAL SUPPLIES & CLEANING"
+  },
+  "Revenue - Tea/Coffee": {
+    "parent": "REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "Music": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "General Liability Insurance": {
+    "parent": "TOTAL OCCUPANCY",
+    "grandparent": "TOTAL OCCUPANCY"
+  },
+  "Charity": {
+    "parent": "TOTAL FINANCIAL COST",
+    "grandparent": "TOTAL FINANCIAL COST"
+  },
+  "Cost of Sales - Food": {
+    "parent": "COST OF GOODS SOLD",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Bank Transfer A/C": {
+    "parent": "Other Income & Expenses",
+    "grandparent": "Other Income & Expenses"
+  },
+  "Payroll Misc Deductions": {
+    "parent": "Total Wages",
+    "grandparent": "STAFF COST"
+  },
+  "Glassware": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Cleaning Servies": {
+    "parent": "RESTAURANT UTILITIES",
+    "grandparent": "RESTAURANT UTILITIES"
+  },
+  "Equipment Rental & AutoChlor": {
+    "parent": "TOTAL SUPPLIES & CLEANING",
+    "grandparent": "TOTAL SUPPLIES & CLEANING"
+  },
+  "Commission Expense": {
+    "parent": "ADVERTISING / PROMOTION",
+    "grandparent": "ADVERTISING / PROMOTION"
+  },
+  "Wine - Stock Adjustment": {
+    "parent": "Cost of Sales - Wines",
+    "grandparent": "Cost of Sales - Wines"
+  },
+  "Food - Stock Adjustment": {
+    "parent": "Cost of Sales - Food",
+    "grandparent": "Cost of Sales - Food"
+  },
+  "Liquor Inventory": {
+    "parent": "Cost of Sales - Liquor",
+    "grandparent": "Cost of Sales - Liquor"
+  },
+  "Revenue - Other Beverages": {
+    "parent": "TOTAL REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "Cash Tips Payable": {
+    "parent": "Wages - Tips",
+    "grandparent": "STAFF COST"
+  },
+  "Branding & Design": {
+    "parent": "ADVERTISING / PROMOTION",
+    "grandparent": "ADVERTISING / PROMOTION"
+  },
+  "Suspense Acc - Bank Acc 1253": {
+    "parent": "Other Expense",
+    "grandparent": "Total Other Expense"
+  },
+  "Revenue - Wines": {
+    "parent": "REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "6": {
+    "parent": "Total Wages - F.O.H. Wages",
+    "grandparent": "STAFF COST"
+  },
+  "White Plains Linen & Laundry": {
+    "parent": "TOTAL SUPPLIES & CLEANING",
+    "grandparent": "TOTAL SUPPLIES & CLEANING"
+  },
+  "Kitchen Buildout": {
+    "parent": "Controllables",
+    "grandparent": "TOTAL OTHER STAFF COST"
+  },
+  "Advertising/Promotion": {
+    "parent": "TOTAL ADVERTISING AND MARKETING",
+    "grandparent": "TOTAL OTHER STAFF COST"
+  },
+  "Suspense Acc - Bank Acc 3150": {
+    "parent": "Other Expense",
+    "grandparent": "Total Other Expense"
+  },
+  "Royalties": {
+    "parent": "FINANCIAL COST",
+    "grandparent": "FINANCIAL COST"
+  },
+  "Office Supplies/Stationery": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Kitchen/Hood": {
+    "parent": "Kitchen/Hood",
+    "grandparent": "Other Expenses"
+  },
+  "Tax Fees": {
+    "parent": "PROFESSIONAL FEE",
+    "grandparent": "PROFESSIONAL FEE"
+  },
+  "RRF - Loan Liability": {
+    "parent": "Interest on Loans",
+    "grandparent": "FINANCIAL COST"
+  },
+  "Non-Operating Expenses": {
+    "parent": "Non-Operating Expenses",
+    "grandparent": "Non-Operating Expenses"
+  },
+  "Equipment": {
+    "parent": "TOTAL REPAIRS & MAINTENANCE",
+    "grandparent": "TOTAL REPAIRS & MAINTENANCE"
+  },
+  "Travel Expenses": {
+    "parent": "TOTAL TRAVEL & ENTERTAINMENT",
+    "grandparent": "TOTAL TRAVEL & ENTERTAINMENT"
+  },
+  "IC Deli Llama Inn": {
+    "parent": "Total Cost of Sales - Meat",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Wages-Bonus": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "TOTAL STAFF COST"
+  },
+  "Chef": {
+    "parent": "Wages - F.O.H. Wages",
+    "grandparent": "STAFF COST"
+  },
+  "Sales Ledger Control A/C - Gift": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Payroll Tax Payable": {
+    "parent": "Total Employer Taxes",
+    "grandparent": "Total Employer Taxes"
+  },
+  "Real Estate Escalation Tax": {
+    "parent": "OCCUPANCY",
+    "grandparent": "OCCUPANCY"
+  },
+  "Wages-SummerLong": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "TOTAL STAFF COST"
+  },
+  "Chef Salaries": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "TOTAL STAFF COST"
+  },
+  "Estimates": {
+    "parent": "TOTAL OTHER EXPENSES",
+    "grandparent": "TOTAL OTHER EXPENSES"
+  },
+  "Food Purchases": {
+    "parent": "Cost of Sales - Food",
+    "grandparent": "Cost of Sales - Food"
+  },
+  "1": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "STAFF COST"
+  },
+  "Leasehold Improvements": {
+    "parent": "Leasehold Improvements",
+    "grandparent": "OTHER INCOME & EXPENSES"
+  },
+  "Landscape, Flowers & Candles": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Cost of Sales - Wine": {
+    "parent": "COST OF GOODS SOLD",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Retail Purchases": {
+    "parent": "Total Cost of Sales - Retails",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Tea/Coffee - Stock Adjustment": {
+    "parent": "Cost of Sales - Tea/Coffee",
+    "grandparent": "Cost of Sales - Tea/Coffee"
+  },
+  "Electricity": {
+    "parent": "OCCUPANCY",
+    "grandparent": "OCCUPANCY"
+  },
+  "Accounts Payable - USD": {
+    "parent": "Other Expenses",
+    "grandparent": "Other Expense"
+  },
+  "Bar Tender \\ Barbacks": {
+    "parent": "Wages - B.O.H.",
+    "grandparent": "STAFF COST"
+  },
+  "Legal Attorney": {
+    "parent": "Legal & Accounting",
+    "grandparent": "G&A"
+  },
+  "Uncleared Checks Liability": {
+    "parent": "Other Expense",
+    "grandparent": "Total Other Expense"
+  },
+  "PPP - Rent": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Web Design & Maintenance": {
+    "parent": "TRAVEL & ENTERTAINMENT",
+    "grandparent": "TRAVEL & ENTERTAINMENT"
+  },
+  "Embezzlement": {
+    "parent": "TOTAL OTHER EXPENSES",
+    "grandparent": "TOTAL OTHER EXPENSES"
+  },
+  "Retail - Stock Adjustment": {
+    "parent": "Total Cost of Sales - Retails",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Tips Paid": {
+    "parent": "Tips Paid",
+    "grandparent": "Tips Paid"
+  },
+  "Staff Recruitment": {
+    "parent": "OTHER STAFF COST",
+    "grandparent": "OTHER STAFF COST"
+  },
+  "Valet Parking - Guest": {
+    "parent": "TRAVEL & ENTERTAINMENT",
+    "grandparent": "TRAVEL & ENTERTAINMENT"
+  },
+  "Structural Engineer": {
+    "parent": "Controllables - Other",
+    "grandparent": "TOTAL OTHER STAFF COST"
+  },
+  "Repairs / Maintenance": {
+    "parent": "TOTAL REPAIRS & MAINTENANCE",
+    "grandparent": "TOTAL REPAIRS & MAINTENANCE"
+  },
+  "Subscriptions": {
+    "parent": "ADVERTISING / PROMOTION",
+    "grandparent": "ADVERTISING / PROMOTION"
+  },
+  "Sales Tax Payable - Tourism": {
+    "parent": "Sales Tax",
+    "grandparent": "TOTAL OTHER STAFF COST"
+  },
+  "Acoustical": {
+    "parent": "DIRECT OPERATING EXPENSES",
+    "grandparent": "CONTROLLABLES"
+  },
+  "Uncategorized Expense": {
+    "parent": "Total Other Expense",
+    "grandparent": "Other Expense"
+  },
+  "Supplies": {
+    "parent": "Supplies",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Cash - Wages": {
+    "parent": "STAFF COST",
+    "grandparent": "STAFF COST"
+  },
+  "Tea/Coffee Inventory": {
+    "parent": "Cost of Sales - Tea/Coffee",
+    "grandparent": "Total Cost of Sales"
+  },
+  "Accounts Payable - EUR": {
+    "parent": "ADMINISTRATION",
+    "grandparent": "ADMINISTRATION"
+  },
+  "Revenue - Food": {
+    "parent": "REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "BOH Supplies / accessories": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Payroll Processing Charges": {
+    "parent": "FINANCIAL COST",
+    "grandparent": "FINANCIAL COST"
+  },
+  "Legal Fees": {
+    "parent": "PROFESSIONAL FEE",
+    "grandparent": "PROFESSIONAL FEE"
+  },
+  "Members Allocation": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Credit Card - 2": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Non-GC Buildout": {
+    "parent": "OTHER EXPENSES",
+    "grandparent": "OTHER EXPENSES"
+  },
+  "Penalties": {
+    "parent": "FINANCIAL COST",
+    "grandparent": "FINANCIAL COST"
+  },
+  "IC Llama Spiral 66": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Donations": {
+    "parent": "FINANCIAL COST",
+    "grandparent": "FINANCIAL COST"
+  },
+  "Hood, Grease Traps & Beer Lines": {
+    "parent": "DIRECT OPERATING EXPENSES",
+    "grandparent": "CONTROLLABLES"
+  },
+  "Deposit - Other": {
+    "parent": "Other Expense",
+    "grandparent": "Total Other Expense"
+  },
+  "Lighting Consultant": {
+    "parent": "Controllables - Other",
+    "grandparent": "TOTAL OTHER STAFF COST"
+  },
+  "Barware": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Wine Inventory": {
+    "parent": "Total Cost of Sales - Wines",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Cost of Sales - Liquor": {
+    "parent": "COST OF GOODS SOLD",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "GC Buildout": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "P & L Depreciation": {
+    "parent": "PL Depreciation & Amortization",
+    "grandparent": "PL Depreciation & Amortization"
+  },
+  "Repairs - Building": {
+    "parent": "REPAIRS & MAINTENANCE",
+    "grandparent": "REPAIRS & MAINTENANCE"
+  },
+  "F&F": {
+    "parent": "TOTAL REPAIRS & MAINTENANCE",
+    "grandparent": "TOTAL REPAIRS & MAINTENANCE"
+  },
+  "Business Development Cost": {
+    "parent": "Business Development Cost",
+    "grandparent": "Business Development Cost"
+  },
+  "Wages - 1099": {
+    "parent": "OTHER STAFF COST",
+    "grandparent": "OTHER STAFF COST"
+  },
+  "MEP": {
+    "parent": "DIRECT OPERATING EXPENSES",
+    "grandparent": "CONTROLLABLES"
+  },
+  "PPP - Loan Liability": {
+    "parent": "Interest & Other Expenses",
+    "grandparent": "FINANCIAL COST"
+  },
+  "Chinaware": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Fees": {
+    "parent": "Fees",
+    "grandparent": "P&L AMORTIZATION"
+  },
+  "Beer - Stock Adjustment": {
+    "parent": "Cost of Sales - Beer",
+    "grandparent": "Cost of Sales - Beer"
+  },
+  "Wages - F.O.H Management": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "TOTAL STAFF COST"
+  },
+  "Supplies & Maintenance": {
+    "parent": "TOTAL SUPPLIES & MAINTENANCE",
+    "grandparent": "TOTAL STAFF COST"
+  },
+  "Wages - Agency": {
+    "parent": "OTHER STAFF COST",
+    "grandparent": "OTHER STAFF COST"
+  },
+  "Revenue - Summer Long": {
+    "parent": "TOTAL REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "Investment to Llama San": {
+    "parent": "Total Other Income",
+    "grandparent": "Total Other Income"
+  },
+  "Management Fees": {
+    "parent": "TOTAL FINANCIAL COST",
+    "grandparent": "TOTAL FINANCIAL COST"
+  },
+  "Members Contributions": {
+    "parent": "Other Income & Expenses",
+    "grandparent": "Total Other Income"
+  },
+  "Lodging": {
+    "parent": "TRAVEL & ENTERTAINMENT",
+    "grandparent": "TRAVEL & ENTERTAINMENT"
+  },
+  "Advertising": {
+    "parent": "ADVERTISING / PROMOTION",
+    "grandparent": "ADVERTISING / PROMOTION"
+  },
+  "Licenses and Permits": {
+    "parent": "TOTAL FINANCIAL COST",
+    "grandparent": "TOTAL FINANCIAL COST"
+  },
+  "Accrued Liabilities": {
+    "parent": "Other Expense",
+    "grandparent": "TOTAL OTHER EXPENSE"
+  },
+  "Code & Expeditor": {
+    "parent": "TOTAL OPERATING EXPENSES",
+    "grandparent": "TOTAL OPERATING EXPENSES"
+  },
+  "Dry Cleaning & Uniforms Clean": {
+    "parent": "TOTAL SUPPLIES & CLEANING",
+    "grandparent": "TOTAL SUPPLIES & CLEANING"
+  },
+  "Dental": {
+    "parent": "Total Employer Benefits",
+    "grandparent": "STAFF COST"
+  },
+  "AllPro & DayNite": {
+    "parent": "TOTAL OTHER EXPENSES",
+    "grandparent": "TOTAL OTHER EXPENSES"
+  },
+  "Manuel Yunga": {
+    "parent": "STAFF COST",
+    "grandparent": "STAFF COST"
+  },
+  "LLama Miami": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "4": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "STAFF COST"
+  },
+  "Other Staff Cost": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "STAFF COST"
+  },
+  "Susp Acc - Check Against 2015": {
+    "parent": "Total Employer Benefits",
+    "grandparent": "Total Employer Benefits"
+  },
+  "Revenue - Liquor": {
+    "parent": "REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "Cost of Sales - Tea/Coffee": {
+    "parent": "COST OF GOODS SOLD",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Storage Rent &Vestibule Storage": {
+    "parent": "TOTAL OCCUPANCY",
+    "grandparent": "TOTAL OCCUPANCY"
+  },
+  "Tips Payable": {
+    "parent": "Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Cost of Sales - Retails": {
+    "parent": "COST OF GOODS SOLD",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Photography": {
+    "parent": "Total Third Party Fees",
+    "grandparent": "ADMINISTRATION"
+  },
+  "Chase - CAPEX 3150": {
+    "parent": "TOTAL OTHER EXPENSE",
+    "grandparent": "TOTAL OTHER STAFF COST"
+  },
+  "Ny Re-employment": {
+    "parent": "Total Employer Taxes",
+    "grandparent": "STAFF COST"
+  },
+  "PPP - Payroll Liability": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Garbage Disposal": {
+    "parent": "TOTAL SUPPLIES & CLEANING",
+    "grandparent": "TOTAL SUPPLIES & CLEANING"
+  },
+  "Hood Buildout": {
+    "parent": "Direct Operating Expenses",
+    "grandparent": "CONTROLLABLES"
+  },
+  "401K - Retirement Plan": {
+    "parent": "Total Employer Benefits",
+    "grandparent": "STAFF COST"
+  },
+  "Repairs & Maintenance": {
+    "parent": "TOTAL REPAIRS & MAINTENANCE",
+    "grandparent": "TOTAL REPAIRS & MAINTENANCE"
+  },
+  "Long Term Debt": {
+    "parent": "Interest & Other Expenses",
+    "grandparent": "TOTAL OTHER FINANCIAL COST"
+  },
+  "Suspense Acc - Bank Acc 3961": {
+    "parent": "Other Expense",
+    "grandparent": "Other Income & Expenses"
+  },
+  "Other Income": {
+    "parent": "Other Income & Expenses",
+    "grandparent": "Other Income & Expenses"
+  },
+  "Revenue - Beer": {
+    "parent": "TOTAL REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "Corporation Tax": {
+    "parent": "TOTAL OTHER EXPENSES",
+    "grandparent": "TOTAL OTHER EXPENSES"
+  },
+  "Paper Supplies-SummerLong": {
+    "parent": "TOTAL SUPPLIES & CLEANING",
+    "grandparent": "TOTAL SUPPLIES & CLEANING"
+  },
+  "Audio/Visual": {
+    "parent": "Total Operating Expenses",
+    "grandparent": "TOTAL OPERATING EXPENSES"
+  },
+  "Chase Savings - 3453": {
+    "parent": "Total Wages - F.O.H. Hourly",
+    "grandparent": "Total Wages - F.O.H. Hourly"
+  },
+  "Pest Control": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Test": {
+    "parent": "TOTAL OTHER EXPENSES",
+    "grandparent": "TOTAL OTHER EXPENSES"
+  },
+  "Staff Training": {
+    "parent": "OTHER STAFF COST",
+    "grandparent": "OTHER STAFF COST"
+  },
+  "Cost of Sales - Other Bev": {
+    "parent": "COST OF GOODS SOLD",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Tournant": {
+    "parent": "Wages - B.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Building & Improvement": {
+    "parent": "Controllables",
+    "grandparent": "TOTAL OTHER STAFF COST"
+  },
+  "Interior Design": {
+    "parent": "TOTAL PROMOTION",
+    "grandparent": "ADVERTISING / PROMOTION"
+  },
+  "Professional Fees": {
+    "parent": "PROFESSIONAL FEE",
+    "grandparent": "PROFESSIONAL FEE"
+  },
+  "Liquor Purchases": {
+    "parent": "COG Liquor",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Staff First Aid": {
+    "parent": "OTHER STAFF COST",
+    "grandparent": "OTHER STAFF COST"
+  },
+  "Platware": {
+    "parent": "TOTAL SUPPLIES & CLEANING",
+    "grandparent": "TOTAL SUPPLIES & CLEANING"
+  },
+  "Cost of Goods - Summer Long": {
+    "parent": "TOTAL COST OF GOODS SOLD",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Construction Management": {
+    "parent": "Direct Operating Expenses",
+    "grandparent": "CONTROLLABLES"
+  },
+  "Undeposited Funds": {
+    "parent": "Other Income & Expenses",
+    "grandparent": "Total Other Income"
+  },
+  "Plant Maintenance": {
+    "parent": "TOTAL REPAIRS & MAINTENANCE",
+    "grandparent": "TOTAL OTHER EXPENSE"
+  },
+  "Revenue - Covid Surcharge": {
+    "parent": "TOTAL REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "Used Tax on Comps": {
+    "parent": "ADVERTISING/PROMOTION",
+    "grandparent": "ADVERTISING/PROMOTION"
+  },
+  "IT Securing": {
+    "parent": "TOTAL OTHER EXPENSE",
+    "grandparent": "TOTAL OTHER EXPENSE"
+  },
+  "Architect": {
+    "parent": "ADMINISTRATION",
+    "grandparent": "TOTAL OTHER EXPENSE"
+  },
+  "Net Wages Payable - Other": {
+    "parent": "Wages - B.O.H. Salaried",
+    "grandparent": "Wages - B.O.H. Salaried"
+  },
+  "Staff Wages": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Net Wages Payable": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Inventory": {
+    "parent": "Cost of Goods Sold",
+    "grandparent": "TOTAL COST OF GOODS SOLD"
+  },
+  "Communication": {
+    "parent": "TOTAL COMMUNICATION",
+    "grandparent": "TOTAL OTHER EXPENSE"
+  },
+  "State SUI": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "STAFF COST"
+  },
+  "Prepaid Expenses": {
+    "parent": "Total Other Expense",
+    "grandparent": "TOTAL OTHER STAFF COST"
+  },
+  "Staff Accommodation/Relocation": {
+    "parent": "OTHER STAFF COST",
+    "grandparent": "OTHER STAFF COST"
+  },
+  "Complimentary Cost": {
+    "parent": "ADVERTISING / PROMOTION",
+    "grandparent": "ADVERTISING / PROMOTION"
+  },
+  "Revenue - Other": {
+    "parent": "TOTAL REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "Internet/Email": {
+    "parent": "TOTAL COMMUNICATION",
+    "grandparent": "TOTAL COMMUNICATION"
+  },
+  "Tea/Coffee Purchases": {
+    "parent": "Cost of Sales - Tea/Coffee",
+    "grandparent": "Cost of Sales - Tea/Coffee"
+  },
+  "Permits": {
+    "parent": "TOTAL OCCUPANCY",
+    "grandparent": "OCCUPANCY"
+  },
+  "IC La Molina Shared Service Inc": {
+    "parent": "Total Other Income",
+    "grandparent": "REVENUE"
+  },
+  "Staff Loans/Salary Advances": {
+    "parent": "Other Expenses",
+    "grandparent": "TOTAL OTHER EXPENSES"
+  },
+  "Credit Card - 7282": {
+    "parent": "Interest & Other Expenses",
+    "grandparent": "FINANCIAL COST"
+  },
+  "Medical": {
+    "parent": "Total Employer Benefits",
+    "grandparent": "STAFF COST"
+  },
+  "Exchange Differences": {
+    "parent": "TOTAL OTHER EXPENSES",
+    "grandparent": "TOTAL OTHER EXPENSES"
+  },
+  "Cost of Goods-Caviar Commission": {
+    "parent": "TOTAL COST OF GOODS SOLD",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Inventory Asset": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Cleaning Supplies": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Commercial Rent Tax": {
+    "parent": "OCCUPANCY",
+    "grandparent": "OCCUPANCY"
+  },
+  "New Furniture, Equip & Upgrades": {
+    "parent": "Furniture and Fixtures",
+    "grandparent": "GENERAL & ADMIN EXPENSES"
+  },
+  "Staff Workmans Comp": {
+    "parent": "STAFF INSURANCE",
+    "grandparent": "STAFF COST"
+  },
+  "Occupancy": {
+    "parent": "OCCUPANCY",
+    "grandparent": "OCCUPANCY"
+  },
+  "BOH Incentive Plan": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "TOTAL STAFF COST"
+  },
+  "Liquor Attorney": {
+    "parent": "Cost of Sales - Liquor",
+    "grandparent": "Cost of Sales - Liquor"
+  },
+  "Restaurant": {
+    "parent": "Restaurant",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Loans Payable": {
+    "parent": "Interest on Loans",
+    "grandparent": "OTHER FINANCIAL COSTS"
+  },
+  "Gas": {
+    "parent": "OCCUPANCY",
+    "grandparent": "OCCUPANCY"
+  },
+  "PPP Payroll Expense": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "STAFF COST"
+  },
+  "Tangible Property Taxes Payable": {
+    "parent": "Other Expense",
+    "grandparent": "Total Other Expense"
+  },
+  "PPP Telephone": {
+    "parent": "TOTAL TELECOMMUNICATION COST",
+    "grandparent": "CONTROLLABLES"
+  },
+  "La Molina Holdings LLC": {
+    "parent": "Other Expenses",
+    "grandparent": "Other Expenses"
+  },
+  "ERIK RAMIREZ": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Cost of Sales - Beer": {
+    "parent": "COST OF GOODS SOLD",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Prep Cook & Expeditor": {
+    "parent": "Total Wages - F.O.H. Wages",
+    "grandparent": "STAFF COST"
+  },
+  "Hostess": {
+    "parent": "Total Wages - F.O.H. Hourly",
+    "grandparent": "Total Wages - F.O.H. Hourly"
+  },
+  "Dividend Disbursement": {
+    "parent": "Other Income & Expenses",
+    "grandparent": "Total Other Income"
+  },
+  "Credit Card Charges": {
+    "parent": "FINANCIAL COST",
+    "grandparent": "FINANCIAL COST"
+  },
+  "Staff Welfare": {
+    "parent": "OTHER STAFF COST",
+    "grandparent": "OTHER STAFF COST"
+  },
+  "Bank - 9786": {
+    "parent": "Bank Interest",
+    "grandparent": "TOTAL FINANCIAL COST"
+  },
+  "Chase - Payroll 1253": {
+    "parent": "Total Wages - F.O.H. Wages",
+    "grandparent": "TOTAL STAFF COST"
+  },
+  "Loan 1": {
+    "parent": "Interest on Loans",
+    "grandparent": "FINANCIAL COST"
+  },
+  "Accounts Payable - GBP": {
+    "parent": "Other Expense",
+    "grandparent": "Other Expense"
+  },
+  "Interest Paid on Loans": {
+    "parent": "TOTAL FINANCIAL COST",
+    "grandparent": "FINANCIAL COST"
+  },
+  "Rent": {
+    "parent": "OCCUPANCY",
+    "grandparent": "OCCUPANCY"
+  },
+  "Medicare": {
+    "parent": "Employer Taxes",
+    "grandparent": "STAFF COST"
+  },
+  "PaperChase Fees": {
+    "parent": "TOTAL FINANCIAL COST",
+    "grandparent": "TOTAL FINANCIAL COST"
+  },
+  "Rounding Differences": {
+    "parent": "Other Income & Expenses",
+    "grandparent": "Other Income & Expenses"
+  },
+  "Sales Tax Expense": {
+    "parent": "TOTAL FINANCIAL COST",
+    "grandparent": "TOTAL FINANCIAL COST"
+  },
+  "Child Support": {
+    "parent": "Other Expenses",
+    "grandparent": "Total Other Expense"
+  },
+  "Liquor - Stock Adjustment": {
+    "parent": "Cost of Sales - Liquor",
+    "grandparent": "Cost of Sales - Liquor"
+  },
+  "Charcoal": {
+    "parent": "Cost of Sales - Food",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Petty Cash Control": {
+    "parent": "Other Expenses",
+    "grandparent": "Other Expense"
+  },
+  "NY Paid Family Leave": {
+    "parent": "OTHER STAFF COST",
+    "grandparent": "OTHER STAFF COST"
+  },
+  "Other Revenue-Resy Fee": {
+    "parent": "TOTAL REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "Food, Bussers & Servers": {
+    "parent": "Cost of Sales - Food",
+    "grandparent": "TOTAL COST OF GOODS SOLD"
+  },
+  "Revenue - Retails": {
+    "parent": "REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "Accumulated Amortization": {
+    "parent": "P & L Amortization - Other",
+    "grandparent": "TOTAL OTHER STAFF COST"
+  },
+  "Clearing and Freight charges": {
+    "parent": "TRAVEL & ENTERTAINMENT",
+    "grandparent": "TRAVEL & ENTERTAINMENT"
+  },
+  "OASDI": {
+    "parent": "Total Employer Taxes",
+    "grandparent": "STAFF COST"
+  },
+  "Interest on Tax/Penalties": {
+    "parent": "Interest on Tax/Penalties",
+    "grandparent": "G&A"
+  },
+  "Petty Cash Control Account": {
+    "parent": "Other Expense",
+    "grandparent": "Other Expense"
+  },
+  "Water": {
+    "parent": "OCCUPANCY",
+    "grandparent": "OCCUPANCY"
+  },
+  "Other Bev - Stock Adjustment": {
+    "parent": "COG Other Beverages",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Suspense Account": {
+    "parent": "Other Expense",
+    "grandparent": "Total Other Expense"
+  },
+  "Intangible Assets": {
+    "parent": "Intangible Assets",
+    "grandparent": "Other Expenses"
+  },
+  "Management Fee": {
+    "parent": "PROFESSIONAL FEE",
+    "grandparent": "PROFESSIONAL FEE"
+  },
+  "Audit Fees": {
+    "parent": "PROFESSIONAL FEE",
+    "grandparent": "PROFESSIONAL FEE"
+  },
+  "Fuel Charges": {
+    "parent": "Other Expenses",
+    "grandparent": "Total Other Expense"
+  },
+  "Accumulated Depreciation": {
+    "parent": "P & L Depreciation & Amortization",
+    "grandparent": "TOTAL OTHER STAFF COST"
+  },
+  "Furniture and Fixtures": {
+    "parent": "Furniture and Fixtures",
+    "grandparent": "Other Expenses"
+  },
+  "PPP - GAS": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Beer Inventory": {
+    "parent": "Cost of Sales - Beer",
+    "grandparent": "Cost of Sales - Liquor"
+  },
+  "PPP - Electricity": {
+    "parent": "TOTAL UTILITIES",
+    "grandparent": "OCCUPANCY"
+  },
+  "Entertainment Meals": {
+    "parent": "ADVERTISING/PROMOTION",
+    "grandparent": "ADVERTISING/PROMOTION"
+  },
+  "3": {
+    "parent": "TOTAL OPERATING EXPENSES",
+    "grandparent": "TOTAL OPERATING EXPENSES"
+  },
+  "Other Bev Purchases": {
+    "parent": "COG Other Beverages",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Write Off": {
+    "parent": "Other Income & Expenses",
+    "grandparent": "Other Income & Expenses"
+  },
+  "Royalties Payable": {
+    "parent": "Other Expenses",
+    "grandparent": "Other Expense"
+  },
+  "2017 Wages Adjustment": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Cleaning Crew": {
+    "parent": "TOTAL SUPPLIES & CLEANING",
+    "grandparent": "TOTAL SUPPLIES & CLEANING"
+  },
+  "IC Llama San LLC": {
+    "parent": "Other Expenses",
+    "grandparent": "Other Expense"
+  },
+  "Organizational Costs": {
+    "parent": "Pre-Opening Expenses",
+    "grandparent": "TOTAL PRE OPENING EXPENSES"
+  },
+  "Cleaning": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Sales Orders": {
+    "parent": "Total Wages - F.O.H. Wages",
+    "grandparent": "STAFF COST"
+  },
+  "Paper Supplies": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Retail Inventory": {
+    "parent": "Total Wages - F.O.H. Wages",
+    "grandparent": "STAFF COST"
+  },
+  "5": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "STAFF COST"
+  },
+  "Tangible Property Taxes": {
+    "parent": "FINANCIAL COST",
+    "grandparent": "FINANCIAL COST"
+  },
+  "*Undeposited Funds": {
+    "parent": "Other Income & Expenses",
+    "grandparent": "TOTAL OTHER INCOME"
+  },
+  "Liquor Discounts": {
+    "parent": "Cost of Sales - Liquor",
+    "grandparent": "Cost of Sales - Liquor"
+  },
+  "Other Expenses": {
+    "parent": "Other Expenses",
+    "grandparent": "Other Expenses"
+  },
+  "Voluntary Disabitlity": {
+    "parent": "OTHER EXPENSES",
+    "grandparent": "Total Other Expense"
+  },
+  "Retained Earnings / (Deficit)": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "TOTAL STAFF COST"
+  },
+  "Bank Interest": {
+    "parent": "Bank Interest",
+    "grandparent": "Bank Interest"
+  },
+  "Wages - Training": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Provisions for HRA Funding": {
+    "parent": "Other Expenses",
+    "grandparent": "Other Expense"
+  },
+  "Account Receivable A/C": {
+    "parent": "Other Income & Expenses",
+    "grandparent": "Other Income & Expenses"
+  },
+  "Staff Insurance": {
+    "parent": "OTHER STAFF COST",
+    "grandparent": "OTHER STAFF COST"
+  },
+  "IC Llama Inn Madrid": {
+    "parent": "Total Wages - F.O.H. Wages",
+    "grandparent": "STAFF COST"
+  },
+  "Deferred Liabilities": {
+    "parent": "Other Expense",
+    "grandparent": "Total Other Expense"
+  },
+  "Other Beverages Inventory": {
+    "parent": "Total Cost of Sales - Other Beverages",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Staff Meals": {
+    "parent": "OTHER STAFF COST",
+    "grandparent": "OTHER STAFF COST"
+  },
+  "Security Services": {
+    "parent": "OCCUPANCY",
+    "grandparent": "OCCUPANCY"
+  },
+  "Bookkeeping Services (Pchase)": {
+    "parent": "TOTAL FINANCIAL COST",
+    "grandparent": "TOTAL FINANCIAL COST"
+  },
+  "Federal FUTA": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "STAFF COST"
+  },
+  "Wages - F.O.H. Line Labor": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "TOTAL STAFF COST"
+  },
+  "A/R Control A/c": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Wine Purchases": {
+    "parent": "Total Cost of Sales - Wine",
+    "grandparent": "COST OF GOODS SOLD"
+  },
+  "Vision": {
+    "parent": "Total Employer Benefits",
+    "grandparent": "STAFF COST"
+  },
+  "POS": {
+    "parent": "GENERAL & ADMINISTRATIVE",
+    "grandparent": "GENERAL & ADMINISTRATIVE"
+  },
+  "IT Cost": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Deposits": {
+    "parent": "Total Wages - F.O.H. Wages",
+    "grandparent": "STAFF COST"
+  },
+  "Summer Long Purchase": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Ny MTAI": {
+    "parent": "Total Employer Taxes",
+    "grandparent": "STAFF COST"
+  },
+  "Bank Charges": {
+    "parent": "FINANCIAL COST",
+    "grandparent": "FINANCIAL COST"
+  },
+  "Leasehold": {
+    "parent": "Leasehold",
+    "grandparent": "Other Expenses"
+  },
+  "Menus": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "SUPPLIES & MAINTENANCE"
+  },
+  "Chase Operating Bank - 7653": {
+    "parent": "Total Wages - F.O.H. Salaried",
+    "grandparent": "STAFF COST"
+  },
+  "Investment to Deli Llama": {
+    "parent": "TOTAL OTHER EXPENSES",
+    "grandparent": "TOTAL OTHER EXPENSES"
+  },
+  "Beer Purchases": {
+    "parent": "Cost of Sales - Beer",
+    "grandparent": "Cost of Sales - Beer"
+  },
+  "Deposit - Rent": {
+    "parent": "Rent",
+    "grandparent": "OCCUPANCY"
+  },
+  "Suspense Acc. - Bank Acc 7653": {
+    "parent": "Other Expense",
+    "grandparent": "Other Expense"
+  },
+  "Financial Cost": {
+    "parent": "FINANCIAL COST",
+    "grandparent": "FINANCIAL COST"
+  },
+  "Kitchen Consultant": {
+    "parent": "Professional and Consutlng",
+    "grandparent": "TOTAL PROFESSIONAL FEES"
+  },
+  "Sales Ledger Control A/C -Event": {
+    "parent": "REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "Dishwasher": {
+    "parent": "Wages - B.O.H.",
+    "grandparent": "STAFF COST"
+  },
+  "IC LLAMA MIAMI": {
+    "parent": "TOTAL REVENUE",
+    "grandparent": "REVENUE"
+  },
+  "Corporation Tax Payable": {
+    "parent": "Taxes & Permits",
+    "grandparent": "Other Expense"
+  },
+  "Sales Tax Payable": {
+    "parent": "Sales Tax 2015",
+    "grandparent": "TOTAL OTHER EXPENSE"
+  },
+  "Wages - B.O.H. Line Labor": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "TOTAL STAFF COST"
+  },
+  "Maintenance Contracts": {
+    "parent": "TOTAL REPAIRS & MAINTENANCE",
+    "grandparent": "TOTAL REPAIRS & MAINTENANCE"
+  },
+  "Consulting Fees": {
+    "parent": "PROFESSIONAL FEE",
+    "grandparent": "PROFESSIONAL FEE"
+  },
+  "Auto Chlor": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "CONTROLLABLES"
+  },
+  "IC La Molina Holdings": {
+    "parent": "Other Expenses",
+    "grandparent": "Total Other Expense"
+  },
+  "Payroll Expenses": {
+    "parent": "TOTAL STAFF COST",
+    "grandparent": "STAFF COST"
+  },
+  "\"Food": {
+    "parent": "TOTAL COST OF GOODS SOLD",
+    "grandparent": "Bussers & Servers\""
+  },
+  "\"Hood": {
+    "parent": "CONTROLLABLES",
+    "grandparent": "Grease Traps & Beer Lines\""
+  },
+  "\"Landscape": {
+    "parent": "SUPPLIES & MAINTENANCE",
+    "grandparent": "Flowers & Candles\""
+  },
+  "\"New Furniture": {
+    "parent": "GENERAL & ADMIN EXPENSES",
+    "grandparent": "Equip & Upgrades\""
+  }
+}

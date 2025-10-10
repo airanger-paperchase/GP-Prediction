@@ -235,7 +235,7 @@
 //                       const url = URL.createObjectURL(blob);
 //                       const link = document.createElement("a");
 //                       link.href = url;
-//                       link.download = `final_plmaster_mapping_${new Date().toISOString().split("T")[0]}.csv`;
+//                       link.download = `pl_master_map_${sqlCompanyCode}_${new Date().toISOString().split("T")[0]}.csv`;
 //                       document.body.appendChild(link);
 //                       link.click();
 //                       document.body.removeChild(link);
@@ -861,7 +861,7 @@ const SqlPlMasterMapping: React.FC = () => {
                                     const url = URL.createObjectURL(blob);
                                     const link = document.createElement("a");
                                     link.href = url;
-                                    link.download = `final_plmaster_mapping_${new Date()
+                                    link.download = `pl_master_map_${sqlCompanyCode}_${new Date()
                                         .toISOString()
                                         .split("T")[0]}.csv`;
                                     document.body.appendChild(link);
@@ -1187,7 +1187,7 @@ const SqlPlMasterMapping: React.FC = () => {
                                         const url = URL.createObjectURL(blob);
                                         const link = document.createElement("a");
                                         link.href = url;
-                                        link.download = `final_plmaster_mapping_${new Date()
+                                        link.download = `pl_master_map_${sqlCompanyCode}_${new Date()
                                             .toISOString()
                                             .split("T")[0]}.csv`;
                                         document.body.appendChild(link);
