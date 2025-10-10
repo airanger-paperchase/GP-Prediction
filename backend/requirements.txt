@@ -9,6 +9,8 @@ openai==1.33.0
 jsonschema==4.25.1
 typing-extensions==4.8.0
 requests==2.31.0
+azure-identity
+azure-keyvault-secrets
 
 # required for FastAPI form/file parsing
 python-multipart==0.0.6

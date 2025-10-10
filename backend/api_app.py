@@ -60,6 +60,7 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
+logger = logging.getLogger(__name__)
 
 # Initialize Key Vault client
 KEY_VAULT_NAME = os.getenv("KEY_VAULT_NAME")
