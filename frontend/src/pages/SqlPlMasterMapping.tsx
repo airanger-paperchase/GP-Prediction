@@ -87,7 +87,7 @@
 //     }
 //     setSqlLoading(true);
 //     try {
-//       const resp = await axios.post(`${API_BASE}/get_plmaster_mapping`, {
+//       const resp = await axios.post(`${API_BASE}/gl-map-api/get_plmaster_mapping`, {
 //         company_code: sqlCompanyCode,
 //         username: sqlUsername,
 //       });
@@ -219,14 +219,14 @@
 //                     });
 //                     try {
 //                       // 1. Store in SQL
-//                       await axios.post(`${API_BASE}/store_auto_mapping`, { rows });
+//                       await axios.post(`${API_BASE}/gl-map-api/store_auto_mapping`, { rows });
 //                       // 2. Save edited lineitem/parent/grandparent to company CSV and build artifacts
 //                       const saveRows = editableRows.map(row => ({
 //                         line_item: row.line_item ?? "",
 //                         parent: row.parent ?? "",
 //                         grandparent: row.grandparent ?? ""
 //                       }));
-//                       await axios.post(`${API_BASE}/save`, {
+//                       await axios.post(`${API_BASE}/gl-map-api/save`, {
 //                         company_code: sqlCompanyCode,
 //                         rows: saveRows
 //                       });
@@ -536,7 +536,7 @@ const SqlPlMasterMapping: React.FC = () => {
     }
     setSqlLoading(true);
     try {
-      const resp = await axios.post(`${API_BASE}/get_plmaster_mapping`, {
+      const resp = await axios.post(`${API_BASE}/gl-map-api/get_plmaster_mapping`, {
         company_code: sqlCompanyCode,
         username: sqlUsername,
       });
@@ -843,14 +843,14 @@ const SqlPlMasterMapping: React.FC = () => {
                                 });
                                 try {
                                     // 1. Store in SQL
-                                    await axios.post(`${API_BASE}/store_auto_mapping`, { rows });
+                                    await axios.post(`${API_BASE}/gl-map-api/store_auto_mapping`, { rows });
                                     // 2. Save edited lineitem/parent/grandparent to company CSV and build artifacts
                                     const saveRows = editableRows.map(row => ({
                                         line_item: row.line_item ?? "",
                                         parent: row.parent ?? "",
                                         grandparent: row.grandparent ?? "",
                                     }));
-                                    await axios.post(`${API_BASE}/save`, {
+                                    await axios.post(`${API_BASE}/gl-map-api/save`, {
                                         company_code: sqlCompanyCode,
                                         rows: saveRows,
                                     });
@@ -1169,14 +1169,14 @@ const SqlPlMasterMapping: React.FC = () => {
                                     });
                                     try {
                                         // 1. Store in SQL
-                                        await axios.post(`${API_BASE}/store_auto_mapping`, { rows });
+                                        await axios.post(`${API_BASE}/gl-map-api/store_auto_mapping`, { rows });
                                         // 2. Save edited lineitem/parent/grandparent to company CSV and build artifacts
                                         const saveRows = editableRows.map(row => ({
                                             line_item: row.line_item ?? "",
                                             parent: row.parent ?? "",
                                             grandparent: row.grandparent ?? "",
                                         }));
-                                        await axios.post(`${API_BASE}/save`, {
+                                        await axios.post(`${API_BASE}/gl-map-api/save`, {
                                             company_code: sqlCompanyCode,
                                             rows: saveRows,
                                         });

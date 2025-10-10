@@ -64,7 +64,7 @@ const Index = () => {
         premapped_rows?: Array<{ line_item: string; parent: string; grandparent: string; row_index?: number }>;
         partial_rows?: any[];
         counts?: any;
-      }>(`${API_BASE}/upload/extract_missing`, form, {
+      }>(`${API_BASE}/gl-map-api/upload/extract_missing`, form, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 
@@ -88,7 +88,7 @@ const Index = () => {
       let predictedRows: Row[] = [];
       if (missing.length > 0) {
         const leReq = { company_code, lines: missing };
-        const leResp = await axios.post(`${API_BASE}/batch/langextract_by_company`, leReq);
+        const leResp = await axios.post(`${API_BASE}/gl-map-api/batch/langextract_by_company`, leReq);
         const backend = leResp.data as any;
         const results = backend.results || backend.Results || [];
 
@@ -172,7 +172,7 @@ const Index = () => {
         rows: data.full_dataset || data.rows,
       };
   
-      await axios.post(`${API_BASE}/save`, payload, {
+      await axios.post(`${API_BASE}/gl-map-api/save`, payload, {
         headers: { "Content-Type": "application/json" }
       });
   
@@ -189,7 +189,7 @@ const Index = () => {
     if (!data) return;
     try {
       // Store to SQL before download
-      await axios.post(`${API_BASE}/store_auto_mapping`, {
+      await axios.post(`${API_BASE}/gl-map-api/store_auto_mapping`, {
         rows: data.full_dataset || data.rows,
       });
     } catch (e: any) {

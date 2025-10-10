@@ -1,27 +1,22 @@
-
+import csv
+import io
+import json
+import logging
+import os
+import re
 import uuid
 from datetime import datetime, timedelta, timezone
-
-
 from typing import List, Optional
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
-import os
-import io
-import pandas as pd
-import json
-import csv
-import logging
-import io
-import numpy as np
-import re
-from fastapi import UploadFile, File
-import pandas as pd
-from fastapi.middleware.cors import CORSMiddleware
-from shared_setup import load_label_csv, build_lookups, normalize_lineitem
-import langextract_style
+
 import build_artifacts
+import langextract_style
+import numpy as np
+import pandas as pd
 import pyodbc
+from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+from shared_setup import build_lookups, load_label_csv, normalize_lineitem
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("api_langextract_company")
@@ -32,16 +27,16 @@ app = FastAPI(title="LangExtract by Company Batch API")
 origins = [
     "http://localhost:5173",  # Frontend port
     "http://127.0.0.1:5173",  # Frontend port alternative
-    "http://localhost:6514",   # Backend port
-    "http://127.0.0.1:6514"    # Backend port alternative
+    "http://localhost:6514",  # Backend port
+    "http://127.0.0.1:6514",  # Backend port alternative
 ]
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["*"],        # GET, POST, OPTIONS, etc.
-    allow_headers=["*"],        # allow custom headers (Authorization etc)
+    allow_methods=["*"],  # GET, POST, OPTIONS, etc.
+    allow_headers=["*"],  # allow custom headers (Authorization etc)
 )
 
 BASE_COMPANY_DIR = "company_data"
@@ -62,14 +57,17 @@ CONN_STR = (
     f"UID={USERNAME};PWD={PASSWORD};TrustServerCertificate=yes;"
 )
 
+
 class CompanyRequest(BaseModel):
     company_code: str
     username: str
 
+
 class StoreAutoMappingRequest(BaseModel):
     rows: list  # List of dicts, each with columns matching the final df
 
-@app.post("/store_auto_mapping")
+
+@app.post("/gl-map-api/store_auto_mapping")
 def store_auto_mapping(req: StoreAutoMappingRequest):
     # Insert each row into PL_Master_AutoMapping
     try:
@@ -90,7 +88,7 @@ def store_auto_mapping(req: StoreAutoMappingRequest):
             else:
                 # If UpdatedOn is provided, parse it to datetime
                 try:
-                    UpdatedOn = datetime.strptime(UpdatedOn, '%Y-%m-%d %H:%M:%S')
+                    UpdatedOn = datetime.strptime(UpdatedOn, "%Y-%m-%d %H:%M:%S")
                 except (ValueError, TypeError):
                     # If parsing fails, use current time
                     UpdatedOn = datetime.utcnow() + timedelta(hours=5, minutes=30)
@@ -100,14 +98,23 @@ def store_auto_mapping(req: StoreAutoMappingRequest):
                 INSERT INTO PL_Master_AutoMapping (CompanyCode, GLCode, LineItem, GrandParent, Parent, UpdatedOn, UpdatedBy)
                 VALUES (?, ?, ?, ?, ?, ?, ?)
                 """,
-                CompanyCode, GLCode, LineItem, GrandParent, Parent, UpdatedOn, UpdatedBy
+                CompanyCode,
+                GLCode,
+                LineItem,
+                GrandParent,
+                Parent,
+                UpdatedOn,
+                UpdatedBy,
             )
         conn.commit()
         cursor.close()
         conn.close()
         return {"status": "ok", "rows_inserted": len(req.rows)}
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Failed to store auto mapping: {e}")
+        raise HTTPException(
+            status_code=500, detail=f"Failed to store auto mapping: {e}"
+        )
+
 
 def get_plmaster_mapping(company_code: str):
     conn = pyodbc.connect(CONN_STR)
@@ -122,26 +129,37 @@ def get_plmaster_mapping(company_code: str):
     conn.close()
     return results
 
+
 def split_plmaster_mapping(df: pd.DataFrame):
     # Filter out rows where GLCode is null
-    df = df[df['GLCode'].notna()]
+    df = df[df["GLCode"].notna()]
 
     # 1) LineItems with no Parent & GrandParent but GLCode present
     LineItems_with_no_Parent_GrandParent = df[
-        (df['Parent'].isna()) & (df['GrandParent'].isna())
+        (df["Parent"].isna()) & (df["GrandParent"].isna())
     ]
 
-    only_lineitems = LineItems_with_no_Parent_GrandParent['LineItem'].tolist()
+    only_lineitems = LineItems_with_no_Parent_GrandParent["LineItem"].tolist()
 
     # 2) LineItems with both Parent & GrandParent and GLCode present
     LineItems_with_Parent_GrandParent = df[
-        (df['Parent'].notna()) & (df['GrandParent'].notna())
+        (df["Parent"].notna()) & (df["GrandParent"].notna())
     ]
 
-    return LineItems_with_no_Parent_GrandParent, LineItems_with_Parent_GrandParent, only_lineitems
+    return (
+        LineItems_with_no_Parent_GrandParent,
+        LineItems_with_Parent_GrandParent,
+        only_lineitems,
+    )
 
 
-def enrich_and_merge_predictions(no_pg_df: pd.DataFrame, with_pg_df: pd.DataFrame, predictions: list, company_code: str, username: str):
+def enrich_and_merge_predictions(
+    no_pg_df: pd.DataFrame,
+    with_pg_df: pd.DataFrame,
+    predictions: list,
+    company_code: str,
+    username: str,
+):
     """
     no_pg_df: DataFrame -> LineItems_with_no_Parent_GrandParent
     with_pg_df: DataFrame -> LineItems_with_Parent_GrandParent
@@ -154,16 +172,15 @@ def enrich_and_merge_predictions(no_pg_df: pd.DataFrame, with_pg_df: pd.DataFram
     required_cols = ["line_item", "parent", "grandparent"]
     missing_cols = [col for col in required_cols if col not in pred_df.columns]
     if missing_cols:
-        logger.error(f"Predictions missing columns: {missing_cols}. Actual columns: {list(pred_df.columns)}. Predictions: {predictions}")
+        logger.error(
+            f"Predictions missing columns: {missing_cols}. Actual columns: {list(pred_df.columns)}. Predictions: {predictions}"
+        )
         # Create empty columns for missing ones
         for col in missing_cols:
             pred_df[col] = None
     # 2) Merge with no_pg_df (left join, so we keep all rows in no_pg_df)
     merged_df = no_pg_df.merge(
-        pred_df[required_cols],
-        left_on="LineItem",
-        right_on="line_item",
-        how="left"
+        pred_df[required_cols], left_on="LineItem", right_on="line_item", how="left"
     )
     # 3) Fill missing Parent/GrandParent in no_pg_df with prediction values
     merged_df["Parent"] = merged_df["Parent"].fillna(merged_df["parent"])
@@ -178,7 +195,9 @@ def enrich_and_merge_predictions(no_pg_df: pd.DataFrame, with_pg_df: pd.DataFram
     # Column order: Id, CompanyCode, GLCode, LineItem, GrandParent, Parent, UpdatedOn, UpdatedBy
     def get_ist_now():
         # IST is UTC+5:30
-        return (datetime.utcnow() + timedelta(hours=5, minutes=30)).strftime('%Y-%m-%d %H:%M:%S')
+        return (datetime.utcnow() + timedelta(hours=5, minutes=30)).strftime(
+            "%Y-%m-%d %H:%M:%S"
+        )
 
     final_df["Id"] = [str(uuid.uuid4()) for _ in range(len(final_df))]
     final_df["CompanyCode"] = company_code
@@ -190,10 +209,22 @@ def enrich_and_merge_predictions(no_pg_df: pd.DataFrame, with_pg_df: pd.DataFram
     for col in ["GLCode", "LineItem", "GrandParent", "Parent"]:
         if col not in final_df.columns:
             final_df[col] = ""
-    final_df = final_df[["Id", "CompanyCode", "GLCode", "LineItem", "GrandParent", "Parent", "UpdatedOn", "UpdatedBy"]]
+    final_df = final_df[
+        [
+            "Id",
+            "CompanyCode",
+            "GLCode",
+            "LineItem",
+            "GrandParent",
+            "Parent",
+            "UpdatedOn",
+            "UpdatedBy",
+        ]
+    ]
     return final_df
 
-@app.post("/get_plmaster_mapping")
+
+@app.post("/gl-map-api/get_plmaster_mapping")
 def get_plmaster_mapping_route(req: CompanyRequest):
     company_code = req.company_code.strip()
     username = req.username.strip()
@@ -211,12 +242,16 @@ def get_plmaster_mapping_route(req: CompanyRequest):
         predictions = []
         if only_lineitems:
             # Call batch/langextract_by_company internally
-            batch_req = CompanyBatchRequest(company_code=company_code, lines=only_lineitems)
+            batch_req = CompanyBatchRequest(
+                company_code=company_code, lines=only_lineitems
+            )
             batch_result = langextract_by_company(batch_req)
             predictions = batch_result.get("results", [])
 
         # Merge predictions with df1 and combine with df2, add extra columns
-        final_df = enrich_and_merge_predictions(df1, df2, predictions, company_code, username)
+        final_df = enrich_and_merge_predictions(
+            df1, df2, predictions, company_code, username
+        )
 
         # Convert final_df to CSV for download
         csv_buffer = io.StringIO()
@@ -232,7 +267,7 @@ def get_plmaster_mapping_route(req: CompanyRequest):
             "LineItems_with_Parent_GrandParent": df2.to_dict(orient="records"),
             "only_lineitems": only_lineitems,
             "predictions": predictions,
-            "final_csv": csv_str
+            "final_csv": csv_str,
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -252,11 +287,12 @@ def _verify_artifacts_exist(artifacts_dir: str) -> bool:
             return False
     return True
 
+
 def _load_exact_lookup_from_artifacts(artifacts_dir: str):
     """Load exact_lookup.json from artifacts directory if all required files exist."""
     if not _verify_artifacts_exist(artifacts_dir):
         return None
-        
+
     exact_path = os.path.join(artifacts_dir, "exact_lookup.json")
     try:
         with open(exact_path, "r", encoding="utf-8") as f:
@@ -275,8 +311,11 @@ def _ensure_company_dirs(base_dir: str, company_code: str):
     os.makedirs(artifacts_dir, exist_ok=True)
     return code, csv_dir, artifacts_dir
 
+
 # this is for local persistence of predictions
-def _append_prediction_to_company_csv(csv_dir: str, company_code: str, line_item: str, parent: str, grandparent: str):
+def _append_prediction_to_company_csv(
+    csv_dir: str, company_code: str, line_item: str, parent: str, grandparent: str
+):
     """
     Append a prediction to the company CSV if it doesn't already exist.
     If the line item exists with different parent/grandparent, updates the existing entry.
@@ -284,52 +323,56 @@ def _append_prediction_to_company_csv(csv_dir: str, company_code: str, line_item
     filename = f"{company_code}.csv"
     path = os.path.join(csv_dir, filename)
     header = ["LineItem", "Parent", "GrandParent"]
-    
+
     # Normalize the inputs
     safe_line_item = (line_item or "").replace("\r", " ").replace("\n", " ").strip()
     safe_parent = (parent or "").replace("\r", " ").replace("\n", " ").strip()
     safe_grandparent = (grandparent or "").replace("\r", " ").replace("\n", " ").strip()
-    
+
     # Read existing data if file exists
     existing_data = []
     file_exists = os.path.exists(path) and os.path.getsize(path) > 0
-    
+
     if file_exists:
         try:
-            with open(path, 'r', encoding='utf-8', newline='') as f:
+            with open(path, "r", encoding="utf-8", newline="") as f:
                 reader = csv.DictReader(f)
                 if reader.fieldnames != header:
                     # If headers don't match, we'll recreate the file
-                    logger.warning(f"CSV headers don't match expected format. Recreating {path}")
+                    logger.warning(
+                        f"CSV headers don't match expected format. Recreating {path}"
+                    )
                 else:
                     existing_data = list(reader)
         except Exception as e:
             logger.warning(f"Error reading existing CSV {path}: {e}")
-    
+
     # Check if line item already exists
     item_exists = False
     for row in existing_data:
-        if row['LineItem'].lower() == safe_line_item.lower():
+        if row["LineItem"].lower() == safe_line_item.lower():
             # Update existing entry if parent or grandparent has changed
-            if row['Parent'] != safe_parent or row['GrandParent'] != safe_grandparent:
-                row['Parent'] = safe_parent
-                row['GrandParent'] = safe_grandparent
+            if row["Parent"] != safe_parent or row["GrandParent"] != safe_grandparent:
+                row["Parent"] = safe_parent
+                row["GrandParent"] = safe_grandparent
                 logger.info(f"Updated existing entry for '{safe_line_item}'")
             item_exists = True
             break
-    
+
     # If item doesn't exist, add it to the data
     if not item_exists:
-        existing_data.append({
-            'LineItem': safe_line_item,
-            'Parent': safe_parent,
-            'GrandParent': safe_grandparent
-        })
+        existing_data.append(
+            {
+                "LineItem": safe_line_item,
+                "Parent": safe_parent,
+                "GrandParent": safe_grandparent,
+            }
+        )
         logger.info(f"Added new entry for '{safe_line_item}'")
-    
+
     # Write all data back to the file
     try:
-        with open(path, 'w', encoding='utf-8', newline='') as f:
+        with open(path, "w", encoding="utf-8", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=header)
             writer.writeheader()
             writer.writerows(existing_data)
@@ -337,21 +380,28 @@ def _append_prediction_to_company_csv(csv_dir: str, company_code: str, line_item
         logger.error(f"Failed to write to company CSV {path}: {e}")
         raise
 
+
 @app.get("/health")
 def health():
     return {"status": "ok"}
 
-@app.post("/batch/langextract_by_company")
+
+@app.post("/gl-map-api/batch/langextract_by_company")
 def langextract_by_company(req: CompanyBatchRequest):
     # Validate input
     company_code = (req.company_code or "").strip()
     if not company_code:
         raise HTTPException(status_code=400, detail="company_code is required")
     if not req.lines or not any([l and l.strip() for l in req.lines]):
-        raise HTTPException(status_code=400, detail="lines must contain at least one non-empty line item")
+        raise HTTPException(
+            status_code=400,
+            detail="lines must contain at least one non-empty line item",
+        )
 
     # Prepare company dirs (ensure for persistence)
-    code, csv_dir, company_artifacts_dir = _ensure_company_dirs(BASE_COMPANY_DIR, company_code)
+    code, csv_dir, company_artifacts_dir = _ensure_company_dirs(
+        BASE_COMPANY_DIR, company_code
+    )
     global_artifacts_dir = "artifacts"  # Streamlit default global artifacts
 
     exact_lookup = {}
@@ -364,28 +414,58 @@ def langextract_by_company(req: CompanyBatchRequest):
     logger.info(f"Checking for company artifacts in: {company_artifacts_dir}")
     if os.path.isdir(company_artifacts_dir):
         exact_lookup = _load_exact_lookup_from_artifacts(company_artifacts_dir)
-        if exact_lookup is not None:  # Only if all required files exist and loaded successfully
+        if (
+            exact_lookup is not None
+        ):  # Only if all required files exist and loaded successfully
             logger.info(f"Loaded {len(exact_lookup)} entries from company artifacts")
             examples = [
-                {"lineitem": k, "parent": v.get("parent", ""), "grandparent": v.get("grandparent", "")}
+                {
+                    "lineitem": k,
+                    "parent": v.get("parent", ""),
+                    "grandparent": v.get("grandparent", ""),
+                }
                 for k, v in exact_lookup.items()
             ]
-            parents = list({v.get("parent", "") for v in exact_lookup.values() if v.get("parent")})
-            grandparents = list({v.get("grandparent", "") for v in exact_lookup.values() if v.get("grandparent")})
+            parents = list(
+                {v.get("parent", "") for v in exact_lookup.values() if v.get("parent")}
+            )
+            grandparents = list(
+                {
+                    v.get("grandparent", "")
+                    for v in exact_lookup.values()
+                    if v.get("grandparent")
+                }
+            )
             company_artifacts_loaded = True
-    
+
     # 2) If company artifacts are incomplete or missing, try global artifacts
     if not company_artifacts_loaded:
-        logger.info(f"Company artifacts not available, checking global artifacts in: {global_artifacts_dir}")
+        logger.info(
+            f"Company artifacts not available, checking global artifacts in: {global_artifacts_dir}"
+        )
         exact_lookup = _load_exact_lookup_from_artifacts(global_artifacts_dir)
-        if exact_lookup is not None:  # Only if all required files exist and loaded successfully
+        if (
+            exact_lookup is not None
+        ):  # Only if all required files exist and loaded successfully
             logger.info(f"Loaded {len(exact_lookup)} entries from global artifacts")
             examples = [
-                {"lineitem": k, "parent": v.get("parent", ""), "grandparent": v.get("grandparent", "")}
+                {
+                    "lineitem": k,
+                    "parent": v.get("parent", ""),
+                    "grandparent": v.get("grandparent", ""),
+                }
                 for k, v in exact_lookup.items()
             ]
-            parents = list({v.get("parent", "") for v in exact_lookup.values() if v.get("parent")})
-            grandparents = list({v.get("grandparent", "") for v in exact_lookup.values() if v.get("grandparent")})
+            parents = list(
+                {v.get("parent", "") for v in exact_lookup.values() if v.get("parent")}
+            )
+            grandparents = list(
+                {
+                    v.get("grandparent", "")
+                    for v in exact_lookup.values()
+                    if v.get("grandparent")
+                }
+            )
         else:
             logger.error("Global artifacts are also incomplete or missing")
 
@@ -396,7 +476,7 @@ def langextract_by_company(req: CompanyBatchRequest):
             "company_code": company_code,
             "count": 0,
             "results": [],
-            "message": "No artifacts found in company or global directories"
+            "message": "No artifacts found in company or global directories",
         }
 
     # 4) Normalize exact_lookup keys using normalize_lineitem to match Streamlit
@@ -427,20 +507,20 @@ def langextract_by_company(req: CompanyBatchRequest):
 
             # Determine the source of the exact match
             source = "llm_prediction"  # default to LLM if we can't determine
-            
+
             # Check if the match exists in company artifacts
             company_match = False
             if company_artifacts_dir and os.path.exists(company_artifacts_dir):
                 company_exact = _load_exact_lookup_from_artifacts(company_artifacts_dir)
                 if company_exact and li_norm in company_exact:
                     company_match = True
-            
+
             if company_match:
                 source = "company_artifacts"
             else:
                 # If not in company artifacts, it must be from global artifacts
                 source = "global_artifacts"
-                
+
             res = {
                 "line_item": line,
                 "normalized": li_norm,
@@ -453,7 +533,13 @@ def langextract_by_company(req: CompanyBatchRequest):
 
             # persist same as Streamlit
             try:
-                _append_prediction_to_company_csv(csv_dir, code, line_item=line, parent=parent_val, grandparent=grand_val)
+                _append_prediction_to_company_csv(
+                    csv_dir,
+                    code,
+                    line_item=line,
+                    parent=parent_val,
+                    grandparent=grand_val,
+                )
             except Exception:
                 logger.exception("Failed to persist exact-match prediction")
 
@@ -487,7 +573,13 @@ def langextract_by_company(req: CompanyBatchRequest):
 
             # persist same as Streamlit
             try:
-                _append_prediction_to_company_csv(csv_dir, code, line_item=line, parent=parent_val, grandparent=grand_val)
+                _append_prediction_to_company_csv(
+                    csv_dir,
+                    code,
+                    line_item=line,
+                    parent=parent_val,
+                    grandparent=grand_val,
+                )
             except Exception:
                 logger.exception("Failed to persist LLM prediction")
 
@@ -509,7 +601,7 @@ def langextract_by_company(req: CompanyBatchRequest):
     return {"company_code": company_code, "count": len(results), "results": results}
 
 
-@app.post("/upload/extract_missing")
+@app.post("/gl-map-api/upload/extract_missing")
 async def upload_extract_missing(file: UploadFile = File(...)):
     """
     Upload parser (only 'lineitem' required; case-insensitive).
@@ -545,14 +637,19 @@ async def upload_extract_missing(file: UploadFile = File(...)):
                 text = contents.decode("latin1")
             df = pd.read_csv(io.StringIO(text), header=None, dtype=object)
         except Exception as e:
-            raise HTTPException(status_code=400, detail=f"Failed to parse uploaded file: {e}")
+            raise HTTPException(
+                status_code=400, detail=f"Failed to parse uploaded file: {e}"
+            )
 
     # drop rows/cols that are completely empty
     df = df.dropna(axis=0, how="all").dropna(axis=1, how="all").reset_index(drop=True)
 
     # must have rows
     if df.shape[0] == 0:
-        raise HTTPException(status_code=400, detail="Uploaded file contains no data after removing empty rows/columns.")
+        raise HTTPException(
+            status_code=400,
+            detail="Uploaded file contains no data after removing empty rows/columns.",
+        )
 
     # normalize headers -> map lowercase header -> original header
     original_columns = list(df.columns)
@@ -570,17 +667,19 @@ async def upload_extract_missing(file: UploadFile = File(...)):
 
     # resolve optional columns if present
     line_col = normalized_headers["lineitem"]
-    parent_col = normalized_headers.get("parent")      # may be None
-    grand_col = normalized_headers.get("grandparent") # may be None
-    company_col = normalized_headers.get("companycode")# may be None
+    parent_col = normalized_headers.get("parent")  # may be None
+    grand_col = normalized_headers.get("grandparent")  # may be None
+    company_col = normalized_headers.get("companycode")  # may be None
 
     # replace NaN with empty and coerce to stripped strings; treat common null-like strings as empty
     df = df.replace({np.nan: ""})
+
     def clean_str(x):
         s = "" if x is None else str(x).strip()
         if s.lower() in {"nan", "null", "none"}:
             return ""
         return s
+
     # apply cleaning to line_col and any optional columns we care about
     df[line_col] = df[line_col].apply(clean_str)
     if parent_col:
@@ -593,7 +692,9 @@ async def upload_extract_missing(file: UploadFile = File(...)):
     # ensure at least one non-empty lineitem exists
     non_empty_line_mask = df[line_col].astype(str).str.strip() != ""
     if not non_empty_line_mask.any():
-        raise HTTPException(status_code=400, detail="No non-empty values found in lineitem column.")
+        raise HTTPException(
+            status_code=400, detail="No non-empty values found in lineitem column."
+        )
 
     # COMPANY CODE: try company_col if present; else scan all columns for company-like values
     company_code = None
@@ -617,6 +718,7 @@ async def upload_extract_missing(file: UploadFile = File(...)):
         if candidates:
             # pick most common
             import collections
+
             company_code = collections.Counter(candidates).most_common(1)[0][0]
 
     # if still not found, company_code remains None (caller can decide how to handle)
@@ -624,8 +726,16 @@ async def upload_extract_missing(file: UploadFile = File(...)):
     def is_missing_val(v: str) -> bool:
         return v is None or str(v).strip() == ""
 
-    parent_missing = df[parent_col].apply(is_missing_val) if parent_col else pd.Series([True] * len(df))
-    grand_missing = df[grand_col].apply(is_missing_val) if grand_col else pd.Series([True] * len(df))
+    parent_missing = (
+        df[parent_col].apply(is_missing_val)
+        if parent_col
+        else pd.Series([True] * len(df))
+    )
+    grand_missing = (
+        df[grand_col].apply(is_missing_val)
+        if grand_col
+        else pd.Series([True] * len(df))
+    )
 
     mask_missing_both = parent_missing & grand_missing
     mask_parent_and_grand_present = (~parent_missing) & (~grand_missing)
@@ -670,13 +780,15 @@ async def upload_extract_missing(file: UploadFile = File(...)):
 
 logger = logging.getLogger("api_save_build")
 
+
 class SaveAndBuildRequest(BaseModel):
     company_code: str
     rows: List[dict]  # expected keys: line_item, parent, grandparent (strings)
     base_company_dir: Optional[str] = "company_data"
     csv_filename: Optional[str] = None  # defaults to "<company_code>.csv"
 
-@app.post("/save")
+
+@app.post("/gl-map-api/save")
 def save_and_build(req: SaveAndBuildRequest):
     logger.info(f"Received save request: {req.dict()}")
     """
@@ -702,7 +814,7 @@ def save_and_build(req: SaveAndBuildRequest):
     # Check if file exists to append or create new
     file_exists = os.path.exists(csv_path)
     existing_lines = set()
-    
+
     # If file exists, read existing lines to avoid duplicates
     if file_exists:
         try:
@@ -719,17 +831,32 @@ def save_and_build(req: SaveAndBuildRequest):
         with open(csv_path, "w", encoding="utf-8", newline="") as f:
             writer = csv.writer(f)
             writer.writerow(["LineItem", "Parent", "GrandParent"])
-            
+
             # Add existing lines
             for line in existing_lines:
                 writer.writerow(line)
-            
+
             # Add new lines, avoiding duplicates
             for r in req.rows:
-                li = (r.get("line_item") or "").replace("\r", " ").replace("\n", " ").strip()
-                p = (r.get("parent") or "").replace("\r", " ").replace("\n", " ").strip()
-                g = (r.get("grandparent") or "").replace("\r", " ").replace("\n", " ").strip()
-                
+                li = (
+                    (r.get("line_item") or "")
+                    .replace("\r", " ")
+                    .replace("\n", " ")
+                    .strip()
+                )
+                p = (
+                    (r.get("parent") or "")
+                    .replace("\r", " ")
+                    .replace("\n", " ")
+                    .strip()
+                )
+                g = (
+                    (r.get("grandparent") or "")
+                    .replace("\r", " ")
+                    .replace("\n", " ")
+                    .strip()
+                )
+
                 # Only add if not already in existing lines
                 if (li, p, g) not in existing_lines:
                     writer.writerow([li, p, g])
@@ -746,7 +873,7 @@ def save_and_build(req: SaveAndBuildRequest):
         raise HTTPException(
             status_code=500,
             detail=f"build_artifacts failed: {e}",
-            headers={"csv_path": csv_path, "artifacts_dir": artifacts_dir}
+            headers={"csv_path": csv_path, "artifacts_dir": artifacts_dir},
         )
 
     return {
@@ -754,5 +881,5 @@ def save_and_build(req: SaveAndBuildRequest):
         "csv_path": csv_path,
         "artifacts_dir": artifacts_dir,
         "rows_processed": len(req.rows),
-        "total_rows": len(existing_lines)
+        "total_rows": len(existing_lines),
     }
