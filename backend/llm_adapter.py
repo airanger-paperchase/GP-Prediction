@@ -9,23 +9,28 @@
 # client = Groq(
 #     api_key=GROQ_KEY,
 # )
-from openai import AzureOpenAI
-import os 
+import os
+
 from dotenv import load_dotenv
+from openai import AzureOpenAI
+
 load_dotenv()
 
 client = AzureOpenAI(
     api_key=os.getenv("AZURE_OPENAI_API_KEY"),
     azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-    api_version=os.getenv("OPENAI_API_VERSION")
+    api_version=os.getenv("OPENAI_API_VERSION"),
 )
+
 
 def call_llm(prompt: str) -> str:
     """Call the Azure OpenAI LLM with the provided prompt and return the response."""
     response = client.chat.completions.create(
-        model=os.getenv("AZURE_OPENAI_DEPLOYMENT"), 
+        model=os.getenv("AZURE_OPENAI_DEPLOYMENT"),
         messages=[
-            {"role": "system", "content":"""SYSTEM:
+            {
+                "role": "system",
+                "content": """SYSTEM:
                     You are a deterministic taxonomy classifier for financial/staff-cost line items. 
                     Task: For a single input LineItem string, return a strict JSON object (no extra commentary, no markdown) with these fields:
 
@@ -107,10 +112,11 @@ def call_llm(prompt: str) -> str:
                     (END OF EXAMPLES)
 
                     Now WAIT for the user input line item and respond with the JSON object only.
-"""},
-            {"role": "user", "content": prompt}
+""",
+            },
+            {"role": "user", "content": prompt},
         ],
         temperature=0.0,
-        max_tokens=16384
+        max_tokens=16384,
     )
     return response.choices[0].message.content

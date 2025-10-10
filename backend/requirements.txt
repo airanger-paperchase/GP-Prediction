@@ -1,21 +1,22 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+pydantic==1.10.9
+pandas==2.2.3
+numpy==1.26.4
+pyodbc==4.0.35
+python-dotenv==1.0.0
+openai==1.33.0
+jsonschema==4.25.1
+typing-extensions==4.8.0
+requests==2.31.0
 
-# Minimal requirements needed to run the backend API in this repo.
-# If you need SQL Server connectivity inside the container, uncomment pyodbc
-# and use the alternate Dockerfile that installs the ODBC driver.
+# required for FastAPI form/file parsing
+python-multipart==0.0.6
 
-fastapi
-uvicorn[standard]
-pandas
-numpy
-openpyxl  # optional: needed only if you upload Excel (.xls/.xlsx) files
-python-dotenv
-jsonschema
-openai
-python-multipart  # needed for file uploads (form data)
-pyodbc
+# Pin httpx to a version compatible with the OpenAI client used here to avoid
+# unexpected keyword argument errors (e.g. 'proxies') when the library
+# signatures change in newer httpx releases.
+httpx==0.23.3
 
-# Optional/extra (commented out):
-# pyodbc  # enable if you need to connect to SQL Server from inside the container
-gradio
-
-tenacity
+# used in some scripts but not strictly required to run the API endpoints
+openpyxl==3.1.2
