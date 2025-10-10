@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
   base: '/glmapuiapp/',
   server: {
     host: "::",
-    port: 5173,
+    port: 8008,
     allowedHosts: ["three-facts-press.loca.lt"],
   },
   plugins: [

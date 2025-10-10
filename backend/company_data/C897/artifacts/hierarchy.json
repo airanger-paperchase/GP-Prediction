@@ -1,78 +1,42 @@
 {
-  "INTEREST & OTHER EXPENSES": {
-    "Interest & Other Expenses": [
-      "CITY NATIONAL BANK - 1120",
-      "PPP Loan",
-      "CITY NATIONAL BANK- 0987",
-      "Long Term Debt",
-      "6",
-      "CITY NATIONAL BANK- 7876",
-      "Bank Transfer A/C",
-      "Bank",
-      "CITY NATIONAL BANK-5508"
-    ],
-    "OTHER FINANCIAL COSTS": [
-      "Other Financial Costs"
-    ],
-    "Interest on Loans": [
-      "Loan Payable - Barrett",
-      "Bank",
-      "Loan From Nelson",
-      "Loan From Duncan",
-      "Loan Payable - Centaurian",
-      "Loans Payable"
-    ],
-    "INTEREST & OTHER EXPENSES": [
-      "CITY NATIONAL BANK- 5699",
-      "CITY NATIONAL BANK - 1139",
-      "Loan payable - Bank 7876",
-      "Loan Payable - Dlino",
-      "Loan Payable - Scaramucci"
-    ],
-    "INSURANCE EXPENSES": [
-      "Prepaid Insurance"
-    ]
-  },
-  "Total Wages - F.O.H. Hourly": {
-    "Total Wages - F.O.H. Hourly": [
-      "Barback",
-      "Hostess",
-      "Runner",
-      "Busser"
-    ]
-  },
-  "Total Wages - F.O.H. Salaried": {
-    "Total Wages - F.O.H. Salaried": [
-      "Sommelier",
-      "Morris Mark",
-      "Floor Manager",
-      "Beverage Manager",
-      "GM"
-    ]
-  },
   "STORE LEVEL EXPENSE": {
+    "Leasehold": [
+      "Building",
+      "Leasehold Interest"
+    ],
+    "Management Salaries": [
+      "Robert Matza",
+      "David Barrett"
+    ],
+    "Bands & Entertainment": [
+      "32 Entertainment LLC"
+    ],
+    "GENERAL & ADMINISTRATIVE": [
+      "General & Administrative"
+    ],
+    "OCCUPANCY": [
+      "Occupancy"
+    ],
+    "TOTAL OCCUPANCY": [
+      "Occupancy Costs"
+    ],
     "Leasehold Improvements": [
       "Leasehold Opening"
     ],
     "Furnitue & Fixture": [
       "Furniture & Fixtures"
     ],
-    "Management Salaries": [
-      "Robert Matza",
-      "David Barrett"
+    "Total Employer Benefits": [
+      "401K Payable"
     ],
-    "GENERAL & ADMINISTRATIVE": [
-      "General & Administrative"
+    "Office Supplies": [
+      "Office"
     ],
     "TOTAL ADVERTISING / PROMOTION": [
       "Advertising/Promotion"
     ],
-    "TOTAL OCCUPANCY": [
-      "Occupancy Costs"
-    ],
-    "Leasehold": [
-      "Leasehold Interest",
-      "Building"
+    "SUPPLIES & MAINTENANCE": [
+      "Supplies & Maintenance"
     ],
     "TOTAL WAGES - F.O.H. Salaried": [
       "2"
@@ -80,377 +44,269 @@
     "Total Sales Adjustment": [
       "Discount on Sales"
     ],
-    "Bands & Entertainment": [
-      "32 Entertainment LLC"
-    ],
-    "Office Supplies": [
-      "Office"
-    ],
-    "OCCUPANCY": [
-      "Occupancy"
-    ],
-    "Total Employer Benefits": [
-      "401K Payable"
-    ],
     "TOTAL STAFF COST": [
       "Staff Wages"
-    ],
-    "SUPPLIES & MAINTENANCE": [
-      "Supplies & Maintenance"
     ]
   },
-  "STAFF COST": {
-    "Total Wages FOH Hourly": [
-      "Captain"
+  "Cost of Sales - Event Purchase": {
+    "DIRECT OPERATING EXPENSES": [
+      "Construction Management",
+      "Machinery-Op.01.01.21",
+      "HONG TAO CONSTRUCTION"
     ],
-    "TOTAL STAFF COST": [
-      "FOH",
-      "Wage Cost",
-      "Federal FUTA",
-      "Jaahred Thomas",
-      "BOH",
-      "Marketing Wages",
-      "State SUI",
-      "Sous Chef",
-      "Labor Cost",
-      "Raymond Nolte"
-    ],
-    "Total Wages - B.O.H. Wages": [
-      "BOH - Manager",
-      "BOH- Cleaner"
-    ],
-    "Total Wages - F.O.H. Salaried": [
-      "Sales Orders",
-      "Sales Tax Payable - Tourism",
-      "Lawrence Liebers",
-      "Jeff & Jennifer Enslin",
-      "Gary Kaminsky",
-      "Emelio Barletta",
-      "Sales Tax Payable",
-      "Anthony Scarmucci",
-      "1",
-      "Gary Vaynerchuk",
-      "Troy Gayeski",
-      "Payroll Liabilities",
-      "Kevin Yorn",
-      "Suzanne Shook",
-      "Christopher Kordes",
-      "Daniel & Karnell Osman",
-      "Richard Portogallo",
-      "Event Deposit - 2022",
-      "Event Deposits - 2024",
-      "Andrew Rabinowitz",
-      "Martin Silver",
-      "Victor Oviedo",
-      "Tomer Meir",
-      "Leslie Hendel",
-      "Michael Cooke",
-      "Matthew Robinson",
-      "Ron Marshall",
-      "Tea/Coffee Inventory",
-      "KRH Hospitality",
-      "Robert Secham",
-      "Glen Bayless",
-      "Event Deposit 2025",
-      "Eytan Sugarman",
-      "L/P - SBA",
-      "David McDavid",
-      "Net Wages Payable",
-      "James Glenn",
-      "Code & Expeditor",
-      "Discount on Event Revenue",
-      "Audio/Visual/laptop/computer"
-    ],
-    "Total Wages - B.O.H. Salaried": [
-      "Keith & Debra Hladek",
-      "Sloan Family Partners",
-      "Andrew Bozhardt",
-      "Keith  & Debbie Banks",
-      "Porter-Receiver",
-      "Unreconciled Net Wages Payable",
-      "Unclaimed Wages",
-      "BOH-Cleaner",
-      "Stuart Bohart",
-      "Joseph Terranova",
-      "1"
-    ],
-    "Wages - F.O.H. Salaried": [
-      "Tips Payable",
-      "Wages - F.O.H. Salaried",
-      "James Martin",
-      "Nelson Braff",
-      "Dishwasher OT"
-    ],
-    "Total Employer Benefits": [
-      "James Greenberg",
-      "Vision",
-      "Medical",
-      "Child Support",
-      "Stacey Braff",
-      "Dental"
-    ],
-    "TOTAL OTHER STAFF COST": [
-      "3",
-      "Other Staff Cost",
-      "On stage of NewYork LTD",
-      "4"
-    ],
-    "TOTAL EMPLOYEE BENEFITS": [
-      "Metro Commuter"
-    ],
-    "BOH SALARIES": [
-      "Kitchen"
-    ],
-    "Wages - F.O.H. Hourly - OT": [
-      "Wages - F.O.H. Hourly - OT"
-    ],
-    "Employer Taxes": [
-      "Medicare",
-      "Employer Taxes"
-    ],
-    "Wages - B.O.H.": [
-      "Dishwasher",
-      "Executive Chef"
-    ],
-    "Payroll Expense": [
-      "Payroll Expense"
-    ],
-    "Wages - B.O.H. Salaried": [
-      "Wages - B.O.H. Salaried"
-    ],
-    "Wages - F.O.H. Hourly": [
-      "Wages - F.O.H. Hourly"
-    ],
-    "Wages - B.O.H. Hourly - OT": [
-      "Wages - B.O.H. Hourly - OT"
-    ],
-    "Total Wages - F.O.H. Wages": [
-      "Server"
-    ],
-    "Total Employer Taxes": [
-      "OASDI",
-      "Ny Re-employment"
-    ],
-    "Total FOH Salaries": [
-      "Admin"
-    ],
-    "Wages - B.O.H. Hourly": [
-      "Wages - B.O.H. Hourly"
-    ],
-    "Wages - F.O.H": [
-      "Bartender"
-    ],
-    "Total Wages - B.O.H. Hourly": [
-      "Inventory"
-    ]
-  },
-  "SUPPLIES & MAINTENANCE": {
-    "SUPPLIES & MAINTENANCE": [
-      "FOH Supplies & Accessories",
-      "Postage & Courier",
-      "Pest Control",
-      "Flatware",
-      "Menus",
-      "IT Cost",
-      "Cleaning Contract Services",
-      "Packaging Supplies",
-      "Equipment Rental",
-      "Paper Supplies",
-      "Trash/Waste Removal Service",
-      "Cleaner",
-      "Chinaware",
-      "Cleaning Supplies",
-      "Barware",
-      "Glassware",
-      "Music",
-      "Linen & Laundry",
-      "Office Supplies/Stationery",
-      "BOH Supplies & Accessories"
-    ]
-  },
-  "TOTAL OTHER STAFF COST": {
-    "GENERAL & ADMINISTRATIVE": [
-      "General & Administrative"
-    ],
-    "Other Expenses": [
-      "Staff Loans/Salary Advances",
-      "Elie S. Galam",
-      "Suspense Account"
-    ],
-    "Total Uncategorized": [
-      "Opening Balance Equity",
-      "*Uncategorized Expenses",
-      "Retained Earnings",
-      "Gift Certificates",
-      "A/R Control Account",
-      "Accounts Receivable",
-      "Supense -Opening balances",
-      "Deposit control -Covid refund",
-      "SALEM CAPITAL LLC"
-    ],
-    "TOTAL OTHER STAFF COST": [
-      "Supplies and Maintenance",
-      "JOSEPH NAGGAR",
-      "1",
-      "Art - Oil Painting",
-      "CITY NATIONAL BANK- 7876",
-      "6"
-    ],
-    "Other Income": [
-      "Debtors",
-      "Greenberg Capital LLC"
-    ],
-    "Controllables - Other": [
-      "Machinery -OP-01.01.21 - other"
-    ],
-    "REVENUE": [
-      "Revenue"
-    ],
-    "COST OF GOODS SOLD": [
-      "Cost Of Goods Sold"
-    ],
-    "Total Cost of Sales - Food": [
-      "Food Inventory"
-    ],
-    "SUPPLIES AND MAINTENANCE": [
-      "Supplies & Maintenance"
-    ],
-    "Total Revenue": [
-      "Event Revenue"
-    ],
-    "Total Other Expenses": [
-      "Credit Card Liabilities"
+    "Total Cost of Sales - Event Purchase": [
+      "Deposit for Future Events"
     ]
   },
   "ADVERTISING / PROMOTION": {
     "ADVERTISING / PROMOTION": [
       "Event Expenses",
-      "Commission Expense",
-      "Branding & Design",
-      "Photography expense",
-      "R & D",
+      "Complimentary Cost",
       "Public Relations",
-      "Subscriptions",
+      "Photography expense",
+      "Branding & Design",
       "Advertising",
-      "Complimentary Cost"
+      "R & D",
+      "Commission Expense",
+      "Subscriptions"
     ],
     "TOTAL PROMOTION": [
       "Interior Design"
     ]
   },
-  "Other Expenses": {
-    "Kitchen/Hood": [
-      "Kitchen/Hood"
+  "STAFF COST": {
+    "Total Wages - F.O.H. Salaried": [
+      "Victor Oviedo",
+      "Gary Kaminsky",
+      "Leslie Hendel",
+      "Audio/Visual/laptop/computer",
+      "Tomer Meir",
+      "Net Wages Payable",
+      "Sales Orders",
+      "James Glenn",
+      "David McDavid",
+      "Gary Vaynerchuk",
+      "Glen Bayless",
+      "Lawrence Liebers",
+      "Suzanne Shook",
+      "Event Deposit - 2022",
+      "Emelio Barletta",
+      "Event Deposits - 2024",
+      "Robert Secham",
+      "Sales Tax Payable",
+      "Tea/Coffee Inventory",
+      "Kevin Yorn",
+      "Eytan Sugarman",
+      "Sales Tax Payable - Tourism",
+      "Event Deposit 2025",
+      "Michael Cooke",
+      "Martin Silver",
+      "Code & Expeditor",
+      "Anthony Scarmucci",
+      "Payroll Liabilities",
+      "Christopher Kordes",
+      "Jeff & Jennifer Enslin",
+      "Troy Gayeski",
+      "Ron Marshall",
+      "KRH Hospitality",
+      "Andrew Rabinowitz",
+      "Discount on Event Revenue",
+      "Daniel & Karnell Osman",
+      "Matthew Robinson",
+      "Richard Portogallo",
+      "L/P - SBA"
     ],
-    "Machinery and Equipment": [
-      "Machinery and Equipment"
+    "Wages - F.O.H. Salaried": [
+      "James Martin",
+      "Tips Payable",
+      "Dishwasher OT",
+      "Nelson Braff",
+      "Wages - F.O.H. Salaried"
     ],
-    "Furniture and Fixtures": [
-      "Furniture and Fixtures"
+    "Total Wages - B.O.H. Hourly": [
+      "Inventory"
     ],
-    "Leasehold": [
-      "Leasehold"
+    "Wages - B.O.H. Hourly - OT": [
+      "Wages - B.O.H. Hourly - OT"
     ],
-    "Intangible Assets": [
-      "Intangible Assets"
+    "Total Wages - B.O.H. Salaried": [
+      "Joseph Terranova",
+      "Unreconciled Net Wages Payable",
+      "BOH-Cleaner",
+      "1",
+      "Keith & Debra Hladek",
+      "Porter-Receiver",
+      "Sloan Family Partners",
+      "Andrew Bozhardt",
+      "Stuart Bohart",
+      "Unclaimed Wages",
+      "Keith  & Debbie Banks"
     ],
-    "Start-Up Costs": [
-      "Start-Up Costs"
+    "Total Employer Benefits": [
+      "Stacey Braff",
+      "Dental",
+      "Vision",
+      "James Greenberg",
+      "Medical",
+      "Child Support"
     ],
-    "Other Expenses": [
-      "Under/Over",
-      "Interest Expense",
-      "Interest Paid on Loans - 2",
-      "Other Expenses"
+    "Total Employer Taxes": [
+      "Ny Re-employment",
+      "OASDI"
+    ],
+    "Payroll Expense": [
+      "Payroll Expense"
+    ],
+    "TOTAL STAFF COST": [
+      "Jaahred Thomas",
+      "Federal FUTA",
+      "Raymond Nolte",
+      "FOH",
+      "Marketing Wages",
+      "Labor Cost",
+      "BOH",
+      "State SUI",
+      "Sous Chef",
+      "Wage Cost"
+    ],
+    "TOTAL OTHER STAFF COST": [
+      "On stage of NewYork LTD",
+      "4",
+      "3"
+    ],
+    "Wages - B.O.H. Hourly": [
+      "Wages - B.O.H. Hourly"
+    ],
+    "Total Wages FOH Hourly": [
+      "Captain"
+    ],
+    "Employer Taxes": [
+      "Medicare",
+      "Employer Taxes"
+    ],
+    "BOH SALARIES": [
+      "Kitchen"
+    ],
+    "Total Wages - B.O.H. Wages": [
+      "BOH- Cleaner",
+      "BOH - Manager"
+    ],
+    "Wages - B.O.H. Salaried": [
+      "Wages - B.O.H. Salaried"
+    ],
+    "TOTAL EMPLOYEE BENEFITS": [
+      "Metro Commuter"
+    ],
+    "Wages - F.O.H": [
+      "Bartender"
+    ],
+    "Wages - B.O.H.": [
+      "Executive Chef",
+      "Dishwasher"
+    ],
+    "Total Wages - F.O.H. Wages": [
+      "Server"
+    ],
+    "Wages - F.O.H. Hourly": [
+      "Wages - F.O.H. Hourly"
+    ],
+    "Total FOH Salaries": [
+      "Admin"
+    ],
+    "Wages - F.O.H. Hourly - OT": [
+      "Wages - F.O.H. Hourly - OT"
     ]
   },
-  "PROFESSIONAL FEE": {
-    "PROFESSIONAL FEE": [
-      "Professional Fees",
-      "Accounting Fees",
-      "Tax Fees",
-      "Consulting Fees",
-      "Legal Fees",
-      "Audit Fees"
+  "Other Income & Expenses": {
+    "Other Income & Expenses": [
+      "Other Income",
+      "Miscellaneous Expenses",
+      "Cash Over/short",
+      "Rounding Differences",
+      "Short term Investment",
+      "Intercompany",
+      "SBA Loan forgiveness",
+      "Interest Paid on Loans - 1",
+      "Over/Short Tips",
+      "R.B.C Capital Market LLC"
+    ],
+    "Other Income": [
+      "Event Deposits - 2023",
+      "Members Contributions/(Distrib"
+    ]
+  },
+  "SUPPLIES & MAINTENANCE": {
+    "SUPPLIES & MAINTENANCE": [
+      "Trash/Waste Removal Service",
+      "Cleaner",
+      "BOH Supplies & Accessories",
+      "Barware",
+      "Paper Supplies",
+      "Flatware",
+      "Postage & Courier",
+      "Pest Control",
+      "Cleaning Supplies",
+      "Menus",
+      "Cleaning Contract Services",
+      "Glassware",
+      "Linen & Laundry",
+      "Music",
+      "IT Cost",
+      "Packaging Supplies",
+      "Equipment Rental",
+      "Office Supplies/Stationery",
+      "Chinaware",
+      "FOH Supplies & Accessories"
+    ]
+  },
+  "Total Employer Taxes": {
+    "Total Employer Taxes": [
+      "Payroll Tax Payable",
+      "Social Security",
+      "Tangible Property Taxes Payable"
     ]
   },
   "REVENUE": {
     "REVENUE": [
+      "Event-Other Beverages",
       "Food",
-      "Extra/Short Receipts",
-      "Digital Sales - Adjustments",
-      "Sales Adjustments",
+      "Admin/ Room / Other",
       "Other Beverages",
+      "Sales Adjustments",
+      "Wines",
+      "Retails",
+      "Beer",
+      "Digital Sales - Adjustments",
+      "Extra/Short Receipts",
       "Event-Food",
       "Chargebacks",
-      "Retails",
-      "Liquor",
-      "Beer",
-      "Event-Other Beverages",
-      "Wines",
-      "Admin/ Room / Other"
-    ],
-    "TOTAL REVENUE": [
-      "Champagne",
-      "Tea/Coffee"
+      "Liquor"
     ],
     "Total Revenue": [
       "Event sales"
-    ]
-  },
-  "TOTAL OTHER FINANCIAL COST": {
-    "P & L Depreciation & Amortization": [
-      "Accumulated Depreciation"
     ],
-    "P & L Amortization": [
-      "Accumulated Amortization"
-    ]
-  },
-  "OTHER STAFF COST": {
-    "OTHER STAFF COST": [
-      "Staff Accommodation/Relocation",
-      "Wages - 1099",
-      "Other Staff Costs",
-      "Staff Training",
-      "401K",
-      "Staff Recruitment",
-      "Staff Welfare",
-      "Staff Uniforms",
-      "Wages - Security - 1099",
-      "Wages - Agency",
-      "NY Paid Family Leave",
-      "Employee Benefits",
-      "Employee commuter benefit",
-      "Staff Meals",
-      "Staff Insurance",
-      "Staff First Aid"
-    ]
-  },
-  "Total Employer Benefits": {
-    "Total Employer Benefits": [
-      "Joel Press",
-      "Disability Payable",
-      "Goodwil",
-      "Owners Health Insurance"
+    "TOTAL REVENUE": [
+      "Tea/Coffee",
+      "Champagne"
     ]
   },
   "TOTAL OTHER EXPENSE": {
-    "Other Expenses": [
-      "Merchant Fianacing AMEX",
-      "Royalties Payable",
-      "Deferred Liabilities"
-    ],
-    "Total Other Expenses": [
-      "Security Deposits",
-      "Accumulated Depreciation",
-      "Lighting Consultant",
-      "Accrued Liabilities"
+    "A/P Write Off": [
+      "Accounts Payable - EUR"
     ],
     "Depreciation Expense - Other": [
       "Accumulated Depreciation"
     ],
-    "A/P Write Off": [
-      "Accounts Payable - EUR"
+    "Other Expenses": [
+      "Royalties Payable",
+      "Merchant Fianacing AMEX",
+      "Deferred Liabilities"
+    ],
+    "Total Other Expenses": [
+      "Lighting Consultant",
+      "Security Deposits",
+      "Accrued Liabilities",
+      "Accumulated Depreciation"
     ],
     "Income Taxes": [
       "Corporate Tax Payable"
@@ -458,95 +314,90 @@
   },
   "OCCUPANCY": {
     "OCCUPANCY": [
-      "Real Estate Escalation Tax",
-      "Commercial Rent Tax",
-      "Percentage Rent",
-      "Internet /Telephone",
-      "Rent",
-      "Security and Alarm",
-      "Water",
-      "Storage Rent",
       "Electricity",
+      "Rent",
       "CAM Charges",
-      "Gas"
+      "Real Estate Escalation Tax",
+      "Water",
+      "Percentage Rent",
+      "Storage Rent",
+      "Gas",
+      "Internet /Telephone",
+      "Commercial Rent Tax",
+      "Security and Alarm"
     ]
   },
-  "GENERAL & ADMINISTRATIVE": {
-    "GENERAL & ADMINISTRATIVE": [
-      "POS"
+  "FINANCIAL COST": {
+    "FINANCIAL COST": [
+      "Insurance Expense",
+      "Sales and Use Tax - Charged",
+      "Corporate Tax Expense",
+      "Credit Card Charges",
+      "Royalties",
+      "Uncategorized Expenses",
+      "Tangible Property Taxes",
+      "Penalties",
+      "Donations",
+      "Bank Charges",
+      "Payroll Processing Charges"
+    ]
+  },
+  "TOTAL OTHER STAFF COST": {
+    "Total Other Expenses": [
+      "Credit Card Liabilities"
     ],
-    "Legal & Accounting": [
-      "Legal Attorney"
-    ]
-  },
-  "\"": {
-    "\"\"\"\"": [
-      "\"EB DESIGN ENTERPRISES"
-    ]
-  },
-  "Cost of Sales - Event Purchase": {
-    "DIRECT OPERATING EXPENSES": [
-      "HONG TAO CONSTRUCTION",
-      "Construction Management",
-      "Machinery-Op.01.01.21"
+    "REVENUE": [
+      "Revenue"
     ],
-    "Total Cost of Sales - Event Purchase": [
-      "Deposit for Future Events"
-    ]
-  },
-  "Other Income & Expenses": {
-    "Other Income & Expenses": [
-      "Other Income",
-      "Cash Over/short",
-      "Intercompany",
-      "Rounding Differences",
-      "Short term Investment",
-      "Interest Paid on Loans - 1",
-      "Over/Short Tips",
-      "R.B.C Capital Market LLC",
-      "SBA Loan forgiveness",
-      "Miscellaneous Expenses"
+    "Total Revenue": [
+      "Event Revenue"
+    ],
+    "Other Expenses": [
+      "Elie S. Galam",
+      "Staff Loans/Salary Advances",
+      "Suspense Account"
+    ],
+    "TOTAL OTHER STAFF COST": [
+      "CITY NATIONAL BANK- 7876",
+      "JOSEPH NAGGAR",
+      "6",
+      "1",
+      "Art - Oil Painting",
+      "Supplies and Maintenance"
+    ],
+    "Total Uncategorized": [
+      "SALEM CAPITAL LLC",
+      "A/R Control Account",
+      "Accounts Receivable",
+      "Opening Balance Equity",
+      "Supense -Opening balances",
+      "Deposit control -Covid refund",
+      "Retained Earnings",
+      "*Uncategorized Expenses",
+      "Gift Certificates"
     ],
     "Other Income": [
-      "Event Deposits - 2023",
-      "Members Contributions/(Distrib"
+      "Greenberg Capital LLC",
+      "Debtors"
+    ],
+    "COST OF GOODS SOLD": [
+      "Cost Of Goods Sold"
+    ],
+    "Controllables - Other": [
+      "Machinery -OP-01.01.21 - other"
+    ],
+    "Total Cost of Sales - Food": [
+      "Food Inventory"
     ]
   },
-  "TOTAL OTHER FINANCIAL COSTS": {
-    "Other Income & Expenses": [
-      "PF Investment One LLC",
-      "Retained Earnings / (Deficit)",
-      "*Undeposited Funds",
-      "Undeposited Funds"
-    ],
-    "P & L Amortization": [
-      "Accumulated Amortization"
-    ],
-    "INSURANCE EXPENSES": [
-      "Accrued Insurance"
-    ],
-    "TOTAL SALES & MARKETING": [
-      "Discount on Dining Room Revenue"
-    ],
-    "INTEREST & OTHER EXPENSES": [
-      "Financial Cost"
-    ],
-    "P & L Depreciation & Amortization": [
-      "Accumulated Depreciation"
-    ]
-  },
-  "OTHER INCOME & EXPENSES": {
-    "Leasehold Improvements": [
-      "Leasehold Improvements"
-    ],
-    "Pre-Opening Expense": [
-      "Pre-Opening Expense"
-    ]
-  },
-  "Cost of Sales - Food": {
-    "Cost of Sales - Food": [
-      "Food - Stock Adjustment",
-      "Food Purchases"
+  "PROFESSIONAL FEE": {
+    "PROFESSIONAL FEE": [
+      "Audit Fees",
+      "Legal Fees",
+      "Accounting Fees",
+      "Professional Fees",
+      "Tax Fees",
+      "Consulting Fees"
     ]
   },
   "Total Uncategorized": {
@@ -558,100 +409,38 @@
       "Permits"
     ]
   },
-  "GENERAL & ADMIN EXPENSES": {
-    "GENERAL & ADMIN EXPENSES": [
-      "General & Admin Expenses"
+  "Other Expenses": {
+    "Start-Up Costs": [
+      "Start-Up Costs"
+    ],
+    "Furniture and Fixtures": [
+      "Furniture and Fixtures"
+    ],
+    "Other Expenses": [
+      "Interest Paid on Loans - 2",
+      "Other Expenses",
+      "Interest Expense",
+      "Under/Over"
+    ],
+    "Intangible Assets": [
+      "Intangible Assets"
+    ],
+    "Leasehold": [
+      "Leasehold"
+    ],
+    "Machinery and Equipment": [
+      "Machinery and Equipment"
+    ],
+    "Kitchen/Hood": [
+      "Kitchen/Hood"
+    ],
+    "TOTAL OTHER EXPENSES": [
+      "EB DESIGN ENTERPRISES,"
     ]
   },
-  "COST OF GOODS SOLD": {
-    "COG Liquor": [
-      "Liquor Purchases"
-    ],
-    "COST OF GOODS SOLD": [
-      "Cost of Sales - Other Bev",
-      "Cost of Sales - Champagne",
-      "Cost of Sales - Wine",
-      "Cost of Sales - Beer",
-      "Cost of Sales - Food",
-      "Cost of Sales - Retails",
-      "Cost of Sales - Tea/Coffee",
-      "Cost of Sales - Liquor"
-    ],
-    "COG Other Beverages": [
-      "Other Bev Purchases",
-      "Other Bev - Stock Adjustment"
-    ],
-    "Total Cost of Sales - Food": [
-      "Inventory Asset"
-    ],
-    "Cost of Sales - Liquor": [
-      "Liquor Tax Payable",
-      "Liquor Inventory"
-    ],
-    "Total Cost of Sales - Retails": [
-      "Retail Purchases",
-      "Retail - Stock Adjustment"
-    ],
-    "Cost of Sales - Food": [
-      "*Cost of Goods Sold"
-    ],
-    "Total Cost of Sales - Champagne": [
-      "Champagne Purchases",
-      "Champagne - Stock Adjustment"
-    ],
-    "Cost of Sales - Beer": [
-      "Beer Inventory"
-    ],
-    "Total Cost of Sales - Wine": [
-      "Wine Purchases"
-    ],
-    "Cost of Sales - Other Bev": [
-      "Tobacco Inventory"
-    ],
-    "Total Cost of Sales - Other Bev": [
-      "Other Beverages Inventory"
-    ]
-  },
-  "P & L Depreciation & Amortization": {
-    "P & L Depreciation & Amortization": [
-      "Amortization Expense",
-      "Depreciation Expense"
-    ]
-  },
-  "INSURANCE EXPENSES": {
-    "Insurance - Other": [
-      "Workers Compensation Insurance"
-    ],
-    "INSURANCE EXPENSES": [
-      "EPLI Insurance",
-      "Property Insurance",
-      "Umbrella Insurance",
-      "Liability Insurance"
-    ]
-  },
-  "REPAIRS & MAINTENANCE": {
-    "REPAIRS & MAINTENANCE": [
-      "Repairs - Equipment",
-      "Repairs - General",
-      "Repairs - Building"
-    ]
-  },
-  "TRAVEL & ENTERTAINMENT": {
-    "TRAVEL & ENTERTAINMENT": [
-      "Web Design & Maintenance",
-      "Auto Expense",
-      "Airfare",
-      "Meals & Entertainment",
-      "Clearing and Freight charges",
-      "Valet Parking - Guest",
-      "Taxi Charges & Local Travel",
-      "Lodging",
-      "Delivery Charges"
-    ]
-  },
-  "TOTAL COST OF GOODS SOLD": {
-    "Cost of Sales - Liquor": [
-      "Liquor Attorney"
+  "P&L AMORTIZATION": {
+    "Fees": [
+      "Fees"
     ]
   },
   "G&A": {
@@ -659,14 +448,167 @@
       "Interest on Tax/Penalties"
     ]
   },
+  "INTEREST & OTHER EXPENSES": {
+    "INTEREST & OTHER EXPENSES": [
+      "Loan Payable - Scaramucci",
+      "Loan Payable - Dlino",
+      "Loan payable - Bank 7876",
+      "CITY NATIONAL BANK - 1139",
+      "CITY NATIONAL BANK- 5699"
+    ],
+    "Interest on Loans": [
+      "Loan Payable - Centaurian",
+      "Loan Payable - Barrett",
+      "Loans Payable",
+      "Loan From Nelson",
+      "Loan From Duncan"
+    ],
+    "Interest & Other Expenses": [
+      "Long Term Debt",
+      "6",
+      "Bank",
+      "Bank Transfer A/C",
+      "CITY NATIONAL BANK - 1120",
+      "CITY NATIONAL BANK- 0987",
+      "CITY NATIONAL BANK-5508",
+      "PPP Loan",
+      "CITY NATIONAL BANK- 7876"
+    ],
+    "INSURANCE EXPENSES": [
+      "Prepaid Insurance"
+    ],
+    "OTHER FINANCIAL COSTS": [
+      "Other Financial Costs"
+    ]
+  },
+  "OTHER STAFF COST": {
+    "OTHER STAFF COST": [
+      "Staff Accommodation/Relocation",
+      "Wages - Security - 1099",
+      "Staff Meals",
+      "Employee Benefits",
+      "Staff Recruitment",
+      "Staff Uniforms",
+      "Wages - Agency",
+      "Staff Training",
+      "401K",
+      "Other Staff Costs",
+      "NY Paid Family Leave",
+      "Employee commuter benefit",
+      "Staff First Aid",
+      "Wages - 1099",
+      "Staff Welfare",
+      "Staff Insurance"
+    ]
+  },
+  "GENERAL & ADMINISTRATIVE": {
+    "Legal & Accounting": [
+      "Legal Attorney"
+    ],
+    "GENERAL & ADMINISTRATIVE": [
+      "POS"
+    ]
+  },
+  "General & Admin Expen": {
+    "Travel and Entertainment": [
+      "Travel and Entertainment"
+    ]
+  },
+  "COST OF GOODS SOLD": {
+    "COST OF GOODS SOLD": [
+      "Cost of Sales - Retails",
+      "Cost of Sales - Other Bev",
+      "Cost of Sales - Champagne",
+      "Cost of Sales - Food",
+      "Cost of Sales - Wine",
+      "Cost of Sales - Liquor",
+      "Cost of Sales - Beer",
+      "Cost of Sales - Tea/Coffee"
+    ],
+    "COG Liquor": [
+      "Liquor Purchases"
+    ],
+    "Cost of Sales - Liquor": [
+      "Liquor Inventory",
+      "Liquor Tax Payable"
+    ],
+    "Total Cost of Sales - Champagne": [
+      "Champagne - Stock Adjustment",
+      "Champagne Purchases"
+    ],
+    "Total Cost of Sales - Retails": [
+      "Retail Purchases",
+      "Retail - Stock Adjustment"
+    ],
+    "COG Other Beverages": [
+      "Other Bev - Stock Adjustment",
+      "Other Bev Purchases"
+    ],
+    "Cost of Sales - Food": [
+      "*Cost of Goods Sold"
+    ],
+    "Total Cost of Sales - Other Bev": [
+      "Other Beverages Inventory"
+    ],
+    "Cost of Sales - Beer": [
+      "Beer Inventory"
+    ],
+    "Cost of Sales - Other Bev": [
+      "Tobacco Inventory"
+    ],
+    "Total Cost of Sales - Wine": [
+      "Wine Purchases"
+    ],
+    "Total Cost of Sales - Food": [
+      "Inventory Asset"
+    ]
+  },
+  "TOTAL OTHER EXPENSES": {
+    "DIRECT OPERATING EXPENSES": [
+      "MEP",
+      "Architect"
+    ],
+    "TOTAL OTHER EXPENSES": [
+      "MGSB Enterprises, LLC",
+      "IT",
+      "2"
+    ],
+    "Other Expenses": [
+      "Petty Cash Control"
+    ],
+    "Flowers & Candles": [
+      "Landscape, Flowers & Candles"
+    ],
+    "Total Other Expenses": [
+      "L/P - Merchant Services",
+      "Accounts Payable - GBP",
+      "Accounts Payable - USD"
+    ]
+  },
+  "GENERAL & ADMIN EXPENSES": {
+    "GENERAL & ADMIN EXPENSES": [
+      "General & Admin Expenses"
+    ]
+  },
+  "TRAVEL & ENTERTAINMENT": {
+    "TRAVEL & ENTERTAINMENT": [
+      "Meals & Entertainment",
+      "Taxi Charges & Local Travel",
+      "Auto Expense",
+      "Web Design & Maintenance",
+      "Delivery Charges",
+      "Lodging",
+      "Valet Parking - Guest",
+      "Clearing and Freight charges",
+      "Airfare"
+    ]
+  },
   "TOTAL STAFF COST": {
     "TOTAL OTHER STAFF COST": [
-      "6",
-      "CITY NATIONAL BANK- 7876",
-      "2",
-      "Utilities/ Other",
       "A DEFEO",
+      "Utilities/ Other",
       "Other Staff Cost",
+      "Lancen, LLC",
       "5"
     ],
     "Payroll Expense": [
@@ -676,73 +618,15 @@
       "Guiseppe R. Manica"
     ]
   },
-  "Total Wages - B.O.H. Salaried": {
-    "Guaranteed Payment": [
-      "David Greenlaw"
-    ],
-    "Total Wages - B.O.H. Salaried": [
-      "Chef de Cuisine"
+  "Total Other Expenses": {
+    "A/P Write Off": [
+      "Creditors"
     ]
   },
-  "Permits": {
-    "and Filing F\"": [
-      "\"Licenses"
-    ]
-  },
-  "FINANCIAL COST": {
-    "FINANCIAL COST": [
-      "Credit Card Charges",
-      "Uncategorized Expenses",
-      "Penalties",
-      "Tangible Property Taxes",
-      "Payroll Processing Charges",
-      "Corporate Tax Expense",
-      "Sales and Use Tax - Charged",
-      "Royalties",
-      "Insurance Expense",
-      "Donations",
-      "Bank Charges"
-    ]
-  },
-  "LLC\"": {
-    "\" LLC\"\"\"": [
-      "\"Lancen",
-      "\"MGSB Enterprises"
-    ]
-  },
-  "TOTAL OTHER EXPENSES": {
-    "TOTAL OTHER EXPENSES": [
-      "IT",
-      "2"
-    ],
-    "Total Other Expenses": [
-      "L/P - Merchant Services",
-      "Accounts Payable - GBP",
-      "Accounts Payable - USD"
-    ],
-    "Other Expenses": [
-      "Petty Cash Control"
-    ],
-    "DIRECT OPERATING EXPENSES": [
-      "Architect",
-      "MEP"
-    ]
-  },
-  "TOTAL PRE OPENING EXPENSES": {
-    "Total Pre-Opening Expenses": [
-      "Event Deposit - 2021",
-      "Non-GC Buildout",
-      "Kitchen/Hood Opening"
-    ],
-    "Pre-Opening Expenses": [
-      "Initial Buildout"
-    ]
-  },
-  "Total Employer Taxes": {
-    "Total Employer Taxes": [
-      "Payroll Tax Payable",
-      "Social Security",
-      "Tangible Property Taxes Payable"
+  "Cost of Sales - Food": {
+    "Cost of Sales - Food": [
+      "Food - Stock Adjustment",
+      "Food Purchases"
     ]
   },
   "COMMUNICATION": {
@@ -750,26 +634,218 @@
       "Telephone"
     ]
   },
+  "Total Wages - F.O.H. Hourly": {
+    "Total Wages - F.O.H. Hourly": [
+      "Runner",
+      "Barback",
+      "Hostess",
+      "Busser"
+    ]
+  },
+  "Total Employer Benefits": {
+    "Total Employer Benefits": [
+      "Goodwil",
+      "Disability Payable",
+      "Joel Press",
+      "Owners Health Insurance"
+    ]
+  },
+  "TOTAL OTHER FINANCIAL COST": {
+    "P & L Amortization": [
+      "Accumulated Amortization"
+    ]
+  },
+  "Total Wages - B.O.H. Hourly": {
+    "Total Wages - B.O.H. Hourly": [
+      "Steward",
+      "Receiving Clerk",
+      "Cook"
+    ]
+  },
+  "TOTAL ADVERTISING AND MARKETING": {
+    "TOTAL ADVERTISING / PROMOTION": [
+      "Advertising and Promotion"
+    ]
+  },
+  "Total Wages - F.O.H. Salaried": {
+    "Total Wages - F.O.H. Salaried": [
+      "Morris Mark",
+      "GM",
+      "Floor Manager",
+      "Beverage Manager",
+      "Sommelier"
+    ]
+  },
+  "TOTAL COST OF GOODS SOLD": {
+    "Cost of Sales - Liquor": [
+      "Liquor Attorney"
+    ]
+  },
+  "Cost of Sales - Wine & Champagn": {
+    "Cost of Sales - Wine & Champagn": [
+      "Wine Inventory"
+    ]
+  },
+  "INSURANCE EXPENSES": {
+    "INSURANCE EXPENSES": [
+      "Umbrella Insurance",
+      "Liability Insurance",
+      "EPLI Insurance",
+      "Property Insurance"
+    ],
+    "Insurance - Other": [
+      "Workers Compensation Insurance"
+    ]
+  },
+  "Total OTHER STAFF COST": {
+    "Total OTHER STAFF COST": [
+      "Contract Labor"
+    ]
+  },
   "Dummy": {
     "Dummy": [
       "Patrick A. McCurdy"
     ]
   },
+  "TOTAL OTHER FINANCIAL COSTS": {
+    "P & L Depreciation & Amortization": [
+      "Accumulated Depreciation"
+    ],
+    "TOTAL SALES & MARKETING": [
+      "Discount on Dining Room Revenue"
+    ],
+    "Other Income & Expenses": [
+      "*Undeposited Funds",
+      "Undeposited Funds",
+      "PF Investment One LLC",
+      "Retained Earnings / (Deficit)"
+    ],
+    "INSURANCE EXPENSES": [
+      "Accrued Insurance"
+    ],
+    "INTEREST & OTHER EXPENSES": [
+      "Financial Cost"
+    ]
+  },
+  "REPAIRS & MAINTENANCE": {
+    "REPAIRS & MAINTENANCE": [
+      "Repairs - General",
+      "Repairs - Equipment",
+      "Repairs - Building"
+    ]
+  },
+  "Ask My Accountant": {
+    "Mike Haddad": [
+      "Mike Haddad"
+    ]
+  },
+  "Permits": {
+    "and Filing F\"": [
+      "\"Licenses"
+    ]
+  },
+  "TOTAL PRE OPENING EXPENSES": {
+    "Total Pre-Opening Expenses": [
+      "Non-GC Buildout",
+      "Kitchen/Hood Opening",
+      "Event Deposit - 2021"
+    ],
+    "Pre-Opening Expenses": [
+      "Initial Buildout"
+    ],
+    "TOTAL PRE OPENING EXPENSES": [
+      "Licenses, Permits, and Filing F"
+    ]
+  },
+  "\"": {
+    "\"\"\"\"": [
+      "\"EB DESIGN ENTERPRISES"
+    ],
+    "Other Expenses": [
+      "\"EB DESIGN ENTERPRISES"
+    ]
+  },
+  "TOTAL OTHER INCOME": {
+    "TOTAL OTHER INCOME": [
+      "Interest Income"
+    ]
+  },
+  "Cost of Sales - Tea/Coffee": {
+    "Cost of Sales - Tea/Coffee": [
+      "Tea/Coffee Purchases",
+      "Tea/Coffee - Stock Adjustment"
+    ]
+  },
+  "OTHER INCOME & EXPENSES": {
+    "Pre-Opening Expense": [
+      "Pre-Opening Expense"
+    ],
+    "Leasehold Improvements": [
+      "Leasehold Improvements"
+    ]
+  },
+  "GENERAL & ADMINISTRATIVE EXP": {
+    "ADMINISTRATION": [
+      "Samnat LLC"
+    ]
+  },
+  "TOTAL SALES & MARKETING": {
+    "TOTAL SALES & MARKETING": [
+      "Service Charge Payable Account"
+    ]
+  },
   "TOTAL PROFESSIONAL COST": {
     "Professional and Consutlng": [
-      "Structural Engineer",
-      "Kitchen Consultant"
+      "Kitchen Consultant",
+      "Structural Engineer"
+    ]
+  },
+  "P & L Depreciation & Amortization": {
+    "P & L Depreciation & Amortization": [
+      "Amortization Expense",
+      "Depreciation Expense"
+    ]
+  },
+  "DIRECT OPERATING EXPENSES": {
+    "REPAIRS & MAINTENANCE": [
+      "Improvments"
+    ]
+  },
+  "Guaranteed Payment": {
+    "Guaranteed Payment": [
+      "BSD LLC",
+      "Robert Wolf"
+    ]
+  },
+  "Flowers & Candles\"": {
+    "\" Flowers & Candles\"\"\"": [
+      "\"Landscape"
+    ],
+    "TOTAL OTHER EXPENSES": [
+      "\"Landscape"
     ]
   },
   "Cost of Sales - Beer": {
     "Cost of Sales - Beer": [
-      "Beer - Stock Adjustment",
-      "Beer Purchases"
+      "Beer Purchases",
+      "Beer - Stock Adjustment"
     ]
   },
-  "General & Admin Expen": {
-    "Travel and Entertainment": [
-      "Travel and Entertainment"
+  "LLC\"": {
+    "\" LLC\"\"\"": [
+      "\"MGSB Enterprises",
+      "\"Lancen"
+    ],
+    "TOTAL STAFF COST": [
+      "\"Lancen"
+    ],
+    "TOTAL OTHER EXPENSES": [
+      "\"MGSB Enterprises"
+    ]
+  },
+  "Cost of Sales - Liquor": {
+    "Cost of Sales - Liquor": [
+      "Liquor - Stock Adjustment"
     ]
   },
   "EMPLOYER TAXES": {
@@ -777,10 +853,9 @@
       "NY MTA"
     ]
   },
-  "Guaranteed Payment": {
-    "Guaranteed Payment": [
-      "Robert Wolf",
-      "BSD LLC"
+  "Cost of Sales - Wines": {
+    "Cost of Sales - Wines": [
+      "Wine - Stock Adjustment"
     ]
   },
   "TOTAL FOOD": {
@@ -791,95 +866,22 @@
       "Dining Room Revenue"
     ]
   },
-  "Ask My Accountant": {
-    "Mike Haddad": [
-      "Mike Haddad"
-    ]
-  },
-  "Uncategorized Income": {
-    "Uncategorized Income": [
-      "Uncategorized Income"
-    ]
-  },
-  "Total Wages - B.O.H. Hourly": {
-    "Total Wages - B.O.H. Hourly": [
-      "Cook",
-      "Steward",
-      "Receiving Clerk"
-    ]
-  },
-  "P&L AMORTIZATION": {
-    "Fees": [
-      "Fees"
-    ]
-  },
-  "TOTAL ADVERTISING AND MARKETING": {
-    "TOTAL ADVERTISING / PROMOTION": [
-      "Advertising and Promotion"
-    ]
-  },
   "TOTAL COMMUNICATION": {
     "TOTAL COMMUNICATION": [
       "Internet/Email"
     ]
   },
-  "DIRECT OPERATING EXPENSES": {
-    "Total Repaints & Maintenance": [
-      "Cleaner"
+  "Total Wages - B.O.H. Salaried": {
+    "Total Wages - B.O.H. Salaried": [
+      "Chef de Cuisine"
     ],
-    "REPAIRS & MAINTENANCE": [
-      "Improvments"
+    "Guaranteed Payment": [
+      "David Greenlaw"
     ]
   },
-  "Cost of Sales - Wine & Champagn": {
-    "Cost of Sales - Wine & Champagn": [
-      "Wine Inventory"
-    ]
-  },
-  "Cost of Sales - Liquor": {
-    "Cost of Sales - Liquor": [
-      "Liquor - Stock Adjustment"
-    ]
-  },
-  "GENERAL & ADMINISTRATIVE EXP": {
-    "ADMINISTRATION": [
-      "Samnat LLC"
-    ]
-  },
-  "Cost of Sales - Wines": {
-    "Cost of Sales - Wines": [
-      "Wine - Stock Adjustment"
-    ]
-  },
-  "Flowers & Candles\"": {
-    "\" Flowers & Candles\"\"\"": [
-      "\"Landscape"
-    ]
-  },
-  "Total Other Expenses": {
-    "A/P Write Off": [
-      "Creditors"
-    ]
-  },
-  "Total OTHER STAFF COST": {
-    "Total OTHER STAFF COST": [
-      "Contract Labor"
-    ]
-  },
-  "Cost of Sales - Tea/Coffee": {
-    "Cost of Sales - Tea/Coffee": [
-      "Tea/Coffee Purchases",
-      "Tea/Coffee - Stock Adjustment"
-    ]
-  },
-  "TOTAL OTHER INCOME": {
-    "TOTAL OTHER INCOME": [
-      "Interest Income"
-    ]
-  },
-  "TOTAL SALES & MARKETING": {
-    "TOTAL SALES & MARKETING": [
-      "Service Charge Payable Account"
+  "Uncategorized Income": {
+    "Uncategorized Income": [
+      "Uncategorized Income"
     ]
   }
 }

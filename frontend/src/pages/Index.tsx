@@ -25,7 +25,7 @@ type PredictResponse = {
   full_dataset?: Row[];
 };
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:6514";
+const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:8007";
 const ITEMS_PER_PAGE = 20;
 
 const Index = () => {
