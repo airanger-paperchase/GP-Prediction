@@ -13,10 +13,13 @@ ENV DEBIAN_FRONTEND=noninteractive \
 # Install essential system dependencies and Microsoft ODBC Driver for SQL Server
 # ---------------------------------------------------------
 RUN set -eux; \
-    apt-get update && apt-get install -y --no-install-recommends \
+    rm -rf /var/lib/apt/lists/*; \
+    echo 'Acquire::CompressionTypes::Order:: "gz";' > /etc/apt/apt.conf.d/99compression; \
+    apt-get clean && apt-get update -o Acquire::Retries=3; \
+    apt-get install -y --no-install-recommends \
+        ca-certificates \
         curl \
         gnupg \
-        ca-certificates \
         build-essential \
         gcc \
         g++ \
@@ -24,16 +27,16 @@ RUN set -eux; \
         unixodbc-dev \
         libgomp1; \
     \
-    # Add Microsoft repository securely (for msodbcsql18)
+    # Add Microsoft repo securely
     curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor -o /usr/share/keyrings/microsoft-prod.gpg; \
-    echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/debian/12/prod bookworm main" > /etc/apt/sources.list.d/microsoft-prod.list; \
+    echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/microsoft-prod.gpg] https://packages.microsoft.com/debian/12/prod bookworm main" > /etc/apt/sources.list.d/microsoft-prod.list; \
     \
-    apt-get update; \
+    apt-get update -o Acquire::Retries=3; \
     ACCEPT_EULA=Y apt-get install -y --no-install-recommends msodbcsql18; \
     \
-    # Clean up APT cache to reduce image size
     apt-get clean; \
     rm -rf /var/lib/apt/lists/* /tmp/*
+
 
 # ---------------------------------------------------------
 # Set working directory and install Python dependencies
