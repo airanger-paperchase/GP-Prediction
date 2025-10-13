@@ -1,10 +1,3 @@
-import os
-
-from dotenv import load_dotenv
-from openai import AzureOpenAI
-from azure.identity import DefaultAzureCredential
-from azure.keyvault.secrets import SecretClient
-import logging
 import csv
 import io
 import json
@@ -25,6 +18,7 @@ from azure.keyvault.secrets import SecretClient
 from dotenv import load_dotenv
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
+from openai import AzureOpenAI
 from pydantic import BaseModel
 from shared_setup import build_lookups, load_label_csv, normalize_lineitem
 
@@ -32,12 +26,9 @@ load_dotenv()
 
 # Set up logging
 logging.basicConfig(
-    level=logging.INFO, 
-    format='%(asctime)s - %(name)s - %(levelname)s - %(funcName)s:%(lineno)d - %(message)s',
-    handlers=[
-        logging.FileHandler('llm_adapter.log'),
-        logging.StreamHandler()
-    ]
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(funcName)s:%(lineno)d - %(message)s",
+    handlers=[logging.FileHandler("llm_adapter.log"), logging.StreamHandler()],
 )
 logger = logging.getLogger(__name__)
 # Initialize Key Vault client
@@ -55,13 +46,14 @@ except Exception as e:
     logger.error(f"Failed to initialize Azure credential: {str(e)}")
     raise
 
+
 def get_secret(secret_name: str) -> str:
     """
     Fetch a secret from Azure Key Vault.
-    
+
     Args:
         secret_name (str): Name of the secret in Key Vault
-        
+
     Returns:
         str: Secret value
     """
@@ -71,24 +63,32 @@ def get_secret(secret_name: str) -> str:
         logger.error(f"Failed to fetch secret {secret_name} from Key Vault: {str(e)}")
         raise
 
+
 # Function to get Azure OpenAI key with fallback to environment variable
 def get_azure_openai_key():
     """Get Azure OpenAI key from Key Vault or environment variable"""
     try:
         return get_secret("AZURE-OPENAI-KEY")
     except Exception as e:
-        logger.warning(f"Failed to get key from Key Vault: {str(e)}. Trying environment variable...")
+        logger.warning(
+            f"Failed to get key from Key Vault: {str(e)}. Trying environment variable..."
+        )
         key = os.getenv("AZURE-OPENAI-KEY")
         if not key:
-            raise ValueError("AZURE-OPENAI-KEY not found in Key Vault or environment variables")
+            raise ValueError(
+                "AZURE-OPENAI-KEY not found in Key Vault or environment variables"
+            )
         return key
+
 
 # Initialize Azure OpenAI client
 try:
     client = AzureOpenAI(
-        api_key=os.getenv("AZURE_OPENAI_KEY"),
+        api_key=get_azure_openai_key(),
         azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-        api_version=os.getenv("OPENAI_API_VERSION", "2023-05-15"),  # Add default API version
+        api_version=os.getenv(
+            "OPENAI_API_VERSION", "2023-05-15"
+        ),  # Add default API version
     )
     logger.info("Successfully initialized Azure OpenAI client")
 except Exception as e:
