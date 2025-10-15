@@ -24,9 +24,12 @@ from shared_setup import build_lookups, load_label_csv, normalize_lineitem
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("api_langextract_company")
 
+print("\n=== Starting LangExtract API Server ===")
+print("1. Initializing FastAPI application...")
 app = FastAPI(title="LangExtract by Company Batch API")
 
 # development origins — restrict this in production
+print("2. Setting up CORS middleware...")
 origins = [
     "http://localhost:8008",  # Frontend port
     "http://127.0.0.1:8008",  # Frontend port alternative
@@ -64,14 +67,20 @@ logger = logging.getLogger(__name__)
 
 # Initialize Key Vault client
 KEY_VAULT_NAME = os.getenv("KEY_VAULT_NAME")
+managed_identity  = os.getenv("ManagedIdentityClientId")
 KV_URI = f"https://{KEY_VAULT_NAME}.vault.azure.net/"
+print("Key Vault URI: %s", KV_URI)
+print("Managed Identity Client ID: %s", managed_identity)
 
 # Initialize Azure credentials
 try:
     # In production, DefaultAzureCredential will automatically use the managed identity
     # configured in the deployment.yaml without needing explicit client ID
-    credential = DefaultAzureCredential()
-    logger.info("Successfully initialized DefaultAzureCredential")
+    if managed_identity:
+        credential = DefaultAzureCredential(managed_identity_client_id=managed_identity)
+    else:
+        credential = DefaultAzureCredential()
+    print("Successfully initialized DefaultAzureCredential")
     secret_client = SecretClient(vault_url=KV_URI, credential=credential)
 except Exception as e:
     logger.error(f"Failed to initialize Azure credential: {str(e)}")
@@ -87,29 +96,54 @@ def get_secret(secret_name: str) -> str:
     Returns:
         str: Secret value
     """
+    print("\n=== get_secret() called ===")
     try:
         return secret_client.get_secret(secret_name).value
     except Exception as e:
-        logger.error(f"Failed to fetch secret {secret_name} from Key Vault: {str(e)}")
+        error_msg = f"Failed to fetch secret {secret_name} from Key Vault: {str(e)}"
+        print(f"❌ {error_msg}")
+        logger.error(error_msg)
         raise
 
-def get_db_conn_str():
-    """Get database connection string with credentials from Key Vault"""
+def get_db_conn_str() -> str:
+    """Get database connection string with credentials from Key Vault."""
+    print("\n=== get_db_conn_str() called ===")
     try:
-        conn_str_secret = get_secret("DB-CONN-STR")
-        parsed_conn_str = dict(item.split("=") for item in conn_str_secret.split(";") if "=" in item)
+        # Get database connection details from environment variables
+        server = os.getenv("DB_SERVER")
+        database = os.getenv("DB_NAME")
+        username = os.getenv("DB_USER")
+        password_secret_name = os.getenv("DB_PASSWORD_SECRET")
         
-        # Construct connection string with database name from environment
-        conn_str = (
-            "DRIVER={ODBC Driver 18 for SQL Server};"
-            f"SERVER={parsed_conn_str.get('Data Source')};"
-            f"DATABASE={os.getenv('DATABASE')};"  # Keep DATABASE from env vars
-            f"UID={parsed_conn_str.get('User ID')};"
-            f"PWD={parsed_conn_str.get('Password')};"
-            "TrustServerCertificate=yes;"
-        )
+        print(f"DB_SERVER: {server}")
+        print(f"DB_NAME: {database}")
+        print(f"DB_USER: {username}")
+        print(f"DB_PASSWORD_SECRET: {password_secret_name}")
+        
+        if not all([server, database, username, password_secret_name]):
+            error_msg = "Missing required database connection parameters"
+            print(f"❌ {error_msg}")
+            raise ValueError(error_msg)
+            
+        print("Retrieving database password from Key Vault...")
+        password = get_secret(password_secret_name)
+        
+        # Only log first 2 chars of password for security
+        password_display = f"{password[:2]}..." if password else "<empty>"
+        print(f"Password retrieved: {password_display}")
+        
+        conn_str = f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}"
+        
+        # Only log part of the connection string for security
+        safe_conn_str = conn_str.replace(password, "***")
+        print(f"✅ Database connection string created: {safe_conn_str}")
+        
         return conn_str
+        
     except Exception as e:
+        error_msg = f"Error in get_db_conn_str(): {str(e)}"
+        print(f"❌ {error_msg}")
+        logger.error(error_msg)
         logger.error(f"Failed to construct database connection string: {str(e)}")
         raise
 
@@ -285,8 +319,11 @@ def enrich_and_merge_predictions(
 
 @app.post("/glmapapi/get_plmaster_mapping")
 def get_plmaster_mapping_route(req: CompanyRequest):
+    print("\n=== get_plmaster_mapping_route() called ===")
     company_code = req.company_code.strip()
     username = req.username.strip()
+    print(f"Company Code: {company_code}")
+    print(f"Username: {username}")
     if not company_code:
         raise HTTPException(status_code=400, detail="company_code is required")
 
@@ -362,12 +399,21 @@ def _load_exact_lookup_from_artifacts(artifacts_dir: str):
 
 
 def _ensure_company_dirs(base_dir: str, company_code: str):
+    print(f"\n=== Ensuring company directories for: {company_code} ===")
     code = company_code.strip() or "_default"
     company_root = os.path.join(base_dir, code)
     csv_dir = os.path.join(company_root, "csv")
     artifacts_dir = os.path.join(company_root, "artifacts")
+    
+    print(f"Creating directories if they don't exist:")
+    print(f"- Company Root: {company_root}")
+    print(f"- CSV Directory: {csv_dir}")
+    print(f"- Artifacts Directory: {artifacts_dir}")
+    
     os.makedirs(csv_dir, exist_ok=True)
     os.makedirs(artifacts_dir, exist_ok=True)
+    
+    print("✅ Directories ready")
     return code, csv_dir, artifacts_dir
 
 
@@ -414,7 +460,7 @@ def _append_prediction_to_company_csv(
             if row["Parent"] != safe_parent or row["GrandParent"] != safe_grandparent:
                 row["Parent"] = safe_parent
                 row["GrandParent"] = safe_grandparent
-                logger.info(f"Updated existing entry for '{safe_line_item}'")
+                print(f"Updated existing entry for '{safe_line_item}'")
             item_exists = True
             break
 
@@ -427,7 +473,7 @@ def _append_prediction_to_company_csv(
                 "GrandParent": safe_grandparent,
             }
         )
-        logger.info(f"Added new entry for '{safe_line_item}'")
+        print(f"Added new entry for '{safe_line_item}'")
 
     # Write all data back to the file
     try:
@@ -441,21 +487,35 @@ def _append_prediction_to_company_csv(
 
 
 @app.get("/health")
-def health():
-    return {"status": "ok"}
+async def health():
+    print("\n=== Health Check Endpoint Called ===")
+    print(f"{datetime.now().isoformat()} - Health check endpoint was accessed")
+    print("✅ Health check completed successfully")
+    return {"status": "healthy"}
+
+print("3. Health check endpoint registered at /health")
 
 
 @app.post("/glmapapi/batch/langextract_by_company")
 def langextract_by_company(req: CompanyBatchRequest):
+    print("\n=== Starting langextract_by_company ===")
+    print(f"Company Code: {req.company_code}")
+    print(f"Processing {len(req.lines)} line items")
+    
     # Validate input
     company_code = (req.company_code or "").strip()
     if not company_code:
+        print("❌ Error: Missing company_code")
         raise HTTPException(status_code=400, detail="company_code is required")
+        
     if not req.lines or not any([l and l.strip() for l in req.lines]):
+        print("❌ Error: No valid line items provided")
         raise HTTPException(
             status_code=400,
             detail="lines must contain at least one non-empty line item",
         )
+    
+    print("✅ Input validation passed")
 
     # Prepare company dirs (ensure for persistence)
     code, csv_dir, company_artifacts_dir = _ensure_company_dirs(
@@ -470,13 +530,13 @@ def langextract_by_company(req: CompanyBatchRequest):
 
     # 1) Try company artifacts first
     company_artifacts_loaded = False
-    logger.info(f"Checking for company artifacts in: {company_artifacts_dir}")
+    print(f"Checking for company artifacts in: {company_artifacts_dir}")
     if os.path.isdir(company_artifacts_dir):
         exact_lookup = _load_exact_lookup_from_artifacts(company_artifacts_dir)
         if (
             exact_lookup is not None
         ):  # Only if all required files exist and loaded successfully
-            logger.info(f"Loaded {len(exact_lookup)} entries from company artifacts")
+            print(f"Loaded {len(exact_lookup)} entries from company artifacts")
             examples = [
                 {
                     "lineitem": k,
@@ -499,14 +559,14 @@ def langextract_by_company(req: CompanyBatchRequest):
 
     # 2) If company artifacts are incomplete or missing, try global artifacts
     if not company_artifacts_loaded:
-        logger.info(
+        print(
             f"Company artifacts not available, checking global artifacts in: {global_artifacts_dir}"
         )
         exact_lookup = _load_exact_lookup_from_artifacts(global_artifacts_dir)
         if (
             exact_lookup is not None
         ):  # Only if all required files exist and loaded successfully
-            logger.info(f"Loaded {len(exact_lookup)} entries from global artifacts")
+            print(f"Loaded {len(exact_lookup)} entries from global artifacts")
             examples = [
                 {
                     "lineitem": k,
@@ -848,7 +908,7 @@ class SaveAndBuildRequest(BaseModel):
 
 @app.post("/glmapapi/save")
 def save_and_build(req: SaveAndBuildRequest):
-    logger.info(f"Received save request: {req.dict()}")
+    print(f"Received save request: {req.dict()}")
     """
     Writes rows to company CSV and runs build_artifacts on that CSV.
     If CSV exists, it will be overwritten.

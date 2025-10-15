@@ -49,7 +49,7 @@ try:
     # In production, DefaultAzureCredential will automatically use the managed identity
     # configured in the deployment.yaml without needing explicit client ID
     credential = DefaultAzureCredential()
-    logger.info("Successfully initialized DefaultAzureCredential")
+    print("Successfully initialized DefaultAzureCredential")
     secret_client = SecretClient(vault_url=KV_URI, credential=credential)
 except Exception as e:
     logger.error(f"Failed to initialize Azure credential: {str(e)}")
@@ -86,11 +86,12 @@ def get_azure_openai_key():
 # Initialize Azure OpenAI client
 try:
     client = AzureOpenAI(
-        api_key=os.getenv("AZURE_OPENAI_KEY"),
+        api_key=get_azure_openai_key(),
         azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
         api_version=os.getenv("OPENAI_API_VERSION", "2023-05-15"),  # Add default API version
     )
-    logger.info("Successfully initialized Azure OpenAI client")
+    print("Successfully initialized Azure OpenAI client")
+    print("Azure OpenAI key: %s", client.api_key)
 except Exception as e:
     logger.error(f"Failed to initialize Azure OpenAI client: {str(e)}")
     raise
