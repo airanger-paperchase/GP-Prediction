@@ -105,41 +105,23 @@ def get_secret(secret_name: str) -> str:
         logger.error(error_msg)
         raise
 
-def get_db_conn_str() -> str:
-    """Get database connection string with credentials from Key Vault."""
-    print("\n=== get_db_conn_str() called ===")
+def get_db_conn_str():
+    """Get database connection string with credentials from Key Vault"""
     try:
-        # Get database connection details from environment variables
-        server = os.getenv("DB_SERVER")
-        database = os.getenv("DB_NAME")
-        username = os.getenv("DB_USER")
-        password_secret_name = os.getenv("DB_PASSWORD_SECRET")
+        conn_str_secret = get_secret("DB-CONN-STR")
+        parsed_conn_str = dict(item.split("=") for item in conn_str_secret.split(";") if "=" in item)
         
-        print(f"DB_SERVER: {server}")
-        print(f"DB_NAME: {database}")
-        print(f"DB_USER: {username}")
-        print(f"DB_PASSWORD_SECRET: {password_secret_name}")
-        
-        if not all([server, database, username, password_secret_name]):
-            error_msg = "Missing required database connection parameters"
-            print(f"❌ {error_msg}")
-            raise ValueError(error_msg)
-            
-        print("Retrieving database password from Key Vault...")
-        password = get_secret(password_secret_name)
-        
-        # Only log first 2 chars of password for security
-        password_display = f"{password[:2]}..." if password else "<empty>"
-        print(f"Password retrieved: {password_display}")
-        
-        conn_str = f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}"
-        
-        # Only log part of the connection string for security
-        safe_conn_str = conn_str.replace(password, "***")
-        print(f"✅ Database connection string created: {safe_conn_str}")
-        
+        # Construct connection string with database name from environment
+        conn_str = (
+            "DRIVER={ODBC Driver 18 for SQL Server};"
+            f"SERVER={parsed_conn_str.get('Data Source')};"
+            f"DATABASE={os.getenv('DATABASE')};"  # Keep DATABASE from env vars
+            f"UID={parsed_conn_str.get('User ID')};"
+            f"PWD={parsed_conn_str.get('Password')};"
+            "TrustServerCertificate=yes;"
+        )
+        print(f"✅ Database connection string created.")
         return conn_str
-        
     except Exception as e:
         error_msg = f"Error in get_db_conn_str(): {str(e)}"
         print(f"❌ {error_msg}")
